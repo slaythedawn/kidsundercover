@@ -1,0 +1,57 @@
+.title { display: flex; align-items: center; gap: 18px; white-space: nowrap; }
+.bullet { width: 26px; height: 26px; margin-left: 6px; }
+
+/* Scrolls sideways on phones, four across on desktop. */
+.list {
+  list-style: none;
+  margin: 0 calc(var(--gutter) * -1);
+  padding: 10px var(--gutter) 20px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 72%;
+  gap: 18px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+.list li { scroll-snap-align: start; }
+
+@media (min-width: 720px) {
+  .list { grid-auto-columns: 42%; }
+}
+@media (min-width: 1000px) {
+  .list {
+    margin: 0;
+    padding: 10px 0 0;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    overflow: visible;
+  }
+}
+
+.item { display: block; text-decoration: none; position: relative; }
+
+.photo {
+  aspect-ratio: 4 / 4.6;
+  transition: transform 0.25s ease;
+}
+.list li:nth-child(odd) .photo { transform: rotate(-1.6deg); }
+.list li:nth-child(even) .photo { transform: rotate(1.4deg); }
+.item:hover .photo { transform: rotate(0) translateY(-4px); }
+
+.name {
+  position: relative;
+  margin: -22px 0 0 16px;
+  z-index: 1;
+}
+
+.blurb {
+  font-size: 15px;
+  color: var(--ink-soft);
+  margin-top: 14px;
+  max-width: 30ch;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .photo { transition: none; }
+}

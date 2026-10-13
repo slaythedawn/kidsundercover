@@ -1,0 +1,25 @@
+.bar {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 7px 7px 7px 20px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 15.5px;
+  background: rgba(253, 252, 249, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 12px 30px -12px rgba(40, 30, 10, 0.35);
+  backdrop-filter: blur(16px) saturate(1.4);
+  -webkit-backdrop-filter: blur(16px) saturate(1.4);
+}
+.bar :global(.btn) { padding: 13px 22px; }
+
+@media (min-width: 900px) {
+  .bar { display: none; }
+}

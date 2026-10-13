@@ -1,0 +1,25 @@
+.title { font-size: clamp(30px, 4vw, 44px); text-align: center; }
+
+.list {
+  list-style: none;
+  margin: 36px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px 12px;
+}
+@media (min-width: 640px) { .list { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 960px) { .list { grid-template-columns: repeat(5, 1fr); } }
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+.icon { width: 64px; height: 64px; transition: transform 0.2s ease; }
+.icon svg { width: 46px; height: 46px; }
+.item:hover .icon { transform: rotate(-6deg) scale(1.06); }
+.label { font-weight: 700; font-size: 16px; }

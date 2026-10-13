@@ -1,0 +1,98 @@
+.hero { position: relative; }
+
+.stage { position: relative; }
+
+.photo {
+  position: relative;
+  margin: 0 var(--gutter);
+  height: 62vw;
+  min-height: 300px;
+  max-height: 460px;
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+  /* Torn paper edge along the bottom of the photo. */
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 94% 99%, 87% 95.5%, 79% 98.5%, 71% 95%, 62% 99%, 54% 96%, 45% 99.2%, 37% 95.5%, 28% 98.8%, 19% 95.2%, 10% 98.6%, 4% 95.8%, 0 98%);
+}
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 40%;
+}
+
+.pill { display: none; }
+
+.copy { padding-top: 28px; }
+
+.eyebrow {
+  font-weight: 700;
+  font-size: 15px;
+  color: #8a6d00;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: clamp(40px, 10.5vw, 96px);
+  line-height: 0.98;
+  max-width: 14ch;
+}
+.title :global(.serif) { color: var(--sun-deep); }
+
+.assistantWrap { position: relative; z-index: 2; margin-top: 28px; }
+
+@media (min-width: 900px) {
+  .photo {
+    height: min(72vh, 720px);
+    max-height: none;
+    margin-top: -4px;
+    border-radius: 0 28px 0 0;
+  }
+  /* Darken the bottom of the photo so the headline reads clearly. */
+  .photo::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.45) 100%);
+  }
+
+  .pill {
+    position: absolute;
+    top: 30px;
+    right: calc(var(--gutter) + 36px);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 6px 6px 6px 22px;
+    border-radius: 999px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+  .pill :global(.btn) { padding: 11px 18px; font-size: 15px; }
+
+  .copy {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 150px;
+    padding-top: 0;
+    padding-left: calc(var(--gutter) + 6vw);
+    color: #fff;
+  }
+  .eyebrow { color: var(--sun); }
+  .title { max-width: 18ch; text-shadow: 0 2px 30px rgba(0, 0, 0, 0.25); }
+  .title :global(.serif) { color: var(--sun); }
+
+  /* The assistant card overlaps the bottom of the photo. */
+  .assistantWrap {
+    position: relative;
+    margin-top: -120px;
+    padding: 0 calc(var(--gutter) + 6vw);
+    max-width: 1300px;
+  }
+}
