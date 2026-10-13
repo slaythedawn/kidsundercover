@@ -12,6 +12,17 @@ export default function Neighbourhood() {
   const [started, setStarted] = useState(false);
   const [count, setCount] = useState(0);
   const gridRef = useRef<HTMLDivElement>(null);
+  const [gridHeight, setGridHeight] = useState<number | null>(null);
+
+  // Track the icon grid's height so the card grows and shrinks smoothly
+  // between tabs instead of reserving empty space for the biggest one.
+  useEffect(() => {
+    const el = gridRef.current;
+    if (!el) return;
+    const ro = new ResizeObserver(() => setGridHeight(el.offsetHeight));
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [mode]);
 
   // Start the animation when the section scrolls into view.
   useEffect(() => {
@@ -86,6 +97,7 @@ export default function Neighbourhood() {
             </p>
           </div>
 
+          <div className={s.gridWrap} style={gridHeight === null ? undefined : { height: gridHeight }}>
           <div ref={gridRef} className={s.grid} aria-hidden="true" data-started={started} key={mode.id}>
             {cells.map((todo, i) => (
               <div
@@ -97,6 +109,7 @@ export default function Neighbourhood() {
                 {todo ? <PersonTodo /> : <Filled />}
               </div>
             ))}
+          </div>
           </div>
         </div>
 

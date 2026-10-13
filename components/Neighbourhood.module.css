@@ -56,8 +56,11 @@
   align-content: start;
 }
 @media (min-width: 900px) {
-  .grid { grid-template-columns: repeat(14, 1fr); gap: 8px; min-height: 380px; }
+  .grid { grid-template-columns: repeat(14, 1fr); gap: 8px; }
 }
+
+/* Animates to the grid's measured height when the tab changes. */
+.gridWrap { overflow: hidden; transition: height 0.45s cubic-bezier(0.2, 0.8, 0.2, 1); }
 
 .cell { aspect-ratio: 1; opacity: 0; transform: translateY(10px) scale(0.6); }
 .cell svg { width: 100%; height: 100%; display: block; }
@@ -71,6 +74,7 @@
 .note { font-size: 13px; color: var(--ink-soft); margin-top: 26px; }
 
 @media (prefers-reduced-motion: reduce) {
+  .gridWrap { transition: none; }
   .cell, .grid[data-started="true"] .cell, .grid[data-started="true"] .cell[data-todo] {
     animation: none;
     opacity: 1;
