@@ -4,6 +4,7 @@
 }
 
 .bar {
+  position: relative;
   max-width: 1440px;
   margin: 0 auto;
   height: 72px;
@@ -13,7 +14,7 @@
   gap: 24px;
 }
 
-/* The logo hangs over the top of the hero photo, like a tag. */
+/* The logo hangs down like a tag. On the homepage it overlaps the hero photo. */
 .logo {
   position: relative;
   align-self: flex-start;
@@ -25,31 +26,107 @@
 }
 .logo img { width: 100%; height: auto; }
 
-.nav {
-  display: none;
-  gap: 26px;
+.nav { display: none; }
+.nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 4px;
+}
+.nav > ul > li { position: relative; }
+
+.top {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
   font-weight: 600;
   font-size: 15.5px;
+  text-decoration: none;
 }
-.nav a { text-decoration: none; }
-.nav a:hover { text-decoration: underline; text-underline-offset: 6px; }
+.top:hover, .top[aria-expanded="true"] { background: rgba(31, 29, 25, 0.06); }
+.top[data-active] { box-shadow: inset 0 -2px 0 var(--sun-deep); border-radius: 0; }
+
+.caret {
+  width: 7px;
+  height: 7px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: translateY(-2px) rotate(45deg);
+  transition: transform 0.2s ease;
+}
+[aria-expanded="true"] > .caret { transform: translateY(1px) rotate(225deg); }
+
+/* Dropdown panel: a paper sheet with links and one featured giving card. */
+.panel {
+  position: absolute;
+  top: 100%;
+  left: -12px;
+  padding-top: 10px;
+}
+.panelInner {
+  display: grid;
+  grid-template-columns: 210px 250px 200px;
+  gap: 24px;
+  padding: 24px;
+  background: var(--card) var(--grain);
+  border-radius: 20px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05), 0 30px 50px -24px rgba(70, 55, 25, 0.45);
+  animation: drop 0.18s ease both;
+}
+@keyframes drop { from { opacity: 0; transform: translateY(-4px); } }
+.panelTitle {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 22px;
+  text-decoration: none;
+}
+.panelIntro p { color: var(--ink-soft); font-size: 14.5px; margin-top: 8px; }
+.panelLinks { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.panelLinks a {
+  display: grid;
+  padding: 8px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+.panelLinks a:hover { background: var(--sun-soft); }
+.panelLinks small { font-weight: 400; color: var(--ink-soft); font-size: 13px; }
+.feature {
+  display: grid;
+  align-content: start;
+  gap: 6px;
+  padding: 18px;
+  border-radius: 14px;
+  background: var(--sun) var(--grain);
+  text-decoration: none;
+  font-size: 14px;
+  transform: rotate(1deg);
+}
+.featureLabel { font-family: var(--font-display); font-weight: 800; font-size: 18px; }
+.featureGo { font-weight: 800; font-size: 20px; margin-top: 4px; }
 
 .actions {
   margin-left: auto;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
 }
-.actions :global(.btn) { padding: 12px 20px; }
-
+.actions :global(.btn) { padding: 12px 18px; }
 .phone {
   display: none;
   color: var(--ink-soft);
   text-decoration: none;
-  font-size: 15.5px;
+  font-size: 15px;
   margin-right: 4px;
+  white-space: nowrap;
 }
-.contact { display: none !important; }
+.car { display: none !important; }
 
 .menuBtn {
   width: 46px;
@@ -60,19 +137,16 @@
   display: grid;
   place-items: center;
 }
-.burger,
-.burger::before,
-.burger::after {
+.burger, .burger::before, .burger::after {
   display: block;
   width: 18px;
   height: 2px;
   background: var(--ink);
   border-radius: 2px;
-  transition: transform 0.2s ease, opacity 0.2s ease;
+  transition: transform 0.2s ease;
 }
 .burger { position: relative; }
-.burger::before,
-.burger::after { content: ""; position: absolute; left: 0; }
+.burger::before, .burger::after { content: ""; position: absolute; left: 0; }
 .burger::before { top: -6px; }
 .burger::after { top: 6px; }
 .burger[data-open="true"] { background: transparent; }
@@ -83,34 +157,46 @@
   position: fixed;
   inset: 72px 0 0;
   background: var(--paper) var(--grain);
-  padding: 24px var(--gutter) 120px;
+  padding: 20px var(--gutter) 120px;
   overflow-y: auto;
 }
-.drawer nav { display: grid; }
-.drawer nav a {
+.drawerDonate { width: 100%; margin-bottom: 12px; }
+.drawerGroup { border-bottom: 1px solid var(--line); }
+.drawerGroup > button, .drawerLink {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0;
+  background: none;
+  padding: 16px 0;
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 26px;
+  font-size: 24px;
   text-decoration: none;
-  padding: 14px 0;
-  border-bottom: 1px solid var(--line);
+  text-align: left;
 }
-.drawerFoot {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 28px;
-}
+.drawerGroup ul { list-style: none; margin: 0 0 14px; padding: 0; display: grid; gap: 2px; }
+.drawerGroup ul a { display: block; padding: 9px 0; text-decoration: none; font-weight: 600; font-size: 17px; }
+.drawerFoot { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
 
 @media (min-width: 720px) {
   .bar { height: 76px; }
-  .logo { width: 88px; }
-  .contact { display: inline-flex !important; }
+  .logo { width: 84px; }
+  .car { display: inline-flex !important; }
 }
 
-@media (min-width: 1100px) {
-  .logo { width: 120px; margin-top: 12px; }
-  .nav { display: flex; }
-  .phone { display: inline; }
+@media (min-width: 1180px) {
+  .logo { width: 104px; margin-top: 12px; }
+  .header:not([data-home="true"]) .logo { width: 88px; }
+  .nav { display: block; }
   .menuBtn, .drawer { display: none; }
+}
+@media (min-width: 1360px) {
+  .phone { display: inline; }
+}
+
+/* Inner pages: on phones the logo sits inside the bar so it doesn't cover the page title. */
+@media (max-width: 719px) {
+  .header:not([data-home="true"]) .logo { width: 40px; margin-top: 8px; }
 }

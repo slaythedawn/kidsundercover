@@ -11,48 +11,9 @@
  *   stats or donor stories. Anything still to confirm is marked "CONFIRM".
  */
 
-export type Link = { label: string; href: string };
+import { links, type Link } from "./site";
 
-/** Main links used across the page. CONFIRM: paths against the live site. */
-export const links = {
-  donate: "https://www.kuc.org.au/donate/",
-  donateYourCar: "https://www.kuc.org.au/donate-your-car/",
-  carForm: "https://kuc.my.salesforce-sites.com/Donateyourcar",
-  getSupport: "https://www.kuc.org.au/get-support/",
-  studioProgram: "https://www.kuc.org.au/our-programs/studio-program/",
-  village21: "https://www.kuc.org.au/our-programs/village-21/",
-  scholarships: "https://www.kuc.org.au/our-programs/scholarships/",
-  programs: "https://www.kuc.org.au/our-programs/",
-  partnerships: "https://www.kuc.org.au/get-involved/partnerships/",
-  giftsInWills: "https://www.kuc.org.au/get-involved/gifts-in-wills/",
-  fundraise: "https://www.kuc.org.au/get-involved/fundraising/",
-  target450: "https://www.kuc.org.au/target450/",
-  stories: "https://www.kuc.org.au/stories/",
-  about: "https://www.kuc.org.au/about/",
-  ourTeam: "https://www.kuc.org.au/about/our-team/",
-  supporters: "https://www.kuc.org.au/about/supporters/",
-  impact: "https://www.kuc.org.au/our-impact/",
-  getInvolved: "https://www.kuc.org.au/get-involved/",
-  contact: "https://www.kuc.org.au/contact/",
-  newsletter: "https://www.kuc.org.au/newsletter/",
-};
-
-export const site = {
-  name: "Kids Under Cover",
-  phone: "1800 801 633",
-  logo: "/images/kuc-logo.png",
-  donateLabel: "Donate",
-  contactLabel: "Contact",
-};
-
-export const nav: Link[] = [
-  { label: "About", href: links.about },
-  { label: "Our programs", href: links.programs },
-  { label: "Our impact", href: links.impact },
-  { label: "Get involved", href: links.getInvolved },
-  { label: "Stories", href: links.stories },
-  { label: "Donate Your Car", href: links.donateYourCar },
-];
+export { links, site, nav, footer, type Link } from "./site";
 
 /** 1. Hero */
 export const hero = {
@@ -251,6 +212,7 @@ export const ways = {
   title: "Ways to support us",
   items: [
     { label: "Make a donation", icon: "heart", href: links.donate },
+    { label: "Give monthly", icon: "heart", href: links.monthly },
     { label: "Donate Your Car", icon: "car", href: links.donateYourCar },
     { label: "Gift in your will", icon: "will", href: links.giftsInWills },
     { label: "Partner with us", icon: "handshake", href: links.partnerships },
@@ -277,45 +239,24 @@ export const stories = {
     summary: "A mum's story of Holly's time in homelessness accommodation, and what came next.",
     image: "/images/holly.jpg",
     imageAlt: "Holly sitting on the steps of her studio",
-    href: links.stories, // CONFIRM: direct story URL
+    href: "/jacinta-hollys-story/",
   },
   more: [
-    { tag: "Village 21", title: "Village life", image: "/images/village.jpg", imageAlt: "Two young men cooking together", href: links.stories },
-    { tag: "Scholarships", title: "Meeting Junior", image: "/images/junior.jpg", imageAlt: "Junior smiling", href: links.stories },
-    { tag: "Village 21", title: "Bairnsdale launch", image: "/images/studios.jpg", imageAlt: "New Village 21 studios", href: links.stories },
+    { tag: "Village 21", title: "Village life", image: "/images/village.jpg", imageAlt: "Two young men cooking together", href: "/village-life/" },
+    { tag: "Scholarships", title: "Meeting Junior", image: "/images/junior.jpg", imageAlt: "Junior smiling", href: "/meeting-junior/" },
+    { tag: "Village 21", title: "Village 21 Bairnsdale", image: "/images/studios.jpg", imageAlt: "New Village 21 studios", href: links.village21Bairnsdale },
     // No photo yet, so this one shows a drawn car. CONFIRM: add the story photo.
-    { tag: "Donate Your Car", title: "Nana's car leaves a legacy", image: null, imageAlt: "", href: links.stories },
+    { tag: "Donate Your Car", title: "Nana's car leaves a lasting legacy", image: null, imageAlt: "", href: "/nanas-car-leaves-a-lasting-legacy/" },
   ],
 };
 
-export const footer = {
-  columns: [
-    {
-      title: "About",
-      links: [
-        { label: "Our story", href: links.about },
-        { label: "Our team", href: links.ourTeam },
-        { label: "Supporters", href: links.supporters },
-      ],
-    },
-    {
-      title: "Programs",
-      links: [
-        { label: "Studio Program", href: links.studioProgram },
-        { label: "Village 21", href: links.village21 },
-        { label: "Scholarships", href: links.scholarships },
-      ],
-    },
-    {
-      title: "Get involved",
-      links: [
-        { label: "Donate", href: links.donate },
-        { label: "Donate Your Car", href: links.donateYourCar },
-        { label: "Gifts in wills", href: links.giftsInWills },
-      ],
-    },
+/** Find your way: deeper pages that were hard to reach from the old homepage. */
+export const explore = {
+  title: "Find your way",
+  items: [
+    { title: "Facts about youth homelessness", text: "The numbers behind youth homelessness in Australia, with sources.", href: links.facts, tag: "Our impact" },
+    { title: "Research and reports", text: "Our research, impact reports and publications in one place.", href: links.research, tag: "Our impact" },
+    { title: "Get support", text: "Help for young people, families and carers.", href: links.getSupport, tag: "Support" },
+    { title: "Gift in your will", text: "Leave a gift that keeps young people close to home for years to come.", href: links.giftsInWills, tag: "Ways to give" },
   ],
-  newsletter: { label: "Sign up for our newsletter", href: links.newsletter },
-  acknowledgement:
-    "Kids Under Cover acknowledges the Traditional Custodians of the land on which we live and work.",
 };

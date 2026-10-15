@@ -1,0 +1,16 @@
+.hero { padding: 36px 0 40px; }
+@media (min-width: 900px) { .hero { padding: 40px 0 64px; } }
+
+.inner { display: grid; gap: 32px; align-items: center; }
+@media (min-width: 900px) {
+  .hero[data-has-image="true"] .inner { grid-template-columns: 1.1fr 0.9fr; gap: 64px; }
+}
+
+.eyebrow { font-weight: 700; font-size: 15px; color: #8a6d00; margin-bottom: 12px; }
+.title { font-size: clamp(38px, 6vw, 72px); line-height: 1; max-width: 16ch; text-wrap: balance; }
+.intro { font-size: 19px; line-height: 1.55; color: var(--ink-soft); margin-top: 20px; max-width: 52ch; }
+.meta { margin-top: 18px; color: var(--ink-soft); font-size: 15px; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+
+.photo { aspect-ratio: 4 / 3; transform: rotate(1.6deg); max-width: 560px; justify-self: center; width: 100%; }
+@media (min-width: 900px) { .photo { justify-self: end; } }

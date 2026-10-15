@@ -1,0 +1,4 @@
+.crumbs ol { list-style: none; margin: 0 0 18px; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; font-size: 14px; color: var(--ink-soft); }
+.crumbs li + li::before { content: "/"; margin-right: 6px; opacity: 0.5; }
+.crumbs a { text-decoration: none; }
+.crumbs a:hover { text-decoration: underline; }

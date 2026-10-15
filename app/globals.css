@@ -105,6 +105,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .btn-sun { background: var(--sun); color: var(--ink); }
 .btn-ink { background: var(--ink); color: #fff; }
 .btn-ghost { background: transparent; border-color: var(--ink); color: var(--ink); }
+.btn-outline-light { background: transparent; border-color: rgba(255, 255, 255, 0.6); color: #fff; }
 
 /* Link with a thin underline, like "See all programs". */
 .text-link {

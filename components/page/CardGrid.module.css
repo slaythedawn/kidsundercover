@@ -1,0 +1,27 @@
+.grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 32px 24px;
+}
+.card { display: block; text-decoration: none; }
+.photo { aspect-ratio: 4 / 3; transition: transform 0.25s ease; }
+.grid li:nth-child(odd) .photo { transform: rotate(-1.2deg); }
+.grid li:nth-child(even) .photo { transform: rotate(1deg); }
+.card:hover .photo { transform: rotate(0) translateY(-3px); }
+.plain {
+  aspect-ratio: 4 / 3;
+  display: grid;
+  place-items: center;
+  border-radius: 6px;
+  background: var(--card) var(--grain);
+  box-shadow: 0 20px 34px -24px rgba(70, 55, 25, 0.45);
+}
+.plain :global(.ring) { width: 54px; height: 54px; }
+.tag { font-size: 13px; font-weight: 600; color: #8a6d00; margin-top: 18px; }
+.title { font-size: 22px; margin-top: 6px; }
+.tag + .title { margin-top: 4px; }
+.photo + .title, .plain + .title { margin-top: 18px; }
+.text { color: var(--ink-soft); font-size: 15.5px; margin-top: 8px; }

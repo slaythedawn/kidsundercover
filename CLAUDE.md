@@ -69,29 +69,40 @@ A proposal to rebuild all of kuc.org.au, not just DYC. Scope inventory from a si
 - Mobile first for every page and component.
 - Deliver complete, ready to use outputs rather than partial snippets.
 
-## Homepage prototype (this repo)
+## Website prototype (this repo)
 
-A working prototype of the new kuc.org.au homepage for Pathway 2, built from the design in the deck "Kids Under Cover: The case for an AI native website" (slides 22 to 24). Next.js 15 (App Router), TypeScript, CSS Modules. No CMS yet.
+A working rebuild of the whole kuc.org.au site for Pathway 2, in the design from the deck "Kids Under Cover: The case for an AI native website" (slides 22 to 24). Next.js 15 (App Router), TypeScript, CSS Modules, content in Markdown. No CMS yet.
 
 ### Where things live
 
-- `content/home.ts`: every word, link, number and photo on the homepage. Most edit requests ("change the headline", "swap the Village 21 photo", "add a sixth intent") are changes to this file only.
-- `app/page.tsx`: the order of sections. Reorder or remove sections here.
-- `components/<Section>.tsx` + `components/<Section>.module.css`: one file pair per section (Header, Hero, Assistant, ImpactIntro, Programs, Neighbourhood, WaysToSupport, Target450, Stories, Footer, MobileDonateBar).
-- `components/icons.tsx`: icons and the hand drawn illustrations (home and studio, Target450 print, drawn car).
-- `app/globals.css`: design tokens (colours, fonts, radius, paper grain) and shared classes (`.sheet`, `.sheet-stack`, `.print`, `.ring`, `.brush`, `.serif`, `.btn`).
-- `app/api/assistant/route.ts` + `lib/assistant.ts`: the AI front door. Without `ANTHROPIC_API_KEY` it answers from the intents and keywords in `content/home.ts`. With a key it asks Claude, limited to facts built from `content/home.ts`.
-- `public/images/`: real KUC photos and the logo.
+- `content/site.ts`: links, the main menu (four groups plus Stories), footer, and the giving asks (`ctas`) that close every page. Change the menu here.
+- `content/home.ts`: every word, link, number and photo on the homepage.
+- `content/pages/**.md`: every page migrated from kuc.org.au, one file each. Front matter `url` is the live address, so rankings carry over. See `docs/MIGRATION.md` for every front matter field.
+- `content/stories/*.md`: the 73 stories and news posts, plus the 28 media releases (`media-*.md`).
+- `content/team/*.md`: team profiles. `content/resources.json`: every PDF, shown in the searchable library on Research and resources and Publications.
+- `app/[...slug]/page.tsx`: the one template that renders every page, story and team profile, and adds the right extras by URL (story index, team grid, media releases, resource library, giving options).
+- `components/page/*`: shared building blocks (PageHero, Prose, DonateBand, CardGrid, StoryIndex, StorySidebar, GiveOptions, ResourceLibrary, FormBlock).
+- `components/*` (top level): header, footer and the homepage sections.
+- `next.config.ts`: redirects. Pages marked `status: merged` or `retired` redirect to `redirectTo`; old category and tag archives redirect to Stories.
+- `app/api/assistant/route.ts` + `lib/assistant.ts`: the AI front door.
+
+### How the site is organised for giving
+
+- Menu: Our work, Our impact, Ways to give, About, Stories. Every dropdown ends with a featured giving card. Donate and Donate your car sit in the header on every page; a frosted donate bar stays on screen on phones.
+- Every page ends with a giving ask matched to its topic (`cta` in front matter): car stories ask for cars, scholarship pages for scholarships, bequest pages for gifts in wills.
+- Every story has a sticky giving card beside it and "Read next" stories from the same program.
+- The footer opens with a giving band and links every section.
+- The homepage "Find your way" band links the deeper pages people search for (facts, research, support, bequests).
 
 ### Design system (from the deck)
 
 - Fonts: Rubik 800 for headlines, Figtree for body, Fraunces italic for accent words. The deck uses these rather than Inter; switch in `globals.css` if KUC wants Inter.
 - Colours: ink `#1F1D19`, paper `#F6F3EC`, sun `#FFD520` (the deck's yellow; brand yellow is `#F6D24C`).
 - Paper craft feel: grain texture, layered sheets, printed photos with white borders and a slight tilt, brush labels, torn edges.
-- Mobile: hero text sits under the photo, programs scroll sideways, frosted donate bar fixed to the bottom.
+- Photos on inner pages load from KUC's current WordPress media library (`kuc.org.au/wp-content/uploads`). Before launch, copy them into this project or the new CMS.
 
 ### Editing rules
 
-- Keep copy in `content/home.ts`, not hard coded in components.
-- Values marked `CONFIRM` in `content/home.ts` still need checking with KUC (exact page URLs, Target450 progress, some photos).
-- Run `npm run build` before committing. Check the page at 390px and 1440px wide with no sideways scroll.
+- Keep copy in content files, not hard coded in components.
+- Values marked `CONFIRM` still need checking with KUC.
+- Run `npm run build` before committing. Check pages at 390px and 1440px wide with no sideways scroll.

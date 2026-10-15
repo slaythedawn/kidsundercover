@@ -1,8 +1,12 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import MobileDonateBar from "@/components/MobileDonateBar";
 
 export const metadata: Metadata = {
-  title: "Kids Under Cover | Stop youth homelessness before it starts",
+  metadataBase: new URL("https://www.kuc.org.au"),
+  title: { default: "Kids Under Cover | Stop youth homelessness before it starts", template: "%s | Kids Under Cover" },
   description:
     "Kids Under Cover builds studios and funds education that keep young people close to family, school and community, before crisis hits.",
 };
@@ -26,7 +30,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Rubik:wght@600;700;800&family=Figtree:wght@400;500;600;700&family=Fraunces:ital,wght@1,600&display=swap"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <Header />
+        <main id="main">{children}</main>
+        <Footer />
+        <MobileDonateBar />
+      </body>
     </html>
   );
 }

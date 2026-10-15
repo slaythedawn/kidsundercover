@@ -1,0 +1,11 @@
+.grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 22px; }
+.card { display: grid; align-content: start; gap: 12px; padding: 28px; height: 100%; text-decoration: none; transition: transform 0.2s ease; }
+.card:hover { transform: translateY(-3px) rotate(-0.4deg); }
+.card[data-lead] { background-color: var(--sun); }
+.icon { width: 60px; height: 60px; margin: 6px 0 6px 6px; }
+.card[data-lead] .icon { background: #fff; }
+.icon svg { width: 42px; height: 42px; }
+.title { font-size: 26px; }
+.text { color: var(--ink-soft); }
+.card[data-lead] .text { color: var(--ink); }
+.btn { justify-self: start; margin-top: 6px; }

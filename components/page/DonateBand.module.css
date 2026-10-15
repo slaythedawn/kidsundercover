@@ -1,0 +1,17 @@
+.card {
+  background-color: var(--sun);
+  display: grid;
+  gap: 28px;
+  padding: 36px 24px;
+  align-items: center;
+}
+@media (min-width: 900px) {
+  .card { grid-template-columns: 1.4fr 0.6fr; padding: 52px 60px; gap: 48px; }
+}
+.eyebrow { font-weight: 600; font-size: 14px; margin-bottom: 12px; }
+.title { font-size: clamp(30px, 4vw, 48px); max-width: 18ch; }
+.body { font-size: 18px; margin-top: 14px; max-width: 46ch; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+.art { width: min(100%, 240px); justify-self: center; transform: rotate(3deg); padding: 8px; display: none; }
+.art svg { display: block; width: 100%; height: auto; }
+@media (min-width: 900px) { .art { display: block; } }

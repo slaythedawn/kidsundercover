@@ -1,0 +1,8 @@
+.side { position: relative; }
+@media (min-width: 1000px) { .side { position: sticky; top: 24px; } }
+.card { padding: 26px; display: grid; gap: 14px; }
+.eyebrow { font-weight: 600; font-size: 14px; color: #8a6d00; }
+.title { font-family: var(--font-display); font-weight: 800; font-size: 24px; line-height: 1.1; letter-spacing: -0.02em; }
+.title :global(.serif) { color: var(--sun-deep); }
+.card ul { list-style: none; margin: 4px 0 0; padding: 12px 0 0; border-top: 2px dashed #d7d0c1; display: grid; gap: 8px; }
+.card ul a { font-weight: 600; font-size: 15px; }
