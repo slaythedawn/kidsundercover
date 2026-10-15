@@ -60,7 +60,7 @@ export const hero = {
   // The headline is split so the second part can be set in the warm italic serif.
   titleStart: "A room of their own,",
   titleAccent: "close to home.",
-  image: "/images/mast.webp",
+  image: "/images/mast.jpg",
   imageAlt: "A mum and her daughter sharing a cup of tea outside a Kids Under Cover studio",
   // Frosted pill in the top right of the photo (desktop) and the sticky bar (mobile).
   donatePrompt: "Help a young person stay home",
