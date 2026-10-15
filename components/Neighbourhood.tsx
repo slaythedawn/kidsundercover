@@ -12,17 +12,24 @@ export default function Neighbourhood() {
   const [started, setStarted] = useState(false);
   const [count, setCount] = useState(0);
   const gridRef = useRef<HTMLDivElement>(null);
-  const [gridHeight, setGridHeight] = useState<number | null>(null);
+  const wrapRef = useRef<HTMLDivElement>(null);
+  const [box, setBox] = useState<{ width: number; desktop: boolean } | null>(null);
 
-  // Track the icon grid's height so the card grows and shrinks smoothly
-  // between tabs instead of reserving empty space for the biggest one.
+  // Measure the space the icons sit in, so the layout below can keep the
+  // card the same height on every tab.
   useEffect(() => {
-    const el = gridRef.current;
+    const el = wrapRef.current;
     if (!el) return;
-    const ro = new ResizeObserver(() => setGridHeight(el.offsetHeight));
+    const mq = window.matchMedia("(min-width: 900px)");
+    const measure = () => setBox({ width: el.clientWidth, desktop: mq.matches });
+    const ro = new ResizeObserver(measure);
     ro.observe(el);
-    return () => ro.disconnect();
-  }, [mode]);
+    mq.addEventListener("change", measure);
+    return () => {
+      ro.disconnect();
+      mq.removeEventListener("change", measure);
+    };
+  }, []);
 
   // Start the animation when the section scrolls into view.
   useEffect(() => {
@@ -57,6 +64,8 @@ export default function Neighbourhood() {
     return () => cancelAnimationFrame(raf);
   }, [mode, started]);
 
+  const layout = box ? fitGrid(box.width, box.desktop, mode.filledIcons + mode.todoIcons) : null;
+
   const Filled = mode.icon === "house" ? HouseFilled : PersonFilled;
   const cells = [
     ...Array.from({ length: mode.filledIcons }, () => false),
@@ -90,15 +99,29 @@ export default function Neighbourhood() {
               {count.toLocaleString("en-AU")}
               {mode.plus && <small>+</small>}
             </p>
-            <p className={s.caption}>{mode.caption}</p>
+            {/* All captions share one spot, so the space always fits the longest one. */}
+            <div className={s.captions}>
+              {neighbourhood.modes.map((m) => (
+                <p key={m.id} className={s.caption} aria-hidden={m.id !== mode.id} data-active={m.id === mode.id}>
+                  {m.caption}
+                </p>
+              ))}
+            </div>
             <p className={s.key}>
               {mode.todoIcons > 0 ? <PersonTodo /> : <Filled />}
               <span>{mode.key}</span>
             </p>
           </div>
 
-          <div className={s.gridWrap} style={gridHeight === null ? undefined : { height: gridHeight }}>
-          <div ref={gridRef} className={s.grid} aria-hidden="true" data-started={started} key={mode.id}>
+          <div ref={wrapRef} className={s.gridWrap} style={layout ? { height: layout.height } : undefined}>
+          <div
+            ref={gridRef}
+            className={s.grid}
+            aria-hidden="true"
+            data-started={started}
+            key={mode.id}
+            style={layout ? { gridTemplateColumns: `repeat(${layout.columns}, 1fr)`, width: layout.gridWidth } : undefined}
+          >
             {cells.map((todo, i) => (
               <div
                 key={i}
@@ -117,4 +140,37 @@ export default function Neighbourhood() {
       </div>
     </section>
   );
+}
+
+/**
+ * Every tab gets the same box height: the height the busiest tab needs at
+ * the standard column count. Tabs with fewer icons use fewer, larger icons
+ * so they fill that box instead of leaving a gap.
+ */
+const STANDARD_COLUMNS = { desktop: 14, mobile: 10 };
+const GAP = { desktop: 8, mobile: 6 };
+const MAX_ICON = { desktop: 64, mobile: 40 };
+
+function fitGrid(width: number, desktop: boolean, count: number) {
+  const gap = desktop ? GAP.desktop : GAP.mobile;
+  const maxIcon = desktop ? MAX_ICON.desktop : MAX_ICON.mobile;
+  const standard = desktop ? STANDARD_COLUMNS.desktop : STANDARD_COLUMNS.mobile;
+  const busiest = Math.max(...neighbourhood.modes.map((m) => m.filledIcons + m.todoIcons));
+
+  const size = (cols: number) => Math.min(maxIcon, (width - (cols - 1) * gap) / cols);
+  const heightFor = (cols: number, n: number) => {
+    const rows = Math.ceil(n / cols);
+    return rows * size(cols) + (rows - 1) * gap;
+  };
+
+  const height = heightFor(standard, busiest);
+  let columns = standard;
+  for (let c = 1; c <= standard; c++) {
+    if (heightFor(c, count) <= height) {
+      columns = c;
+      break;
+    }
+  }
+  const gridWidth = columns * size(columns) + (columns - 1) * gap;
+  return { height: Math.ceil(height), columns, gridWidth: Math.floor(gridWidth) };
 }
