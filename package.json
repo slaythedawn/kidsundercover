@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prebuild": "node scripts/check-content.mjs",
+    "check:content": "node scripts/check-content.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.133.0",
