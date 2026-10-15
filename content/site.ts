@@ -44,7 +44,7 @@ export const links = {
   applyScholarship: "/our-programs/scholarships/apply-for-a-scholarship/",
   supportYoungPeople: "/our-programs/resources-for-young-people/",
   supportCarers: "/our-programs/resources-for-carers/",
-  getSupport: "/get-support/",
+  getSupport: "/our-programs/resources-for-young-people/",
 
   // Impact
   impact: "/our-impact/",

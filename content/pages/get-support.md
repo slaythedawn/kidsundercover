@@ -7,5 +7,5 @@ cta: support
 form: none
 related: [/our-programs/resources-for-young-people/, /our-programs/resources-for-carers/, /our-programs/]
 status: merged
-redirectTo: /our-programs/
+redirectTo: /our-programs/resources-for-young-people/
 ---

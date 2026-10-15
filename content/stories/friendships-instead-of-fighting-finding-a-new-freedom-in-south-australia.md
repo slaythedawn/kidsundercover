@@ -30,7 +30,7 @@ When a Kids Under Cover studio was installed in Joanne’s backyard, there was a
 
 At first, Joanne admits she wasn’t exactly sure what to expect having a Colorbond studio built in the backyard. Being a keen gardener there was some concern that it might look and feel out of place. But she’s since grown to love how it has fit in, saying she’s “made it look like it grew in my backyard and that my garden just grew around it.”
 
-Joanne also became fascinated by the [eco-friendly Durra Panel](https://www.kuc.org.au/news/people-of-kids-under-cover-derek-layfield/) that’s used for the walls and ceilings of every Kids Under Cover studio. She explains how her curiosity led to some deep research into the durability and energy efficiency of the locally produced building material. She also appreciates a feature that the studio designs have purposefully omitted.
+Joanne also became fascinated by the [eco-friendly Durra Panel](https://www.kuc.org.au/people-of-kids-under-cover-derek-layfield/) that’s used for the walls and ceilings of every Kids Under Cover studio. She explains how her curiosity led to some deep research into the durability and energy efficiency of the locally produced building material. She also appreciates a feature that the studio designs have purposefully omitted.
 
 “One thing I’ve really liked, is that James still had that chance to spend time with everyone else in the house, and then he could go off and enjoy the quietness.”
 

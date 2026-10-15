@@ -14,7 +14,7 @@ The [Council for Homeless Persons’](https://chp.org.au/) Victorian Homelessnes
 
 We’re thrilled to announce that Kids Under Cover’s Village 21 Program has won in the category of Excellence in Ending Homelessness: Young People. It’s a great honour to receive this recognition alongside so many highly respected organisations and programs.
 
-Launched in December 2020 in Preston, [Village 21](https://www.kuc.org.au/our-programs/village-program/) is helping to bridge a gap for young people between leaving Out of Home Care and their transition to independent living. This unique support model currently provides studios for six young people, giving them a stable home, wrap around supports and a communal living experience for up to three years.
+Launched in December 2020 in Preston, [Village 21](https://www.kuc.org.au/our-programs/village21/) is helping to bridge a gap for young people between leaving Out of Home Care and their transition to independent living. This unique support model currently provides studios for six young people, giving them a stable home, wrap around supports and a communal living experience for up to three years.
 
 “Village 21 is a first of its kind,” says Kids Under Cover CEO, Jo Swift. “So many young people are leaving Out of Home Care before they are fully prepared for the challenge of independent life. We’re thrilled our six occupants can enjoy stable accommodation and the support they need to get off to a good start. It’s wonderful recognition for the program to receive this special award.”
 

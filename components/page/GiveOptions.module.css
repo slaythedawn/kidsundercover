@@ -9,3 +9,4 @@
 .text { color: var(--ink-soft); }
 .card[data-lead] .text { color: var(--ink); }
 .btn { justify-self: start; margin-top: 6px; }
+@media (min-width: 900px) { .grid { grid-template-columns: repeat(3, 1fr); } }

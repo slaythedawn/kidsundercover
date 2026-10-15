@@ -35,7 +35,7 @@ We acknowledge the weight of this decision. Our comprehensive guide will provide
 
 Your Promise For Kids will resonate profoundly, shaping the destinies of generations to come. When consulting your solicitor, refer to this card for suggested wording.
 
-[Read our Gifts in Wills guide](https://www.kuc.org.au/kuc_bequests-2025/)
+[Read our Gifts in Wills guide](https://www.kuc.org.au/get-involved/bequests/)
 
 ## Thank you
 

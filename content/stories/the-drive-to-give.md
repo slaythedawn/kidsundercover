@@ -1,7 +1,7 @@
 ---
 url: /the-drive-to-give/
 title: The drive to give
-description: "David donates his fifth car to Kids Under Cover After spending his working life moving between varied careers — including computing, lecturing at"
+description: "David donates his fifth car to Kids Under Cover After spending his working life moving between varied careers, including computing, lecturing at"
 date: 2024-08-07
 categories: [DYC]
 program: car
