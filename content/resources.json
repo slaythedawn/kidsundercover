@@ -4,47 +4,54 @@
     "url": "https://www.kuc.org.au/wp-content/uploads/2026/05/2026_mcgregor_giving-chance-full.pdf",
     "category": "Research",
     "year": "2026",
-    "foundOn": "/our-impact/research-and-resources/giving-them-a-chance/"
+    "foundOn": "/our-impact/research-and-resources/giving-them-a-chance/",
+    "page": "/our-impact/research-and-resources/giving-them-a-chance/",
+    "featured": true
   },
   {
     "title": "Giving them a chance: research brief",
     "url": "https://www.kuc.org.au/wp-content/uploads/2026/05/2026_mcgregor_giving-chance-brief.pdf",
     "category": "Research",
     "year": "2026",
-    "foundOn": "/our-impact/research-and-resources/giving-them-a-chance/"
+    "foundOn": "/our-impact/research-and-resources/giving-them-a-chance/",
+    "page": "/our-impact/research-and-resources/giving-them-a-chance/"
   },
   {
     "title": "Kids Under Cover Strategic Plan 2026",
     "url": "https://www.kuc.org.au/wp-content/uploads/2026/06/KUC-strategic-plan-2026-v11.pdf",
-    "category": "Other",
+    "category": "Plans and policies",
     "year": "2026",
-    "foundOn": "/our-impact/publications/"
+    "foundOn": "/our-impact/publications/",
+    "featured": true
   },
   {
     "title": "Maintenance Lead position description",
     "url": "https://www.kuc.org.au/wp-content/uploads/2026/09/Maintenance-Lead-PD.pdf",
     "category": "Other",
     "year": "2026",
-    "foundOn": "/get-involved/work-with-us/"
+    "foundOn": "/get-involved/work-with-us/",
+    "hub": false
   },
   {
     "title": "Partnerships and Major Gifts Manager position description",
     "url": "https://www.kuc.org.au/wp-content/uploads/2026/09/Philanthropy-Manager-PD_Sept26.pdf",
     "category": "Other",
     "year": "2026",
-    "foundOn": "/get-involved/work-with-us/"
+    "foundOn": "/get-involved/work-with-us/",
+    "hub": false
   },
   {
     "title": "Kids Under Cover 2025 Annual Impact Statement",
     "url": "https://www.kuc.org.au/wp-content/uploads/2025/12/KUC-2025-ANNUAL-IMPACT-STATEMENT-v2.pdf",
     "category": "Annual reports",
     "year": "2025",
-    "foundOn": "/our-impact/publications/"
+    "foundOn": "/our-impact/publications/",
+    "featured": true
   },
   {
     "title": "Kids Under Cover Reconciliation Action Plan",
     "url": "https://www.kuc.org.au/wp-content/uploads/2025/01/Kids-Under-Cover-Reconciliation-Action-Plan.pdf",
-    "category": "Policies",
+    "category": "Plans and policies",
     "year": "2025",
     "foundOn": "/our-impact/publications/"
   },
@@ -86,7 +93,7 @@
   {
     "title": "Kids Under Cover Direct Debit Service Agreement",
     "url": "https://www.kuc.org.au/wp-content/uploads/2023/10/Direct-Debit-Service-Agreement.pdf",
-    "category": "Policies",
+    "category": "Plans and policies",
     "year": "2023",
     "foundOn": "/terms-conditions/"
   },
@@ -151,7 +158,8 @@
     "url": "https://www.kuc.org.au/wp-content/uploads/2021/10/Media-Release-Kids-Under-Cover-Appoints-New-CEO-October-2021.pdf",
     "category": "Other",
     "year": "2021",
-    "foundOn": "/media-release/new-ceo-joins-fight-against-youth-homelessness/"
+    "foundOn": "/media-release/new-ceo-joins-fight-against-youth-homelessness/",
+    "hub": false
   },
   {
     "title": "Undercover News Autumn 2021",
@@ -242,12 +250,13 @@
     "url": "https://www.kuc.org.au/wp-content/uploads/2024/02/A-New-Place-to-Call-Home.pdf",
     "category": "Research",
     "year": "",
-    "foundOn": "/our-impact/research-and-resources/a-new-place-to-call-home-research-paper/"
+    "foundOn": "/our-impact/research-and-resources/a-new-place-to-call-home-research-paper/",
+    "page": "/our-impact/research-and-resources/a-new-place-to-call-home-research-paper/"
   },
   {
     "title": "ACCC guide to the Australian Consumer Law for fundraising and other activities of charities",
     "url": "https://www.accc.gov.au/system/files/guide_acl_fundraising-1.pdf",
-    "category": "Other",
+    "category": "Guides and forms",
     "year": "",
     "foundOn": "/about/contact/kids-under-cover-charitable-status-and-tax-information/"
   },
@@ -256,14 +265,16 @@
     "url": "https://www.kuc.org.au/wp-content/uploads/2024/02/Crowding-Risk-and-Homelessness-A-study-of-socio-spatial-Relations.pdf",
     "category": "Research",
     "year": "",
-    "foundOn": "/our-impact/research-and-resources/crowding-risk-and-homelessness-2/"
+    "foundOn": "/our-impact/research-and-resources/crowding-risk-and-homelessness-2/",
+    "page": "/our-impact/research-and-resources/crowding-risk-and-homelessness-2/"
   },
   {
     "title": "Crowding, Risk and Homelessness: Key Messages",
     "url": "https://www.kuc.org.au/wp-content/uploads/2024/02/Crowding-Risk-Homelessness-Key-Messages.pdf",
     "category": "Research",
     "year": "",
-    "foundOn": "/our-impact/research-and-resources/crowding-risk-and-homelessness-2/"
+    "foundOn": "/our-impact/research-and-resources/crowding-risk-and-homelessness-2/",
+    "page": "/our-impact/research-and-resources/crowding-risk-and-homelessness-2/"
   },
   {
     "title": "Essay hints and tips",
@@ -277,7 +288,8 @@
     "url": "https://www.kuc.org.au/wp-content/uploads/2024/02/Social-Return-on-Investment-Report.pdf",
     "category": "Research",
     "year": "",
-    "foundOn": "/our-impact/research-and-resources/social-return-on-investment-report-2/"
+    "foundOn": "/our-impact/research-and-resources/social-return-on-investment-report-2/",
+    "page": "/our-impact/research-and-resources/social-return-on-investment-report-2/"
   },
   {
     "title": "Statutory Declaration form (Victoria Police)",

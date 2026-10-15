@@ -4,7 +4,7 @@ import { site } from "@/content/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const urls = allEntries()
-    .filter((e) => e.kind !== "page" || e.status === "live")
+    .filter((e) => e.kind !== "page" || (e.status === "live" && !e.noindex))
     .map((e) => ({
       url: site.url + e.url,
       lastModified: e.kind === "story" && e.date ? new Date(e.date) : undefined,

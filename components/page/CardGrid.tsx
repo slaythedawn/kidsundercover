@@ -3,14 +3,20 @@ import s from "./CardGrid.module.css";
 export type Card = { title: string; href: string; text?: string; image?: string; tag?: string };
 
 /** Printed photo cards linking to related pages. */
-export default function CardGrid({ title, cards, more }: { title?: string; cards: Card[]; more?: { label: string; href: string } }) {
+type Props = { id?: string; eyebrow?: string; title?: string; intro?: string; cards: Card[]; more?: { label: string; href: string } };
+
+export default function CardGrid({ id, eyebrow, title, intro, cards, more }: Props) {
   if (!cards.length) return null;
   return (
-    <section className="section" style={{ paddingTop: 24 }}>
+    <section id={id} className="section" style={{ paddingTop: 24 }}>
       <div className="wrap">
         {(title || more) && (
           <div className="section-head">
-            {title && <h2>{title}</h2>}
+            <div>
+              {eyebrow && <p className={s.eyebrow}>{eyebrow}</p>}
+              {title && <h2>{title}</h2>}
+              {intro && <p className={s.intro}>{intro}</p>}
+            </div>
             {more && <a className="text-link" href={more.href}>{more.label}</a>}
           </div>
         )}

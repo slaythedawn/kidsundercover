@@ -117,3 +117,34 @@ Collect every PDF link (`.pdf`) found on a page into `content/_resources/<batch>
 ```
 
 Categories: `Annual reports`, `Research`, `Impact reports`, `Policies`, `Guides and forms`, `Newsletters`, `Other`. Use the link text as the title, tidied.
+
+## Building a page from sections
+
+Pages can be built from section templates instead of one long block of text. List them under `sections:` in the front matter, top to bottom; the Markdown body can then be left empty. Every section, with a real example, is on `/design/sections/` (S01 to S21), and every field is documented in `lib/sections.ts`.
+
+```yaml
+heroStyle: split            # split (default), photo (landing pages) or plain
+titleAccent: Their new beginning.   # optional words after the title, in the italic serif
+actions:                    # hero buttons
+  - { label: Fund a studio, href: "https://donatenow.kuc.org.au/general/donate" }
+  - { label: How to apply, href: /our-programs/studio-program/kids-under-cover-studio-program-applications/, variant: ghost }
+noindex: true               # campaign landing pages only
+sections:
+  - type: jump              # sticky "On this page" links, built from sections below with an id
+  - type: lead
+    text: Each studio provides a **stable space** for a young person...
+    aside: { value: "1,000", label: young people housed each night, note: Updated January 2024. }
+  - type: split
+    id: the-studio          # anchor, and an entry in the jump links
+    title: Studio design
+    body: Copy in Markdown.
+    image: https://www.kuc.org.au/wp-content/uploads/...
+    flip: true              # photo on the left; alternate down the page
+```
+
+Rules:
+
+- Never place a photo full width between headings. Pair it with copy (`split`), put several in a `gallery`, or attach it to `features`, `facts` or `quote`.
+- Alternate `flip` on consecutive `split` and `facts` sections, and vary `tone` (paper, card, sun, ink) so long pages have rhythm. Use `sun` and `ink` sparingly: one or two per page.
+- Every number needs a source or date (`note` on `stats`, `source` on `facts`).
+- Keep copy verbatim from the live page. Only headings and button labels may be rewritten for the layout.

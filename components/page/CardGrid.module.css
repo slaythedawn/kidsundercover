@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr));
   gap: 32px 24px;
 }
 .card { display: block; text-decoration: none; }
@@ -25,3 +25,5 @@
 .tag + .title { margin-top: 4px; }
 .photo + .title, .plain + .title { margin-top: 18px; }
 .text { color: var(--ink-soft); font-size: 15.5px; margin-top: 8px; }
+.eyebrow { font-weight: 700; font-size: 15px; color: #8a6d00; margin-bottom: 10px; }
+.intro { color: var(--ink-soft); font-size: 18px; margin-top: 12px; max-width: 56ch; }

@@ -1,0 +1,22 @@
+.index { border-block: 1px solid var(--line); background: var(--card); }
+.index ul { list-style: none; margin: 0; padding: 14px 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.index a { display: block; text-decoration: none; font-size: 14px; padding: 6px 12px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--paper); }
+.index a:hover { border-color: var(--ink); }
+.index b { color: #8a6d00; margin-right: 4px; }
+
+.spec { border-bottom: 2px dashed #d7d0c1; padding-top: 48px; scroll-margin-top: 16px; }
+.label { display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: start; }
+.code {
+  font-family: var(--font-display); font-weight: 800; font-size: 18px;
+  background: var(--ink); color: var(--sun); border-radius: 10px; padding: 8px 10px; line-height: 1;
+}
+.name { font-size: clamp(26px, 3vw, 34px); }
+.purpose { color: var(--ink-soft); font-size: 17px; margin-top: 8px; max-width: 72ch; }
+.used { font-size: 15px; margin-top: 8px; max-width: 72ch; }
+.example { margin-top: 8px; }
+
+.tableWrap { overflow-x: auto; }
+.table { width: 100%; min-width: 760px; border-collapse: collapse; font-size: 15.5px; background: var(--card); border-radius: 16px; overflow: hidden; box-shadow: var(--shadow); }
+.table th, .table td { text-align: left; padding: 14px 16px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.table thead th { font-family: var(--font-display); background: var(--sun); }
+.table tbody th { font-family: var(--font-display); white-space: nowrap; }

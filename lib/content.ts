@@ -10,6 +10,7 @@ import path from "node:path";
 import matter from "gray-matter";
 import { Marked } from "marked";
 import type { CtaKey } from "@/content/site";
+import type { Button, PageSection } from "@/lib/sections";
 
 const ROOT = path.join(process.cwd(), "content");
 
@@ -20,6 +21,8 @@ export type PageEntry = {
   kind: "page";
   url: string;
   title: string;
+  /** Words after the title set in the italic serif, for example "Their new beginning." */
+  titleAccent?: string;
   seoTitle?: string;
   description?: string;
   eyebrow?: string;
@@ -34,6 +37,14 @@ export type PageEntry = {
   redirectTo?: string;
   order?: number;
   form?: FormKind;
+  /** Section templates that make up the page. Without them the body renders as plain text. */
+  sections?: PageSection[];
+  /** split (title beside a tilted photo, default), photo (large photo with the title on a sheet) or plain. */
+  heroStyle?: "split" | "photo" | "plain";
+  /** Hero buttons. Without them, program and giving pages get sensible defaults. */
+  actions?: Button[];
+  /** Keep a page out of search results, for paid campaign pages. */
+  noindex?: boolean;
   body: string;
   file: string;
 };
@@ -76,6 +87,14 @@ export type Resource = {
   year?: string;
   description?: string;
   foundOn?: string;
+  /** When a resource gets its own page, set its address here and the hub links to it instead of the PDF. */
+  page?: string;
+  /** Cover image for featured resources. */
+  cover?: string;
+  /** Shown first, as a cover, at the top of the hub. */
+  featured?: boolean;
+  /** false keeps internal documents (position descriptions and the like) out of the public hub. */
+  hub?: boolean;
 };
 
 export type Entry = PageEntry | StoryEntry | TeamEntry;
@@ -119,6 +138,7 @@ function load() {
       kind: "page",
       url: normaliseUrl(url),
       title: str(data.title) ?? "Untitled",
+      titleAccent: str(data.titleAccent),
       seoTitle: str(data.seoTitle),
       description: str(data.description),
       eyebrow: str(data.eyebrow),
@@ -133,6 +153,10 @@ function load() {
       redirectTo: str(data.redirectTo),
       order: typeof data.order === "number" ? data.order : undefined,
       form: str(data.form) && str(data.form) !== "none" ? (str(data.form) as FormKind) : undefined,
+      sections: Array.isArray(data.sections) ? (data.sections as PageSection[]) : undefined,
+      heroStyle: str(data.heroStyle) as PageEntry["heroStyle"],
+      actions: Array.isArray(data.actions) ? (data.actions as Button[]) : undefined,
+      noindex: data.noindex === true,
       body,
       file,
     });
@@ -237,6 +261,9 @@ md.use({
 });
 
 export const renderMarkdown = (body: string) => md.parse(body, { async: false }) as string;
+
+/** Inline Markdown (bold, italics, links) for titles and list items. */
+export const renderInline = (text: string) => md.parseInline(text, { async: false }) as string;
 
 /** First image in a body, used as a fallback hero or card photo. */
 export const firstImage = (body: string) => body.match(/!\[[^\]]*\]\(([^)\s]+)/)?.[1];

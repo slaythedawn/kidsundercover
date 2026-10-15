@@ -143,21 +143,19 @@ export default function Neighbourhood() {
 }
 
 /**
- * Every tab gets the same box height: the height the busiest tab needs at
- * the standard column count. Tabs with fewer icons use fewer, larger icons
- * so they fill that box instead of leaving a gap.
+ * Every tab gets the same box: the full width, and the height the busiest tab
+ * needs at the standard column count. Tabs with fewer icons use fewer, larger
+ * icons, still spanning the full width, so the box edges never move between tabs.
  */
 const STANDARD_COLUMNS = { desktop: 14, mobile: 10 };
 const GAP = { desktop: 8, mobile: 6 };
-const MAX_ICON = { desktop: 64, mobile: 40 };
 
 function fitGrid(width: number, desktop: boolean, count: number) {
   const gap = desktop ? GAP.desktop : GAP.mobile;
-  const maxIcon = desktop ? MAX_ICON.desktop : MAX_ICON.mobile;
   const standard = desktop ? STANDARD_COLUMNS.desktop : STANDARD_COLUMNS.mobile;
   const busiest = Math.max(...neighbourhood.modes.map((m) => m.filledIcons + m.todoIcons));
 
-  const size = (cols: number) => Math.min(maxIcon, (width - (cols - 1) * gap) / cols);
+  const size = (cols: number) => (width - (cols - 1) * gap) / cols;
   const heightFor = (cols: number, n: number) => {
     const rows = Math.ceil(n / cols);
     return rows * size(cols) + (rows - 1) * gap;
@@ -171,6 +169,5 @@ function fitGrid(width: number, desktop: boolean, count: number) {
       break;
     }
   }
-  const gridWidth = columns * size(columns) + (columns - 1) * gap;
-  return { height: Math.ceil(height), columns, gridWidth: Math.floor(gridWidth) };
+  return { height: Math.ceil(height), columns, gridWidth: width };
 }

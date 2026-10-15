@@ -1,0 +1,65 @@
+import { renderInline, renderMarkdown, resources } from "@/lib/content";
+import type { PageSection } from "@/lib/sections";
+import * as B from "./blocks";
+import { Band } from "./Section";
+import Video from "./Video";
+import ResourceHub from "./ResourceHub";
+
+/** Renders a page's `sections` front matter, top to bottom. */
+export default function Sections({ sections, pageUrl }: { sections: PageSection[]; pageUrl: string }) {
+  // Jump links list every section below them that has an id.
+  const anchors = sections
+    .filter((x) => x.id && x.type !== "jump" && (x.nav || x.title))
+    .map((x) => ({ label: (x.nav ?? x.title ?? "").replace(/[*_]/g, ""), href: `#${x.id}` }));
+
+  return (
+    <>
+      {sections.map((sec, i) => {
+        const key = `${sec.type}-${i}`;
+        switch (sec.type) {
+          case "lead": return <B.Lead key={key} {...sec} />;
+          case "split": return <B.Split key={key} {...sec} />;
+          case "features": return <B.Features key={key} {...sec} />;
+          case "steps": return <B.Steps key={key} {...sec} />;
+          case "stats": return <B.Stats key={key} {...sec} />;
+          case "facts": return <B.Facts key={key} {...sec} />;
+          case "quote": return <B.Quote key={key} {...sec} />;
+          case "gallery": return <B.Gallery key={key} {...sec} />;
+          case "checklist": return <B.Checklist key={key} {...sec} />;
+          case "faq": return <B.Faq key={key} {...sec} />;
+          case "callout": return <B.Callout key={key} {...sec} />;
+          case "stories": return <B.Stories key={key} {...sec} />;
+          case "pages": return <B.Pages key={key} {...sec} pageUrl={pageUrl} />;
+          case "jump": return <B.Jump key={key} {...sec} auto={anchors} />;
+          case "trust": return <B.Trust key={key} {...sec} />;
+          case "text": return <B.Text key={key} {...sec} />;
+          case "ask": return <B.Ask key={key} {...sec} />;
+          case "formstart": return <B.FormStart key={key} {...sec} />;
+          case "video":
+            return (
+              <Band key={key} id={sec.id} tone={sec.tone}>
+                <Video
+                  youtube={sec.youtube}
+                  label={sec.label}
+                  poster={sec.poster}
+                  eyebrow={sec.eyebrow}
+                  titleHtml={sec.title ? renderInline(sec.title) + (sec.accent ? ` <span class="serif">${sec.accent}</span>` : "") : undefined}
+                  introHtml={sec.intro ? renderInline(sec.intro) : undefined}
+                  bodyHtml={sec.body ? renderMarkdown(sec.body) : undefined}
+                />
+              </Band>
+            );
+          case "resources":
+            return (
+              <Band key={key} id={sec.id} tone={sec.tone}>
+                <B.HeadOnly {...sec} />
+                <ResourceHub items={resources()} categories={sec.categories} />
+              </Band>
+            );
+          default:
+            return null;
+        }
+      })}
+    </>
+  );
+}

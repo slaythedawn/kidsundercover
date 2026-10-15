@@ -66,3 +66,12 @@ These four stories loop on redirects on the live site, so the crawler only got a
 - Forms (newsletter, contact, scholarship, studio referral, fundraising) are placeholders that link to the live forms. In the build they become native forms posting to Salesforce.
 - Confirm the Giveasy and Salesforce donation links in `content/site.ts`.
 - Light copy edits were made: obvious typos, dashes, broken links (NILS, a wrong Victorian Aboriginal Child Care Agency link, an old Village 21 link).
+
+### Figures that disagree (please confirm one number for each)
+- Studios built: the homepage says 675+; the 2019 media release celebrates the 1000th studio, and Sweet relief (2024) says over 600 in Victoria plus 18 in South Australia.
+- Raised by Donate Your Car: the homepage says $20M+; the Donate Your Car page says over $23 million.
+- Young people housed each night: around 1,000 in Victoria, updated January 2024. Is there a newer figure?
+
+### Donate Your Car pages
+- The "Have these handy" list on the high intent page needs checking against the Salesforce form fields (the form couldn't be reached from the build environment).
+- The awareness, consideration and high intent pages are hidden from search (`noindex`) so they don't compete with the hub. Point paid campaigns at them with UTM tags.

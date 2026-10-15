@@ -81,6 +81,8 @@ A working rebuild of the whole kuc.org.au site for Pathway 2, in the design from
 - `content/stories/*.md`: the 73 stories and news posts, plus the 28 media releases (`media-*.md`).
 - `content/team/*.md`: team profiles. `content/resources.json`: every PDF, shown in the searchable library on Research and resources and Publications.
 - `app/[...slug]/page.tsx`: the one template that renders every page, story and team profile, and adds the right extras by URL (story index, team grid, media releases, resource library, giving options).
+- `lib/sections.ts` + `components/sections/*`: the section templates (S01 to S21) that pages are built from via `sections` in front matter. All shown for sign off at `/design/sections/` (content in `content/design.ts`). See `docs/MIGRATION.md` for how to build a page from sections.
+- Pilot pages built from sections: Studio Program, Facts and stats, Publications, and the four Donate Your Car pages (`/get-involved/donate-your-car/` hub, `their-new-beginning/` awareness, `how-it-works/` consideration, `start/` high intent; the three campaign pages are `noindex`). Other pages still render their Markdown body until their template is signed off.
 - `components/page/*`: shared building blocks (PageHero, Prose, DonateBand, CardGrid, StoryIndex, StorySidebar, GiveOptions, ResourceLibrary, FormBlock).
 - `components/*` (top level): header, footer and the homepage sections.
 - `next.config.ts`: redirects. Pages marked `status: merged` or `retired` redirect to `redirectTo`; old category and tag archives redirect to Stories.
