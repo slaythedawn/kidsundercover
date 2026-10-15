@@ -12,6 +12,9 @@ const nextConfig: NextConfig = {
       { source: "/kuc_bequests-2025/", destination: "/get-involved/bequests/", permanent: true },
       { source: "/our-programs/village-program/", destination: "/our-programs/village21/", permanent: true },
       { source: "/news/:slug/", destination: "/:slug/", permanent: true },
+      // Truncated addresses that rank in Google (Ahrefs, October 2026), sent to the pages their keywords belong to.
+      { source: "/Our", destination: "/our-impact/the-facts-and-statistics-on-youth-homelessness/", permanent: true },
+      { source: "/Get", destination: "/get-involved/donate-your-car/", permanent: true },
       { source: "/team-category/:path*", destination: "/about/our-team/", permanent: true },
       // Old WordPress archives now live on the stories page.
       { source: "/category/:path*", destination: "/stories/", permanent: true },
