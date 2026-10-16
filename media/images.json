@@ -712,7 +712,7 @@
  },
  "https://www.kuc.org.au/wp-content/uploads/2023/09/promise-for-kids.png": {
   "kind": "graphic",
-  "src": "/media/2023/09/promise-for-kids.jpg",
+  "src": "/media/2023/09/promise-for-kids.png",
   "w": 1024,
   "h": 768
  },
@@ -1375,7 +1375,7 @@
  },
  "https://www.kuc.org.au/wp-content/uploads/2024/02/victoria-state-kuc.png": {
   "kind": "graphic",
-  "src": "/media/2024/02/victoria-state-kuc.jpg",
+  "src": "/media/2024/02/victoria-state-kuc.png",
   "w": 411,
   "h": 204
  },
@@ -2106,7 +2106,7 @@
  },
  "https://www.kuc.org.au/wp-content/uploads/2026/05/Giving-Them-A-Chance-1.png": {
   "kind": "graphic",
-  "src": "/media/2026/05/Giving-Them-A-Chance-1.jpg",
+  "src": "/media/2026/05/Giving-Them-A-Chance-1.png",
   "w": 1024,
   "h": 1079
  },
@@ -2141,10 +2141,24 @@
   "h": 233
  },
  "https://www.kuc.org.au/wp-content/uploads/2026/07/DYC-Website-1-1024x1365.png": {
-  "kind": "graphic",
-  "src": "/media/2026/07/DYC-Website-1-1024x1365.jpg",
+  "kind": "photo",
+  "src": "/media/2026/07/DYC-Website-1-1024x1365-part1.jpg",
   "w": 1024,
-  "h": 1365
+  "h": 768,
+  "fx": 0.498,
+  "fy": 0.192,
+  "faces": 1,
+  "rebuiltFrom": "https://www.kuc.org.au/wp-content/uploads/2023/07/Lynton-1.jpg"
+ },
+ "https://www.kuc.org.au/wp-content/uploads/2026/07/DYC-Website-1-1024x1365.png#2": {
+  "kind": "photo",
+  "src": "/media/2026/07/DYC-Website-1-1024x1365-part2.jpg",
+  "w": 320,
+  "h": 240,
+  "fx": 0.5,
+  "fy": 0.42,
+  "faces": 0,
+  "cropped": "by hand"
  },
  "https://www.kuc.org.au/wp-content/uploads/2026/07/IMG_2068-1024x768.jpg": {
   "kind": "photo",

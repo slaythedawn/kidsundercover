@@ -20,6 +20,10 @@
  "2023/07/IMG_4429-scaled.jpg": {
   "kind": "photo"
  },
+ "2023/09/promise-for-kids.png": {
+  "kind": "graphic",
+  "knockout": true
+ },
  "2023/10/Sarah-banner-640x480.jpg": {
   "kind": "photo"
  },
@@ -64,6 +68,10 @@
  "2024/02/ken-lenka-montage.jpg": {
   "kind": "cutout"
  },
+ "2024/02/victoria-state-kuc.png": {
+  "kind": "graphic",
+  "knockout": true
+ },
  "2024/02/village-program-montage-2.jpg": {
   "kind": "cutout",
   "trim": [
@@ -106,6 +114,10 @@
  "2026/04/Untitled-design-212x300.jpg": {
   "kind": "graphic"
  },
+ "2026/05/Giving-Them-A-Chance-1.png": {
+  "kind": "graphic",
+  "knockout": true
+ },
  "2026/05/JADE-LETTER-V8-01-215x300.jpg": {
   "kind": "graphic"
  },
@@ -120,5 +132,24 @@
  },
  "2026/06/Screenshot-2026-06-12-123743-300x233.png": {
   "kind": "graphic"
+ },
+ "2026/07/DYC-Website-1-1024x1365.png": {
+  "kind": "composite",
+  "note": "Two photos in blob shapes with doodles. Part 1 is rebuilt from its original (Lynton, library 14385); part 2 (car at auction) has no original, so it is cropped from inside its blob.",
+  "parts": [
+   {
+    "original": "media/originals/14385.jpg",
+    "url": "https://www.kuc.org.au/wp-content/uploads/2023/07/Lynton-1.jpg"
+   },
+   {
+    "bbox": [
+     200,
+     975,
+     520,
+     1215
+    ],
+    "note": "White car reads as background, so the crop is set by hand. CONFIRM: ask KUC for the original."
+   }
+  ]
  }
 }

@@ -206,9 +206,26 @@ button { font: inherit; color: inherit; cursor: pointer; }
 }
 .section-head h2 { font-size: clamp(32px, 4.4vw, 52px); }
 
-/* Graphics (logos, report covers, infographics) are shown whole, never cropped or tilted. */
-img[data-kind="graphic"] { object-fit: contain !important; background: var(--card); padding: 6%; }
-.print:has(> img[data-kind="graphic"]) { rotate: 0deg !important; transform: none !important; }
+/*
+ * Graphics (logos, badges, report covers, infographics) are shown as they are:
+ * whole, never cropped or tilted, and with no box or background behind them,
+ * so transparent ones sit straight on the page.
+ */
+img[data-kind="graphic"] {
+  object-fit: contain !important;
+  background: none !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+.print:has(> img[data-kind="graphic"]) {
+  rotate: 0deg !important;
+  transform: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+.print:has(> img[data-kind="graphic"]) > .doodle { display: none; }
 
 /* Hand-drawn marks laid over printed photos (components/Doodle.tsx). */
 .doodle {

@@ -200,6 +200,75 @@ def save(img, rel, kind):
     return "/" + os.path.relpath(out, os.path.join(ROOT, "public")).replace(os.sep, "/"), im.width, im.height
 
 
+def blob_regions(rgba):
+    """The photo regions of a composite graphic, largest first, as (mask, bbox)."""
+    fg = (~background_mask(rgba)).astype(np.uint8)
+    # Thin doodle strokes vanish with an opening; the photo blobs stay.
+    fg = cv2.morphologyEx(fg, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (25, 25)))
+    n, lab, stats, _ = cv2.connectedComponentsWithStats(fg)
+    out = []
+    for i in range(1, n):
+        if stats[i][4] <= 20000:
+            continue
+        # Fill holes: white parts of the photo itself (sky, windows) aren't background.
+        m = (lab == i).astype(np.uint8)
+        cnts, _ = cv2.findContours(m, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
+        filled = np.zeros_like(m)
+        cv2.drawContours(filled, cnts, -1, 1, thickness=cv2.FILLED)
+        out.append((filled.astype(bool), stats[i][:4]))
+    return sorted(out, key=lambda r: -r[0].sum())
+
+
+def largest_rect(mask, ratio=4 / 3):
+    """Largest rectangle of the given shape that fits wholly inside the mask, grown from its centre of mass."""
+    ys, xs = np.nonzero(mask)
+    best = None
+    for cy in np.linspace(ys.min(), ys.max(), 15):
+        for cx in np.linspace(xs.min(), xs.max(), 15):
+            lo, hi = 0, max(mask.shape)
+            while hi - lo > 2:
+                h = (lo + hi) / 2; w = h * ratio
+                y0, y1, x0, x1 = int(cy - h / 2), int(cy + h / 2), int(cx - w / 2), int(cx + w / 2)
+                ok = y0 >= 0 and x0 >= 0 and y1 <= mask.shape[0] and x1 <= mask.shape[1] and mask[y0:y1, x0:x1].all()
+                lo, hi = (h, hi) if ok else (lo, h)
+            if not best or lo > best[0]:
+                best = (lo, cx, cy)
+    h, cx, cy = best; w = h * ratio
+    return int(cx - w / 2), int(cy - h / 2), int(cx + w / 2), int(cy + h / 2)
+
+
+def composite_parts(rgba, parts):
+    rgb = flatten(rgba)
+    regions = blob_regions(rgba)
+    out = []
+    for i, part in enumerate(parts):
+        if part.get("original"):
+            out.append((np.array(Image.open(os.path.join(ROOT, part["original"])).convert("RGB")), {"rebuiltFrom": part["url"]}))
+        elif part.get("bbox"):
+            # A crop set by hand, in the composite's own pixels: [left, top, right, bottom].
+            x0, y0, x1, y1 = part["bbox"]
+            out.append((rgb[y0:y1, x0:x1], {"cropped": "by hand"}))
+        else:
+            mask, _ = regions[part["blob"] - 1]
+            x0, y0, x1, y1 = largest_rect(mask)
+            out.append((rgb[y0:y1, x0:x1], {"cropped": "blob"}))
+    return out
+
+
+def knockout_white(rgba):
+    """Makes the white background around a badge or logo transparent (only white touching the edges)."""
+    out = rgba.copy()
+    white = (rgba[..., :3].min(axis=2) > 232).astype(np.uint8)
+    n, lab = cv2.connectedComponents(white)
+    edge = set(np.unique(np.concatenate([lab[0], lab[-1], lab[:, 0], lab[:, -1]]))) - {0}
+    bg = np.isin(lab, list(edge)) & (white > 0)
+    # Soften the edge by a pixel so the shape doesn't look cut out with scissors.
+    alpha = np.where(bg, 0, 255).astype(np.uint8)
+    alpha = cv2.GaussianBlur(alpha, (3, 3), 0)
+    out[..., 3] = np.minimum(out[..., 3], alpha)
+    return out
+
+
 def flatten(rgba):
     rgb = rgba[..., :3].astype(np.float32)
     a = rgba[..., 3:4].astype(np.float32) / 255
@@ -224,6 +293,17 @@ if __name__ == "__main__":
         if kind == "cutout" and not disc:
             disc = find_disc(rgba) or (rgba.shape[1] / 2, rgba.shape[0] / 2, min(rgba.shape[:2]) * 0.45)
         entry = {"kind": kind}
+        if kind == "composite":
+            # Several photos in blob shapes on one flattened graphic. Each part becomes its own
+            # photo: from its original when one is known, otherwise the largest clean rectangle
+            # inside its blob. Part 1 answers to the composite's own address, the rest to #2, #3...
+            parts = composite_parts(rgba, overrides[rel]["parts"])
+            for i, (img, extra) in enumerate(parts):
+                key = "https://www.kuc.org.au/wp-content/uploads/" + rel + ("" if i == 0 else f"#{i + 1}")
+                src, w, h = save(img, os.path.splitext(rel)[0] + f"-part{i + 1}" + os.path.splitext(rel)[1], "photo")
+                fx, fy, n = focal_point(img)
+                registry[key] = {"kind": "photo", "src": src, "w": w, "h": h, "fx": fx, "fy": fy, "faces": n, **extra}
+            continue
         if kind == "cutout" and rel in originals["cutouts"]:
             # Use the raw photo the circle graphic was made from.
             o = originals["cutouts"][rel]
@@ -245,6 +325,8 @@ if __name__ == "__main__":
             entry.update(kind="photo", cropped="circle", doodlePixels=painted)
             notes.append(rel)
         elif kind == "graphic":
+            if overrides.get(rel, {}).get("knockout"):
+                rgba = knockout_white(rgba)
             img = rgba if (rgba[..., 3] < 250).any() else rgba[..., :3]
         else:
             img = flatten(rgba)
