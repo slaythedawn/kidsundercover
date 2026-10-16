@@ -75,6 +75,18 @@ export type FormStartSection = Base & {
 };
 export type ResourcesSection = Base & { type: "resources"; categories?: string[]; featured?: number };
 export type PagesSection = Base & { type: "pages"; urls?: string[]; children?: boolean };
+/** The donation form: one-off or monthly, amount tiles with what each gift does, then on to the payment page. */
+export type DonateSection = Base & {
+  type: "donate";
+  start?: "once" | "monthly";
+  once: { amount: number; text: string }[];
+  monthly: { amount: number; text: string }[];
+  note?: string;
+  image?: string;
+  imageAlt?: string;
+  quote?: string;
+  quoteBy?: string;
+};
 
 export type PageSection =
   | LeadSection
@@ -96,7 +108,8 @@ export type PageSection =
   | AskSection
   | FormStartSection
   | ResourcesSection
-  | PagesSection;
+  | PagesSection
+  | DonateSection;
 
 export type SectionType = PageSection["type"];
 
@@ -121,4 +134,5 @@ export const sectionTypes: SectionType[] = [
   "formstart",
   "resources",
   "pages",
+  "donate",
 ];

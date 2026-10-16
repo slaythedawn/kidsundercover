@@ -4,6 +4,11 @@ import * as B from "./blocks";
 import { Band } from "./Section";
 import Video from "./Video";
 import ResourceHub from "./ResourceHub";
+import DonateForm from "./DonateForm";
+import Photo from "@/components/Photo";
+import Doodle from "@/components/Doodle";
+import { external } from "@/content/site";
+import s from "./sections.module.css";
 
 /** Renders a page's `sections` front matter, top to bottom. */
 export default function Sections({ sections, pageUrl }: { sections: PageSection[]; pageUrl: string }) {
@@ -54,6 +59,38 @@ export default function Sections({ sections, pageUrl }: { sections: PageSection[
               <Band key={key} id={sec.id} tone={sec.tone}>
                 <B.HeadOnly {...sec} />
                 <ResourceHub items={resources()} categories={sec.categories} />
+              </Band>
+            );
+          case "donate":
+            return (
+              <Band key={key} id={sec.id} tone={sec.tone}>
+                <div className={s.donate} data-image={!!sec.image || undefined}>
+                  {sec.image && (
+                    <figure className={s.donateAside}>
+                      <div className={`print ${s.donatePhoto}`}>
+                        <Photo url={sec.image} alt={sec.imageAlt} eager />
+                        <Doodle seed={sec.image} corner="tl" />
+                      </div>
+                      {sec.quote && (
+                        <blockquote className={s.donateQuote}>
+                          <p>{sec.quote}</p>
+                          {sec.quoteBy && <footer>{sec.quoteBy}</footer>}
+                        </blockquote>
+                      )}
+                    </figure>
+                  )}
+                  <DonateForm
+                    start={sec.start}
+                    once={sec.once}
+                    monthly={sec.monthly}
+                    note={sec.note}
+                    donateUrl={external.donate}
+                    monthlyUrl={external.monthlyForm}
+                    amountParam={external.donateAmountParam}
+                    titleHtml={sec.title ? renderInline(sec.title) + (sec.accent ? ` <span class="serif">${sec.accent}</span>` : "") : undefined}
+                    introHtml={sec.intro ? renderInline(sec.intro) : undefined}
+                  />
+                </div>
               </Band>
             );
           default:

@@ -1,0 +1,29 @@
+.form { padding: 26px 20px 24px; background-color: var(--card); display: grid; gap: 16px; }
+@media (min-width: 720px) { .form { padding: 36px 36px 30px; } }
+.title { font-size: clamp(26px, 3vw, 34px); }
+.intro { color: var(--ink-soft); font-size: 16.5px; }
+
+.freq { display: grid; grid-template-columns: 1fr 1fr; padding: 5px; border-radius: 999px; background: var(--paper); border: 1.5px solid var(--line); }
+.freq button { border: 0; background: transparent; border-radius: 999px; padding: 12px 10px; font-weight: 700; font-size: 16px; }
+.freq button[aria-checked="true"] { background: var(--ink); color: #fff; }
+
+.amounts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+@media (min-width: 480px) { .amounts { grid-template-columns: repeat(4, 1fr); } }
+.amounts button {
+  border: 2px solid var(--line); background: #fff; border-radius: 14px;
+  padding: 16px 8px; font-family: var(--font-display); font-weight: 800; font-size: 24px;
+  display: flex; align-items: baseline; justify-content: center; gap: 2px;
+}
+.amounts button small { font-family: var(--font-body); font-weight: 600; font-size: 13px; color: var(--ink-soft); }
+.amounts button[aria-checked="true"] { border-color: var(--ink); background: var(--sun); box-shadow: 0 3px 0 var(--ink); }
+.amounts button:last-child { font-size: 18px; }
+
+.impact { background: var(--sun-soft); border-radius: 14px; padding: 14px 16px; font-size: 16.5px; line-height: 1.45; min-height: 74px; }
+.other { display: grid; gap: 6px; font-weight: 700; font-size: 15px; }
+.otherField { display: flex; align-items: center; gap: 8px; border: 2px solid var(--ink); border-radius: 14px; padding: 0 14px; background: #fff; }
+.otherField b { font-family: var(--font-display); font-size: 22px; }
+.otherField input { border: 0; outline: 0; font: inherit; font-size: 20px; padding: 14px 0; width: 100%; background: transparent; }
+
+.go { width: 100%; font-size: 18px; padding: 19px 22px; }
+.note { font-size: 14px; color: var(--ink-soft); text-align: center; }
+.secure { display: flex; gap: 6px; align-items: center; justify-content: center; font-size: 13.5px; color: var(--ink-soft); margin-top: -8px; }

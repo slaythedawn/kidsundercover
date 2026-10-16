@@ -110,7 +110,7 @@ function ContentPage({ page }: { page: PageEntry }) {
   const isGive = page.template === "give" || page.url === links.waysToGive;
 
   const has = (type: string) => !!page.sections?.some((x) => x.type === type);
-  const heroActions = page.actions ?? (
+  const heroActions = has("donate") ? undefined : page.actions ?? (
     page.section === "give" && !isGive
       ? [{ label: "Donate now", href: links.donate }]
       : page.section === "work"

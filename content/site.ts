@@ -9,9 +9,19 @@
 
 export type Link = { label: string; href: string };
 
-/** Giving journeys that leave the site. CONFIRM: final Salesforce or Giveasy URLs. */
+/**
+ * Giving journeys that leave the site. Where each one lives today:
+ * - One-off gifts: Giveasy (donatenow.kuc.org.au). Cards, Apple Pay, Google Pay, PayPal.
+ * - Monthly gifts: the Salesforce widget on the current /regular-donation/ page, or by phone.
+ * - Cars: the Salesforce site form. Studio applications: Microsoft Forms.
+ * See docs/INTEGRATIONS.md for the plan to bring these into the site.
+ */
 export const external = {
   donate: "https://donatenow.kuc.org.au/general/donate",
+  // CONFIRM: where monthly gifts should go once the new site launches (Giveasy recurring, or the Salesforce widget).
+  monthlyForm: "https://www.kuc.org.au/regular-donation/",
+  // CONFIRM with Giveasy: the query parameter that pre-fills the amount, if any. Empty sends people to choose again.
+  donateAmountParam: "",
   carForm: "https://kuc.my.salesforce-sites.com/Donateyourcar",
   peaksOfHope: "https://inspiredadventures.com.au/event/kidsundercover-peaksofhope-2027/",
   facebook: "https://www.facebook.com/KidsUnderCover",
@@ -73,7 +83,7 @@ export const site = {
   logo: "/images/kuc-logo.png",
   donateLabel: "Donate",
   contactLabel: "Contact",
-  abn: "", // CONFIRM: ABN for the footer and tax receipts
+  abn: "76 604 592 013", // From KUC's Giveasy donation page
 };
 
 /**
