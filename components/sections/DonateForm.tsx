@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { DonateSection } from "@/lib/sections";
 import s from "./DonateForm.module.css";
 
@@ -22,11 +22,26 @@ export default function DonateForm({ start = "once", once, monthly, note, donate
   const tiers = freq === "once" ? once : monthly;
   const [pick, setPick] = useState<number | "other">(tiers[1]?.amount ?? tiers[0]?.amount);
   const [other, setOther] = useState("");
+  // Campaign tags (utm_*) from the page address, carried on to the payment page so gifts keep their source.
+  const [utm, setUtm] = useState("");
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search);
+    const keep = new URLSearchParams();
+    q.forEach((v, k) => k.startsWith("utm_") && keep.set(k, v));
+    setUtm(keep.toString());
+  }, []);
 
   const amount = pick === "other" ? Number(other) || 0 : pick;
   const tier = tiers.find((t) => t.amount === pick);
   const base = freq === "once" ? donateUrl : monthlyUrl;
-  const href = amountParam && amount ? `${base}${base.includes("?") ? "&" : "?"}${amountParam}=${amount}` : base;
+  const params = [amountParam && amount ? `${amountParam}=${amount}` : "", utm].filter(Boolean).join("&");
+  const href = params ? `${base}${base.includes("?") ? "&" : "?"}${params}` : base;
+
+  // Tells Google Tag Manager someone is heading to payment, with the gift they chose.
+  const track = () => {
+    const w = window as unknown as { dataLayer?: object[] };
+    (w.dataLayer ??= []).push({ event: "begin_checkout", donation_frequency: freq, value: amount, currency: "AUD" });
+  };
 
   const choose = (f: "once" | "monthly") => {
     setFreq(f);
@@ -70,7 +85,7 @@ export default function DonateForm({ start = "once", once, monthly, note, donate
         )
       )}
 
-      <a className={`btn btn-ink ${s.go}`} href={href}>
+      <a className={`btn btn-ink ${s.go}`} href={href} onClick={track}>
         {freq === "once" ? "Continue to secure payment" : "Continue to set up monthly giving"}
         <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
       </a>
