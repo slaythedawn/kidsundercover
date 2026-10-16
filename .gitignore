@@ -10,3 +10,4 @@ next-env.d.ts
 # WordPress media library dump, used locally to match originals (scripts/match-originals.py)
 media/library/
 media/classify.json
+media/pdfs/

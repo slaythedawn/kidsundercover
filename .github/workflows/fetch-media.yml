@@ -16,10 +16,31 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
       - run: node scripts/fetch-media.mjs
+      # PDFs aren't committed (too big). Keep their text, page count and a small cover image,
+      # which is what's needed to turn a report into a page.
+      - name: Extract PDF text and covers
+        run: |
+          if [ -d media/pdfs ]; then
+            sudo apt-get install -y -q poppler-utils > /dev/null
+            echo "{" > media/pdf-info.json; first=1
+            find media/pdfs -name "*.pdf" | sort | while read f; do
+              rel="${f#media/pdfs/}"; base="${rel%.pdf}"
+              mkdir -p "media/pdf-text/$(dirname "$rel")" "public/media/pdf-covers/$(dirname "$rel")"
+              pdftotext -layout "$f" "media/pdf-text/$base.txt" || true
+              pdftoppm -f 1 -l 1 -jpeg -jpegopt quality=80 -scale-to 900 "$f" "public/media/pdf-covers/$base" || true
+              mv "public/media/pdf-covers/$base"-*.jpg "public/media/pdf-covers/$base.jpg" 2>/dev/null || true
+              pages=$(pdfinfo "$f" 2>/dev/null | awk '/^Pages:/{print $2}')
+              size=$(stat -c %s "$f")
+              [ $first -eq 1 ] || echo "," >> media/pdf-info.json; first=0
+              printf '  "%s": {"pages": %s, "bytes": %s}' "$rel" "${pages:-0}" "$size" >> media/pdf-info.json
+            done
+            echo "" >> media/pdf-info.json; echo "}" >> media/pdf-info.json
+            rm -rf media/pdfs
+          fi
       - name: Commit downloads
         run: |
           git config user.name "kuc-media-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add media
+          git add media public/media/pdf-covers
           git diff --cached --quiet || git commit -m "Fetch KUC media [skip ci]"
           git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"
