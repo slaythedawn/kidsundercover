@@ -1,4 +1,250 @@
 {
+ "/media/pdf-covers/2021/10/Media-Release-Kids-Under-Cover-Appoints-New-CEO-October-2021.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2021/10/Media-Release-Kids-Under-Cover-Appoints-New-CEO-October-2021.jpg",
+  "w": 637,
+  "h": 900
+ },
+ "/media/pdf-covers/2022/07/Crowding-Risk-and-Homelessness-KEY-MESSAGES-6.22.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2022/07/Crowding-Risk-and-Homelessness-KEY-MESSAGES-6.22.jpg",
+  "w": 637,
+  "h": 900
+ },
+ "/media/pdf-covers/2023/09/Promise-For-Kids-information-booklet.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2023/09/Promise-For-Kids-information-booklet.jpg",
+  "w": 635,
+  "h": 900
+ },
+ "/media/pdf-covers/2023/10/Direct-Debit-Service-Agreement.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2023/10/Direct-Debit-Service-Agreement.jpg",
+  "w": 696,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/2017-Annual-Report.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/2017-Annual-Report.jpg",
+  "w": 900,
+  "h": 637
+ },
+ "/media/pdf-covers/2024/02/2018-Annual-Report.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/2018-Annual-Report.jpg",
+  "w": 900,
+  "h": 637
+ },
+ "/media/pdf-covers/2024/02/2019-Annual-Report.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/2019-Annual-Report.jpg",
+  "w": 900,
+  "h": 637
+ },
+ "/media/pdf-covers/2024/02/2020-Annual-Report.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/2020-Annual-Report.jpg",
+  "w": 637,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/2021-Annual-Report.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/2021-Annual-Report.jpg",
+  "w": 637,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/2022-Annual-Report.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/2022-Annual-Report.jpg",
+  "w": 637,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/2023-Annual-Report.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/2023-Annual-Report.jpg",
+  "w": 637,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/A-New-Place-to-Call-Home.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/A-New-Place-to-Call-Home.jpg",
+  "w": 637,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/Crowding-Risk-Homelessness-Key-Messages.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/Crowding-Risk-Homelessness-Key-Messages.jpg",
+  "w": 637,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/Crowding-Risk-and-Homelessness-A-study-of-socio-spatial-Relations.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/Crowding-Risk-and-Homelessness-A-study-of-socio-spatial-Relations.jpg",
+  "w": 637,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/Essay-Hints-CM.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/Essay-Hints-CM.jpg",
+  "w": 637,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/Social-Return-on-Investment-Report.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/Social-Return-on-Investment-Report.jpg",
+  "w": 637,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/Undercover-News-Autumn-2018.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/Undercover-News-Autumn-2018.jpg",
+  "w": 649,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/Undercover-News-Autumn-2020.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/Undercover-News-Autumn-2020.jpg",
+  "w": 675,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/Undercover-News-Autumn-2021.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/Undercover-News-Autumn-2021.jpg",
+  "w": 721,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/Undercover-News-Autumn-2022.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/Undercover-News-Autumn-2022.jpg",
+  "w": 721,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/Undercover-News-Autumn-2023.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/Undercover-News-Autumn-2023.jpg",
+  "w": 721,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/Undercover-News-Spring-2018.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/Undercover-News-Spring-2018.jpg",
+  "w": 649,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/Undercover-News-Spring-2019.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/Undercover-News-Spring-2019.jpg",
+  "w": 675,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/Undercover-News-Spring-2020.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/Undercover-News-Spring-2020.jpg",
+  "w": 721,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/Undercover-News-Spring-2021.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/Undercover-News-Spring-2021.jpg",
+  "w": 721,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/Undercover-News-Spring-2022.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/Undercover-News-Spring-2022.jpg",
+  "w": 721,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/Undercover-News-Spring-2023.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/Undercover-News-Spring-2023.jpg",
+  "w": 721,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/02/Uploading-Receipt-Instructions.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/02/Uploading-Receipt-Instructions.jpg",
+  "w": 637,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/09/Mobile-Pod-WP-Important-Carers-Tips-DRAFT.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/09/Mobile-Pod-WP-Important-Carers-Tips-DRAFT.jpg",
+  "w": 637,
+  "h": 900
+ },
+ "/media/pdf-covers/2024/09/Mobile-Pod-WP-Mobile-Pod-Maintenance-Tips-DRAFT.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2024/09/Mobile-Pod-WP-Mobile-Pod-Maintenance-Tips-DRAFT.jpg",
+  "w": 637,
+  "h": 900
+ },
+ "/media/pdf-covers/2025/01/Kids-Under-Cover-Reconciliation-Action-Plan.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2025/01/Kids-Under-Cover-Reconciliation-Action-Plan.jpg",
+  "w": 637,
+  "h": 900
+ },
+ "/media/pdf-covers/2025/04/KIDS-UNDER-COVER-ANNUAL-IMPACT-STATEMENT-2024-.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2025/04/KIDS-UNDER-COVER-ANNUAL-IMPACT-STATEMENT-2024-.jpg",
+  "w": 900,
+  "h": 637
+ },
+ "/media/pdf-covers/2025/12/KUC-2025-ANNUAL-IMPACT-STATEMENT-v2.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2025/12/KUC-2025-ANNUAL-IMPACT-STATEMENT-v2.jpg",
+  "w": 900,
+  "h": 696
+ },
+ "/media/pdf-covers/2026/05/2026_mcgregor_giving-chance-brief.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2026/05/2026_mcgregor_giving-chance-brief.jpg",
+  "w": 637,
+  "h": 900
+ },
+ "/media/pdf-covers/2026/05/2026_mcgregor_giving-chance-full.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2026/05/2026_mcgregor_giving-chance-full.jpg",
+  "w": 637,
+  "h": 900
+ },
+ "/media/pdf-covers/2026/06/KUC-strategic-plan-2026-v11.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2026/06/KUC-strategic-plan-2026-v11.jpg",
+  "w": 900,
+  "h": 696
+ },
+ "/media/pdf-covers/2026/09/Maintenance-Lead-PD.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2026/09/Maintenance-Lead-PD.jpg",
+  "w": 637,
+  "h": 900
+ },
+ "/media/pdf-covers/2026/09/Philanthropy-Manager-PD_Sept26.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/2026/09/Philanthropy-Manager-PD_Sept26.jpg",
+  "w": 637,
+  "h": 900
+ },
+ "/media/pdf-covers/https:/content.police.vic.gov.au/sites/default/files/2018-11/statutory-declaration-form.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/https:/content.police.vic.gov.au/sites/default/files/2018-11/statutory-declaration-form.jpg",
+  "w": 636,
+  "h": 900
+ },
+ "/media/pdf-covers/https:/www.accc.gov.au/system/files/guide_acl_fundraising-1.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/https:/www.accc.gov.au/system/files/guide_acl_fundraising-1.jpg",
+  "w": 696,
+  "h": 900
+ },
+ "/media/pdf-covers/https:/www.berrystreet.org.au/uploads/main/Files/SVA-ReportSummary-KeepingFamiliesTogetherThroughCOVID-2020.jpg": {
+  "kind": "document",
+  "src": "/media/pdf-covers/https:/www.berrystreet.org.au/uploads/main/Files/SVA-ReportSummary-KeepingFamiliesTogetherThroughCOVID-2020.jpg",
+  "w": 637,
+  "h": 900
+ },
  "https://www.kuc.org.au/wp-content/uploads/2019/08/cpm_kuc_056_Sabina-and-Shaynna.jpg": {
   "kind": "photo",
   "src": "/media/2019/08/cpm_kuc_056_Sabina-and-Shaynna.jpg",

@@ -27,6 +27,13 @@ jobs:
               rel="${f#media/pdfs/}"; base="${rel%.pdf}"
               mkdir -p "media/pdf-text/$(dirname "$rel")" "public/media/pdf-covers/$(dirname "$rel")"
               pdftotext -layout "$f" "media/pdf-text/$base.txt" || true
+              # Image-only PDFs (designed booklets, scanned reports): read the text with OCR.
+              if [ "$(wc -w < "media/pdf-text/$base.txt" 2>/dev/null || echo 0)" -lt 50 ] && [ "$(stat -c %s "$f")" -lt 30000000 ]; then
+                command -v tesseract > /dev/null || sudo apt-get install -y -q tesseract-ocr > /dev/null
+                tmp=$(mktemp -d); pdftoppm -r 150 -png "$f" "$tmp/p"
+                for img in "$tmp"/p-*.png; do tesseract "$img" - 2>/dev/null; echo; echo "--- page break ---"; done > "media/pdf-text/$base.txt"
+                rm -rf "$tmp"
+              fi
               pdftoppm -f 1 -l 1 -jpeg -jpegopt quality=80 -scale-to 900 "$f" "public/media/pdf-covers/$base" || true
               mv "public/media/pdf-covers/$base"-*.jpg "public/media/pdf-covers/$base.jpg" 2>/dev/null || true
               pages=$(pdfinfo "$f" 2>/dev/null | awk '/^Pages:/{print $2}')
