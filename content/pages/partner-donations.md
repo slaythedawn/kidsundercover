@@ -11,6 +11,7 @@ cta: partner
 form: none
 related: [/get-involved/corporate-business-partnerships/, /about/our-supporters/]
 status: live
+noindex: true
 sections:
   - type: donate
     title: Make your partner donation

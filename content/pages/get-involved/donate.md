@@ -80,7 +80,7 @@ sections:
       - icon: people
         title: Workplace giving
         text: A regular, pre-tax donation straight from your pay, which your employer may match.
-        href: /regular-donation/#workplace-giving
+        href: /get-involved/workplace-giving/
 
   - type: faq
     title: Questions about donating

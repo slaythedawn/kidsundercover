@@ -1,7 +1,7 @@
 ---
 url: /our-programs/resources-for-carers/
 title: Resources for carers
-seoTitle: "Support and Resources for Carers"
+seoTitle: "Kinship and Foster Carer Support"
 description: "Support services and resources for foster, kinship and family carers of young people, including urgent help and financial support."
 eyebrow: Get support
 intro: Many families are experiencing increased financial pressure at the moment. The following resources may help if you are finding things hard, need practical support, or want to explore what assistance may be available to you and your household.

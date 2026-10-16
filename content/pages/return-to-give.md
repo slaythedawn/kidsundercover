@@ -11,6 +11,7 @@ cta: monthly
 form: none
 related: [/regular-donation/, /get-involved/donate/, /about/contact/kids-under-cover-charitable-status-and-tax-information/]
 status: live
+noindex: true
 sections:
   - type: donate
     start: monthly

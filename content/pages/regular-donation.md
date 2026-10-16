@@ -56,8 +56,8 @@ sections:
     title: Give straight from your pay
     body: A regular, pre-tax donation straight from your pay is easy to set up and you receive tax benefits. Workplace giving even gives your employer the opportunity to match your donation dollar for dollar.
     actions:
-      - { label: Email fundraise@kuc.org.au, href: "mailto:fundraise@kuc.org.au", variant: ink }
-      - { label: Call 1800 801 633, href: "tel:1800801633", variant: ghost }
+      - { label: How workplace giving works, href: /get-involved/workplace-giving/, variant: ink }
+      - { label: Email fundraise@kuc.org.au, href: "mailto:fundraise@kuc.org.au", variant: ghost }
 
   - type: features
     eyebrow: Other ways to give

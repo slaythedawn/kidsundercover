@@ -12,6 +12,7 @@ cta: none
 form: none
 related: [/get-involved/donate/, /get-involved/community-fundraising/]
 status: live
+noindex: true
 sections:
   - type: callout
     icon: gavel
