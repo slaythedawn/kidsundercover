@@ -6,3 +6,7 @@ next-env.d.ts
 .env*.local
 .env
 .vercel
+
+# WordPress media library dump, used locally to match originals (scripts/match-originals.py)
+media/library/
+media/classify.json

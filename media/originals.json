@@ -1,0 +1,111 @@
+{
+ "cutouts": {
+  "2024/02/corporate-montage-1.jpg": {
+   "id": "15038",
+   "url": "https://www.kuc.org.au/wp-content/uploads/2024/01/HHMC-Morwell-Studio-Handover-K1484-15-scaled.jpg",
+   "file": "media/originals/15038.jpg",
+   "inliers": 524
+  },
+  "2024/02/corporate-montage-2.jpg": {
+   "id": "14899",
+   "url": "https://www.kuc.org.au/wp-content/uploads/2023/11/KUC-Donald-St-Morwell_010-scaled.jpg",
+   "file": "media/originals/14899.jpg",
+   "inliers": 292
+  },
+  "2024/02/corporate-montage-3.jpg": {
+   "id": "14575",
+   "url": "https://www.kuc.org.au/wp-content/uploads/2019/12/cpm_pe_kuc_057.jpg",
+   "file": "media/originals/14575.jpg",
+   "inliers": 342
+  },
+  "2024/02/corporate-montage-4.jpg": {
+   "id": "14577",
+   "url": "https://www.kuc.org.au/wp-content/uploads/2019/11/Bendigo-Advertiser-Eaglehawk-1.jpg",
+   "file": "media/originals/14577.jpg",
+   "inliers": 331
+  },
+  "2024/02/sarah-montage.jpg": {
+   "id": "15055",
+   "url": "https://www.kuc.org.au/wp-content/uploads/2024/01/Sarah-Fatrouina.jpg",
+   "file": "media/originals/15055.jpg",
+   "inliers": 276
+  },
+  "2024/02/scholarships-montage.jpg": {
+   "id": "14939",
+   "url": "https://www.kuc.org.au/wp-content/uploads/2023/12/Austock000141621_Medium.jpg",
+   "file": "media/originals/14939.jpg",
+   "inliers": 112
+  },
+  "2024/02/studio-program-montage-1.jpg": {
+   "id": "14727",
+   "url": "https://www.kuc.org.au/wp-content/uploads/2023/09/promise-for-kids-e1705983942246.jpg",
+   "file": "media/originals/14727.jpg",
+   "inliers": 951
+  },
+  "2024/02/studio-program-montage-3.jpg": {
+   "id": "14455",
+   "url": "https://www.kuc.org.au/wp-content/uploads/2022/05/Build-crew-studio-Balwyn-e1705984020469.jpg",
+   "file": "media/originals/14455.jpg",
+   "inliers": 547
+  },
+  "2024/02/studio-program-montage-4.jpg": {
+   "id": "14416",
+   "url": "https://www.kuc.org.au/wp-content/uploads/2022/12/CJ-pic1.jpg",
+   "file": "media/originals/14416.jpg",
+   "inliers": 334
+  },
+  "2024/02/studio-program-montage-5.jpg": {
+   "id": "15163",
+   "url": "https://www.kuc.org.au/wp-content/uploads/2024/01/studio-build-2.jpg",
+   "file": "media/originals/15163.jpg",
+   "inliers": 224
+  },
+  "2024/02/studio-program-montage-6.jpg": {
+   "id": "15162",
+   "url": "https://www.kuc.org.au/wp-content/uploads/2024/01/portrait-of-a-smiling-teenage-boy-looking-at-the-c-2022-01-13-22-27-10-utc-scaled.jpg",
+   "file": "media/originals/15162.jpg",
+   "inliers": 143
+  },
+  "2024/02/studio-program-montage-8.jpg": {
+   "id": "14840",
+   "url": "https://www.kuc.org.au/wp-content/uploads/2023/11/photojo-SM-0051.jpg",
+   "file": "media/originals/14840.jpg",
+   "inliers": 129
+  },
+  "2024/02/studio-program-transparent-montage-min-972x1024.png": {
+   "id": "14529",
+   "url": "https://www.kuc.org.au/wp-content/uploads/2020/12/Studio-banner-image-small.jpg",
+   "file": "media/originals/14529.jpg",
+   "inliers": 368
+  },
+  "2024/02/studio-program-transparent-montage-min.png": {
+   "id": "14529",
+   "url": "https://www.kuc.org.au/wp-content/uploads/2020/12/Studio-banner-image-small.jpg",
+   "file": "media/originals/14529.jpg",
+   "inliers": 402
+  },
+  "2024/02/village-program-montage-1.jpg": {
+   "id": "14927",
+   "url": "https://www.kuc.org.au/wp-content/uploads/2023/12/220817-122913q10-scaled.jpg",
+   "file": "media/originals/14927.jpg",
+   "inliers": 176
+  }
+ },
+ "featured": {
+  "/fostering-hope/": {
+   "id": 14436,
+   "url": "https://www.kuc.org.au/wp-content/uploads/2022/09/Karens-kids-2.jpg",
+   "file": "media/originals/14436.jpg"
+  },
+  "/the-call-for-a-collaborative-vision-to-address-youth-homelessness/": {
+   "id": 14455,
+   "url": "https://www.kuc.org.au/wp-content/uploads/2022/05/Build-crew-studio-Balwyn-e1705984020469.jpg",
+   "file": "media/originals/14455.jpg"
+  },
+  "/vale-ken-morgan-oam/": {
+   "id": 14420,
+   "url": "https://www.kuc.org.au/wp-content/uploads/2022/09/Ken-Morgan-Pic-1-crop.jpg",
+   "file": "media/originals/14420.jpg"
+  }
+ }
+}
