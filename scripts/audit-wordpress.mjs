@@ -204,8 +204,13 @@ function inspect(html, pageUrl) {
     canonical: attr(html.match(/<link[^>]+rel=["']canonical["'][^>]*>/i)?.[0] ?? "", "href"),
     bodyClass: attr(html.match(/<body\b[^>]*>/i)?.[0] ?? "", "class").split(/\s+/).filter((c) => /^(page-template|elementor|wp-theme|theme-)/.test(c)),
   };
+  // Donation and form embeds (Raisely, Giveasy, Salesforce widgets) show up as tags or inline config.
+  const widgets = [...new Set([
+    ...[...html.matchAll(/<(?!a\b|link\b)[a-z]+\b[^>]*(?:raisely|giveasy|giveeasy|npsp|salesforce|data-campaign|data-profile)[^>]*>/gi)].map((m) => m[0].slice(0, 300)),
+    ...[...html.matchAll(/(?:Raisely|raisely)[\w.]*\s*\([^)]{0,200}\)|campaign(?:Uuid|Path|Id)\s*[:=]\s*["'][^"']+["']/g)].map((m) => m[0].slice(0, 300)),
+  ])].slice(0, 12);
   const popups = /popup|modal|optin|subscribe-box|elementor-popup/i.test(html) ? [...new Set(html.match(/(?:pum|popup|elementor-popup)[-_a-z0-9]*/gi) ?? [])].slice(0, 10) : [];
-  return { meta, plugins, themes, scripts, ids, iframes, forms, outbound, files, videos, jsonld, popups };
+  return { meta, plugins, themes, scripts, ids, iframes, forms, outbound, files, videos, jsonld, widgets, popups };
 }
 
 const contentLinks = fs.readdirSync(path.join(OUT, "content")).flatMap((f) =>
@@ -264,6 +269,7 @@ const summary = {
     return a;
   }, {})),
   iframes: count(pagesOk.flatMap((c) => c.iframes)),
+  widgets: pagesOk.filter((c) => c.widgets.length).map((c) => ({ url: c.url, widgets: c.widgets })),
   videos: count(pagesOk.flatMap((c) => c.videos)),
   outboundHosts: count(pagesOk.flatMap((c) => c.outbound.map((l) => new URL(l.href).host))),
   files: count(pagesOk.flatMap((c) => c.files)),
