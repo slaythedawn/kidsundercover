@@ -51,13 +51,14 @@ async function images(urls) {
 
 async function catalog(type, fields) {
   const all = [];
-  for (let page = 1; page < 200; page++) {
+  // Page by X-WP-TotalPages: WordPress can return short pages when it hides private items.
+  let pages = 1;
+  for (let page = 1; page <= pages; page++) {
     const r = await get(`https://www.kuc.org.au/wp-json/wp/v2/${type}?per_page=100&page=${page}&_fields=${fields}`);
     if (!r) break;
+    pages = Number(r.headers.get("x-wp-totalpages") ?? 1);
     const rows = await r.json();
-    if (!Array.isArray(rows) || !rows.length) break;
-    all.push(...rows);
-    if (rows.length < 100) break;
+    if (Array.isArray(rows)) all.push(...rows);
   }
   fs.writeFileSync(path.join(ROOT, `media/wp-${type}.json`), JSON.stringify(all, null, 1) + "\n");
   console.log(`${type}: ${all.length}`);
