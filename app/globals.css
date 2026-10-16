@@ -244,3 +244,14 @@ img[data-kind="graphic"] {
   .doodle-tr, .doodle-br { right: -8px; }
   .doodle-tl, .doodle-bl { left: -8px; }
 }
+
+/* Report covers (from PDFs) are shown whole, as a printed page with a soft shadow. */
+img[data-kind="document"] { object-fit: contain !important; background: none !important; }
+.print:has(> img[data-kind="document"]) {
+  rotate: 0deg !important;
+  transform: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+.print:has(> img[data-kind="document"]) > img { filter: drop-shadow(0 18px 26px rgba(70, 55, 25, 0.35)); }

@@ -346,4 +346,7 @@ if __name__ == "__main__":
         registry[o["url"]] = {"kind": "photo", "src": src, "w": w, "h": h, "fx": fx, "fy": fy, "faces": n, "featuredFor": url}
     json.dump(dict(sorted(registry.items())), open(os.path.join(ROOT, "media", "images.json"), "w"), indent=1)
     from collections import Counter
+    # PDF covers (documents) are added on top, so re-running this keeps them.
+    import subprocess, sys
+    subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "register-covers.py")], check=False)
     print(Counter(v["kind"] for v in registry.values()), "rebuilt from originals:", sum(1 for v in registry.values() if v.get("rebuiltFrom")), "cropped from circles:", len(notes))

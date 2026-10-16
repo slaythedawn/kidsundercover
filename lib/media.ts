@@ -10,7 +10,8 @@ import path from "node:path";
 
 export type Img = {
   src: string;
-  kind: "photo" | "graphic";
+  /** photo: cropped around its focal point. graphic: shown whole, no box. document: a report cover, shown whole like a printed page. */
+  kind: "photo" | "graphic" | "document";
   w?: number;
   h?: number;
   /** Focal point as fractions of width and height. */
