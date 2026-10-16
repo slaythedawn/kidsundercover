@@ -1,0 +1,779 @@
+A guide to the Australian
+Consumer Law
+)RUIXQGUDLVLQJDQGRWKHUDFWLYLWLHVRIFKDULWLHVQRWIRUSURÀWVDQGIXQGUDLVHUV
+This guide was developed by:
+ Access Canberra, Australian Capital Territory
+ Australian Competition and Consumer Commission
+ Australian Securities and Investments Commission
+ Consumer Affairs Victoria
+ Consumer and Business Services South Australia
+ Consumer, Building and Occupational Services, Tasmania
+ New South Wales Fair Trading
+ Northern Territory Consumer Affairs
+ 4XHHQVODQG2IÀFHRI)DLU7UDGLQJ
+ Western Australia Department of Commerce, Consumer Protection
+
+
+
+
+ISBN: 978-1-920702-23-6
+© Commonwealth of Australia 2017
+December 2017
+With the exception of the Australian Consumer Law logo, photographs and images, this publication is licensed under a
+Creative Commons Attribution 3.0 Australia Licence.
+
+
+
+
+Creative Commons Attribution 3.0 Australia Licence is a standard form license agreement that allows you to copy, distribute,
+transmit and adapt this publication provided that you attribute the work. A summary of the licence terms is available from
+www.creativecommons.org/licenses/by/3.0/au/deed.en. The full licence terms are available from
+www.creativecommons.org/licenses/by/3.0/au/legalcode.
+The Commonwealth’s preference is that you attribute this publication (and any material sourced from it) using the following
+wording: Source: Licensed from the Commonwealth of Australia under a Creative Commons Attribution 3.0 Australia Licence.
+The Commonwealth of Australia does not necessarily endorse the content of this publication.
+Inquiries regarding this licence and any other use of this document are welcome at:
+Manager
+Communications
+The Treasury
+Langton Crescent Parkes ACT 2600
+Email: medialiaison@treasury.gov.au
+Contents
+
+
+Introduction                                                                     2
+Fundraising and the ACL                                                          3
+Your obligations under the ACL                                                   6
+The prohibition against misleading or deceptive conduct                          7
+Unconscionable conduct                                                           10
+Obligations that only apply in connection with the supply of a good or service   11
+Enforcing the law                                                                14
+Other obligations                                                                15
+ACL regulators                                                                   16
+    INTRODUCTION
+
+
+    About the Australian Consumer                  which the sector may undertake, such as
+    Law                                            the supply of goods or services.
+                                                   This guide:
+                                                    explains the law in simple language
+    The Australian Consumer Law (ACL) is
+    the national law for fair trading and
+    consumer protection, which applies                but is not a substitute for the
+    across Australia. The ACL came into force         legislation
+    on 1 January 2011.                              gives general information and
+    7KH$&/SURYLGHVDUDQJHRIVSHFLÀF
+                                                      GHÀQLWLYHOLVWRIVLWXDWLRQVZKHUHWKH
+                                                      examples, not legal advice nor a
+    obligations in relation to unfair practices,
+    consumer transactions and safety of               ACL applies.
+    products and product related services.         Other State, Territory and Commonwealth
+    A list of ACL regulators is provided at the    laws may apply to your entity. Further
+    end of this guide.                             information is provided at the end of this
+                                                   guide.
+    About this guide
+    The production of this guide is a result
+    of stakeholder feedback provided during
+    the Consumer Affairs Australia and New
+
+    &$$1=LVPDGHXSRIVHQLRURIÀFHUV
+    Zealand (CAANZ) Review of the ACL.
+
+    of Commonwealth, State and Territory
+    and New Zealand government agencies
+    responsible for consumer affairs or
+    fair trading.
+    CAANZ regulators developed this
+
+    FKDULWLHVQRWIRUSURÀWDQGIXQGUDLVLQJ
+    guide following interest from the
+
+    sectors for information to help them
+    better understand their obligations
+    under the ACL, particularly in relation
+    to fundraising.
+    Whilst this guide focuses on fundraising
+    activities, it also covers other activities
+
+
+
+
+2
+FUNDRAISING AND THE ACL
+
+
+ Key Point                                        Generally, the ACL only applies to
+                                                  activities that are in trade or commerce,
+ If you engage in fundraising activities          including business or professional
+ you may have obligations under
+                                                  SURÀW*LYHQWKLVEURDGGHÀQLWLRQRIWUDGH
+                                                  activities, whether or not carried on for
+ the ACL.
+                                                  or commerce, the ACL may apply to a
+FKDULWLHVRWKHUQRWIRUSURÀWHQWLWLHVDQG
+The ACL applies to certain activities of
+                                                  QRWIRUSURÀWRUIXQGUDLVHU
+                                                  range of activities conducted by a charity,
+fundraisers. Whether the ACL applies to
+a particular fundraising activity generally       When considering whether your activities
+depends on whether that activity occurs           are in trade or commerce, you need
+in ‘trade or commerce’. If it does, then          to consider the characteristics of the
+you should expect the ACL to apply to             activity; not merely your organisational
+
+                                                  IRUSURÀWRUQRW<RXPD\EHDFWLQJLQ
+that activity.                                    structure or whether your operation is
+Your fundraising activities are also likely       trade or commerce for some activities
+to be captured by other State, Territory          but not others. Determining whether
+FKDULWLHVQRWIRUSURÀWHQWLWLHVDQG
+and Commonwealth laws that govern                 an activity is undertaken in trade or
+                                                  commerce depends upon the facts of
+fundraisers, including laws tailored to           each individual case.
+those sectors. You must ensure you
+comply with all applicable laws, including        Supply of goods or services
+the ACL where it applies to you. Best             If you are regularly supplying goods or
+practice is to ensure that your fundraising       services in return for payment or other
+practices and other activities are fair,          consideration then that activity is likely to
+transparent and well governed, regardless         be in trade or commerce and the ACL is
+of whether the ACL or other laws apply.           likely to apply to you when you engage in
+                                                  that activity.
+The application of the ACL
+                                                    Example
+                                                    $QRWIRUSURÀWHQWLW\SURYLGHV
+ Key points
+ Generally, if you:
+  engage in a fundraising activity                ZKRDUHGLVDEOHG7KHQRWIRUSURÀW
+                                                    subsidised cleaning services to people
+
+    involving a supply of goods or                  is able to subsidise the price of the
+
+                                                    JRYHUQPHQWJUDQWV7KHQRWIRUSURÀW
+    services or                                     services as it receives a range of
+  DUHDIRUSURÀWSURIHVVLRQDO
+    fundraiser or                                   is likely to be engaging in conduct
+  are fundraising in an organised,                in trade or commerce because it is
+    continuous and repetitive way                   supplying a service to the consumer in
+                                                    exchange for payment, even though
+ then your fundraising activity is likely to        the price is subsidised, and the ACL is
+ be in trade or commerce and you are                likely to apply.
+ likely to have certain obligations under
+ the ACL.
+
+                A guide to Australian consumer law —For fundraising and other activities of charities   3
+     Example                                       Example
+     An environmental charity sells toy            A professional fundraiser has been
+     animals and children’s books. A               engaged by a cancer research charity
+     proportion of the purchase price              to undertake a national fundraising
+     paid for these goods contributes              campaign on its behalf. The campaign
+     to the environmental preservation             includes door-knocking homes and
+     activities of the charity. As this type of    face to face fundraising at shopping
+     fundraising involves the sale of goods        centres across the country. The
+     the charity is likely to be engaging in       fundraiser asks members of the public
+     trade or commerce and the ACL is likely       if they wish to make an ongoing
+     to apply.                                     donation via direct debit to the charity.
+                                                   The fundraising is in trade or commerce
+    Professional fundraisers                       because the professional fundraiser is
+    6RPHFKDULWLHVQRWIRUSURÀWHQWLWLHV
+                                                   in the business of fundraising.
+    and fundraisers pay professional third
+    party fundraisers to conduct fundraising      Fundraising in an organised,
+    activities on their behalf. Professional      continuous and repetitive way
+    fundraisers are in the business of seeking    Regardless of whether you collect
+    donations and this is likely to be in trade   donations or payments for goods or
+    or commerce for the purposes of the           services by using volunteers, employees
+    ACL. If you are a professional fundraiser,    or professional fundraisers, if those
+    or if you engage a professional fundraiser    fundraising activities are carried out in a
+
+    EHKDOIWKHQ\RXQHHGWREHFRQÀGHQW
+    to carry out fundraising activities on your   business-like way then they are likely to
+                                                  be in trade or commerce and subject to
+    that the conduct of the fundraising           the ACL.
+    activities does not breach the ACL.
+                                                  Factors that indicate that fundraising
+                                                  activities are more likely to be undertaken
+                                                  in a business-like way and therefore in
+                                                  trade or commerce include some or all of
+                                                  the following:
+                                                   the fundraising activities are
+                                                      continuous and repetitive
+                                                   the fundraising activities are
+                                                      organised and managed (e.g.
+                                                      through the use of business plans or
+                                                      fundraising strategies, measurement
+                                                      of fundraising goals and outputs,
+                                                      processes, policies and procedures etc)
+
+
+
+
+4
+ the entity fundraising is established          Collecting a one off donation for a one
+   such that its activities (which include        off cause is unlikely to be in trade or
+   fundraising) are likely to continue e.g.       commerce. It is not likely to be conducted
+   the entity may be incorporated as a            with the level of organisation, continuity
+   separate legal entity                          and repetition of a business-like activity.
+ the entity fundraising uses resources
+   (e.g. assets and employees)                      Example
+ the fundraising activities are promoted          A parent seeks donations from their
+   or marketed
+ ÀQDQFLDORURWKHUUHFRUGVRIWKH
+                                                    social media network via an online
+                                                    peer to peer platform, stating that the
+   fundraising activities are maintained.           money will be used to fund their child
+The above are not an exhaustive list                attending a State athletics carnival. As
+of factors. Whether a fundraising                   this fundraising is a one off event and
+activity is undertaken in a business-               donations are not being sought in a
+                                                    business-like way, the ACL is unlikely
+VSHFLÀFFLUFXPVWDQFHV
+like way will always depend on the
+                                                    to apply.
+
+ Example                                            Example
+ An incorporated association is                     A school develops a one-off
+ established for the purpose of                     fundraising activity to support a
+ providing volunteer emergency                      cause which involves a donation
+ services, being partly funded by                   from participating students. As this
+ donations from the public. The                     fundraising is a one off event and the
+ association develops a fundraising                 donations are not being sought in a
+ strategy and undertakes regular                    business-like way, the ACL is unlikely
+ fundraising drives that are organised              to apply.
+ and coordinated with a view to
+ meeting its fundraising goals. The
+ association keeps records of its
+ fundraising revenue.
+ The ACL is likely to apply to
+ the fundraising activities of the
+ incorporated association, because
+ these activities are undertaken in a
+ business-like way and therefore the
+ fundraising activities are likely to be
+ undertaken in trade or commerce.
+
+
+
+
+                A guide to Australian consumer law —For fundraising and other activities of charities   5
+    YOUR OBLIGATIONS
+    UNDER THE ACL
+
+     Key point                                    Key points
+     You should be open, transparent,             Generally, if your conduct is in trade
+     truthful and fair when fundraising. If       or commerce:
+     you are, then your activities are unlikely    you must not engage in
+     to raise concerns under the ACL.                 misleading or deceptive conduct or
+                                                      unconscionable conduct; and
+                                                   if your fundraising activities
+    The extent to which a particular
+    provision of the ACL may apply to your
+    activities depends on the wording of the          also involve supplying goods or
+    provision of the ACL and the nature and           services, you must not make false
+    characteristics of your activity.                 or misleading representations or
+                                                      engage in unconscionable conduct
+    Generally, if your fundraising activities         in relation to the supply of those
+    are in trade or commerce then you                 goods or services.
+    have several obligations that you must
+    meet. Broadly, you must not engage
+    in misleading or deceptive conduct or
+    unconscionable conduct.
+    In addition, the ACL contains other
+    obligations in connection with the
+    supply of goods or services, including
+    prohibitions on making false or
+    misleading representations and the use
+    of harassment or coercion, as well as
+    provisions which provide for consumer
+    guarantees. These are dealt with below.
+
+
+
+
+6
+THE PROHIBITION AGAINST
+MISLEADING OR DECEPTIVE
+CONDUCT
+,I\RXDUHDFKDULW\QRWIRUSURÀWRU             Example
+fundraiser with activities in trade or
+
+                                                    RQJRLQJÀQDQFLDOVXSSRUWWRZDUGVWKH
+commerce then you are required by law               A large, established charity provides
+not to mislead or deceive in relation to
+those activities. This obligation applies           cost of providing books to children in
+broadly, including if you are selling               an overseas country with a low literacy
+a good or service but also if you are               rate. In the conduct of its annual
+seeking donations of money only (i.e.               fundraising drive, the charity represents
+without supplying a good or service). This          to consumers that their donations will
+law applies even if you do not intend to            help improve literacy of children.
+mislead or deceive anyone.                          The fundraising activities of the charity
+Some examples of conduct that will                  are likely to occur in trade or commerce
+mislead a consumer include:                         due to the organised, continuous and
+ making representations about where               repetitive nature of its activities. The
+
+                                                    DFFXUDWHO\UHÁHFWWKHWUXHVLWXDWLRQ
+   the money you collect will go, or what           statement, on its own, appears to
+   proportion will be used to achieve
+   the stated purpose, that are not true,           and is therefore unlikely to mislead or
+   accurate and able to be substantiated            deceive consumers.
+ representing you are a volunteer
+
+   FKDULW\QRWIRUSURÀWRUIXQGUDLVHU
+   collecting money on behalf of a
+
+   when that is not the case, for
+   example, where you are a paid worker
+   or receive a fee or commission from
+   donations secured
+ claiming that a person is making a
+   one-off donation when they are in
+   fact making a periodic (i.e. ongoing)
+   donation
+ claiming that the good or service
+   a person is purchasing has certain
+   qualities or characteristics that it does
+   not have.
+<RXFDQÀQGJHQHUDOLQIRUPDWLRQ
+about the obligation to not engage in
+misleading or deceptive conduct in trade
+or commerce in Avoiding unfair business
+practices: A guide for businesses and
+legal practitioners.
+
+
+
+
+                A guide to Australian consumer law —For fundraising and other activities of charities   7
+    Example                                  Example
+    $QRWIRUSURÀWLVFRQGXFWLQJLWV       A professional fundraising company
+    annual fundraising campaign to raise     is paid to conduct a campaign,
+    money for homeless support services.     collecting donations on behalf of a
+    While seeking donations, some of the     charity that supports animal shelters.
+    organisation’s volunteers and workers    When seeking donations, the
+    require consumers to complete a credit   company’s workers represent, through
+    card authorisation form to make,         a combination of the words they use
+    what the consumer is told is, a single   and a range of visual factors (such as
+    donation via credit card. The form is    signs and uniforms), that 100% of the
+    actually an agreement for an ongoing     donations received will go towards the
+    monthly donation.                        animal shelter charity. In reality, a large
+    The annual fundraising campaign          part of the donated funds is used to
+    of the organisation is likely to occur   pay the fee charged by the company,
+    in trade or commerce due to the          which is based on the monthly amount
+    organised, continuous and repetitive     the consumer commits to donate. The
+    nature of these activities. The ACL      conduct of the fundraising company,
+                                             engaged in on behalf of the charity,
+    RIWKHQRWIRUSURÀWWKURXJKLWV
+    is likely to apply to the conduct
+                                             is likely to be in trade or commerce
+    volunteers and workers, in seeking the   and likely to amount to misleading or
+    donations. The statements made by        deceptive conduct under the ACL.
+    the volunteers and workers suggesting    This is because even where a
+    that consumers are providing a single    representation may be technically true,
+    donation only is likely to amount to     for example representations made by
+    misleading or deceptive conduct under    a fundraising company that all funds
+    the ACL.                                 received go to the bank account of the
+                                             charity, it can be misleading if you have
+
+                                             IRUH[DPSOHWKDWVLJQLÀFDQWIHHVDUH
+                                             omitted other important information,
+
+                                             then transferred from the charity to the
+                                             fundraising company.
+
+
+
+
+8
+Example                                            Example
+A charity supporting disease research              A charity has a website with a
+engages a professional fundraising                 donation facility to raise money to
+company to conduct a fundraising                   feed hungry children. The website
+campaign on the charity’s behalf.                  has a banner that says ‘100% of your
+When asking for donations some of the              donation goes to children in need of
+fundraising company’s workers represent,           a feed’. However, as a charity with
+through a combination of the words they            costs related to ensuring governance
+use and a range of visual factors (such as         and professional administration,
+signs and uniforms), that they are unpaid          approximately 20% of every donation
+volunteers when in fact they are paid for          goes towards the cost of running the
+their services by the fundraising company          operation. The statement is therefore
+(which receives a fee for the services it          likely to be misleading or deceptive.
+provides to the charity).                          A more general statement, such as
+The conduct of the professional                    “Help us feed hungry children” may be
+fundraising company, engaged in                    more appropriate.
+on behalf of the charity, is likely to
+be in trade or commerce as it is in                Example
+                                                   $QRWIRUSURÀWHQJDJHVDSURIHVVLRQDO
+the business of fundraising. The
+representations made by some of
+its workers, that they are unpaid                  fundraiser to conduct fundraising
+volunteers, are likely to amount to                on its behalf. Part of the fundraiser’s
+misleading or deceptive conduct under              role includes managing the charity’s
+the ACL.                                           periodic (i.e. ongoing) donations.
+                                                   The fundraiser writes to consumers
+It can also be misleading to be silent             who have current periodic donations
+on facts when you have created an                  in place seeking an increase in the
+alternative impression. Where you                  amount that each consumer regularly
+have given an overall impression that              gives. The letter states that if the
+all or most funds go to the charity but            consumer takes no action in relation to
+VLJQLÀFDQWIHHVRUFRPPLVVLRQVDUH
+you don’t adequately disclose that                 the letter their periodic donation will
+                                                   be increased by the amount suggested
+paid to the fundraising company, this is           in the letter. It has given the impression
+likely to be misleading under the ACL.             that it has the authority to increase the
+                                                   consumer’s periodic donation without
+                                                   their agreement when this is not the
+                                                   case. The statement is therefore likely
+                                                   to be misleading or deceptive.
+
+
+
+
+               A guide to Australian consumer law —For fundraising and other activities of charities   9
+     UNCONSCIONABLE CONDUCT
+
+
+     The ACL prohibits conduct that is           Example
+     unconscionable. Unconscionable
+     conduct includes trading practices that     A charity that routinely raises money
+     are harsh or oppressive and go against      to support overseas aid pays a
+     good conscience. To be considered           professional fundraising company to
+     unconscionable, the conduct must            seek donations in shopping centres.
+     be more than simply unfair – it must        The collector stops a consumer
+     be against conscience as judged by          who happens to be from a migrant
+     the norms of society. Conduct may           background and begins a strong sales
+
+                                                 SURÀFLHQWLQ(QJOLVKEXWWKH\OLVWHQ
+     also be considered unconscionable in        pitch. The consumer is not highly
+     circumstances where one party knowingly
+     exploits the special disadvantage of        and nod along to avoid being rude.
+     another. The prohibitions against           At the end of the pitch, the collector
+     unconscionable conduct reinforce the        asks the consumer to make a donation.
+     recognised societal value and expectation   The consumer agrees to make a $30
+
+                                                 WKHFRQVXPHUÀOORXWDGLUHFWGHELW
+     that consumers will be dealt with           donation and the collector helps
+
+                                                 IRUP:KHQÀOOLQJWKHIRUPRXWWKH
+     honestly, fairly and without deception
+     and unfair pressure. There are slightly
+     different provisions under the ACL          consumer points to a box which, if
+     dealing with unconscionable conduct,        ticked, would make the donation an
+     one of which only applies where conduct     ongoing monthly deduction, and asks
+     arises in connection with the supply        what it means. The collector doesn’t
+     or acquisition, or possible supply or       explain what the box means but tells
+     acquisition, of goods or services.          the consumer to tick it.
+     <RXFDQÀQGIXUWKHULQIRUPDWLRQ            The conduct of the collector,
+     regarding your obligations in Avoiding      conducted on behalf of the charity,
+     unfair business practices: A guide for      may be considered unconscionable
+     businesses and legal practitioners.         as the consumer was unable to
+                                                 understand the documentation used
+                                                 and the collector is likely to have
+
+                                                 FRQVXPHUDQGXVHGXQGXHLQÁXHQFH
+                                                 exploited the vulnerabilities of the
+
+                                                 and pressure in getting them to
+                                                 sign up.
+
+
+
+
+10
+OBLIGATIONS THAT ONLY APPLY
+IN CONNECTION WITH THE
+SUPPLY OF A GOOD OR SERVICE
+The obligations not to mislead or deceive         unfair business practices: A guide for
+or engage in unconscionable conduct               businesses and legal practitioners.
+apply to all activities that are in trade or
+commerce. In addition, if your fundraising        Harassment or coercion
+or other activities involve supplying a
+good or a service then you also have              It is also unlawful to harass or coerce
+further obligations under the ACL.                someone in connection with the supply
+                                                  of, or payment for, goods or services.
+                                                  For example, you cannot engage in
+False or misleading                               unnecessary or excessive solicitation,
+representations                                   or use actual or threatened force, in
+It is unlawful to make false or misleading        attempting to sell goods or services for
+representations in connection with the            the purposes of fundraising.
+supply or possible supply of goods or
+services, or in the promotion of such               Example
+                                                    $QRWIRUSURÀWRUJDQLVDWLRQXVHV
+supply. For example, you must not make
+false or misleading representations about:
+ the quality or characteristics of the
+                                                    volunteers to travel door-to-door
+                                                    selling books which fund the
+     goods or services
+ whether the goods are new
+                                                    organisation’s activities. One of the
+
+ where the goods were made
+                                                    volunteers pressures a person with a
+                                                    brain injury into purchasing the books,
+ testimonials relating to the goods or            telling the person that if they do not
+     services                                       buy the books, the volunteer will
+ the price or any guarantees or
+                                                    report them to the local council for
+                                                    having an overgrown garden.
+     warranties.
+                                                    The conduct of the volunteer may
+ Example                                            raise unconscionable conduct and
+ $QRWIRUSURÀWZKLFKKHOSVSURYLGH
+                                                    harassment and coercion concerns
+                                                    under the ACL because the book was
+ access to clean drinking water for                 supplied to the person using coercive
+ developing communities overseas                    tactics that appear to target them as a
+ regularly sells handicraft which it                vulnerable consumer.
+ represents is created by the overseas
+ communities it assists. In reality, the          <RXFDQÀQGIXUWKHULQIRUPDWLRQ
+ products are not created by those                regarding your obligations in Sales
+ communities and are instead made in              practices: A guide for businesses and
+
+ E\WKHQRWIRUSURÀWDUHOLNHO\WREH
+ Australia. The representations made              legal practitioners.
+
+ considered false or misleading under
+ the ACL.
+
+<RXFDQÀQGIXUWKHULQIRUPDWLRQ
+regarding your obligations in Avoiding
+
+
+                A guide to Australian consumer law —For fundraising and other activities of charities   11
+     Unsolicited Consumer                          Example
+     Agreements
+                                                   A worker associated with a professional
+     If your entity sells goods or services to     fundraiser collecting on behalf of a
+     consumers through door-to-door sales,         charity approaches a potential donor
+     telemarketing, or approaching consumers       on the street and signs them up to a
+     in public places such as shopping
+                                                   GHELW$IWHUWKHÀUVWGHGXFWLRQZKLFK
+                                                   monthly periodic donation via direct
+     centres you should be aware of the ACL
+     obligations that apply to ‘unsolicited        is made three days after the donor
+     consumer agreements’.                         signs up, the donor changes their
+     An unsolicited consumer agreement             mind and requests that the funds be
+     involves a supply of a good or service.       refunded and the monthly direct debit
+     Donations to a charity, including             be cancelled. This scenario would not
+     donations received by a professional          be treated as an unsolicited consumer
+     fundraiser on behalf of a charity, are not    agreement as it did not involve the
+     unsolicited consumer agreements. As           sale of a good or service and therefore
+     always, best practice is to ensure that       the consumer would not be entitled
+                                                   to the cooling off rights under these
+     DQGUHVSHFWIXO&KDULWLHVQRWIRUSURÀWV
+     your dealings with consumers are fair
+                                                   provisions. If the fundraiser was
+     and fundraisers who seek donations            selling a good or service, unsolicited
+     door-to-door, via the telephone, or by        consumer agreements rights, including
+     approaching consumers in public places        cooling off periods, could apply.
+     should be mindful of consumers’ wishes        Regardless, other ACL provisions
+     regardless of whether the unsolicited         such as prohibitions on misleading or
+     consumer agreement provisions apply.          unconscionable conduct may still apply
+                                                   and refunds should be given where
+                                                   conduct in contravention of these
+                                                   provisions led to the periodic donation.
+                                                   In any case, the charity should cancel
+                                                   the future monthly direct debits as
+                                                   requested by the donor.
+
+                                                  <RXFDQÀQGIXUWKHULQIRUPDWLRQDERXW
+                                                  the unsolicited consumer agreement
+                                                  obligations in Sales practices: A guide for
+                                                  businesses and legal practitioners.
+
+
+
+
+12
+Consumer Guarantees                               a refund for that part of the service
+                                                  not consumed.
+The consumer guarantees are a set of
+rules that apply to goods and services
+supplied to a consumer.                             Example
+                                                    $QRWIRUSURÀWHQWLW\SURYLGHV
+Guarantees relating to the supply                   domestic repair and cleaning services
+of goods                                            at commercial rates to elderly people.
+                                                    In the course of cleaning gutters at
+If you sell a good to a consumer there are          one woman’s house, the handyman
+certain guarantees. For example, if you             damages parts of the gutters causing
+sell a good to a consumer that fails to             them to leak when it rains. This may
+meet a consumer guarantee because it is             be a failure to perform work with
+faulty in some way, you must provide the            due care and skill and the consumer
+consumer with a repair, replacement or              may be entitled to have the work
+refund depending on whether the fault is            remedied free of change and/or the
+minor or major.                                     cost of another handyman to remedy
+                                                    the failure.
+
+                                                  <RXFDQÀQGIXUWKHULQIRUPDWLRQ
+ Example
+ $QRWIRUSURÀWHQWLW\VHOOVKDQGEDJV
+ manufactured overseas to raise funds             regarding consumer guarantees in
+ for delivering community employment              Consumer guarantees: A guide for
+ programs. Some of the handbags                   businesses and legal practitioners.
+ are faulty.
+                                                  National Disability Insurance
+ Depending on the nature of the                   Scheme (NDIS)
+                                                  6RPHQRWIRUSURÀWHQWLWLHVPD\VXSSO\
+ fault, consumers would be entitled to
+ either a repair or replacement of their
+ handbag or a refund.                             goods or services to participants in the
+                                                  National Disability Insurance Scheme
+                                                  (NDIS), which allows participants who
+Guarantees relating to the supply                 receive funding to purchase their own
+of services                                       disability related goods and services. The
+If you supply a service to a consumer             ACL provisions outlined above may apply
+there are certain guarantees, for example,        to these supplies.
+that the service is provided with due care        <RXFDQÀQGIXUWKHULQIRUPDWLRQLQA
+and skill. If you fail to meet a guarantee,       guide to competition and consumer law:
+and it is a minor failure, the consumer           for businesses selling to and supplying
+can ask you to remedy the work free of            consumers with disability.
+charge and within a reasonable time. If
+the failure with the service is major, then
+the consumer can recover compensation
+for any reduction in the value of the
+services or cancel the contract and get
+
+
+                A guide to Australian consumer law —For fundraising and other activities of charities   13
+     ENFORCING THE LAW
+
+
+     ACL regulators investigate complaints
+     about potential breaches of the ACL
+     and take enforcement action where
+     necessary and where this falls within
+     current priorities.
+     There are a variety of enforcement
+     options available to ACL regulators,
+     including issuing an infringement
+     notice where the relevant regulator has
+     reasonable grounds to believe that an
+     entity has breached the ACL.
+     ACL regulators can also take court action
+     against an entity, in some cases seeking
+     monetary penalties. The maximum
+     penalty for some ACL provisions is
+     $1.1m for corporations and $220 000
+     for individuals, with lesser civil penalties
+     applying to other contraventions.
+     Other remedies including Court
+     enforceable undertakings and corrective
+     advertising are also available. ACL
+     regulators also utilise a range of
+     compliance tools to prevent breaches of
+     the ACL including business and consumer
+     education, and working closely with
+     stakeholders and other agencies.
+     ACL regulators may have regard to the
+     adequacy of the compliance programs
+     in place when considering the most
+     appropriate remedy to an alleged breach
+     of the law. An ACL regulator may take
+     into account whether an entity has
+     attempted to comply with this guide.
+
+
+
+
+14
+OTHER OBLIGATIONS
+
+
+Other State, Territory and Commonwealth          Charities
+SURÀWRUIXQGUDLVLQJHQWLW\)RUH[DPSOH
+laws may apply to your charity, not-for-
+                                                 $XVWUDOLDQ&KDULWLHVDQG1RWIRUSURÀWV
+                                                 If you are a charity registered with the
+ laws governing your incorporation             Commission (ACNC), the national
+   (i.e. if you are incorporated as an           regulator of charities, you must conduct
+   association, cooperative or company)
+ IXQGUDLVLQJVSHFLÀFOHJLVODWLRQ
+                                                 your operations in compliance with
+
+                                                 SURÀWV&RPPLVVLRQ$FWDQGACNC
+                                                 the Australian Charities and Not-for-
+ gaming and racing legislation
+ LQGXVWU\VSHFLÀFOHJLVODWLRQ                 governance standards.
+ taxation, employment, criminal,               The ACNC website also contains further
+   occupational health and safety                information about other laws that
+   legislation.                                  may apply to your charity and has a
+                                                 dedicated page to fundraising and charity
+Obligations may differ between states            obligations, see www.acnc.gov.au/
+and territories. You may also have other         fundraising.
+obligations for various reasons. For
+example, if you are a member of a peak
+body or are in receipt of government               If you are unsure about your legal
+
+                                                   \RXUVSHFLÀFFLUFXPVWDQFHV\RXVKRXOG
+grants or tax concessions or if you                obligations, or which laws apply to
+fundraise via an online platform.
+                                                   consider seeking legal advice.
+ Example
+ A person sets up a one-time peer
+ to peer fundraising appeal stating
+ that the monies received will be
+ used for seeking medical treatment
+ for their ill child. They do not have
+ a child and the money obtained
+ was used for a holiday. The ACL is
+ unlikely to apply to the misleading
+ statements as the statement did not
+ occur during a business-like activity
+ done in a continuous and repetitive
+ way. However, the person soliciting
+ donations may be liable under other
+
+ REWDLQLQJDÀQDQFLDODGYDQWDJHE\
+ laws, including criminal laws, for
+
+ deception. The conduct may also
+ breach the rules of the online platform
+ used to seek donations.
+
+
+
+
+               A guide to Australian consumer law —For fundraising and other activities of charities   15
+     ACL REGULATORS
+
+
+     State and territory ACL regulators         Australian Competition and
+                                                Consumer Commission
+     Australian Capital Territory               Ph: 1300 302 502
+     Access Canberra                            www.accc.gov.au
+     Ph: 13 2281
+     www.accesscanberra.act.gov.au              Australian Securities and
+                                                Investments Commission
+     New South Wales                            Ph: 1300 300 630
+     NSW Fair Trading                           www.asic.gov.au
+     Ph: 13 3220
+     www.fairtrading.nsw.gov.au
+     Northern Territory
+     Consumer Affairs
+     Ph: 1800 019 319
+     www.consumeraffairs.nt.gov.au
+
+     2IÀFHRI)DLU7UDGLQJ
+     Queensland
+
+     Ph: 13 7468
+     www.qld.gov.au/law/fair-trading
+     South Australia
+     Consumer and Business Services
+     Ph: 13 1882
+     www.cbs.sa.gov.au
+     Tasmania
+     Consumer Affairs and Fair Trading
+     Ph: 1300 654 499
+     www.consumer.tas.gov.au
+     Victoria
+     Consumer Affairs Victoria
+     Ph: 1300 558 181
+     www.consumer.vic.gov.au
+     Western Australia
+     WA Consumer Protection—Department
+     of Mines, Industry Regulation and Safety
+     Ph: 1300 304 054
+     www.consumerprotection.wa.gov.au
+
+
+
+
+16
+
