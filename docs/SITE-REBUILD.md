@@ -75,3 +75,26 @@ These four stories loop on redirects on the live site, so the crawler only got a
 ### Donate Your Car pages
 - The "Have these handy" list on the high intent page needs checking against the Salesforce form fields (the form couldn't be reached from the build environment).
 - The awareness, consideration and high intent pages are hidden from search (`noindex`) so they don't compete with the hub. Point paid campaigns at them with UTM tags.
+
+### Found while rebuilding pages into sections (October 2026)
+**Out of date**
+- Scholarships: DFFH says "Applications now open" for 2027 but they closed 21 August 2026. Ken and Lenka Morgan and Sarah Davies say "Applications are open now" with 2025 forms and criteria. The apply page mixes 2026 eligibility with 2025 proof of enrolment and FAQs. The spending guide's receipt deadline is 1 September 2024. "35th year" on the Ken and Lenka page.
+- Village 21: Shepparton onboarding "July/August 2026" has passed. Bairnsdale is "completed, onboarding" on one page and "Opening in 2026" on another. Moorumbina and Mobile Pod copy is still in future tense.
+- About: "thirty four years", "nearly 35 years" and "over the 2023 financial year". Privacy policy last updated January 2019. Work with us roles were posted September 2026; check they're still open.
+- Resources for young people and carers: Jobactive, Child Care Benefit, dese.gov.au and humanservices.gov.au links look out of date. Mobile Pod welcome pack PDFs have "DRAFT" in their file names.
+
+**Inconsistent**
+- Ken Morgan is OAM in some places and AO in others (About, Our story, Our supporters).
+- Studios: "over 650" (About), "nearly 650" (Ken Morgan page), 675+ (homepage), 1000th studio (2019 release).
+- Addresses: 383 Swan Street, Richmond (terms) and 242 Exhibition St, Melbourne (contact). Phone numbers differ across scholarship pages: 9107 4333, 9429 7444, 0499 005 284, 0460 005 126 and 1800 801 633.
+- Target450: Patricia's "50% of homeless people are kids" contradicts the facts page (23%).
+- "Prezzee" (drop-off page) and "Smart Prezzee" (hub). Altona North drop-off hours have no days.
+- "Stolz" and "Stoltz". VACCA is named two ways. Carers page reuses the young people page's SEO title and description.
+
+**Broken or missing**
+- Bequests: "Gifts in Wills guide" button links back to the same page, and "refer to this card for suggested wording" points to a card that isn't there (the Promise For Kids booklet PDF may be it).
+- Charitable status page: five documents with no links. Media centre mentions press kits but has none, and no media contact.
+- Moorumbina virtual tour has no link. Preston uses a Moorumbina partners photo, and some Moorumbina gallery photos are named "Bairnsdale launch".
+- Silent auction payment goes to the general donation form, which says gifts are tax deductible; the page says the payment isn't. Its SEO title reads "Give an Lifelong Gift".
+- Return to Give asks people to "update payment details" but has no form for it. CONFIRM where it should go.
+- Jade's letter only exists as small 215x300 thumbnails.

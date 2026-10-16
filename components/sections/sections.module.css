@@ -343,3 +343,6 @@
   font-family: var(--font-serif); font-style: italic; font-weight: 600; font-size: 1.18em; line-height: 1.4; color: var(--ink);
 }
 .donate > * { min-width: 0; }
+/* Long button labels (report downloads) wrap instead of pushing the page wider. */
+.buttons :global(.btn) { white-space: normal; text-align: center; line-height: 1.2; }
+.callout > *, .split > *, .facts > *, .formStart > *, .faq > *, .video > *, .quote > * { min-width: 0; }
