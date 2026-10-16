@@ -1,7 +1,8 @@
 ---
 url: /about/our-supporters/
 title: Our supporters
-description: The success of our programs and the renewed hope they provide for young people and families is all due to the many compassionate people who support our
+seoTitle: "Our Supporters and Partners"
+description: "Meet the patrons, ambassadors, corporate partners and program partners who help Kids Under Cover prevent youth homelessness."
 eyebrow: About us
 intro: The success of our programs and the renewed hope they provide for young people and families is all due to the many compassionate people who support our work.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/about-montage-3.jpg

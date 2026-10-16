@@ -1,8 +1,8 @@
 ---
 url: /partner-donations/
 title: Corporate Partner
-seoTitle: Partner Donations- Donate to Kids Under Cover
-description: Support Kids Under Cover with a donation to help provide housing and education for vulnerable young people in need.
+seoTitle: "Partner Donations"
+description: "Make a partner donation to Kids Under Cover and help build studios and fund scholarships for young people at risk of homelessness."
 eyebrow: Partner Donations
 intro: Thank you for your donation to Kids Under Cover.
 heroStyle: plain

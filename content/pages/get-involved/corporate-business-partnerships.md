@@ -1,8 +1,8 @@
 ---
 url: /get-involved/corporate-business-partnerships/
 title: Corporate & Business Partnerships
-seoTitle: Charity and Corporate & Business Partnerships | Kids Under Cover
-description: Align your business with a cause that matters and demonstrate your commitment to local communities. Make a difference with Kids Under Cover
+seoTitle: "Corporate Partnerships"
+description: "Partner with Kids Under Cover through giving, workplace giving, sponsorship or in-kind support, and help prevent youth homelessness."
 eyebrow: Get involved
 intro: At Kids Under Cover, we believe in the power of meaningful partnerships to drive positive change.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/corporate-montage-1.jpg

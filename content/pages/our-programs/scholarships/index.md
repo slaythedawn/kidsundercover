@@ -1,8 +1,8 @@
 ---
 url: /our-programs/scholarships/
 title: Youth Scholarships Program
-seoTitle: Youth Scholarships Program - Financial Support | Kids Under Cover
-description: Our Scholarships Program helps to nurture the potential of young people by offering financial support that can re-engage them with education or training.
+seoTitle: "Youth Scholarships Program"
+description: "Kids Under Cover scholarships help young people at risk of homelessness stay in school, training and further study by covering education costs."
 eyebrow: Our work
 intro: Our Scholarships Program helps to nurture the potential of young people by offering financial support that can re-engage them with education or training; or help take their studies to the next level.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2022/03/Junior-Edited-640x480.jpg

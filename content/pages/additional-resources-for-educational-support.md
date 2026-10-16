@@ -1,7 +1,8 @@
 ---
 url: /additional-resources-for-educational-support/
 title: Additional Resources for Educational Support
-description: Scholarships, government programs and other support that may help young people with education costs. Contact each organisation directly about eligibility.
+seoTitle: "Educational Support for Young People"
+description: "Scholarships, government programs and other support that can help young people stay in school, training and further study."
 intro: "Following is a list of programs and organisations you could contact for additional support. Please contact the organisations directly to discuss eligibility and application process."
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/scholarships-montage.jpg
 heroAlt: A young person studying on a laptop

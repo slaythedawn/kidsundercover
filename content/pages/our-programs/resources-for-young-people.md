@@ -1,8 +1,8 @@
 ---
 url: /our-programs/resources-for-young-people/
 title: Resources for young people
-seoTitle: Resources and Support for Young People | Kids Under Cover
-description: Discover essential links and resources for young people. Get information on education, mental health, jobs, support services and more.
+seoTitle: "Support and Resources for Young People"
+description: "Help for young people facing homelessness or tough times at home: housing, mental health, legal, education and crisis support services."
 eyebrow: Get support
 intro: "For immediate support, emergency services: in case of fire, medical or police emergency, dial 000."
 heroImage: /images/pair.jpg

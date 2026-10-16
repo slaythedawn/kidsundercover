@@ -1,7 +1,8 @@
 ---
 url: /our-programs/scholarships/sarah-davies-empowering-women-scholarship/
 title: Sarah Davies Empowering Women Scholarship
-description: Discover the Sarah Davies Empowering Women Scholarship by Kids Under Cover, supporting women in education and career development for a brighter future.
+seoTitle: "Sarah Davies Empowering Women Scholarship"
+description: "The Sarah Davies Empowering Women Scholarship from Kids Under Cover: who can apply, what it covers and how to apply."
 eyebrow: Scholarships
 intro: The Sarah Davies Empowering Women Scholarship aims to support a young woman who demonstrates exceptional educational potential and a commitment to help support her community.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/sarah-montage.jpg

@@ -4,8 +4,8 @@
 # what about collection, what about tax, what happens to the money.
 url: /get-involved/donate-your-car/how-it-works/
 title: How donating your car works
-seoTitle: How Donating Your Car Works | Kids Under Cover
-description: What we accept, how collection and drop-off work, your tax receipt, and where the money goes. Donate your car to Kids Under Cover.
+seoTitle: "How Donating Your Car Works"
+description: "What vehicles we accept, how collection and drop off work, your tax receipt, and where the money goes when you donate your car to Kids Under Cover."
 eyebrow: Donate Your Car
 intro: Got questions? We've got answers. Here's some more information to help you with your decision to donate your car to charity.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/08/Davids-donated-car.jpg

@@ -1,8 +1,8 @@
 ---
 url: /our-impact/where-are-they-now/
 title: Where are they now?
-seoTitle: Young People Homelessness Stories - Where Are They Now
-description: One of the great pleasures of supporting young people is having the chance to revisit down the track and see how far they’ve come.
+seoTitle: "Where Are They Now? Young People's Stories"
+description: "Catch up with young people who lived in Kids Under Cover studios and hear where life has taken them since."
 eyebrow: Our impact
 intro: One of the great pleasures of supporting young people is having the chance to revisit down the track and see how far they’ve come.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/trang-1024x1024.png

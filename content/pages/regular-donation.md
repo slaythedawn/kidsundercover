@@ -1,8 +1,8 @@
 ---
 url: /regular-donation/
 title: Become a regular giver
-seoTitle: Give Monthly to Kids Under Cover | Regular Giving
-description: Support Kids Under Cover with a regular monthly donation to help provide housing and education for vulnerable young people in need.
+seoTitle: "Give Monthly | Regular Giving"
+description: "Become a regular giver. A monthly donation to Kids Under Cover gives young people at risk of homelessness stable, ongoing support. Tax deductible."
 eyebrow: Give monthly
 intro: There are many impactful ways to support the work we do at Kids Under Cover, and a regular monthly donation is one of the most powerful.
 section: give

@@ -1,7 +1,8 @@
 ---
 url: /about/moorumbina-mongurnallin-partners/
 title: Moorumbina Mongurnallin partners
-description: The success of Moorumbina Mongurnallin and the renewed hope they provide for young people and families is all due to the many compassionate people who
+seoTitle: "Moorumbina Mongurnallin Partners"
+description: "The partners and supporters who made Moorumbina Mongurnallin possible, supported housing for First Nations young people leaving care."
 eyebrow: About us
 intro: The success of Moorumbina Mongurnallin and the renewed hope they provide for young people and families is all due to the many compassionate people who support our work.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/07/TDH_BairnsdaleKUCLaunch-5-1024x767.jpg

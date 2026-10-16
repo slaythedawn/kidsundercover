@@ -1,8 +1,8 @@
 ---
 url: /about/media-centre/
 title: News
-seoTitle: News - Kids Under Cover
-description: Explore Kids Under Cover's Media Hub for the latest updates on our work to end youth homelessness. Download press kits, images, and more to support your
+seoTitle: "Media Centre and Media Releases"
+description: "Media releases and news from Kids Under Cover on youth homelessness, our studios, Village 21 and scholarships."
 eyebrow: About us
 intro: Explore Kids Under Cover’s Media Hub for the latest updates on our work to end youth homelessness.
 heroImage: /images/studios.jpg

@@ -1,8 +1,8 @@
 ---
 url: /about/contact/
 title: Get in touch with Kids Under Cover
-seoTitle: Get in touch with Kids Under Cover - Kids Under Cover
-description: Please fill out the form below to contact the Kids Under Cover team, so we can assist you with your request. To help us respond to you as quickly as we
+seoTitle: "Contact Us"
+description: "Call Kids Under Cover on 1800 801 633 or send us a message. Find our address, email and the right team for donations, cars, studios and scholarships."
 eyebrow: Contact
 intro: Please fill out the form below to contact the Kids Under Cover team, so we can assist you with your request.
 heroImage: /images/handover.jpg

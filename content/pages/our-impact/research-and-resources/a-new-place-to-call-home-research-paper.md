@@ -1,7 +1,8 @@
 ---
 url: /our-impact/research-and-resources/a-new-place-to-call-home-research-paper/
 title: A New Place to Call Home
-description: Kids Under Cover Long-term Studio Impact Report Led by Dr Paul Stolz of Swinburne University of Technology, sought to confirm whether the long-term
+seoTitle: "A New Place to Call Home | Research"
+description: "A long-term study of the impact of Kids Under Cover studios on young people and their families, led by Dr Paul Stolz of Swinburne University."
 eyebrow: Research
 intro: Led by Dr Paul Stolz of Swinburne University of Technology, sought to confirm whether the long-term impacts of Kids Under Cover’s Studio Program aligned with the claimed benefits of the program.
 heroImage: /images/handover.jpg

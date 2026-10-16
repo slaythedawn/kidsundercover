@@ -1,8 +1,8 @@
 ---
 url: /get-involved/bequests/
 title: Make a promise for kids
-seoTitle: Bequest to Charity - Donate to Kids Under Cover
-description: Your Promise For Kids has the power to transform young lives, leaving a legacy of enduring kindness. Find out more about charitable bequests.
+seoTitle: "Leave a Gift in Your Will"
+description: "Make your Promise For Kids. Leave a gift in your will to Kids Under Cover and help young people at risk of homelessness for years to come. Free will writing."
 eyebrow: Transforming tomorrows
 intro: Your legacy can provide secure accommodation, a haven in a family's or carer's backyard, when young lives are at the brink of homelessness. Your support can fuel scholarships, ensuring that education isn't a distant dream.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/bequests-transparent-montage-min-972x1024.png

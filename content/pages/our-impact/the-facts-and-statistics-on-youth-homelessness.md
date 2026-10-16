@@ -1,8 +1,8 @@
 ---
 url: /our-impact/the-facts-and-statistics-on-youth-homelessness/
 title: "Youth Homelessness: The Facts and Stats"
-seoTitle: Youth Homelessness Australia - Stats & Facts | Kids Under Cover
-description: Discover key facts and statistics on youth homelessness in Australia. Learn more about the challenges facing young people and how we can help.
+seoTitle: "Youth Homelessness Australia: Stats and Facts"
+description: "Key facts and statistics on youth homelessness in Australia: how many young people are homeless, why, and who is most at risk. Sources from ABS and AIHW."
 eyebrow: Our impact
 intro: Key facts and statistics on youth homelessness in Australia, and the challenges facing young people.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/04/Itomic-Imagery-for-Alt-Image-Layout-1.png

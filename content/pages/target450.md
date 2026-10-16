@@ -1,6 +1,8 @@
 ---
 url: /target450/
 title: Target450
+seoTitle: "Target450 | Housing 450 More Young People"
+description: "Target450 is our vision to prevent and end youth homelessness for an additional 450 young people every night through early intervention."
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-montage-8.jpg
 heroAlt: A carer and a young woman outside a Kids Under Cover studio
 section: give

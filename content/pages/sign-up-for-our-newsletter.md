@@ -1,7 +1,8 @@
 ---
 url: /sign-up-for-our-newsletter/
 title: Sign up for our newsletter
-description:
+seoTitle: "Sign Up for Our Newsletter"
+description: "Get stories, news and ways to help young people at risk of homelessness from Kids Under Cover, straight to your inbox."
 intro: "Stay informed. Ignite change."
 heroImage: /images/mast.jpg
 heroAlt: Two women chatting over a cup of tea outside a backyard studio

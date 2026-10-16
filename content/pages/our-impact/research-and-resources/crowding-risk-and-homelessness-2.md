@@ -1,7 +1,8 @@
 ---
 url: /our-impact/research-and-resources/crowding-risk-and-homelessness-2/
 title: Crowding, Risk and Homelessness
-description: This thesis by Dr Paul Stoltz at Swinburne University examines residential crowding and the possible risk of homelessness it may pose to young people. In
+seoTitle: "Crowding, Risk and Homelessness Study"
+description: "How overcrowding at home puts young people at risk of homelessness: a study of socio-spatial relations by Dr Paul Stolz at Swinburne University."
 eyebrow: Research
 intro: This thesis by Dr Paul Stoltz at Swinburne University examines residential crowding and the possible risk of homelessness it may pose to young people.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-apply-montage.jpg

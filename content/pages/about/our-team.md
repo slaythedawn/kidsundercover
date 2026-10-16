@@ -1,8 +1,8 @@
 ---
 url: /about/our-team/
 title: Our team
-seoTitle: Our Team - Kids Under Cover
-description: The Kids Under Cover team is a dedicated group of professionals united by the shared mission of ending youth homelessness. Get to know the team.
+seoTitle: "Our Team and Board"
+description: "Meet the Kids Under Cover executive leadership team and board of directors working to prevent youth homelessness."
 eyebrow: About us
 intro: At Kids Under Cover, we recognise that diversity of thought, expertise and experience strengthens our work.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-montage-5.jpg

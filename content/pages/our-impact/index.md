@@ -1,8 +1,8 @@
 ---
 url: /our-impact/
 title: Our impact
-seoTitle: Our Impact | Kids Under Cover
-description: "Our programs are having a transformational impact on the lives of young people and their families. Find out more."
+seoTitle: "Our Impact"
+description: "How Kids Under Cover's studios, scholarships and supported housing change the lives of young people at risk of homelessness, and the research behind it."
 eyebrow: Our impact
 intro: "Our programs are having a transformational impact on the lives of young people and their families."
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-montage-7.jpg

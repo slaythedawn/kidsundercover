@@ -2,8 +2,8 @@
 # Evergreen hub: the full story, for anyone searching "donate my car" or arriving from the menu.
 url: /get-involved/donate-your-car/
 title: Donate Your Car
-seoTitle: Donate Your Car to Charity | Kids Under Cover
-description: Looking for a quick and easy way to put your pre-loved car to good use? Donate your car and help us build brighter futures. 100% tax deductible.
+seoTitle: "Donate Your Car to Charity"
+description: "Donate your car, running or not, to Kids Under Cover. 100% tax deductible, with collection arranged in 9 cities. Over $23 million raised for young people."
 eyebrow: Be the turning point
 intro: 100% tax deductible. Help fund vital programs that give young people at risk of homelessness brighter futures.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2026/07/DYC-Website-1-1024x1365.png
@@ -169,6 +169,8 @@ sections:
           We accept cars, vans, motorbikes, caravans, trucks, buses, tractors, boats on trailers, and much more. Have a different vehicle? Contact us to find out if we can accept your donation.
 
           We are able to accept vehicles that have general wear and tear, however we're unable to accept anything with significant damage, such as smashed windows, major panel damage, mould or missing parts.
+      - question: Do you offer car removal?
+        answer: Yes. Donating is an alternative to paying for car removal or selling for scrap. We arrange collection in metropolitan Melbourne, Sydney, Newcastle, Brisbane, Townsville, Adelaide, Perth, Darwin and Hobart. Read more about [car removal by donation](/car-removal/) or [car removal in Melbourne](/car-removal/melbourne/).
       - question: Can I donate a car that isn't running?
         answer: Yes. We're able to accept cars that aren't running, as long as the battery and engine are both intact and nothing has been removed from the vehicle.
       - question: Where will you collect vehicles from?

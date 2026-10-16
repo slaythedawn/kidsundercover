@@ -1,8 +1,8 @@
 ---
 url: /smart-prezzee-egift-card-terms-and-conditions/
 title: Smart Prezzee eGift Card, Terms and Conditions
-seoTitle: Smart Prezzee eGift Card - Terms and Conditions
-description: "Terms and Conditions: Where a Donor elects to deliver their donated vehicle directly to a designated auction site (a “Drop-Off”), the Donor will be"
+seoTitle: "Smart Prezzee eGift Card Terms"
+description: "Terms and conditions for the $100 Smart Prezzee eGift Card thank you when you drop off your donated car at a designated auction site."
 intro: Where a Donor elects to deliver their donated vehicle directly to a designated auction site (a “Drop-Off”), the Donor will be eligible to receive a $100 Prezzee Smart eGift Card (the “Gift Card”), subject to the following conditions.
 section: legal
 cta: none

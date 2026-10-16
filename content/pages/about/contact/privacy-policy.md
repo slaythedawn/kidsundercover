@@ -1,7 +1,8 @@
 ---
 url: /about/contact/privacy-policy/
 title: Privacy Policy
-description: Kids Under Cover Privacy Policy Last Updated January 2019 1. Our commitment to you Kids Under Cover ABN 76 604 592 013 (KUC) provides a range of products Kids Under Cover Privacy Policy
+seoTitle: "Privacy Policy"
+description: "How Kids Under Cover collects, uses, stores and protects your personal information, and how to contact us about your privacy."
 intro: Last updated January 2019.
 section: legal
 cta: none

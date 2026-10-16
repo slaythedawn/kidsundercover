@@ -1,8 +1,8 @@
 ---
 url: /about/
 title: About
-seoTitle: Children Charity Australia | About
-description: Kids Under Cover is a not-for-profit organisation driven by the belief that no young person in our community should face homelessness.
+seoTitle: "About Us | Youth Homelessness Charity"
+description: "Kids Under Cover is an Australian not-for-profit preventing youth homelessness since 1989, with backyard studios, scholarships and supported housing."
 eyebrow: No young person in our community chooses to be homeless
 intro: The Australian Bureau of Statistic’s 2021 Census reported that nearly a quarter (23%) of Australia’s homeless population (28,204) are aged 12-24 years.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/about-young-person-smiling.jpg

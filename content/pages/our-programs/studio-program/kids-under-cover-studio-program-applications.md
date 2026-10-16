@@ -1,7 +1,8 @@
 ---
 url: /our-programs/studio-program/kids-under-cover-studio-program-applications/
 title: Kids Under Cover Studio Program Applications
-description: How to apply for a Kids Under Cover Studio If you are a young person at risk of homelessness, or someone who cares for one, you will need to contact a
+seoTitle: "How to Apply for a Studio"
+description: "Studios are applied for by a support worker or community service organisation. Who is eligible, what it costs and how to submit an expression of interest."
 eyebrow: Studio Program
 intro: If you are a young person at risk of homelessness, or someone who cares for one, you will need to contact a Community Service Organisation who can apply for a studio on your behalf.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-apply-montage.jpg

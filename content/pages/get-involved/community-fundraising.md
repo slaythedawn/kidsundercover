@@ -1,8 +1,8 @@
 ---
 url: /get-involved/community-fundraising/
 title: Community fundraising
-seoTitle: Youth Fundraising - Ending Youth Homelessness | Kids Under Cover
-description: Join us in ending youth homelessness. Fundraising is at the heart of what we do. It's a community effort, and you can be a crucial part of it.
+seoTitle: "Fundraise for Youth Homelessness"
+description: "Run, ride, climb or host your own event to raise money for Kids Under Cover. Get our fundraising toolkit and help build studios for young people."
 eyebrow: Get involved
 intro: In the 2021 Census, there were an estimated 45,850 children and young people, aged up to 24, experiencing homelessness.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/community-fundraise-montage-1.jpg

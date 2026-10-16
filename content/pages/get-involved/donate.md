@@ -1,8 +1,8 @@
 ---
 url: /get-involved/donate/
 title: Donate to Kids Under Cover
-seoTitle: Donate to Kids Under Cover | Help Stop Youth Homelessness
-description: Donate to Kids Under Cover and help stop youth homelessness before it starts. Give once or monthly. Every donation over $2 is tax deductible.
+seoTitle: "Donate | Tax Deductible Donation"
+description: "Make a tax deductible donation to Kids Under Cover. Give once or monthly to build studios and fund scholarships for young people at risk of homelessness."
 eyebrow: Donate
 intro: Without the support of like-minded people, we could not continue to pursue our vision to stop youth homelessness before it starts.
 section: give

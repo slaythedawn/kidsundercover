@@ -1,8 +1,8 @@
 ---
 url: /our-impact/publications/
 title: Publications
-seoTitle: Undercover News, Reports & Research Papers | Kids Under Cover
-description: Explore Kids Under Cover's publications for insights on supporting young people. Access reports and research on preventing youth homelessness and more.
+seoTitle: "Annual Reports and Publications"
+description: "Kids Under Cover's annual reports, impact statements, strategic plan, Reconciliation Action Plan, research papers and Undercover News, in one place."
 eyebrow: Our impact
 heroImage: https://www.kuc.org.au/wp-content/uploads/2026/06/Screenshot-2026-06-12-123743-300x233.png
 heroAlt: Cover of the Kids Under Cover Strategic Plan 2026

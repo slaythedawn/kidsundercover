@@ -1,8 +1,8 @@
 ---
 url: /silent_auction/
 title: Silent Auction
-seoTitle: Give an Lifelong Gift - Donate to Kids Under Cover
-description: Support Kids Under Cover with a donation to help provide housing and education for vulnerable young people in need.
+seoTitle: "Silent Auction Payment"
+description: "Pay for your Kids Under Cover silent auction item online."
 eyebrow: Congratulations on winning the silent auction!
 intro: Please note, this is not a tax deductible donation.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2023/07/MicrosoftTeams-image-16.jpg

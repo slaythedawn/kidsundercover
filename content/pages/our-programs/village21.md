@@ -1,8 +1,8 @@
 ---
 url: /our-programs/village21/
 title: Youth Supported Accommodation & Transitional Housing
-seoTitle: Youth Supported Accommodation & Transitional Housing | Village 21
-description: Village 21 provides a combination of accommodation and support for young people as they transition from out-of-home care to independent living. Learn more
+seoTitle: "Village 21 | Supported Youth Housing"
+description: "Village 21 offers supported housing and live-in mentors for young people aged 18 to 21 leaving care, as they move to independent living."
 eyebrow: Village 21
 intro: Village 21 provides a combination of accommodation and support for young people as they transition from out-of-home care to independent living.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/village-program-montage-1.jpg

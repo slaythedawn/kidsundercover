@@ -1,8 +1,8 @@
 ---
 url: /our-impact/research-and-resources/
 title: Research and resources
-seoTitle: Youth Homelessness Research and Resources | Kids Under Cover
-description: Find vital research and resources on youth homelessness, including causes, impacts, and solutions to support stable housing for young people.
+seoTitle: "Youth Homelessness Research"
+description: "Research on youth homelessness, overcrowding, youth justice and the impact of Kids Under Cover studios, with reports to read online and download."
 eyebrow: Our impact
 intro: The reported numbers of young people seeking support from homelessness services don’t necessarily tell the whole story.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-montage-6.jpg

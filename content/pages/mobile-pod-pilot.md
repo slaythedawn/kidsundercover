@@ -1,7 +1,8 @@
 ---
 url: /mobile-pod-pilot/
 title: Mobile Pod Pilot
-description: "The Kids Under Cover Mobile Pods Program is an accommodation solution for young people at imminent risk of homelessness or urgently needing space to leave"
+seoTitle: "Mobile Pod Pilot Program"
+description: "The Kids Under Cover Mobile Pod pilot: housing that can be deployed quickly to ease family tension and prevent homelessness or entry into care."
 eyebrow: Innovations and projects
 intro: "The Kids Under Cover Mobile Pods Program is an accommodation solution for young people at imminent risk of homelessness or urgently needing space to leave care."
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/03/Pod2-1024x1024.png

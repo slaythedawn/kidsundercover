@@ -1,8 +1,8 @@
 ---
 url: /our-programs/village21preston/
 title: Village 21 Preston
-seoTitle: Village 21 Preston | Kids Under Cover
-description: Village 21 Preston is a first-of-its-kind accommodation and support program developed by Kids Under Cover in partnership with Anglicare Victoria.
+seoTitle: "Village 21 Preston"
+description: "Village 21 Preston, our first Village 21, gives young people leaving care supported housing and live-in mentors, in partnership with Anglicare Victoria."
 eyebrow: Village 21
 intro: Village 21 Preston is a first-of-its-kind accommodation and support program developed by Kids Under Cover in partnership with Anglicare Victoria.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/07/220817-125212q10-1024x682.jpg

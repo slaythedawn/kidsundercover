@@ -1,6 +1,8 @@
 ---
 url: /about/contact/terms-and-conditions/
 title: Terms and Conditions
+seoTitle: "Terms and Conditions"
+description: "The terms and conditions for using the Kids Under Cover website and making donations."
 intro: Welcome to our website. If you continue to browse and use this website, you are agreeing to comply with and be bound by the following terms and conditions of use.
 section: legal
 cta: none

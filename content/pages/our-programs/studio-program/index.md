@@ -1,8 +1,8 @@
 ---
 url: /our-programs/studio-program/
 title: Studio Program
-seoTitle: Youth Housing Programs | Studio Program - Kids Under Cover
-description: The Kids Under Cover Studio Program provides accommodation for young people 12-25 at risk of youth homelessness in backyards of families and carers.
+seoTitle: "Studio Program | Backyard Studios for Youth"
+description: "Kids Under Cover builds one and two bedroom backyard studios, with a bathroom, so young people at risk of homelessness can stay close to family."
 eyebrow: Our work
 intro: We build one or two-bedroom studios (with bathroom) in the backyards of homes to assist carers in need of more room to accommodate young people in their care.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-montage-0.jpg

@@ -1,8 +1,8 @@
 ---
 url: /about/our-story/
 title: Our Story
-seoTitle: Preventing Youth Homelessness in Australia | Kids Under Cover
-description: An Australian not-for-profit dedicated to preventing youth homelessness with a commitment to providing safe housing for young people.
+seoTitle: "Our Story | Preventing Youth Homelessness"
+description: "Founded in 1989 by Ken Morgan, Kids Under Cover builds studios and funds scholarships so young people at risk of homelessness can stay close to home."
 eyebrow: About us
 intro: Kids Under Cover is a not-for-profit organisation dedicated to preventing and ending youth homelessness that was founded in 1989 by businessman and philanthropist, Ken Morgan AO.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-montage-4.jpg

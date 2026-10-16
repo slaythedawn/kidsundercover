@@ -4,8 +4,8 @@
 url: /get-involved/donate-your-car/their-new-beginning/
 title: Your car.
 titleAccent: Their new beginning.
-seoTitle: "Your car. Their new beginning. | Donate Your Car | Kids Under Cover"
-description: Your old car can help a young person at risk of homelessness stay connected to education, family and community.
+seoTitle: "Your Car. Their New Beginning."
+description: "Your old car can help a young person at risk of homelessness stay connected to education, family and community. See how a donated car becomes a home."
 eyebrow: Donate Your Car
 intro: The sale of your car can help deliver and expand our studio and scholarship programs, helping a young person stay connected to education, family and community.
 heroImage: /images/mast.jpg

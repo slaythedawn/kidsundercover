@@ -1,7 +1,8 @@
 ---
 url: /our-programs/scholarships/ken-lenka-morgan-scholarship/
 title: Ken & Lenka Morgan Scholarship
-description: Learn about the Ken & Lenka Morgan Scholarship by Kids Under Cover, offering financial support to help students achieve their educational and career goals.
+seoTitle: "Ken and Lenka Morgan Scholarship"
+description: "The Ken and Lenka Morgan Scholarship gives up to $5,000 to help a young person pursue their personal, educational and career goals. How to apply."
 eyebrow: Scholarships
 intro: The Ken and Lenka Morgan Scholarship pays tribute to Kids Under Cover’s founder, Ken Morgan, and acknowledges Lenka Morgan, a pivotal contributor to our mission since the organisation’s inception in 1989.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/ken-lenka-montage.jpg

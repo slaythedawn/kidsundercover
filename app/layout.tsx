@@ -3,12 +3,15 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MobileDonateBar from "@/components/MobileDonateBar";
+import { JsonLd, organisation, website } from "@/lib/schema";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.kuc.org.au"),
-  title: { default: "Kids Under Cover | Stop youth homelessness before it starts", template: "%s | Kids Under Cover" },
+  title: { default: "Kids Under Cover | Youth Homelessness Charity Australia", template: "%s | Kids Under Cover" },
   description:
-    "Kids Under Cover builds studios and funds education that keep young people close to family, school and community, before crisis hits.",
+    "Kids Under Cover is an Australian charity stopping youth homelessness before it starts, with backyard studios and scholarships that keep young people close to family and school.",
+  openGraph: { siteName: "Kids Under Cover", locale: "en_AU", type: "website", images: ["/images/mast.jpg"] },
+  twitter: { card: "summary_large_image" },
 };
 
 export const viewport: Viewport = {
@@ -31,6 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body>
+        <JsonLd data={[organisation(), website()]} />
         <Header />
         <main id="main">{children}</main>
         <Footer />

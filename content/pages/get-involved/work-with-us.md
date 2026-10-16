@@ -1,8 +1,8 @@
 ---
 url: /get-involved/work-with-us/
 title: Work with us
-seoTitle: Charity Volunteering & Career Opportunities | Kids Under Cover
-description: Our unique programs provide a wonderful opportunity to make a real difference in the lives of young people. Work with Kids Under Cover, apply today!
+seoTitle: "Work With Us | Careers"
+description: "Current jobs at Kids Under Cover, and what it's like to work with a team preventing youth homelessness."
 eyebrow: Get involved
 intro: "At Kids Under Cover, our work is driven by a clear purpose: to stop youth homelessness before it starts."
 heroImage: /images/handover.jpg

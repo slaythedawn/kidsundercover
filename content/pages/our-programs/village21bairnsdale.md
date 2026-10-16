@@ -1,8 +1,8 @@
 ---
 url: /our-programs/village21bairnsdale/
 title: Village 21 Bairnsdale
-seoTitle: Village21 Bairnsdale | Kids Under Cover
-description: Village 21 Bairnsdale is a supported housing program developed by Kids Under Cover in partnership with GEGAC, extending the Village 21 model to East Gippsland.
+seoTitle: "Village 21 Bairnsdale"
+description: "Village 21 Bairnsdale is supported housing for young people leaving care in East Gippsland, developed by Kids Under Cover with GEGAC."
 eyebrow: Village 21
 intro: Village 21 Bairnsdale is a supported housing program developed by Kids Under Cover in partnership with GEGAC, extending the Village 21 model to East Gippsland.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2026/07/TD03091-1024x767.jpg

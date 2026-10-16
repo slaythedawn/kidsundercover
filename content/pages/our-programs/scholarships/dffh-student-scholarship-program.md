@@ -1,8 +1,8 @@
 ---
 url: /our-programs/scholarships/dffh-student-scholarship-program/
 title: Department of Families, Fairness and Housing Student Scholarships
-seoTitle: DFFH Student Scholarship Program - Kids Under Cover
-description: Explore the DFFH Student Scholarship Program, offering financial support to help students achieve their educational aspirations.
+seoTitle: "DFFH Student Scholarship Program"
+description: "The DFFH Student Scholarship Program helps at-risk young people continue their education to Years 11 and 12 or TAFE. Eligibility, key dates and how to apply."
 eyebrow: Scholarships
 intro: Kids Under Cover is proud to administer the Department of Families, Fairness and Housing (DFFH) Student Scholarship Program.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/scholarships-montage.jpg

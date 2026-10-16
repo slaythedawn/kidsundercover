@@ -26,6 +26,7 @@ import StorySidebar from "@/components/page/StorySidebar";
 import FormBlock from "@/components/page/FormBlock";
 import type { Crumb } from "@/components/page/Breadcrumbs";
 import { media } from "@/lib/media";
+import { JsonLd, person as personSchema, report, service } from "@/lib/schema";
 import s from "./page.module.css";
 
 type Params = { slug: string[] };
@@ -43,7 +44,9 @@ const urlOf = (slug: string[]) => "/" + slug.map(decodeURIComponent).join("/") +
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
   const entry = getEntry(urlOf((await params).slug));
   if (!entry) return {};
-  const title = entry.kind === "team" ? entry.name : entry.kind === "page" ? entry.seoTitle ?? entry.title : entry.title;
+  // The layout's template adds " | Kids Under Cover"; drop it from titles that already carry the brand.
+  const raw = entry.kind === "team" ? `${entry.name}${entry.role ? `, ${entry.role}` : ""}` : entry.kind === "page" ? entry.seoTitle ?? entry.title : entry.title;
+  const title = raw.replace(/\s*[|\-]\s*Kids Under Cover\s*$/i, "");
   const image = entry.kind === "story" ? entry.image : entry.kind === "page" ? entry.heroImage : entry.image;
   const description = entry.description ?? (entry.kind === "story" ? entry.excerpt : entry.kind === "page" ? entry.intro : entry.role);
   return {
@@ -51,7 +54,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
     description,
     alternates: { canonical: entry.url },
     robots: entry.kind === "page" && entry.noindex ? { index: false, follow: true } : undefined,
-    openGraph: { title, description, images: image ? [image] : undefined, type: entry.kind === "story" ? "article" : "website" },
+    openGraph: { title, description, images: image ? [media(image)!.src] : undefined, type: entry.kind === "story" ? "article" : "website" },
   };
 }
 
@@ -185,6 +188,20 @@ function ContentPage({ page }: { page: PageEntry }) {
       {related.length > 0 && <CardGrid title="Keep exploring" cards={related.map(pageCard)} />}
 
       {page.cta !== "none" && page.sections?.at(-1)?.type !== "ask" && <DonateBand cta={page.cta} />}
+
+      {/^\/our-impact\/research-and-resources\/.+/.test(page.url) && (
+        <JsonLd data={report({ title: page.title, description: page.description, url: page.url, image: page.heroImage && media(page.heroImage)!.src })} />
+      )}
+      {page.url.startsWith("/car-removal/") && (
+        <JsonLd
+          data={service({
+            name: page.title,
+            description: page.description,
+            url: page.url,
+            areas: ["Melbourne", "Sydney", "Newcastle", "Brisbane", "Townsville", "Adelaide", "Perth", "Darwin", "Hobart"],
+          })}
+        />
+      )}
     </>
   );
 }
@@ -258,6 +275,7 @@ function TeamPage({ person }: { person: TeamEntry }) {
         cards={team().filter((t) => t.url !== person.url).slice(0, 4).map((t) => ({ title: t.name, href: t.url, image: t.image, text: t.role }))}
         more={{ label: "Whole team", href: links.ourTeam }}
       />
+      <JsonLd data={personSchema({ name: person.name, role: person.role, url: person.url, image: person.image && media(person.image)!.src })} />
       <DonateBand cta="donate" />
     </>
   );

@@ -1,8 +1,8 @@
 ---
 url: /get-involved/
 title: Get involved
-seoTitle: Support Homeless Youth - Get Involved with Kids Under Cover
-description: Join Kids Under Cover in the fight against youth homelessness. Discover how you can contribute through donations, volunteering, fundraising and more.
+seoTitle: "Ways to Give | Support Homeless Youth"
+description: "Donate, give monthly, donate your car, leave a gift in your will, fundraise or partner with Kids Under Cover to help young people stay close to home."
 eyebrow: Strength in numbers
 intro: We're always so heartened by the diversity of support we receive from the community, who clearly believe in our vision and the relief we are providing for families.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/corporate-montage-3.jpg

@@ -1,7 +1,8 @@
 ---
 url: /about/contact/kids-under-cover-charitable-status-and-tax-information/
 title: Kids Under Cover Charitable Status and Tax Information
-description: Learn about Kids Under Cover's charitable status and access tax information to support your contributions. Helping you give with confidence.
+seoTitle: "Charitable Status, ABN and Tax Information"
+description: "Kids Under Cover's ABN, ACNC registration, Public Benevolent Institution and DGR status, and how to give safely. Donations over $2 are tax deductible."
 eyebrow: About us
 intro: Kids Under Cover is registered as an ‘Other Incorporated Entity’ by the Australian Business Register.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-montage-4.jpg

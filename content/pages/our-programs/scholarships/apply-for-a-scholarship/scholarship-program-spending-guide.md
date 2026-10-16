@@ -1,7 +1,8 @@
 ---
 url: /our-programs/scholarships/apply-for-a-scholarship/scholarship-program-spending-guide/
 title: Scholarship Program spending guide
-description: A guide to spending your scholarship Please ensure you keep all your receipts or financial statements for each purchase and upload these to Kids Under
+seoTitle: "Scholarship Spending Guide"
+description: "What you can and can't spend your Kids Under Cover scholarship on, and how to keep and upload your receipts."
 eyebrow: Scholarships
 intro: Please ensure you keep all your receipts or financial statements for each purchase and upload these to Kids Under Cover’s online portal.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-montage-6.jpg

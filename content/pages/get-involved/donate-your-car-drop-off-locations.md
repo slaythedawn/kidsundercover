@@ -1,8 +1,8 @@
 ---
 url: /get-involved/donate-your-car-drop-off-locations/
 title: Donate Your Car Drop-Off Locations
-seoTitle: Donate Your Car to Charity | Kids Under Cover
-description: Looking for a quick and easy way to put your pre-loved car to good use? Donate your car and help us build brighter futures. 100% tax deductible.
+seoTitle: "Car Donation Drop Off Locations"
+description: "Drop your donated car at a Manheim auction site near you and receive a $100 eGift Card. Addresses and opening hours for every drop off location."
 eyebrow: Donate your car
 intro: If your vehicle is safe and driveable, you can drop it off at a designated auction site, we'll thank you with a $100 Prezzee eGift Card, redeemable at the following retailers, Uber, Didi, Coles, Woolworths, Ampol, Shell and JB Hi-Fi.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2020/10/DYC-hand-with-cloud-car-BANNER_KB.jpg

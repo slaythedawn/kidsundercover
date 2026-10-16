@@ -1,8 +1,8 @@
 ---
 url: /our-programs/moorumbina-mongurnallin/
 title: Moorumbina Mongurnallin
-seoTitle: Moorumbina Mongurnallin | Kids Under Cover
-description: Moorumbina Mongurnallin is the first Independent Living model specifically adapted to the needs of Aboriginal and Torres Strait Islander young people.
+seoTitle: "Moorumbina Mongurnallin Youth Housing"
+description: "Moorumbina Mongurnallin is supported independent living for First Nations young people leaving care, developed with VACCA, Anglicare Victoria and DFFH."
 eyebrow: Village 21
 intro: ‘You are Loved’ in local Bunurong language.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/07/MM-banner-1024x768.png

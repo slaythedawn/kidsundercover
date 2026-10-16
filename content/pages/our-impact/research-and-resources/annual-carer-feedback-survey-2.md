@@ -1,7 +1,8 @@
 ---
 url: /our-impact/research-and-resources/annual-carer-feedback-survey-2/
 title: Annual Carer Feedback Survey
-description: "Studio Program Evaluation: Seeking Carers' feedback to ensure we're meeting the needs of families Our most recent impact survey was conducted by research"
+seoTitle: "Annual Carer Feedback Survey"
+description: "What carers tell us about life with a Kids Under Cover studio: findings from our Studio Program impact survey of families and carers."
 eyebrow: Research
 intro: Our most recent impact survey was conducted by research consultancy, RFI Global who asked 144 carers to share their experiences with the young person in their care before and after receiving a Kids Under Cover studio or scholarship.
 heroImage: /images/pair.jpg

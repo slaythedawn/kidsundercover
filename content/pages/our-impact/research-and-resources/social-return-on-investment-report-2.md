@@ -1,7 +1,8 @@
 ---
 url: /our-impact/research-and-resources/social-return-on-investment-report-2/
 title: Social Return on Investment Report
-description: Solving the intractable problem of homelessness. This report by Ernst & Young report shows early intervention interrupts new generation of potential
+seoTitle: "Social Return on Investment Report"
+description: "Ernst & Young's Social Return on Investment report on Kids Under Cover's Studio Program and the value it creates for young people and the community."
 eyebrow: Research
 intro: Solving the intractable problem of homelessness. This report by Ernst & Young report shows early intervention interrupts new generation of potential rough sleepers.
 heroImage: /images/studios.jpg

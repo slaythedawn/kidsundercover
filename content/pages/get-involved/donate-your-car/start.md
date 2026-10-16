@@ -4,8 +4,8 @@
 # doesn't compete with the hub.
 url: /get-involved/donate-your-car/start/
 title: Donate your car today
-seoTitle: Start Your Car Donation | Kids Under Cover
-description: Donate your car to Kids Under Cover. 100% tax deductible, collection arranged, running or not.
+seoTitle: "Start Your Car Donation"
+description: "Donate your car to Kids Under Cover. 100% tax deductible, collection arranged, running or not. Tell us about your car and we'll do the rest."
 eyebrow: Donate Your Car
 intro: 100% tax deductible. Help fund vital programs that give young people at risk of homelessness brighter futures.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2026/03/Mustang-1.png

@@ -1,8 +1,8 @@
 ---
 url: /about/our-story/ken-morgan-kuc-founder/
 title: About our Founder
-seoTitle: About our Founder - Kids Under Cover
-description: Discover the inspiring story of Ken Morgan, founder of Kids Under Cover, and his vision to support vulnerable youth.
+seoTitle: "Ken Morgan, Our Founder"
+description: "The story of Ken Morgan, the businessman and philanthropist who founded Kids Under Cover in 1989 to help young people at risk of homelessness."
 eyebrow: Our story
 intro: Kids Under Cover is an Australian not-for-profit organisation that has been dedicated to preventing youth homelessness since its inception in 1989.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/01/Ken-and-Lenka-compressed-1.jpg

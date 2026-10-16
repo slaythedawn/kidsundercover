@@ -1,8 +1,8 @@
 ---
 url: /our-programs/scholarships/apply-for-a-scholarship/
 title: Kids Under Cover Scholarships
-seoTitle: Kids Under Cover Scholarships - Kids Under Cover
-description: Applications for 2026 are now closed. Scholarships that keep young people learning At Kids Under Cover, we know that safe and stable housing is only part
+seoTitle: "Apply for a Scholarship"
+description: "Who can apply for a Kids Under Cover scholarship, what it can be used for, and how to apply, with answers to common questions."
 eyebrow: Scholarships
 intro: At Kids Under Cover, we know that safe and stable housing is only part of the solution.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/about-montage-4.jpg
