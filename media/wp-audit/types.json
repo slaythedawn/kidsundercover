@@ -1,0 +1,96 @@
+{
+ "types": {
+  "post": {
+   "name": "Posts",
+   "rest_base": "posts",
+   "taxonomies": [
+    "category",
+    "post_tag"
+   ]
+  },
+  "page": {
+   "name": "Pages",
+   "rest_base": "pages",
+   "taxonomies": []
+  },
+  "attachment": {
+   "name": "Media",
+   "rest_base": "media",
+   "taxonomies": []
+  },
+  "nav_menu_item": {
+   "name": "Navigation Menu Items",
+   "rest_base": "menu-items",
+   "taxonomies": [
+    "nav_menu"
+   ]
+  },
+  "wp_block": {
+   "name": "Patterns",
+   "rest_base": "blocks",
+   "taxonomies": [
+    "wp_pattern_category"
+   ]
+  },
+  "wp_template": {
+   "name": "Templates",
+   "rest_base": "templates",
+   "taxonomies": []
+  },
+  "wp_template_part": {
+   "name": "Template Parts",
+   "rest_base": "template-parts",
+   "taxonomies": []
+  },
+  "wp_global_styles": {
+   "name": "Global Styles",
+   "rest_base": "global-styles",
+   "taxonomies": []
+  },
+  "wp_navigation": {
+   "name": "Navigation Menus",
+   "rest_base": "navigation",
+   "taxonomies": []
+  },
+  "wp_font_family": {
+   "name": "Font Families",
+   "rest_base": "font-families",
+   "taxonomies": []
+  },
+  "wp_font_face": {
+   "name": "Font Faces",
+   "rest_base": "font-families/(?P<font_family_id>[\\d]+)/font-faces",
+   "taxonomies": []
+  }
+ },
+ "taxonomies": {
+  "category": {
+   "name": "Categories",
+   "rest_base": "categories",
+   "types": [
+    "post"
+   ]
+  },
+  "post_tag": {
+   "name": "Tags",
+   "rest_base": "tags",
+   "types": [
+    "post"
+   ]
+  },
+  "nav_menu": {
+   "name": "Navigation Menus",
+   "rest_base": "menus",
+   "types": [
+    "nav_menu_item"
+   ]
+  },
+  "wp_pattern_category": {
+   "name": "Pattern Categories",
+   "rest_base": "wp_pattern_category",
+   "types": [
+    "wp_block"
+   ]
+  }
+ }
+}

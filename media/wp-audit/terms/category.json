@@ -1,0 +1,110 @@
+[
+ {
+  "id": 35,
+  "count": 0,
+  "description": "",
+  "link": "https://www.kuc.org.au/category/au/",
+  "name": "au",
+  "slug": "au",
+  "parent": 0
+ },
+ {
+  "id": 62,
+  "count": 4,
+  "description": "",
+  "link": "https://www.kuc.org.au/category/case-studies/",
+  "name": "Case Studies",
+  "slug": "case-studies",
+  "parent": 0
+ },
+ {
+  "id": 57,
+  "count": 5,
+  "description": "",
+  "link": "https://www.kuc.org.au/category/dyc/",
+  "name": "DYC",
+  "slug": "dyc",
+  "parent": 0
+ },
+ {
+  "id": 7,
+  "count": 53,
+  "description": "",
+  "link": "https://www.kuc.org.au/category/news/",
+  "name": "News",
+  "slug": "news",
+  "parent": 0
+ },
+ {
+  "id": 34,
+  "count": 0,
+  "description": "",
+  "link": "https://www.kuc.org.au/category/newsletters/",
+  "name": "Newsletters",
+  "slug": "newsletters",
+  "parent": 0
+ },
+ {
+  "id": 69,
+  "count": 0,
+  "description": "",
+  "link": "https://www.kuc.org.au/category/stories/opinion/",
+  "name": "Opinion",
+  "slug": "opinion",
+  "parent": 54
+ },
+ {
+  "id": 70,
+  "count": 1,
+  "description": "",
+  "link": "https://www.kuc.org.au/category/opinion-2/",
+  "name": "Opinion",
+  "slug": "opinion-2",
+  "parent": 0
+ },
+ {
+  "id": 33,
+  "count": 0,
+  "description": "",
+  "link": "https://www.kuc.org.au/category/reports/",
+  "name": "Reports",
+  "slug": "reports",
+  "parent": 0
+ },
+ {
+  "id": 54,
+  "count": 9,
+  "description": "",
+  "link": "https://www.kuc.org.au/category/stories/",
+  "name": "Stories",
+  "slug": "stories",
+  "parent": 0
+ },
+ {
+  "id": 61,
+  "count": 1,
+  "description": "",
+  "link": "https://www.kuc.org.au/category/studio-program/",
+  "name": "Studio Program",
+  "slug": "studio-program",
+  "parent": 0
+ },
+ {
+  "id": 52,
+  "count": 1,
+  "description": "",
+  "link": "https://www.kuc.org.au/category/news/supporters/",
+  "name": "Supporters",
+  "slug": "supporters",
+  "parent": 7
+ },
+ {
+  "id": 1,
+  "count": 3,
+  "description": "",
+  "link": "https://www.kuc.org.au/category/uncategorized/",
+  "name": "Uncategorized",
+  "slug": "uncategorized",
+  "parent": 0
+ }
+]

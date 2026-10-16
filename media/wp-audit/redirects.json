@@ -1,0 +1,1306 @@
+[
+ {
+  "path": "/get-involved/donate-your-car/",
+  "status": 200
+ },
+ {
+  "path": "/",
+  "status": 200
+ },
+ {
+  "path": "/our-programs/studio-program/",
+  "status": 200
+ },
+ {
+  "path": "/our-impact/the-facts-and-statistics-on-youth-homelessness/",
+  "status": 200
+ },
+ {
+  "path": "/our-programs/village21/",
+  "status": 200
+ },
+ {
+  "path": "/about/contact/",
+  "status": 200
+ },
+ {
+  "path": "/our-programs/",
+  "status": 200
+ },
+ {
+  "path": "/target450/",
+  "status": 200
+ },
+ {
+  "path": "/our-programs/studio-program/kids-under-cover-studio-program-applications/",
+  "status": 200
+ },
+ {
+  "path": "/about/",
+  "status": 200
+ },
+ {
+  "path": "/about/our-story/",
+  "status": 200
+ },
+ {
+  "path": "/about/our-team/",
+  "status": 200
+ },
+ {
+  "path": "/our-programs/resources-for-young-people/",
+  "status": 200
+ },
+ {
+  "path": "/our-programs/scholarships/",
+  "status": 200
+ },
+ {
+  "path": "/get-involved/work-with-us/",
+  "status": 200
+ },
+ {
+  "path": "/our-programs/scholarships/apply-for-a-scholarship/",
+  "status": 200
+ },
+ {
+  "path": "/our-programs/scholarships/dffh-student-scholarship-program/",
+  "status": 200
+ },
+ {
+  "path": "/stories/",
+  "status": 200
+ },
+ {
+  "path": "/our-programs/moorumbina-mongurnallin/",
+  "status": 200
+ },
+ {
+  "path": "/get-involved/",
+  "status": 200
+ },
+ {
+  "path": "/get-involved/donate/",
+  "status": 301,
+  "location": "https://donatenow.kuc.org.au/futures-for-kids/donate?utm_source=website&utm_medium=redirect&utm_campaign=eocy25"
+ },
+ {
+  "path": "/kids-under-cover-scholarship-spending-guide/",
+  "status": 200
+ },
+ {
+  "path": "/mobile-pod-pilot/",
+  "status": 200
+ },
+ {
+  "path": "/about/our-supporters/",
+  "status": 200
+ },
+ {
+  "path": "/about/contact/thank-you/",
+  "status": 200
+ },
+ {
+  "path": "/get-involved/donate-your-car/thank-you/",
+  "status": 301,
+  "location": "https://www.kuc.org.au/about/contact/thank-you/"
+ },
+ {
+  "path": "/our-impact/publications/",
+  "status": 200
+ },
+ {
+  "path": "/our-programs/village21preston/",
+  "status": 200
+ },
+ {
+  "path": "/our-impact/research-and-resources/",
+  "status": 200
+ },
+ {
+  "path": "/404.html",
+  "status": 404
+ },
+ {
+  "path": "/get-involved/corporate-business-partnerships/",
+  "status": 200
+ },
+ {
+  "path": "/our-impact/",
+  "status": 200
+ },
+ {
+  "path": "/team/stephen-nash/",
+  "status": 200
+ },
+ {
+  "path": "/get-involved/donate-your-car/faqs/",
+  "status": 404
+ },
+ {
+  "path": "/get-involved/community-fundraising/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/a-first-of-its-kind-housing-project-in-frankston-will-provide-much-needed-supported-accommodation-for-first-nations-youth-leaving-care/",
+  "status": 200
+ },
+ {
+  "path": "/get-involved/donate-your-car-drop-off-locations/",
+  "status": 200
+ },
+ {
+  "path": "/tax-savings-an-added-bonus-when-ross-donated-his-leaf/",
+  "status": 200
+ },
+ {
+  "path": "/about/media-centre/",
+  "status": 200
+ },
+ {
+  "path": "/our-programs/scholarships/ken-lenka-morgan-scholarship/",
+  "status": 200
+ },
+ {
+  "path": "/about/our-story/ken-morgan-kuc-founder/",
+  "status": 200
+ },
+ {
+  "path": "/daniels-flaming-suzuki-has-gone-the-extra-mile-for-fundraising/",
+  "status": 200
+ },
+ {
+  "path": "/about-us-2/",
+  "status": 301,
+  "location": "/about"
+ },
+ {
+  "path": "/the-drive-to-give/",
+  "status": 200
+ },
+ {
+  "path": "/our-impact/where-are-they-now/",
+  "status": 200
+ },
+ {
+  "path": "/team/keith-waters/",
+  "status": 200
+ },
+ {
+  "path": "/our-programs/scholarships/sarah-davies-empowering-women-scholarship/",
+  "status": 200
+ },
+ {
+  "path": "/our-programs/resources-for-carers/",
+  "status": 200
+ },
+ {
+  "path": "/hectors-new-journey-a-story-of-donation-and-legacy/",
+  "status": 200
+ },
+ {
+  "path": "/get-involved/bequests/",
+  "status": 200
+ },
+ {
+  "path": "/get-involved/donate/thank-you/",
+  "status": 200
+ },
+ {
+  "path": "/team/jasmin-lesniak/",
+  "status": 200
+ },
+ {
+  "path": "/paiges-story/",
+  "status": 200
+ },
+ {
+  "path": "/what-we-do/",
+  "status": 301,
+  "location": "/our-programs/"
+ },
+ {
+  "path": "/about/contact/kids-under-cover-charitable-status-and-tax-information/",
+  "status": 200
+ },
+ {
+  "path": "/kids-under-cover-2024-eofy-tax-appeal/",
+  "status": 200
+ },
+ {
+  "path": "/understanding-overcrowding-liams-story/",
+  "status": 200
+ },
+ {
+  "path": "/generous-mr-fix-it-donates-his-ninth-car-to-kids-under-cover/",
+  "status": 200
+ },
+ {
+  "path": "/team/toby-hemming/",
+  "status": 404
+ },
+ {
+  "path": "/wheels-of-change/",
+  "status": 200
+ },
+ {
+  "path": "/donate-your-car-test-page/",
+  "status": 200
+ },
+ {
+  "path": "/team/clare-gleghorn/",
+  "status": 200
+ },
+ {
+  "path": "/the-art-of-altruism/",
+  "status": 200
+ },
+ {
+  "path": "/terms-conditions/",
+  "status": 200
+ },
+ {
+  "path": "/our-impact/research-and-resources/annual-carer-feedback-survey-2/",
+  "status": 200
+ },
+ {
+  "path": "/regular-donation/",
+  "status": 200
+ },
+ {
+  "path": "/team/brett-comer/",
+  "status": 200
+ },
+ {
+  "path": "/studio-program-helps-launch-medical-career-jesses-story/",
+  "status": 200
+ },
+ {
+  "path": "/sign-up-for-our-newsletter/",
+  "status": 200
+ },
+ {
+  "path": "/team/julia-griffith-psm/",
+  "status": 200
+ },
+ {
+  "path": "/stories/page/2/",
+  "status": 200
+ },
+ {
+  "path": "/counting-the-cost/",
+  "status": 200
+ },
+ {
+  "path": "/team/joe-corera-cpa/",
+  "status": 200
+ },
+ {
+  "path": "/team/christopher-cramond/",
+  "status": 200
+ },
+ {
+  "path": "/team/nathaniel-popelianski/",
+  "status": 200
+ },
+ {
+  "path": "/privacy-feedback/",
+  "status": 200
+ },
+ {
+  "path": "/team/kara-briggs/",
+  "status": 404
+ },
+ {
+  "path": "/our-impact/research-and-resources/social-return-on-investment-report-2/",
+  "status": 200
+ },
+ {
+  "path": "/sweet-relief-i-cant-imagine-life-without-it/",
+  "status": 200
+ },
+ {
+  "path": "/through-grief-and-growth/",
+  "status": 200
+ },
+ {
+  "path": "/our-impact/research-and-resources/crowding-risk-and-homelessness-2/",
+  "status": 200
+ },
+ {
+  "path": "/get-involved/volunteering-opportunities/",
+  "status": 404
+ },
+ {
+  "path": "/about/contact/terms-and-conditions/",
+  "status": 200
+ },
+ {
+  "path": "/stories/page/3/",
+  "status": 200
+ },
+ {
+  "path": "/from-inner-strength-to-advocacy/",
+  "status": 200
+ },
+ {
+  "path": "/you-beaut-someones-donated-a-ute/",
+  "status": 200
+ },
+ {
+  "path": "/our-programs/village21bairnsdale/",
+  "status": 200
+ },
+ {
+  "path": "/our-impact/research-and-resources/a-new-place-to-call-home-research-paper/",
+  "status": 200
+ },
+ {
+  "path": "/get-involved-2/donate-your-car-2/",
+  "status": 301,
+  "location": "/get-involved/donate-your-car"
+ },
+ {
+  "path": "/team/joshua-bruni/",
+  "status": 200
+ },
+ {
+  "path": "/a-mustang-with-heart-tarquins-incredible-donation/",
+  "status": 200
+ },
+ {
+  "path": "/what-we-do/how-we-help/",
+  "status": 301,
+  "location": "/our-programs"
+ },
+ {
+  "path": "/sign-up-for-our-newsletter/thank-you/",
+  "status": 200
+ },
+ {
+  "path": "/friendships-instead-of-fighting-finding-a-new-freedom-in-south-australia/",
+  "status": 200
+ },
+ {
+  "path": "/team/melissa-singer/",
+  "status": 200
+ },
+ {
+  "path": "/still-going-strong/",
+  "status": 200
+ },
+ {
+  "path": "/library/",
+  "status": 404
+ },
+ {
+  "path": "/jade_story/",
+  "status": 200
+ },
+ {
+  "path": "/stories/page/4/",
+  "status": 200
+ },
+ {
+  "path": "/team/jo-reilly/",
+  "status": 200
+ },
+ {
+  "path": "/stories/page/6/",
+  "status": 200
+ },
+ {
+  "path": "/return-to-give/",
+  "status": 200
+ },
+ {
+  "path": "/a-measure-of-success/",
+  "status": 404
+ },
+ {
+  "path": "/a-successful-pilot/",
+  "status": 200
+ },
+ {
+  "path": "/village-life/",
+  "status": 200
+ },
+ {
+  "path": "/include-a-gift-in-your-will-for-charity-week/",
+  "status": 200
+ },
+ {
+  "path": "/lynton-and-lisa-embracing-change-2/",
+  "status": 200
+ },
+ {
+  "path": "/a-national-homelessness-plan-needs-a-sharpened-focus-on-our-youth/",
+  "status": 200
+ },
+ {
+  "path": "/wp-content/uploads/2022/12/KUC-Annual-Report-2022.pdf",
+  "status": 404
+ },
+ {
+  "path": "/about-us/contact-us/",
+  "status": 404
+ },
+ {
+  "path": "/donate-your-car-towing-contributions/",
+  "status": 200
+ },
+ {
+  "path": "/the-world-at-her-feet/",
+  "status": 200
+ },
+ {
+  "path": "/a-donation-of-a-different-kind/",
+  "status": 200
+ },
+ {
+  "path": "/what-we-do/how-we-help/scholarship-programs/sarah-davies-scholarship/",
+  "status": 404
+ },
+ {
+  "path": "/library/youth-homelessness-the-facts/",
+  "status": 301,
+  "location": "/our-impact/the-facts-and-statistics-on-youth-homelessness/"
+ },
+ {
+  "path": "/about/contact/privacy-policy/",
+  "status": 200
+ },
+ {
+  "path": "/category/stories/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/kids-under-cover-launches-reconciliation-action-plan/",
+  "status": 200
+ },
+ {
+  "path": "/mobile-pod-welcome-pack/",
+  "status": 200
+ },
+ {
+  "path": "/team-category/board-of-directors/",
+  "status": 200
+ },
+ {
+  "path": "/stories/page/5/",
+  "status": 200
+ },
+ {
+  "path": "/donate-button/",
+  "status": 301,
+  "location": "https://donatenow.kuc.org.au/general/donate"
+ },
+ {
+  "path": "/about-us-2/contact-us/",
+  "status": 301,
+  "location": "/about/contact/"
+ },
+ {
+  "path": "/cjs-journey/",
+  "status": 200
+ },
+ {
+  "path": "/learn-more-about-us/",
+  "status": 200
+ },
+ {
+  "path": "/tag/kids-under-cover/",
+  "status": 200
+ },
+ {
+  "path": "/partners/",
+  "status": 301,
+  "location": "https://www.kuc.org.au/about/our-supporters/"
+ },
+ {
+  "path": "/media-release/media-release-new-approach-needed-to-end-shocking-youth-homelessness-numbers/",
+  "status": 200
+ },
+ {
+  "path": "/about/media-centre/page/2/",
+  "status": 200
+ },
+ {
+  "path": "/nanas-car-leaves-a-lasting-legacy/",
+  "status": 200
+ },
+ {
+  "path": "/sarahs-story/",
+  "status": 200
+ },
+ {
+  "path": "/category/case-studies/",
+  "status": 200
+ },
+ {
+  "path": "/remembering-ken-morgan/",
+  "status": 200
+ },
+ {
+  "path": "/homelessness-week-2020/",
+  "status": 200
+ },
+ {
+  "path": "/get-support/",
+  "status": 301,
+  "location": "/our-programs"
+ },
+ {
+  "path": "/team-category/executive-leadership-team/",
+  "status": 200
+ },
+ {
+  "path": "/vale-ken-morgan-oam/",
+  "status": 200
+ },
+ {
+  "path": "/jb-theyve-done-it-again/",
+  "status": 200
+ },
+ {
+  "path": "/category/news/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/village-21-has-been-granted-a-huge-investment/",
+  "status": 200
+ },
+ {
+  "path": "/about/moorumbina-mongurnallin-partners/",
+  "status": 200
+ },
+ {
+  "path": "/daniels-flaming-suzuki-has-gone-the-extra-mile-for-fundraising-2/",
+  "status": 301,
+  "location": "https://www.kuc.org.au/daniels-flaming-suzuki-has-gone-the-extra-mile-for-fundraising/"
+ },
+ {
+  "path": "/get-involved/donate-your-car-ato/",
+  "status": 301,
+  "location": "/get-involved/donate-your-car"
+ },
+ {
+  "path": "/meeting-junior/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/kids-under-cover-featured-in-parity-magazine/",
+  "status": 200
+ },
+ {
+  "path": "/shooting-hoops-for-the-prevention-of-youth-homelessness/",
+  "status": 200
+ },
+ {
+  "path": "/team/chloe-strachan/",
+  "status": 200
+ },
+ {
+  "path": "/page/2/",
+  "status": 200
+ },
+ {
+  "path": "/charity-lunch-goes-virtual/",
+  "status": 200
+ },
+ {
+  "path": "/jacinta-hollys-story/",
+  "status": 200
+ },
+ {
+  "path": "/maureens-story/",
+  "status": 200
+ },
+ {
+  "path": "/our-impact/research-and-resources/giving-them-a-chance/",
+  "status": 200
+ },
+ {
+  "path": "/shaylees-story/",
+  "status": 200
+ },
+ {
+  "path": "/1000th-studio/",
+  "status": 301,
+  "location": "https://www.kuc.org.au/news/our-1000th-studio/"
+ },
+ {
+  "path": "/MelbourneCentralTower",
+  "status": 404
+ },
+ {
+  "path": "/about-us/",
+  "status": 404
+ },
+ {
+  "path": "/partner-donations/",
+  "status": 200
+ },
+ {
+  "path": "/people-of-kids-under-cover-derek-layfield/",
+  "status": 200
+ },
+ {
+  "path": "/silent_auction/",
+  "status": 200
+ },
+ {
+  "path": "/nurturing-independence-at-village-21/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/community-groups/",
+  "status": 200
+ },
+ {
+  "path": "/tag/2022/",
+  "status": 200
+ },
+ {
+  "path": "/category/uncategorized/",
+  "status": 200
+ },
+ {
+  "path": "/category/news/page/2/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/youth-homelessness-matters-day-what-is-takes-to-prevent-youth-homelessness/",
+  "status": 200
+ },
+ {
+  "path": "/kids-under-cover-giving-day-faqs/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/kids-under-cover-to-begin-preventing-youth-homelessness-in-south-australia/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/safe-housing-key-to-reducing-youth-justice-involvement-new-report-finds/",
+  "status": 200
+ },
+ {
+  "path": "/category/news/supporters/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/our-1000th-studio/",
+  "status": 200
+ },
+ {
+  "path": "/our-board/",
+  "status": 301,
+  "location": "/about/our-team"
+ },
+ {
+  "path": "/together-again/",
+  "status": 200
+ },
+ {
+  "path": "/get-involved/donate-your-car-2/",
+  "status": 404
+ },
+ {
+  "path": "/atora-games-fundraiser/",
+  "status": 200
+ },
+ {
+  "path": "/fostering-hope/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/new-ceo-joins-fight-against-youth-homelessness/",
+  "status": 200
+ },
+ {
+  "path": "/breathing-space/",
+  "status": 200
+ },
+ {
+  "path": "/category/dyc/",
+  "status": 200
+ },
+ {
+  "path": "/a-new-place-to-call-home/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/kids-under-cover-update/",
+  "status": 200
+ },
+ {
+  "path": "/back-on-track/",
+  "status": 200
+ },
+ {
+  "path": "/rebuildingbrokenbonds/",
+  "status": 200
+ },
+ {
+  "path": "/get-involved/make-a-donation/",
+  "status": 301,
+  "location": "/get-involved/donate"
+ },
+ {
+  "path": "/media-release/ceo-message-spring-2022/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/page/2/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/cultural-connection-at-the-heart-of-new-housing-project-for-young-people-leaving-out-of-home-care-national-indigenous-times/",
+  "status": 200
+ },
+ {
+  "path": "/space-to-shine/",
+  "status": 200
+ },
+ {
+  "path": "/category/studio-program/",
+  "status": 200
+ },
+ {
+  "path": "/finding-her-balance/",
+  "status": 200
+ },
+ {
+  "path": "/lizs-story/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/impact-survey-results-2021/",
+  "status": 200
+ },
+ {
+  "path": "/village-21-launch/",
+  "status": 404
+ },
+ {
+  "path": "/category/news/page/3/",
+  "status": 200
+ },
+ {
+  "path": "/for-sail/",
+  "status": 200
+ },
+ {
+  "path": "/get-involved/donate-old-page/",
+  "status": 404
+ },
+ {
+  "path": "/get-involved/fundraise-for-us/",
+  "status": 301,
+  "location": "/get-involved/community-fundraising"
+ },
+ {
+  "path": "/media-release/the-launch-of-village-21-in-preston/",
+  "status": 200
+ },
+ {
+  "path": "/get-support/how-to-apply-for-a-studio/",
+  "status": 301,
+  "location": "/our-programs/studio-program/kids-under-cover-studio-program-applications"
+ },
+ {
+  "path": "/gpt-group-flower-auction-530-collins/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/kids-under-cover-wholeheartedly-supports-a-first-nations-voice-to-parliament/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/your-impact/",
+  "status": 200
+ },
+ {
+  "path": "/what-we-do/who-we-help/",
+  "status": 301,
+  "location": "/our-programs/studio-program/"
+ },
+ {
+  "path": "/about-homelessness/homelessness-the-data",
+  "status": 301,
+  "location": "/our-impact/research-and-resources/"
+ },
+ {
+  "path": "/get-involved/business-partnerships/",
+  "status": 301,
+  "location": "https://www.kuc.org.au/get-involved/corporate-business-partnerships/"
+ },
+ {
+  "path": "/media-release/",
+  "status": 200
+ },
+ {
+  "path": "/trangs-story/",
+  "status": 200
+ },
+ {
+  "path": "/category/news/page/5/",
+  "status": 200
+ },
+ {
+  "path": "/elaine-forde/",
+  "status": 200
+ },
+ {
+  "path": "/get-involved/donate-/",
+  "status": 200
+ },
+ {
+  "path": "/2020/02/",
+  "status": 200
+ },
+ {
+  "path": "/from-studio-to-physio/",
+  "status": 200
+ },
+ {
+  "path": "/lincolns-story/",
+  "status": 200
+ },
+ {
+  "path": "/privacywhistleblowingfeedback/",
+  "status": 301,
+  "location": "/about/contact/privacy-policy/"
+ },
+ {
+  "path": "/smart-prezzee-egift-card-terms-and-conditions/",
+  "status": 200
+ },
+ {
+  "path": "/workplace-giving/",
+  "status": 404
+ },
+ {
+  "path": "/2019/11/",
+  "status": 200
+ },
+ {
+  "path": "/2020/05/",
+  "status": 200
+ },
+ {
+  "path": "/a-great-grand-mothers-gift/",
+  "status": 200
+ },
+ {
+  "path": "/leaps-and-bounds/",
+  "status": 200
+ },
+ {
+  "path": "/liams-story/",
+  "status": 301,
+  "location": "https://www.kuc.org.au/understanding-overcrowding-liams-story/"
+ },
+ {
+  "path": "/media-release/ceo-message-autumn-2022/",
+  "status": 200
+ },
+ {
+  "path": "/2023/09/",
+  "status": 200
+ },
+ {
+  "path": "/changing-lives/",
+  "status": 200
+ },
+ {
+  "path": "/get-involved/donate-your-car-/",
+  "status": 200
+ },
+ {
+  "path": "/justice-funding/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/children-becoming-homeless-as-housing-crisis-bites-the-standard/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/new-victorian-government-partnership/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/this-new-facility-is-helping-blak-youths-transition-from-out-of-home-care/",
+  "status": 200
+ },
+ {
+  "path": "/opinion-youth-homelessness-prevention-is-child-protection-in-action/",
+  "status": 200
+ },
+ {
+  "path": "/type/quote/",
+  "status": 200
+ },
+ {
+  "path": "/what-we-do/impact-community-benefit/",
+  "status": 404
+ },
+ {
+  "path": "/media-release/kids-under-cover-wins-victorian-homelessness-achievement-award/",
+  "status": 200
+ },
+ {
+  "path": "/our-programs/scholarships/apply-for-a-scholarship/scholarship-program-spending-guide/",
+  "status": 200
+ },
+ {
+  "path": "/page/3/",
+  "status": 200
+ },
+ {
+  "path": "/what-we-do/how-we-help/scholarship-programs/dffh-student-scholarships-program/",
+  "status": 301,
+  "location": "/our-programs/scholarships/dffh-student-scholarship-program/"
+ },
+ {
+  "path": "/about/media-centre/page/3/",
+  "status": 200
+ },
+ {
+  "path": "/dorothy-and-tillys-story/",
+  "status": 200
+ },
+ {
+  "path": "/ford-mustang/",
+  "status": 200
+ },
+ {
+  "path": "/page/1/",
+  "status": 301,
+  "location": "https://www.kuc.org.au/"
+ },
+ {
+  "path": "/welcome-shaynna-and-sabina/",
+  "status": 200
+ },
+ {
+  "path": "/2021/07/",
+  "status": 200
+ },
+ {
+  "path": "/2022/07/",
+  "status": 200
+ },
+ {
+  "path": "/2023/04/",
+  "status": 200
+ },
+ {
+  "path": "/additional-resources-for-educational-support/",
+  "status": 200
+ },
+ {
+  "path": "/christmas",
+  "status": 302,
+  "location": "/get-involved/donate"
+ },
+ {
+  "path": "/get-support/how-to-get-education-or-training-support/",
+  "status": 404
+ },
+ {
+  "path": "/get-support/kids-under-cover-scholarships-2/spending-guide/",
+  "status": 404
+ },
+ {
+  "path": "/our-programs/barinsdale/",
+  "status": 404
+ },
+ {
+  "path": "/tag/sarah-davies/",
+  "status": 200
+ },
+ {
+  "path": "/wp-content/uploads/2023/05/2024-Staff-Information-Pack.docx",
+  "status": 404
+ },
+ {
+  "path": "/2020/10/",
+  "status": 200
+ },
+ {
+  "path": "/2021/11/",
+  "status": 200
+ },
+ {
+  "path": "/nicole-and-graces-story/",
+  "status": 200
+ },
+ {
+  "path": "/page/11/",
+  "status": 200
+ },
+ {
+  "path": "/page/5/",
+  "status": 200
+ },
+ {
+  "path": "/the-art-of-altruism",
+  "status": 301,
+  "location": "https://www.kuc.org.au/the-art-of-altruism/"
+ },
+ {
+  "path": "/the-call-for-a-collaborative-vision-to-address-youth-homelessness/",
+  "status": 200
+ },
+ {
+  "path": "/2021/04/",
+  "status": 200
+ },
+ {
+  "path": "/2023/08/",
+  "status": 200
+ },
+ {
+  "path": "/bequests-2/",
+  "status": 200
+ },
+ {
+  "path": "/careers/",
+  "status": 301,
+  "location": "/get-involved/work-with-us"
+ },
+ {
+  "path": "/homelessness-week-2021/",
+  "status": 200
+ },
+ {
+  "path": "/media-release/ceo-message-spring-2021/",
+  "status": 200
+ },
+ {
+  "path": "/sandis-story/",
+  "status": 200
+ },
+ {
+  "path": "/wp-content/uploads/2021/10/ATO-Valuation-Terms-and-Conditions-FINAL.pdf",
+  "status": 404
+ },
+ {
+  "path": "/home-2-2-2/",
+  "status": 404
+ },
+ {
+  "path": "/library/making-a-difference/",
+  "status": 404
+ },
+ {
+  "path": "/media-release/kids-under-cover-appoints-new-chair/",
+  "status": 200
+ },
+ {
+  "path": "/tag/south-australia/",
+  "status": 200
+ },
+ {
+  "path": "/category/news/page/4/",
+  "status": 200
+ },
+ {
+  "path": "/get-involved/faqs/",
+  "status": 200
+ },
+ {
+  "path": "/get-involved/garage-sale/",
+  "status": 404
+ },
+ {
+  "path": "/info",
+  "status": 404
+ },
+ {
+  "path": "/media-release/ceo-message-autumn-2021/",
+  "status": 200
+ },
+ {
+  "path": "/naha/",
+  "status": 404
+ },
+ {
+  "path": "/news/tag/kids-under-cover/",
+  "status": 301,
+  "location": "https://www.kuc.org.au/tag/kids-under-cover/"
+ },
+ {
+  "path": "/2019-milly/",
+  "status": 301,
+  "location": "https://www.kuc.org.au/2020-milly/"
+ },
+ {
+  "path": "/2021/09/",
+  "status": 200
+ },
+ {
+  "path": "/contact-us",
+  "status": 404
+ },
+ {
+  "path": "/enough-space-to-stay/",
+  "status": 200
+ },
+ {
+  "path": "/forty-fundraising-ideas/",
+  "status": 404
+ },
+ {
+  "path": "/library/publications/social-return-on-investment-overview/",
+  "status": 404
+ },
+ {
+  "path": "/what-we-do/how-we-help/studio-program/",
+  "status": 301,
+  "location": "/our-programs/studio-program"
+ },
+ {
+  "path": "/2022/05/",
+  "status": 200
+ },
+ {
+  "path": "/contact-us.html",
+  "status": 404
+ },
+ {
+  "path": "/get-involved/donate-your-car",
+  "status": 301,
+  "location": "https://www.kuc.org.au/get-involved/donate-your-car/"
+ },
+ {
+  "path": "/more-than-just-space/",
+  "status": 200
+ },
+ {
+  "path": "/news/category/news/",
+  "status": 301,
+  "location": "https://www.kuc.org.au/category/news/"
+ },
+ {
+  "path": "/news/page/3/",
+  "status": 301,
+  "location": "https://www.kuc.org.au/page/3/"
+ },
+ {
+  "path": "/scholarship-delivers-distinction/",
+  "status": 404
+ },
+ {
+  "path": "/what-we-do/how-we-help/scholarship-programs/",
+  "status": 301,
+  "location": "/our-programs/scholarships"
+ },
+ {
+  "path": "/wp-content/uploads/2016/03/ACNCCharityRegisterSummary.pdf",
+  "status": 404
+ },
+ {
+  "path": "/get-involved/cubby-house-challenge-2017/results-and-award-winners/",
+  "status": 404
+ },
+ {
+  "path": "/get-involved/cubby-house-challenge-2017/volunteer/",
+  "status": 404
+ },
+ {
+  "path": "/get-involved/donate-your-car/general-information",
+  "status": 404
+ },
+ {
+  "path": "/get-involved/please-give-to-our-christmas-appeal/",
+  "status": 404
+ },
+ {
+  "path": "/get-involved/winter-appeal/",
+  "status": 301,
+  "location": "/get-involved"
+ },
+ {
+  "path": "/library/tessas-story/",
+  "status": 404
+ },
+ {
+  "path": "/lynton-and-lisa-embracing-change-2",
+  "status": 301,
+  "location": "https://www.kuc.org.au/lynton-and-lisa-embracing-change-2/"
+ },
+ {
+  "path": "/news/2022/12/",
+  "status": 301,
+  "location": "https://www.kuc.org.au/2022/12/"
+ },
+ {
+  "path": "/overcrowding-and-homelessness/",
+  "status": 301,
+  "location": "/our-impact/research-and-resources/"
+ },
+ {
+  "path": "/partners/philanthropic-supporters/",
+  "status": 301,
+  "location": "https://www.kuc.org.au/partners/"
+ },
+ {
+  "path": "/team/clare-cleghorn/",
+  "status": 301,
+  "location": "https://www.kuc.org.au/team/clare-gleghorn/"
+ },
+ {
+  "path": "/what-we-do/who-we-help/trang-story/",
+  "status": 301,
+  "location": "/trangs-story/"
+ },
+ {
+  "path": "/about-homelessness",
+  "status": 404
+ },
+ {
+  "path": "/get-involved/city2sea/",
+  "status": 404
+ },
+ {
+  "path": "/get-involved/cubby-house-challenge/",
+  "status": 301,
+  "location": "/get-involved"
+ },
+ {
+  "path": "/get-involved/donate-your-car/for",
+  "status": 404
+ },
+ {
+  "path": "/our-programs/scholarships/dffhstudent-scholarship-program/",
+  "status": 404
+ },
+ {
+  "path": "/partners-2/",
+  "status": 301,
+  "location": "https://www.kuc.org.au/partners/"
+ },
+ {
+  "path": "/partners/government-support/",
+  "status": 404
+ },
+ {
+  "path": "/sitemap/",
+  "status": 404
+ },
+ {
+  "path": "/tag/news/",
+  "status": 200
+ },
+ {
+  "path": "/team/adam-walsh/",
+  "status": 404
+ },
+ {
+  "path": "/wp-content/uploads/2016/04/ATO_IncmTaxExmptNotfctn_KUCJun2000.pdf",
+  "status": 404
+ }
+]

@@ -1,0 +1,2357 @@
+{
+ "generated": "2026-10-16T23:26:21.307Z",
+ "authenticated": false,
+ "restNamespaces": [
+  "oembed/1.0",
+  "litespeed/v1",
+  "litespeed/v3",
+  "adsagent/v1",
+  "redirection/v1",
+  "wordfence-login-security/v1",
+  "wordfence/v1",
+  "yoast/v1",
+  "duplicate-post/v1",
+  "monsterinsights/v1",
+  "wp-mail-smtp/setup-wizard/v1",
+  "google-site-kit/v1",
+  "wp/v2",
+  "wp-site-health/v1",
+  "wp-block-editor/v1",
+  "wp-abilities/v1"
+ ],
+ "content": {
+  "post": {
+   "publish": 73
+  },
+  "page": {
+   "publish": 78
+  },
+  "wp_block": {}
+ },
+ "authors": [],
+ "comments": 0,
+ "sitemapUrls": 184,
+ "crawled": 194,
+ "crawlErrors": [
+  {
+   "url": "https://www.kuc.org.au/corporate-collective-impact/"
+  },
+  {
+   "url": "https://www.kuc.org.au/volunteer-week-leannes-story/"
+  },
+  {
+   "url": "https://www.kuc.org.au/stress-space-and-school-life-before-and-after-a-studio/"
+  },
+  {
+   "url": "https://www.kuc.org.au/a-new-life-in-the-law/"
+  }
+ ],
+ "plugins": [
+  [
+   "easy-fancybox",
+   186
+  ],
+  [
+   "google-analytics-for-wordpress",
+   186
+  ],
+  [
+   "responsive-video-embeds",
+   10
+  ],
+  [
+   "gravityforms",
+   3
+  ]
+ ],
+ "themes": [
+  [
+   "kidsundercover",
+   186
+  ]
+ ],
+ "scriptHosts": [
+  [
+   "www.googletagmanager.com",
+   186
+  ],
+  [
+   "ajax.googleapis.com",
+   186
+  ],
+  [
+   "js.stripe.com",
+   186
+  ],
+  [
+   "connect.kuc.org.au",
+   186
+  ],
+  [
+   "unpkg.com",
+   186
+  ],
+  [
+   "cdnjs.cloudflare.com",
+   186
+  ],
+  [
+   "cdn.raisely.com",
+   186
+  ]
+ ],
+ "trackingIds": {
+  "gtm": [
+   "GTM-NJ6L8XG",
+   "GTM-KPMZ4JM"
+  ],
+  "ga4": [
+   "G-JFF1V7SQJJ",
+   "G-7PC84FGF0J"
+  ],
+  "ua": [
+   "UA-91053368-30",
+   "UA-61683903-1"
+  ],
+  "googleAds": [],
+  "metaPixel": [
+   "1831766414291468",
+   "720310691496734"
+  ],
+  "hotjar": [
+   "1853845"
+  ],
+  "linkedin": [],
+  "tiktok": [],
+  "recaptcha": [
+   false,
+   true
+  ],
+  "monsterinsights": [
+   true,
+   false
+  ]
+ },
+ "forms": [
+  {
+   "plugin": "Gravity Forms",
+   "id": "gform_3",
+   "action": "https://www.kuc.org.au/sign-up-for-our-newsletter/",
+   "fields": [
+    {
+     "tag": "input",
+     "type": "text",
+     "name": "input_4",
+     "required": false
+    },
+    {
+     "tag": "input",
+     "type": "text",
+     "name": "input_2.3",
+     "required": true
+    },
+    {
+     "tag": "input",
+     "type": "text",
+     "name": "input_2.6",
+     "required": true
+    },
+    {
+     "tag": "input",
+     "type": "email",
+     "name": "input_1",
+     "required": true
+    },
+    {
+     "tag": "input",
+     "type": "checkbox",
+     "name": "input_3.1",
+     "required": false
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_submission_method",
+     "required": false,
+     "value": "postback"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_theme",
+     "required": false,
+     "value": "orbital"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_style_settings",
+     "required": false,
+     "value": "[]"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "is_submit_3",
+     "required": false,
+     "value": "1"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_submit",
+     "required": false,
+     "value": "3"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_currency",
+     "required": false,
+     "value": "zMhTMu5BRAIJh2Hp4BWtTjqe0vmlq8awtW8I1sWHcY0gchi5Ke31y7p0L6yWg5pbyPCZh7ZEbBTcNLOZ1tA4geb8WH1OEFLHCEUxWUXSEq1gYXU="
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_unique_id",
+     "required": false,
+     "value": ""
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "state_3",
+     "required": false,
+     "value": "WyJ7XCJnZm9ybV9zdWJtaXNzaW9uX21ldGhvZFwiOltcImFjZWYyMjJmODE0MTljZWIzOGJhZTE5MTY2ZDJjZmNhXCIsXCJmZjg1Zjg0ZjY0MTMzOTBkOGMz"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_target_page_number_3",
+     "required": false,
+     "value": "0"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_source_page_number_3",
+     "required": false,
+     "value": "1"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_field_values",
+     "required": false,
+     "value": ""
+    }
+   ],
+   "labels": [
+    "LinkedIn",
+    "First",
+    "Last",
+    "Email Address *",
+    "By providing your information, you agree to Kids Under Cover storing and handling your data and consent to receiving communications and marketing materials from us."
+   ],
+   "pages": [
+    "https://www.kuc.org.au/sign-up-for-our-newsletter/"
+   ]
+  },
+  {
+   "plugin": "Gravity Forms",
+   "id": "gform_2",
+   "action": "https://www.kuc.org.au/about/contact/",
+   "fields": [
+    {
+     "tag": "input",
+     "type": "text",
+     "name": "input_5",
+     "required": false
+    },
+    {
+     "tag": "input",
+     "type": "text",
+     "name": "input_1.3",
+     "required": true
+    },
+    {
+     "tag": "input",
+     "type": "text",
+     "name": "input_1.6",
+     "required": true
+    },
+    {
+     "tag": "input",
+     "type": "email",
+     "name": "input_2",
+     "required": true
+    },
+    {
+     "tag": "input",
+     "type": "email",
+     "name": "input_2_2",
+     "required": true
+    },
+    {
+     "tag": "select",
+     "type": "select",
+     "name": "input_4",
+     "required": true
+    },
+    {
+     "tag": "textarea",
+     "type": "textarea",
+     "name": "input_3",
+     "required": true
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_submission_method",
+     "required": false,
+     "value": "postback"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_theme",
+     "required": false,
+     "value": "orbital"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_style_settings",
+     "required": false,
+     "value": "[]"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "is_submit_2",
+     "required": false,
+     "value": "1"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_submit",
+     "required": false,
+     "value": "2"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_currency",
+     "required": false,
+     "value": "NVkI/MZFQWhJW+p/jeJ5KG0j01dtuPUoEhnzP5g0V16OmhWQZBAvlU5uoYwYqzuv/a/2kvvXwYZGItrXmt6K9HEmZZ/yQf0kpdo5AExkWPy8OuQ="
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_unique_id",
+     "required": false,
+     "value": ""
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "state_2",
+     "required": false,
+     "value": "WyJ7XCI0XCI6W1wiZWY1MWU1MTExMjQwYzY2NzFjOWZiYTkwYjQyNzNiZjlcIixcImQ1OGY4MmFhNTVlMWM1NDI0NzFmMjAwZTljYTRiM2EyXCIsXCI1Njdl"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_target_page_number_2",
+     "required": false,
+     "value": "0"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_source_page_number_2",
+     "required": false,
+     "value": "1"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_field_values",
+     "required": false,
+     "value": ""
+    }
+   ],
+   "labels": [
+    "Comments",
+    "First",
+    "Last",
+    "Enter Email",
+    "Confirm Email",
+    "I want help with... *",
+    "Comments *"
+   ],
+   "pages": [
+    "https://www.kuc.org.au/about/contact/"
+   ]
+  },
+  {
+   "plugin": "Gravity Forms",
+   "id": "gform_8",
+   "action": "https://www.kuc.org.au/target450/",
+   "fields": [
+    {
+     "tag": "input",
+     "type": "text",
+     "name": "input_1.3",
+     "required": true
+    },
+    {
+     "tag": "input",
+     "type": "text",
+     "name": "input_1.6",
+     "required": true
+    },
+    {
+     "tag": "input",
+     "type": "email",
+     "name": "input_2",
+     "required": true
+    },
+    {
+     "tag": "input",
+     "type": "email",
+     "name": "input_2_2",
+     "required": true
+    },
+    {
+     "tag": "textarea",
+     "type": "textarea",
+     "name": "input_8",
+     "required": false
+    },
+    {
+     "tag": "input",
+     "type": "checkbox",
+     "name": "input_9.1",
+     "required": false
+    },
+    {
+     "tag": "input",
+     "type": "checkbox",
+     "name": "input_9.2",
+     "required": false
+    },
+    {
+     "tag": "input",
+     "type": "checkbox",
+     "name": "input_9.3",
+     "required": false
+    },
+    {
+     "tag": "input",
+     "type": "checkbox",
+     "name": "input_9.4",
+     "required": false
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_submission_method",
+     "required": false,
+     "value": "postback"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_theme",
+     "required": false,
+     "value": "orbital"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_style_settings",
+     "required": false,
+     "value": "[]"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "is_submit_8",
+     "required": false,
+     "value": "1"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_submit",
+     "required": false,
+     "value": "8"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_currency",
+     "required": false,
+     "value": "FVw4AcoSWVE3UXiguyvq1HaR7kblETku6Ge9ApduN+eF6pVK6tKTn4vv3p1z0Z1B/SPfq7ee+dygS2Y90jdTzXwxTsp6YkfisDz/NHFL/nbr3/s="
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_unique_id",
+     "required": false,
+     "value": ""
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "state_8",
+     "required": false,
+     "value": "WyJ7XCI5LjFcIjpcIjllNDdiZDU5MzMwODI4ZDNmMDU5NzcxOWNhNDI0MDkzXCIsXCI5LjJcIjpcIjQ4MjY5OTgxODBmMjZlMDMwMzdmYTQ3OTNmNmI2MmI5"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_target_page_number_8",
+     "required": false,
+     "value": "0"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_source_page_number_8",
+     "required": false,
+     "value": "1"
+    },
+    {
+     "tag": "input",
+     "type": "hidden",
+     "name": "gform_field_values",
+     "required": false,
+     "value": ""
+    }
+   ],
+   "labels": [
+    "First",
+    "Last",
+    "Enter Email",
+    "Confirm Email",
+    "Leave a message of support",
+    "The work you're doing with Government",
+    "Kids Under Cover programs - Studios, Village 21's, Mobile Pods, Scholarships and more",
+    "Kids Under Cover fundraising efforts, including our Donate Your Car program",
+    "How I can help promote the work of Kids Under Cover"
+   ],
+   "pages": [
+    "https://www.kuc.org.au/target450/"
+   ]
+  },
+  {
+   "plugin": "Unknown",
+   "id": "",
+   "action": "https://www.canberratimes.com.au/story/8717530/children-becoming-homeless-as-housing-crisis-bites/",
+   "fields": [],
+   "labels": [],
+   "pages": [
+    "https://www.kuc.org.au/media-release/children-becoming-homeless-as-housing-crisis-bites-canberra-times/",
+    "https://www.kuc.org.au/media-release/children-becoming-homeless-as-housing-crisis-bites-canberra-times/",
+    "https://www.kuc.org.au/media-release/children-becoming-homeless-as-housing-crisis-bites-canberra-times/"
+   ]
+  }
+ ],
+ "iframes": [
+  [
+   "https://www.googletagmanager.com/ns.html?id=GTM-NJ6L8XG",
+   186
+  ],
+  [
+   "https://player.vimeo.com/video/768405772?h=3d69e55ffe&dnt=1&app_id=122963",
+   3
+  ],
+  [
+   "https://www.youtube.com/embed/QRh3gBPHmP0?feature=oembed",
+   2
+  ],
+  [
+   "https://www.youtube.com/embed/dBeka4eb0fM?feature=oembed",
+   1
+  ],
+  [
+   "https://www.youtube.com/embed/QRh3gBPHmP0",
+   1
+  ],
+  [
+   "https://offer.autograb.com.au/?api_key=3241b9d856a4400049",
+   1
+  ],
+  [
+   "https://www.youtube.com/embed/TvzWHPO2ySY?feature=oembed",
+   1
+  ],
+  [
+   "https://www.google.com/maps/d/embed?mid=1maeSNPI2tntrvxR_zCiSSjJH9x_Qa0c&ehbc=2E312F",
+   1
+  ],
+  [
+   "https://www.youtube.com/embed/-Vmt1-5dVN4",
+   1
+  ],
+  [
+   "https://strap.domain.com.au/canberra-times/masthead.html",
+   1
+  ],
+  [
+   "https://www.youtube.com/embed/pYWskHY-B-k?feature=oembed",
+   1
+  ]
+ ],
+ "videos": [
+  [
+   "player.vimeo.com/video/768405772",
+   3
+  ],
+  [
+   "youtube.com/embed/QRh3gBPHmP0",
+   3
+  ],
+  [
+   "youtube.com/embed/dBeka4eb0fM",
+   1
+  ],
+  [
+   "youtube.com/embed/utiVUX0BhVE",
+   1
+  ],
+  [
+   "youtube.com/embed/_u3-s5xQ7X0",
+   1
+  ],
+  [
+   "youtube.com/embed/TvzWHPO2ySY",
+   1
+  ],
+  [
+   "youtube.com/embed/-Vmt1-5dVN4",
+   1
+  ],
+  [
+   "youtube.com/embed/pYWskHY-B-k",
+   1
+  ]
+ ],
+ "outboundHosts": [
+  [
+   "inspiredadventures.com.au",
+   372
+  ],
+  [
+   "www.instagram.com",
+   192
+  ],
+  [
+   "www.linkedin.com",
+   189
+  ],
+  [
+   "www.facebook.com",
+   188
+  ],
+  [
+   "www.youtube.com",
+   187
+  ],
+  [
+   "www.canberratimes.com.au",
+   129
+  ],
+  [
+   "kuc.my.salesforce-sites.com",
+   17
+  ],
+  [
+   "www.gatheredhere.com.au",
+   10
+  ],
+  [
+   "www.aihw.gov.au",
+   7
+  ],
+  [
+   "virtual.macuport.com",
+   7
+  ],
+  [
+   "www.abr.business.gov.au",
+   6
+  ],
+  [
+   "www.manheim.com.au",
+   5
+  ],
+  [
+   "www.abs.gov.au",
+   5
+  ],
+  [
+   "www.humanservices.gov.au",
+   5
+  ],
+  [
+   "www.dss.gov.au",
+   5
+  ],
+  [
+   "www.ato.gov.au",
+   5
+  ],
+  [
+   "www.acnc.gov.au",
+   4
+  ],
+  [
+   "kids-under-cover.giveeasy.org",
+   3
+  ],
+  [
+   "www.australianapprenticeships.gov.au",
+   3
+  ],
+  [
+   "www.justice.vic.gov.au",
+   3
+  ],
+  [
+   "www.1800respect.org.au",
+   3
+  ],
+  [
+   "www.salvationarmy.org.au",
+   3
+  ],
+  [
+   "forms.office.com",
+   3
+  ],
+  [
+   "www.vic.gov.au",
+   3
+  ],
+  [
+   "www.agtrader.com.au",
+   3
+  ],
+  [
+   "everybodyshome.com.au",
+   2
+  ],
+  [
+   "youthhomelessnessconference.org.au",
+   2
+  ],
+  [
+   "www.youthrivevictoria.org.au",
+   2
+  ],
+  [
+   "www.westernchances.org.au",
+   2
+  ],
+  [
+   "www.chancesforchildren.com.au",
+   2
+  ],
+  [
+   "www.thesmithfamily.com.au",
+   2
+  ],
+  [
+   "www.bendigobank.com.au",
+   2
+  ],
+  [
+   "www.aief.com.au",
+   2
+  ],
+  [
+   "www.mbav.com.au",
+   2
+  ],
+  [
+   "www.education.vic.gov.au",
+   2
+  ],
+  [
+   "stateschoolsrelief.org.au",
+   2
+  ],
+  [
+   "www2.health.vic.gov.au",
+   2
+  ],
+  [
+   "treeproject.org.au",
+   2
+  ],
+  [
+   "www.lifeline.org.au",
+   2
+  ],
+  [
+   "www.blackdoginstitute.org.au",
+   2
+  ],
+  [
+   "www.health.gov.au",
+   2
+  ],
+  [
+   "1800respect.org.au",
+   2
+  ],
+  [
+   "transport.vic.gov.au",
+   2
+  ],
+  [
+   "kuc.my.site.com",
+   2
+  ],
+  [
+   "www.countrycars.com.au",
+   2
+  ],
+  [
+   "www.beevo.com.au",
+   2
+  ],
+  [
+   "twitter.com",
+   2
+  ],
+  [
+   "acm.media",
+   2
+  ],
+  [
+   "chp.org.au",
+   2
+  ],
+  [
+   "www.ortech.com.au",
+   1
+  ],
+  [
+   "solutions.jbhifi.com.au",
+   1
+  ],
+  [
+   "pubmed.ncbi.nlm.nih.gov",
+   1
+  ],
+  [
+   "www.researchgate.net",
+   1
+  ],
+  [
+   "www.coxautoinc.com.au",
+   1
+  ],
+  [
+   "humanrights.gov.au",
+   1
+  ],
+  [
+   "www.missionaustralia.com.au",
+   1
+  ],
+  [
+   "www.yfoundations.org.au",
+   1
+  ],
+  [
+   "yda.org.au",
+   1
+  ],
+  [
+   "www.pacificsecondaryscholarships.com.au",
+   1
+  ],
+  [
+   "nils.com.au",
+   1
+  ],
+  [
+   "www.humanrights.gov.au",
+   1
+  ],
+  [
+   "www.homes.vic.gov.au",
+   1
+  ],
+  [
+   "www.dffh.vic.gov.au",
+   1
+  ],
+  [
+   "benchmarkheritage.com.au",
+   1
+  ],
+  [
+   "www.aboriginalheritagecouncil.vic.gov.au",
+   1
+  ],
+  [
+   "www.bushprojects.com.au",
+   1
+  ],
+  [
+   "www.corrs.com.au",
+   1
+  ],
+  [
+   "www.frankston.vic.gov.au",
+   1
+  ],
+  [
+   "www.freedom.com.au",
+   1
+  ],
+  [
+   "www.harrishmc.com.au",
+   1
+  ],
+  [
+   "www.jbhifi.com.au",
+   1
+  ],
+  [
+   "koala.com",
+   1
+  ],
+  [
+   "www.macutex.com",
+   1
+  ],
+  [
+   "www.milliken.com",
+   1
+  ],
+  [
+   "nharchitecture.net",
+   1
+  ],
+  [
+   "www.protestengineering.com",
+   1
+  ],
+  [
+   "ratio.com.au",
+   1
+  ],
+  [
+   "www.relove.org.au",
+   1
+  ],
+  [
+   "www.sensum.com.au",
+   1
+  ],
+  [
+   "www.townplanningco.com.au",
+   1
+  ],
+  [
+   "thehomestretch.org.au",
+   1
+  ],
+  [
+   "kidshelpline.com.au",
+   1
+  ],
+  [
+   "qlife.org.au",
+   1
+  ],
+  [
+   "13yarn.org.au",
+   1
+  ],
+  [
+   "www.eheadspace.org.au",
+   1
+  ],
+  [
+   "www.beyondblue.org.au",
+   1
+  ],
+  [
+   "www.reachout.com",
+   1
+  ],
+  [
+   "www.copmi.net.au",
+   1
+  ],
+  [
+   "www.biteback.org.au",
+   1
+  ],
+  [
+   "brave4you.psy.uq.edu.au",
+   1
+  ],
+  [
+   "www.moodgym.anu.edu.au",
+   1
+  ],
+  [
+   "www.outandonline.org.au",
+   1
+  ],
+  [
+   "www.orangedoor.vic.gov.au",
+   1
+  ],
+  [
+   "youngcarersnetwork.com.au",
+   1
+  ],
+  [
+   "www.itsallright.org",
+   1
+  ],
+  [
+   "raisingchildren.net.au",
+   1
+  ],
+  [
+   "www.relationships.org.au",
+   1
+  ],
+  [
+   "www.tisnational.gov.au",
+   1
+  ],
+  [
+   "www.relayservice.gov.au",
+   1
+  ],
+  [
+   "www.disabilitygateway.gov.au",
+   1
+  ],
+  [
+   "www.education.gov.au",
+   1
+  ],
+  [
+   "www.studyassist.gov.au",
+   1
+  ],
+  [
+   "www.yourcareer.gov.au",
+   1
+  ],
+  [
+   "jobsearch.gov.au",
+   1
+  ],
+  [
+   "www.dese.gov.au",
+   1
+  ],
+  [
+   "myfuture.edu.au",
+   1
+  ],
+  [
+   "www.servicesaustralia.gov.au",
+   1
+  ],
+  [
+   "www.jobaccess.gov.au",
+   1
+  ],
+  [
+   "www.fairwork.gov.au",
+   1
+  ],
+  [
+   "www.lwb.org.au",
+   1
+  ],
+  [
+   "www.health.nsw.gov.au",
+   1
+  ],
+  [
+   "headtohealth.gov.au",
+   1
+  ],
+  [
+   "yac.net.au",
+   1
+  ],
+  [
+   "www.ncylc.org.au",
+   1
+  ],
+  [
+   "www.lawstuff.org.au",
+   1
+  ],
+  [
+   "www.legalaid.vic.gov.au",
+   1
+  ],
+  [
+   "yla.org.au",
+   1
+  ],
+  [
+   "www.networkadvertising.org",
+   1
+  ],
+  [
+   "www.google.com",
+   1
+  ],
+  [
+   "www.oaic.gov.au",
+   1
+  ],
+  [
+   "www.accc.gov.au",
+   1
+  ],
+  [
+   "www.cyber.gov.au",
+   1
+  ],
+  [
+   "www.esafety.gov.au",
+   1
+  ],
+  [
+   "content.police.vic.gov.au",
+   1
+  ],
+  [
+   "www.unitingvictas.org.au",
+   1
+  ],
+  [
+   "www.foodbank.org.au",
+   1
+  ],
+  [
+   "cisvic.org.au",
+   1
+  ],
+  [
+   "ndh.org.au",
+   1
+  ],
+  [
+   "younhttps",
+   1
+  ],
+  [
+   "goodshep.org.au",
+   1
+  ],
+  [
+   "services.dffh.vic.gov.au",
+   1
+  ],
+  [
+   "www.vinnies.org.au",
+   1
+  ],
+  [
+   "www.health.vic.gov.au",
+   1
+  ],
+  [
+   "safesteps.org.au",
+   1
+  ],
+  [
+   "www.13yarn.org.au",
+   1
+  ],
+  [
+   "www.carergateway.gov.au",
+   1
+  ],
+  [
+   "www.zoo.org.au",
+   1
+  ],
+  [
+   "museumsvictoria.com.au",
+   1
+  ],
+  [
+   "www.slv.vic.gov.au",
+   1
+  ],
+  [
+   "www.carercard.vic.gov.au",
+   1
+  ],
+  [
+   "abetterlifeforfosterkids.org.au",
+   1
+  ],
+  [
+   "www.backpacks4vickids.org.au",
+   1
+  ],
+  [
+   "www.hiasc.org.au",
+   1
+  ],
+  [
+   "www.scholarshipsforstudy.com",
+   1
+  ],
+  [
+   "au.seek.com",
+   1
+  ],
+  [
+   "www.ethicaljobs.com.au",
+   1
+  ],
+  [
+   "url.au.m.mimecastprotect.com",
+   1
+  ],
+  [
+   "www.sbs.com.au",
+   1
+  ],
+  [
+   "www.standard.net.au",
+   1
+  ],
+  [
+   "nit.com.au",
+   1
+  ],
+  [
+   "www.horsedeals.com.au",
+   1
+  ],
+  [
+   "www.braidwoodtimes.com.au",
+   1
+  ],
+  [
+   "www.crookwellgazette.com.au",
+   1
+  ],
+  [
+   "www.goulburnpost.com.au",
+   1
+  ],
+  [
+   "www.queanbeyanage.com.au",
+   1
+  ],
+  [
+   "www.yasstribune.com.au",
+   1
+  ],
+  [
+   "www.infotrack.com.au",
+   1
+  ],
+  [
+   "www.allhomes.com.au",
+   1
+  ],
+  [
+   "addirect.com.au",
+   1
+  ],
+  [
+   "www.australiancoupons.com.au",
+   1
+  ],
+  [
+   "www.mehelp.com.au",
+   1
+  ],
+  [
+   "farmersfinance.com.au",
+   1
+  ],
+  [
+   "garagesales.acmcloud.io",
+   1
+  ],
+  [
+   "www.zestapp.com.au",
+   1
+  ],
+  [
+   "housingallaustralians.org.au",
+   1
+  ],
+  [
+   "www.berrystreet.org.au",
+   1
+  ],
+  [
+   "creswickwool.com",
+   1
+  ],
+  [
+   "www.anglicarevic.org.au",
+   1
+  ],
+  [
+   "www.premier.sa.gov.au",
+   1
+  ]
+ ],
+ "files": [
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/Crowding-Risk-and-Homelessness-A-study-of-socio-spatial-Relations.pdf",
+   5
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/A-New-Place-to-Call-Home.pdf",
+   4
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/Social-Return-on-Investment-Report.pdf",
+   4
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2026/05/2026_mcgregor_giving-chance-full.pdf",
+   4
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2026/05/2026_mcgregor_giving-chance-brief.pdf",
+   4
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2025/12/KUC-2025-ANNUAL-IMPACT-STATEMENT-v2.pdf",
+   3
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2025/01/Kids-Under-Cover-Reconciliation-Action-Plan.pdf",
+   3
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2016/08/DYC-Ts-and-Cs-2016_Websiteversion2016.pdf",
+   3
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/Crowding-Risk-Homelessness-Key-Messages.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/2025-SD-Application-Form.docx",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/Essay-Hints-CM.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/2025-KLM-Application-Form.docx",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2026/06/KUC-strategic-plan-2026-v11.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2025/04/KIDS-UNDER-COVER-ANNUAL-IMPACT-STATEMENT-2024-.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/2023-Annual-Report.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/2022-Annual-Report.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/2021-Annual-Report.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/2020-Annual-Report.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/2019-Annual-Report.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/2018-Annual-Report.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/2017-Annual-Report.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/Undercover-News-Spring-2023.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/Undercover-News-Autumn-2023.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/Undercover-News-Spring-2022.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/Undercover-News-Autumn-2022.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/Undercover-News-Spring-2021.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/Undercover-News-Autumn-2021.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/Undercover-News-Spring-2020.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/Undercover-News-Autumn-2020.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/Undercover-News-Spring-2019.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/Undercover-News-Spring-2018.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/Undercover-News-Autumn-2018.pdf",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2020/04/Donate-Your-Car-donation-form.docx",
+   2
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2022/07/Crowding-Risk-and-Homelessness-KEY-MESSAGES-6.22.pdf",
+   1
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2023/09/Promise-For-Kids-information-booklet.pdf",
+   1
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/Uploading-Receipt-Instructions.pdf",
+   1
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/09/Mobile-Pod-WP-Mobile-Pod-Maintenance-Tips-DRAFT.pdf",
+   1
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/09/Mobile-Pod-WP-Important-Carers-Tips-DRAFT.pdf",
+   1
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/09/Mobile-Pod-WP-Image-Consent-Form-DRAFT.docx",
+   1
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2023/10/Direct-Debit-Service-Agreement.pdf",
+   1
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2025/07/2027-Change-of-Circumstances-Guidelines.pdf",
+   1
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2025/07/2027-Principal-or-Equivalent-Information-Pack.pdf",
+   1
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2025/07/2027-Scholarship-Handover-Terms-Conditions.pdf",
+   1
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2025/07/2027-Scholarship-Recipient-Information-Pack.pdf",
+   1
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2025/07/2027-Staff-Information-Pack.pdf",
+   1
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2024/02/Editable-invoice-template.xlsx",
+   1
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2026/09/Maintenance-Lead-PD.pdf",
+   1
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2026/09/Philanthropy-Manager-PD_Sept26.pdf",
+   1
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2021/10/Media-Release-Kids-Under-Cover-Appoints-New-CEO-October-2021.pdf",
+   1
+  ],
+  [
+   "https://www.kuc.org.au/wp-content/uploads/2023/11/Promise-For-Kids-information-booklet.pdf",
+   1
+  ]
+ ],
+ "jsonld": [
+  [
+   "BreadcrumbList",
+   187
+  ],
+  [
+   "Organization",
+   187
+  ],
+  [
+   "WebSite",
+   186
+  ],
+  [
+   "WebPage",
+   183
+  ],
+  [
+   "ImageObject",
+   92
+  ],
+  [
+   "Article",
+   69
+  ],
+  [
+   "Person",
+   69
+  ],
+  [
+   "CollectionPage",
+   4
+  ],
+  [
+   "NewsArticle",
+   1
+  ]
+ ],
+ "templates": [
+  [
+   "wp-theme-kidsundercover",
+   186
+  ],
+  [
+   "page-template-default",
+   73
+  ],
+  [
+   "page-template",
+   1
+  ],
+  [
+   "page-template-templates",
+   1
+  ],
+  [
+   "page-template-template-media-centre",
+   1
+  ],
+  [
+   "page-template-templatestemplate-media-centre-php",
+   1
+  ]
+ ],
+ "noindex": [
+  "https://www.kuc.org.au/get-involved/faqs/",
+  "https://www.kuc.org.au/get-involved/donate/thank-you/",
+  "https://www.kuc.org.au/get-involved/thank-you/",
+  "https://www.kuc.org.au/sign-up-for-our-newsletter/thank-you/",
+  "https://www.kuc.org.au/about/contact/thank-you/",
+  "https://www.kuc.org.au/gpt-group-flower-auction-530-collins/",
+  "https://www.kuc.org.au/about/contact/terms-and-conditions/",
+  "https://www.kuc.org.au/about/contact/privacy-policy/",
+  "https://www.kuc.org.au/bequests-2/"
+ ],
+ "liveRedirects": [
+  {
+   "path": "/get-involved/donate/",
+   "status": 301,
+   "location": "https://donatenow.kuc.org.au/futures-for-kids/donate?utm_source=website&utm_medium=redirect&utm_campaign=eocy25"
+  },
+  {
+   "path": "/get-involved/donate-your-car/thank-you/",
+   "status": 301,
+   "location": "https://www.kuc.org.au/about/contact/thank-you/"
+  },
+  {
+   "path": "/about-us-2/",
+   "status": 301,
+   "location": "/about"
+  },
+  {
+   "path": "/what-we-do/",
+   "status": 301,
+   "location": "/our-programs/"
+  },
+  {
+   "path": "/get-involved-2/donate-your-car-2/",
+   "status": 301,
+   "location": "/get-involved/donate-your-car"
+  },
+  {
+   "path": "/what-we-do/how-we-help/",
+   "status": 301,
+   "location": "/our-programs"
+  },
+  {
+   "path": "/library/youth-homelessness-the-facts/",
+   "status": 301,
+   "location": "/our-impact/the-facts-and-statistics-on-youth-homelessness/"
+  },
+  {
+   "path": "/donate-button/",
+   "status": 301,
+   "location": "https://donatenow.kuc.org.au/general/donate"
+  },
+  {
+   "path": "/about-us-2/contact-us/",
+   "status": 301,
+   "location": "/about/contact/"
+  },
+  {
+   "path": "/partners/",
+   "status": 301,
+   "location": "https://www.kuc.org.au/about/our-supporters/"
+  },
+  {
+   "path": "/get-support/",
+   "status": 301,
+   "location": "/our-programs"
+  },
+  {
+   "path": "/daniels-flaming-suzuki-has-gone-the-extra-mile-for-fundraising-2/",
+   "status": 301,
+   "location": "https://www.kuc.org.au/daniels-flaming-suzuki-has-gone-the-extra-mile-for-fundraising/"
+  },
+  {
+   "path": "/get-involved/donate-your-car-ato/",
+   "status": 301,
+   "location": "/get-involved/donate-your-car"
+  },
+  {
+   "path": "/1000th-studio/",
+   "status": 301,
+   "location": "https://www.kuc.org.au/news/our-1000th-studio/"
+  },
+  {
+   "path": "/our-board/",
+   "status": 301,
+   "location": "/about/our-team"
+  },
+  {
+   "path": "/get-involved/make-a-donation/",
+   "status": 301,
+   "location": "/get-involved/donate"
+  },
+  {
+   "path": "/get-involved/fundraise-for-us/",
+   "status": 301,
+   "location": "/get-involved/community-fundraising"
+  },
+  {
+   "path": "/get-support/how-to-apply-for-a-studio/",
+   "status": 301,
+   "location": "/our-programs/studio-program/kids-under-cover-studio-program-applications"
+  },
+  {
+   "path": "/what-we-do/who-we-help/",
+   "status": 301,
+   "location": "/our-programs/studio-program/"
+  },
+  {
+   "path": "/about-homelessness/homelessness-the-data",
+   "status": 301,
+   "location": "/our-impact/research-and-resources/"
+  },
+  {
+   "path": "/get-involved/business-partnerships/",
+   "status": 301,
+   "location": "https://www.kuc.org.au/get-involved/corporate-business-partnerships/"
+  },
+  {
+   "path": "/privacywhistleblowingfeedback/",
+   "status": 301,
+   "location": "/about/contact/privacy-policy/"
+  },
+  {
+   "path": "/liams-story/",
+   "status": 301,
+   "location": "https://www.kuc.org.au/understanding-overcrowding-liams-story/"
+  },
+  {
+   "path": "/what-we-do/how-we-help/scholarship-programs/dffh-student-scholarships-program/",
+   "status": 301,
+   "location": "/our-programs/scholarships/dffh-student-scholarship-program/"
+  },
+  {
+   "path": "/page/1/",
+   "status": 301,
+   "location": "https://www.kuc.org.au/"
+  },
+  {
+   "path": "/christmas",
+   "status": 302,
+   "location": "/get-involved/donate"
+  },
+  {
+   "path": "/the-art-of-altruism",
+   "status": 301,
+   "location": "https://www.kuc.org.au/the-art-of-altruism/"
+  },
+  {
+   "path": "/careers/",
+   "status": 301,
+   "location": "/get-involved/work-with-us"
+  },
+  {
+   "path": "/news/tag/kids-under-cover/",
+   "status": 301,
+   "location": "https://www.kuc.org.au/tag/kids-under-cover/"
+  },
+  {
+   "path": "/2019-milly/",
+   "status": 301,
+   "location": "https://www.kuc.org.au/2020-milly/"
+  },
+  {
+   "path": "/what-we-do/how-we-help/studio-program/",
+   "status": 301,
+   "location": "/our-programs/studio-program"
+  },
+  {
+   "path": "/get-involved/donate-your-car",
+   "status": 301,
+   "location": "https://www.kuc.org.au/get-involved/donate-your-car/"
+  },
+  {
+   "path": "/news/category/news/",
+   "status": 301,
+   "location": "https://www.kuc.org.au/category/news/"
+  },
+  {
+   "path": "/news/page/3/",
+   "status": 301,
+   "location": "https://www.kuc.org.au/page/3/"
+  },
+  {
+   "path": "/what-we-do/how-we-help/scholarship-programs/",
+   "status": 301,
+   "location": "/our-programs/scholarships"
+  },
+  {
+   "path": "/get-involved/winter-appeal/",
+   "status": 301,
+   "location": "/get-involved"
+  },
+  {
+   "path": "/lynton-and-lisa-embracing-change-2",
+   "status": 301,
+   "location": "https://www.kuc.org.au/lynton-and-lisa-embracing-change-2/"
+  },
+  {
+   "path": "/news/2022/12/",
+   "status": 301,
+   "location": "https://www.kuc.org.au/2022/12/"
+  },
+  {
+   "path": "/overcrowding-and-homelessness/",
+   "status": 301,
+   "location": "/our-impact/research-and-resources/"
+  },
+  {
+   "path": "/partners/philanthropic-supporters/",
+   "status": 301,
+   "location": "https://www.kuc.org.au/partners/"
+  },
+  {
+   "path": "/team/clare-cleghorn/",
+   "status": 301,
+   "location": "https://www.kuc.org.au/team/clare-gleghorn/"
+  },
+  {
+   "path": "/what-we-do/who-we-help/trang-story/",
+   "status": 301,
+   "location": "/trangs-story/"
+  },
+  {
+   "path": "/get-involved/cubby-house-challenge/",
+   "status": 301,
+   "location": "/get-involved"
+  },
+  {
+   "path": "/partners-2/",
+   "status": 301,
+   "location": "https://www.kuc.org.au/partners/"
+  }
+ ],
+ "liveMissing": [
+  "404 /404.html",
+  "404 /get-involved/donate-your-car/faqs/",
+  "404 /team/toby-hemming/",
+  "404 /team/kara-briggs/",
+  "404 /get-involved/volunteering-opportunities/",
+  "404 /library/",
+  "404 /a-measure-of-success/",
+  "404 /wp-content/uploads/2022/12/KUC-Annual-Report-2022.pdf",
+  "404 /about-us/contact-us/",
+  "404 /what-we-do/how-we-help/scholarship-programs/sarah-davies-scholarship/",
+  "404 /MelbourneCentralTower",
+  "404 /about-us/",
+  "404 /get-involved/donate-your-car-2/",
+  "404 /village-21-launch/",
+  "404 /get-involved/donate-old-page/",
+  "404 /workplace-giving/",
+  "404 /what-we-do/impact-community-benefit/",
+  "404 /get-support/how-to-get-education-or-training-support/",
+  "404 /get-support/kids-under-cover-scholarships-2/spending-guide/",
+  "404 /our-programs/barinsdale/",
+  "404 /wp-content/uploads/2023/05/2024-Staff-Information-Pack.docx",
+  "404 /wp-content/uploads/2021/10/ATO-Valuation-Terms-and-Conditions-FINAL.pdf",
+  "404 /home-2-2-2/",
+  "404 /library/making-a-difference/",
+  "404 /get-involved/garage-sale/",
+  "404 /info",
+  "404 /naha/",
+  "404 /contact-us",
+  "404 /forty-fundraising-ideas/",
+  "404 /library/publications/social-return-on-investment-overview/",
+  "404 /contact-us.html",
+  "404 /scholarship-delivers-distinction/",
+  "404 /wp-content/uploads/2016/03/ACNCCharityRegisterSummary.pdf",
+  "404 /get-involved/cubby-house-challenge-2017/results-and-award-winners/",
+  "404 /get-involved/cubby-house-challenge-2017/volunteer/",
+  "404 /get-involved/donate-your-car/general-information",
+  "404 /get-involved/please-give-to-our-christmas-appeal/",
+  "404 /library/tessas-story/",
+  "404 /about-homelessness",
+  "404 /get-involved/city2sea/",
+  "404 /get-involved/donate-your-car/for",
+  "404 /our-programs/scholarships/dffhstudent-scholarship-program/",
+  "404 /partners/government-support/",
+  "404 /sitemap/",
+  "404 /team/adam-walsh/",
+  "404 /wp-content/uploads/2016/04/ATO_IncmTaxExmptNotfctn_KUCJun2000.pdf"
+ ],
+ "external": [
+  {
+   "url": "https://donatenow.kuc.org.au/",
+   "status": 200,
+   "forms": 0,
+   "iframes": [],
+   "ids": {
+    "gtm": [],
+    "ga4": [],
+    "ua": [],
+    "googleAds": [],
+    "metaPixel": [],
+    "hotjar": [],
+    "linkedin": [],
+    "tiktok": [],
+    "recaptcha": false,
+    "monsterinsights": false
+   },
+   "scriptHosts": []
+  },
+  {
+   "url": "https://donatenow.kuc.org.au/2026-giving-day/donate",
+   "status": 200,
+   "forms": 0,
+   "iframes": [],
+   "ids": {
+    "gtm": [],
+    "ga4": [],
+    "ua": [],
+    "googleAds": [],
+    "metaPixel": [],
+    "hotjar": [],
+    "linkedin": [],
+    "tiktok": [],
+    "recaptcha": false,
+    "monsterinsights": false
+   },
+   "scriptHosts": []
+  },
+  {
+   "url": "https://donatenow.kuc.org.au/futures-for-kids/donate",
+   "status": 200,
+   "platform": "Giveasy",
+   "forms": 0,
+   "iframes": [],
+   "ids": {
+    "gtm": [
+     "GTM-NJ6L8XG"
+    ],
+    "ga4": [],
+    "ua": [],
+    "googleAds": [],
+    "metaPixel": [],
+    "hotjar": [],
+    "linkedin": [],
+    "tiktok": [],
+    "recaptcha": false,
+    "monsterinsights": false
+   },
+   "scriptHosts": []
+  },
+  {
+   "url": "https://donatenow.kuc.org.au/christmas/brents-story",
+   "status": 200,
+   "platform": "Giveasy",
+   "forms": 0,
+   "iframes": [],
+   "ids": {
+    "gtm": [
+     "GTM-NJ6L8XG"
+    ],
+    "ga4": [],
+    "ua": [],
+    "googleAds": [],
+    "metaPixel": [],
+    "hotjar": [],
+    "linkedin": [],
+    "tiktok": [],
+    "recaptcha": false,
+    "monsterinsights": false
+   },
+   "scriptHosts": []
+  },
+  {
+   "url": "https://donatenow.kuc.org.au/aminahs-story/donate",
+   "status": 200,
+   "platform": "Giveasy",
+   "forms": 0,
+   "iframes": [],
+   "ids": {
+    "gtm": [
+     "GTM-NJ6L8XG"
+    ],
+    "ga4": [
+     "G-JFF1V7SQJJ"
+    ],
+    "ua": [],
+    "googleAds": [],
+    "metaPixel": [],
+    "hotjar": [],
+    "linkedin": [],
+    "tiktok": [],
+    "recaptcha": false,
+    "monsterinsights": false
+   },
+   "scriptHosts": []
+  },
+  {
+   "url": "https://donatenow.kuc.org.au/big-build-4-kids-2025/donate",
+   "status": 200,
+   "platform": "Giveasy",
+   "forms": 0,
+   "iframes": [],
+   "ids": {
+    "gtm": [
+     "GTM-NJ6L8XG"
+    ],
+    "ga4": [
+     "G-JFF1V7SQJJ"
+    ],
+    "ua": [],
+    "googleAds": [],
+    "metaPixel": [],
+    "hotjar": [],
+    "linkedin": [],
+    "tiktok": [],
+    "recaptcha": false,
+    "monsterinsights": false
+   },
+   "scriptHosts": []
+  },
+  {
+   "url": "https://kids-under-cover.giveeasy.org/",
+   "status": 429,
+   "scriptHosts": []
+  },
+  {
+   "url": "https://connect.kuc.org.au/",
+   "status": 200,
+   "platform": "Salesforce",
+   "angular": "angular.js/1.6.5/angular.min.js",
+   "forms": 4,
+   "iframes": [
+    "https://www.googletagmanager.com/ns.html?id=GTM-NJ6L8XG",
+    "https://5435816.fls.doubleclick.net/activityi;src=5435816;type=conve0;cat=makea0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord='%20+%20a%20+%20'?",
+    "https://5435816.fls.doubleclick.net/activityi;src=5435816;type=conve0;cat=makea0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?"
+   ],
+   "ids": {
+    "gtm": [
+     "GTM-NJ6L8XG"
+    ],
+    "ga4": [
+     "G-GVKD1BWKW6"
+    ],
+    "ua": [
+     "UA-18089342-1"
+    ],
+    "googleAds": [],
+    "metaPixel": [
+     "299709124079278"
+    ],
+    "hotjar": [],
+    "linkedin": [],
+    "tiktok": [],
+    "recaptcha": true,
+    "monsterinsights": false
+   },
+   "scriptHosts": [
+    "www.googletagmanager.com",
+    "cdnjs.cloudflare.com",
+    "maps.googleapis.com"
+   ]
+  },
+  {
+   "url": "https://connect.kuc.org.au/donateyourcar",
+   "status": 200,
+   "platform": "Salesforce",
+   "angular": "angular.js/1.6.5/angular.min.js",
+   "forms": 4,
+   "iframes": [
+    "https://www.googletagmanager.com/ns.html?id=GTM-NJ6L8XG",
+    "https://5435816.fls.doubleclick.net/activityi;src=5435816;type=conve0;cat=makea0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord='%20+%20a%20+%20'?",
+    "https://5435816.fls.doubleclick.net/activityi;src=5435816;type=conve0;cat=makea0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?"
+   ],
+   "ids": {
+    "gtm": [
+     "GTM-NJ6L8XG"
+    ],
+    "ga4": [
+     "G-GVKD1BWKW6"
+    ],
+    "ua": [
+     "UA-18089342-1"
+    ],
+    "googleAds": [],
+    "metaPixel": [
+     "299709124079278"
+    ],
+    "hotjar": [],
+    "linkedin": [],
+    "tiktok": [],
+    "recaptcha": true,
+    "monsterinsights": false
+   },
+   "scriptHosts": [
+    "www.googletagmanager.com",
+    "cdnjs.cloudflare.com",
+    "maps.googleapis.com"
+   ]
+  },
+  {
+   "url": "https://kuc.my.salesforce-sites.com/Donateyourcar",
+   "status": 200,
+   "platform": "Salesforce",
+   "angular": "angular.js/1.6.5/angular.min.js",
+   "forms": 4,
+   "iframes": [
+    "https://www.googletagmanager.com/ns.html?id=GTM-NJ6L8XG",
+    "https://5435816.fls.doubleclick.net/activityi;src=5435816;type=conve0;cat=makea0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord='%20+%20a%20+%20'?",
+    "https://5435816.fls.doubleclick.net/activityi;src=5435816;type=conve0;cat=makea0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?"
+   ],
+   "ids": {
+    "gtm": [
+     "GTM-NJ6L8XG"
+    ],
+    "ga4": [
+     "G-GVKD1BWKW6"
+    ],
+    "ua": [
+     "UA-18089342-1"
+    ],
+    "googleAds": [],
+    "metaPixel": [
+     "299709124079278"
+    ],
+    "hotjar": [],
+    "linkedin": [],
+    "tiktok": [],
+    "recaptcha": true,
+    "monsterinsights": false
+   },
+   "scriptHosts": [
+    "www.googletagmanager.com",
+    "cdnjs.cloudflare.com",
+    "maps.googleapis.com"
+   ]
+  },
+  {
+   "url": "https://kuc.my.salesforce-sites.com/",
+   "status": 200,
+   "platform": "Salesforce",
+   "angular": "angular.js/1.6.5/angular.min.js",
+   "forms": 4,
+   "iframes": [
+    "https://www.googletagmanager.com/ns.html?id=GTM-NJ6L8XG",
+    "https://5435816.fls.doubleclick.net/activityi;src=5435816;type=conve0;cat=makea0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord='%20+%20a%20+%20'?",
+    "https://5435816.fls.doubleclick.net/activityi;src=5435816;type=conve0;cat=makea0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?"
+   ],
+   "ids": {
+    "gtm": [
+     "GTM-NJ6L8XG"
+    ],
+    "ga4": [
+     "G-GVKD1BWKW6"
+    ],
+    "ua": [
+     "UA-18089342-1"
+    ],
+    "googleAds": [],
+    "metaPixel": [
+     "299709124079278"
+    ],
+    "hotjar": [],
+    "linkedin": [],
+    "tiktok": [],
+    "recaptcha": true,
+    "monsterinsights": false
+   },
+   "scriptHosts": [
+    "www.googletagmanager.com",
+    "cdnjs.cloudflare.com",
+    "maps.googleapis.com"
+   ]
+  },
+  {
+   "url": "https://kuc.my.site.com/portal/s/login/",
+   "status": 200,
+   "platform": "Salesforce",
+   "forms": 0,
+   "iframes": [],
+   "ids": {
+    "gtm": [],
+    "ga4": [],
+    "ua": [],
+    "googleAds": [],
+    "metaPixel": [],
+    "hotjar": [],
+    "linkedin": [],
+    "tiktok": [],
+    "recaptcha": false,
+    "monsterinsights": false
+   },
+   "scriptHosts": []
+  },
+  {
+   "url": "https://cubbyhousechallenge.org.au/",
+   "status": 200,
+   "finalUrl": "https://www.kuc.org.au/get-involved/",
+   "platform": "Giveasy",
+   "forms": 0,
+   "iframes": [
+    "https://www.googletagmanager.com/ns.html?id=GTM-NJ6L8XG"
+   ],
+   "ids": {
+    "gtm": [
+     "GTM-NJ6L8XG"
+    ],
+    "ga4": [
+     "G-JFF1V7SQJJ"
+    ],
+    "ua": [],
+    "googleAds": [],
+    "metaPixel": [
+     "1831766414291468",
+     "720310691496734"
+    ],
+    "hotjar": [
+     "1853845"
+    ],
+    "linkedin": [],
+    "tiktok": [],
+    "recaptcha": false,
+    "monsterinsights": true
+   },
+   "scriptHosts": [
+    "www.googletagmanager.com",
+    "ajax.googleapis.com",
+    "js.stripe.com",
+    "connect.kuc.org.au",
+    "unpkg.com",
+    "cdnjs.cloudflare.com",
+    "cdn.raisely.com"
+   ]
+  },
+  {
+   "url": "https://offer.autograb.com.au/",
+   "scriptHosts": []
+  },
+  {
+   "url": "https://www.kuc.org.au/regular-donation/",
+   "status": 200,
+   "platform": "Giveasy",
+   "forms": 0,
+   "iframes": [
+    "https://www.googletagmanager.com/ns.html?id=GTM-NJ6L8XG"
+   ],
+   "ids": {
+    "gtm": [
+     "GTM-NJ6L8XG"
+    ],
+    "ga4": [
+     "G-JFF1V7SQJJ"
+    ],
+    "ua": [],
+    "googleAds": [],
+    "metaPixel": [
+     "1831766414291468",
+     "720310691496734"
+    ],
+    "hotjar": [
+     "1853845"
+    ],
+    "linkedin": [],
+    "tiktok": [],
+    "recaptcha": false,
+    "monsterinsights": true
+   },
+   "scriptHosts": [
+    "www.googletagmanager.com",
+    "ajax.googleapis.com",
+    "js.stripe.com",
+    "connect.kuc.org.au",
+    "unpkg.com",
+    "cdnjs.cloudflare.com",
+    "cdn.raisely.com"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/get-involved/donate/",
+   "status": 200,
+   "finalUrl": "https://donatenow.kuc.org.au/futures-for-kids/donate?utm_source=website&utm_medium=redirect&utm_campaign=eocy25",
+   "platform": "Giveasy",
+   "forms": 0,
+   "iframes": [],
+   "ids": {
+    "gtm": [
+     "GTM-NJ6L8XG"
+    ],
+    "ga4": [],
+    "ua": [],
+    "googleAds": [],
+    "metaPixel": [],
+    "hotjar": [],
+    "linkedin": [],
+    "tiktok": [],
+    "recaptcha": false,
+    "monsterinsights": false
+   },
+   "scriptHosts": []
+  },
+  {
+   "url": "https://www.kuc.org.au/sign-up-for-our-newsletter/",
+   "status": 200,
+   "platform": "Giveasy",
+   "forms": 1,
+   "iframes": [
+    "https://www.googletagmanager.com/ns.html?id=GTM-NJ6L8XG"
+   ],
+   "ids": {
+    "gtm": [
+     "GTM-NJ6L8XG"
+    ],
+    "ga4": [
+     "G-JFF1V7SQJJ"
+    ],
+    "ua": [],
+    "googleAds": [],
+    "metaPixel": [
+     "1831766414291468",
+     "720310691496734"
+    ],
+    "hotjar": [
+     "1853845"
+    ],
+    "linkedin": [],
+    "tiktok": [],
+    "recaptcha": false,
+    "monsterinsights": true
+   },
+   "scriptHosts": [
+    "www.googletagmanager.com",
+    "ajax.googleapis.com",
+    "js.stripe.com",
+    "connect.kuc.org.au",
+    "unpkg.com",
+    "cdnjs.cloudflare.com",
+    "cdn.raisely.com"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/about/contact/",
+   "status": 200,
+   "platform": "Giveasy",
+   "forms": 1,
+   "iframes": [
+    "https://www.googletagmanager.com/ns.html?id=GTM-NJ6L8XG"
+   ],
+   "ids": {
+    "gtm": [
+     "GTM-NJ6L8XG"
+    ],
+    "ga4": [
+     "G-JFF1V7SQJJ"
+    ],
+    "ua": [],
+    "googleAds": [],
+    "metaPixel": [
+     "1831766414291468",
+     "720310691496734"
+    ],
+    "hotjar": [
+     "1853845"
+    ],
+    "linkedin": [],
+    "tiktok": [],
+    "recaptcha": false,
+    "monsterinsights": true
+   },
+   "scriptHosts": [
+    "www.googletagmanager.com",
+    "ajax.googleapis.com",
+    "js.stripe.com",
+    "connect.kuc.org.au",
+    "unpkg.com",
+    "cdnjs.cloudflare.com",
+    "cdn.raisely.com"
+   ]
+  }
+ ]
+}
