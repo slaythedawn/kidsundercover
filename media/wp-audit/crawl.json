@@ -87,6 +87,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -175,6 +179,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -271,6 +279,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -361,6 +373,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -453,6 +469,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -543,6 +563,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -635,6 +659,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -725,6 +753,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -821,6 +853,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -911,6 +947,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -1007,6 +1047,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -1097,6 +1141,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -1189,6 +1237,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -1279,6 +1331,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -1375,6 +1431,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -1465,6 +1525,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -1557,6 +1621,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -1647,6 +1715,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -1739,6 +1811,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -1829,6 +1905,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -1921,6 +2001,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -2011,6 +2095,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -2103,6 +2191,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -2193,6 +2285,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -2285,6 +2381,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -2376,6 +2476,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -2466,6 +2570,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -2566,6 +2674,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -2656,6 +2768,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -2748,6 +2864,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -2838,6 +2958,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -2930,6 +3054,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -3020,6 +3148,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -3112,6 +3244,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -3203,6 +3339,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -3293,6 +3433,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -3397,6 +3541,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -3487,6 +3635,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -3579,6 +3731,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -3670,6 +3826,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -3759,6 +3919,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -3850,6 +4014,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -3946,6 +4114,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -4036,6 +4208,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -4128,6 +4304,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -4218,6 +4398,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -4314,6 +4498,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -4405,6 +4593,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -4495,6 +4687,11 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<div class=\"raisely-donate\" data-campaign-path=\"kidsundercoverwebsite\" data-profile=\"\" data-width=\"100%\" data-height=\"800\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -4613,6 +4810,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -4703,6 +4904,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -4797,6 +5002,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -4887,6 +5096,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -4991,6 +5204,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -5081,6 +5298,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -5173,6 +5394,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -5263,6 +5488,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -5359,6 +5588,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -5450,6 +5683,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -5540,6 +5777,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -5635,6 +5876,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -5736,6 +5981,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -5868,6 +6117,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -5958,6 +6211,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -6050,6 +6307,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -6141,6 +6402,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -6230,6 +6495,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -6321,6 +6590,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -6420,6 +6693,10 @@
    "WebSite",
    "Organization",
    "Person"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -6524,6 +6801,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -6615,6 +6896,10 @@
    "Organization",
    "Person"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -6705,6 +6990,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -6793,6 +7082,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -6892,6 +7185,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -6982,6 +7279,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -7136,6 +7437,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -7227,6 +7532,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -7320,6 +7629,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -7408,6 +7721,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -7501,6 +7818,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -7596,6 +7917,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -7633,6 +7958,7 @@
   "files": [],
   "videos": [],
   "jsonld": [],
+  "widgets": [],
   "popups": []
  },
  {
@@ -7734,6 +8060,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -7822,6 +8152,11 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<div class=\"npsp-donate-1\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -7912,6 +8247,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -8000,6 +8339,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -8178,6 +8521,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -8268,6 +8615,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -8357,6 +8708,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -8445,6 +8800,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -8660,6 +9019,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -8752,6 +9115,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -8866,6 +9233,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -8963,6 +9334,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -9051,6 +9426,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -9141,6 +9520,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -9174,6 +9557,7 @@
   "files": [],
   "videos": [],
   "jsonld": [],
+  "widgets": [],
   "popups": []
  },
  {
@@ -9267,6 +9651,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -9355,6 +9743,11 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<div class=\"npsp-donate-1\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -9677,6 +10070,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -9778,6 +10175,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -9868,6 +10269,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -9960,6 +10365,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -10105,6 +10514,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -10333,6 +10746,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -10421,6 +10838,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -10511,6 +10932,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -10599,6 +11024,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -10696,6 +11125,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -10949,6 +11382,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -11041,6 +11478,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -11135,6 +11576,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -11173,6 +11618,7 @@
    "youtube.com/embed/_u3-s5xQ7X0"
   ],
   "jsonld": [],
+  "widgets": [],
   "popups": []
  },
  {
@@ -11263,6 +11709,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -11356,6 +11806,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -11453,6 +11907,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -11552,6 +12010,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -11646,6 +12108,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -11734,6 +12200,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -11924,6 +12394,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -12012,6 +12486,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -12103,6 +12581,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -12191,6 +12673,11 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<div class=\"npsp-donate-1\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -12332,6 +12819,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -12436,6 +12927,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -12533,6 +13028,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -12621,6 +13120,11 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<div class=\"npsp-donate-1\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -12719,6 +13223,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -12807,6 +13315,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -12900,6 +13412,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -13001,6 +13517,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -13148,6 +13668,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -13252,6 +13776,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -13346,6 +13874,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -13438,6 +13970,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -13547,6 +14083,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -13636,6 +14176,11 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<div class=\"npsp-donate-1\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -13723,6 +14268,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -13817,6 +14366,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -13909,6 +14462,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -14003,6 +14560,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -14091,6 +14652,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -14800,6 +15365,7 @@
    "BreadcrumbList",
    "Organization"
   ],
+  "widgets": [],
   "popups": [
    "pump",
    "popup-container"
@@ -14903,6 +15469,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -14996,6 +15566,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -15084,6 +15658,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -15174,6 +15752,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -15262,6 +15844,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -15356,6 +15942,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -15445,6 +16035,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -15533,6 +16127,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -15631,6 +16229,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -15721,6 +16323,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -15809,6 +16415,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -15903,6 +16513,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -15996,6 +16610,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -16084,6 +16702,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -16174,6 +16796,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -16262,6 +16888,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -16360,6 +16990,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -16447,6 +17081,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -16541,6 +17179,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -16632,6 +17274,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -16720,6 +17366,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -16814,6 +17464,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -16901,6 +17555,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -16990,6 +17648,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -17077,6 +17739,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -17166,6 +17832,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -17253,6 +17923,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -17342,6 +18016,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -17429,6 +18107,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -17518,6 +18200,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -17605,6 +18291,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -17694,6 +18384,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -17781,6 +18475,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -17870,6 +18568,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -17957,6 +18659,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -18046,6 +18752,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -18133,6 +18843,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -18229,6 +18943,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -18321,6 +19039,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -18415,6 +19137,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -18504,6 +19230,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -18592,6 +19322,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -18697,6 +19431,11 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<div class=\"npsp-donate-1\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -18801,6 +19540,11 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<div class=\"npsp-donate-1\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -18890,6 +19634,10 @@
    "WebSite",
    "Organization"
   ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+  ],
   "popups": []
  },
  {
@@ -18978,6 +19726,10 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  },
@@ -19085,6 +19837,11 @@
    "BreadcrumbList",
    "WebSite",
    "Organization"
+  ],
+  "widgets": [
+   "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+   "<div class=\"raisely-donate\" data-campaign-path=\"kidsundercoverwebsite\" data-profile=\"\" data-width=\"100%\" data-height=\"800\">",
+   "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
   ],
   "popups": []
  }

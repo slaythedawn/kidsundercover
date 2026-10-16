@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T23:26:21.307Z",
+ "generated": "2026-10-16T23:30:08.967Z",
  "authenticated": false,
  "restNamespaces": [
   "oembed/1.0",
@@ -605,6 +605,1319 @@
    "https://www.youtube.com/embed/pYWskHY-B-k?feature=oembed",
    1
   ]
+ ],
+ "widgets": [
+  {
+   "url": "https://www.kuc.org.au/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/stories/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/people-of-kids-under-cover-derek-layfield/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/space-to-shine/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/justice-funding/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/elaine-forde/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/dorothy-and-tillys-story/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/shaylees-story/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/homelessness-week-2020/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/shooting-hoops-for-the-prevention-of-youth-homelessness/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/welcome-shaynna-and-sabina/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/the-call-for-a-collaborative-vision-to-address-youth-homelessness/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/jb-theyve-done-it-again/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/rebuildingbrokenbonds/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/village-life/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/cjs-journey/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/vale-ken-morgan-oam/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/together-again/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/a-great-grand-mothers-gift/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/for-sail/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/fostering-hope/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/nurturing-independence-at-village-21/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/finding-her-balance/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/breathing-space/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/meeting-junior/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/jacinta-hollys-story/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/lincolns-story/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/ford-mustang/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/a-new-place-to-call-home-research/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/a-new-place-to-call-home/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/from-studio-to-physio/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/more-than-just-space/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/charity-lunch-goes-virtual/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/enough-space-to-stay/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/rollercoaster-journey/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/changing-lives/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/trangs-story/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/nicole-and-graces-story/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/sarahs-story/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/maureens-story/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/sandis-story/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/lizs-story/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/a-successful-pilot/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/wheels-of-change/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/a-donation-of-a-different-kind/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/remembering-ken-morgan/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/the-world-at-her-feet/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/back-on-track/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/lynton-and-lisa-embracing-change-2/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<div class=\"raisely-donate\" data-campaign-path=\"kidsundercoverwebsite\" data-profile=\"\" data-width=\"100%\" data-height=\"800\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/paiges-story/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/tax-savings-an-added-bonus-when-ross-donated-his-leaf/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/friendships-instead-of-fighting-finding-a-new-freedom-in-south-australia/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/leaps-and-bounds/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/you-beaut-someones-donated-a-ute/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/sweet-relief-i-cant-imagine-life-without-it/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/generous-mr-fix-it-donates-his-ninth-car-to-kids-under-cover/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/the-art-of-altruism/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/daniels-flaming-suzuki-has-gone-the-extra-mile-for-fundraising/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/counting-the-cost/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/nanas-car-leaves-a-lasting-legacy/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/homelessness-week-2021/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/include-a-gift-in-your-will-for-charity-week/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/a-national-homelessness-plan-needs-a-sharpened-focus-on-our-youth/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/still-going-strong/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/understanding-overcrowding-liams-story/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/through-grief-and-growth/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/from-inner-strength-to-advocacy/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/studio-program-helps-launch-medical-career-jesses-story/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/hectors-new-journey-a-story-of-donation-and-legacy/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/a-mustang-with-heart-tarquins-incredible-donation/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/opinion-youth-homelessness-prevention-is-child-protection-in-action/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/get-support/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/learn-more-about-us/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/get-involved/bequests-2/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-programs/scholarships/apply-for-a-scholarship/scholarship-program-spending-guide/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/additional-resources-for-educational-support/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-impact/research-and-resources/a-new-place-to-call-home-research-paper/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-impact/research-and-resources/social-return-on-investment-report-2/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-impact/research-and-resources/annual-carer-feedback-survey-2/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/about/our-story/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-impact/research-and-resources/crowding-risk-and-homelessness-2/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/kids-under-cover-2024-eofy-tax-appeal/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/atora-games-fundraiser/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<div class=\"npsp-donate-1\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-impact/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-impact/where-are-they-now/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/about/moorumbina-mongurnallin-partners/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/the-drive-to-give/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/about/our-supporters/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/mobile-pod-pilot/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/sign-up-for-our-newsletter/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/mobile-pod-welcome-pack/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-impact/the-facts-and-statistics-on-youth-homelessness/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-programs/village21preston/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/get-involved/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/get-involved/corporate-business-partnerships/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/about/our-story/ken-morgan-kuc-founder/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/return-to-give/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<div class=\"npsp-donate-1\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-programs/resources-for-young-people/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/privacy-feedback/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/terms-conditions/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/about/media-centre/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/about/contact/kids-under-cover-charitable-status-and-tax-information/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/about/contact/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/kids-under-cover-scholarship-spending-guide/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/about/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/get-involved/community-fundraising/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-programs/studio-program/kids-under-cover-studio-program-applications/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/target450/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-programs/scholarships/sarah-davies-empowering-women-scholarship/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-programs/scholarships/ken-lenka-morgan-scholarship/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/kids-under-cover-giving-day-faqs/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-programs/scholarships/apply-for-a-scholarship/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-programs/studio-program/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/donate-your-car-test-page/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-impact/research-and-resources/giving-them-a-chance/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-impact/research-and-resources/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-programs/resources-for-carers/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-programs/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/jade_story/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/silent_auction/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<div class=\"npsp-donate-1\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-impact/publications/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-programs/scholarships/dffh-student-scholarship-program/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-programs/moorumbina-mongurnallin/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/regular-donation/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<div class=\"npsp-donate-1\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/get-involved/bequests/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/about/our-team/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-programs/village21bairnsdale/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-programs/village21/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/our-programs/scholarships/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/get-involved/work-with-us/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/get-involved/donate-your-car-drop-off-locations/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/smart-prezzee-egift-card-terms-and-conditions/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/get-involved/donate-your-car/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/partner-donations/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<div class=\"npsp-donate-1\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/this-new-facility-is-helping-blak-youths-transition-from-out-of-home-care/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/children-becoming-homeless-as-housing-crisis-bites-the-standard/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/cultural-connection-at-the-heart-of-new-housing-project-for-young-people-leaving-out-of-home-care-national-indigenous-times/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/a-first-of-its-kind-housing-project-in-frankston-will-provide-much-needed-supported-accommodation-for-first-nations-youth-leaving-care/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/media-release-new-approach-needed-to-end-shocking-youth-homelessness-numbers/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/community-groups/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/impact-survey-results-2021/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/ceo-message-spring-2022/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/ceo-message-autumn-2022/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/village-21-has-been-granted-a-huge-investment/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/ceo-message-autumn-2021/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/kids-under-cover-appoints-new-chair/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/kids-under-cover-wins-victorian-homelessness-achievement-award/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/new-ceo-joins-fight-against-youth-homelessness/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/kids-under-cover-wholeheartedly-supports-a-first-nations-voice-to-parliament/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/our-1000th-studio/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/kids-under-cover-to-begin-preventing-youth-homelessness-in-south-australia/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/ceo-message-spring-2021/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/your-impact/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/new-victorian-government-partnership/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/the-launch-of-village-21-in-preston/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/kids-under-cover-update/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/kids-under-cover-featured-in-parity-magazine/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/kids-under-cover-launches-reconciliation-action-plan/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/youth-homelessness-matters-day-what-is-takes-to-prevent-youth-homelessness/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/media-release/safe-housing-key-to-reducing-youth-justice-involvement-new-report-finds/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/team/jasmin-lesniak/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/team/julia-griffith-psm/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/team/joe-corera-cpa/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/team/stephen-nash/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/team/brett-comer/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/team/jo-reilly/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/team/melissa-singer/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/team/clare-gleghorn/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/team/christopher-cramond/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/team/nathaniel-popelianski/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/team/joshua-bruni/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/team/chloe-strachan/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/team/keith-waters/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/team-category/board-of-directors/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/team-category/executive-leadership-team/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/get-involved/faqs/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/get-involved/donate/thank-you/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/get-involved/thank-you/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/sign-up-for-our-newsletter/thank-you/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/about/contact/thank-you/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/gpt-group-flower-auction-530-collins/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<div class=\"npsp-donate-1\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/donate-your-car-towing-contributions/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<div class=\"npsp-donate-1\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/about/contact/terms-and-conditions/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/about/contact/privacy-policy/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  },
+  {
+   "url": "https://www.kuc.org.au/bequests-2/",
+   "widgets": [
+    "<script id=\"salesforce-iframe-js-js\" src=\"https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js\">",
+    "<div class=\"raisely-donate\" data-campaign-path=\"kidsundercoverwebsite\" data-profile=\"\" data-width=\"100%\" data-height=\"800\">",
+    "<script id=\"raisely-embed-js-js\" src=\"https://cdn.raisely.com/v3/public/embed.js\">"
+   ]
+  }
  ],
  "videos": [
   [
