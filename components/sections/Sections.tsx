@@ -16,6 +16,9 @@ export default function Sections({ sections, pageUrl }: { sections: PageSection[
   const anchors = sections
     .filter((x) => x.id && x.type !== "jump" && (x.nav || x.title))
     .map((x) => ({ label: (x.nav ?? x.title ?? "").replace(/[*_]/g, ""), href: `#${x.id}` }));
+  // Google allows one FAQPage per page, so the first FAQ block carries every question on the page.
+  const faqs = sections.flatMap((x) => (x.type === "faq" ? x.items : []));
+  const firstFaq = sections.findIndex((x) => x.type === "faq");
 
   return (
     <>
@@ -31,7 +34,7 @@ export default function Sections({ sections, pageUrl }: { sections: PageSection[
           case "quote": return <B.Quote key={key} {...sec} />;
           case "gallery": return <B.Gallery key={key} {...sec} />;
           case "checklist": return <B.Checklist key={key} {...sec} />;
-          case "faq": return <B.Faq key={key} {...sec} />;
+          case "faq": return <B.Faq key={key} {...sec} schema={i === firstFaq ? faqs : undefined} />;
           case "callout": return <B.Callout key={key} {...sec} />;
           case "stories": return <B.Stories key={key} {...sec} />;
           case "pages": return <B.Pages key={key} {...sec} pageUrl={pageUrl} />;

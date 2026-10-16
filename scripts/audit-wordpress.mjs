@@ -223,6 +223,17 @@ const crawl = (await pool(toCrawl, 4, async (url) => {
   return { url, status: r.status, finalUrl: r.url !== url ? r.url : undefined, ...(html ? inspect(html, r.url) : {}) };
 }));
 write("crawl.json", crawl);
+
+// Full HTML of the pages that embed payment or form widgets, to read their settings.
+fs.mkdirSync(path.join(OUT, "html"), { recursive: true });
+for (const p of ["/regular-donation/", "/donate-your-car-towing-contributions/", "/partner-donations/", "/return-to-give/", "/silent_auction/", "/get-involved/donate-your-car/", "/about/contact/", "/target450/", "/get-involved/donate-your-car-drop-off-locations/"]) {
+  const r = await get(BASE + p);
+  if (r?.ok) fs.writeFileSync(path.join(OUT, "html", p.replace(/^\/|\/$/g, "").replace(/\//g, "__") + ".html"), await r.text());
+}
+for (const [name, url] of [["salesforce-donateyourcar", "https://kuc.my.salesforce-sites.com/Donateyourcar"], ["npsp-dropin", "https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js"]]) {
+  const r = await get(url);
+  if (r?.ok) fs.writeFileSync(path.join(OUT, "html", name + (url.endsWith(".js") ? ".js" : ".html")), await r.text());
+}
 console.log(`crawled: ${crawl.length}`);
 
 // 8. The other KUC sites seen in GA4 (donation platform, car form, portal, connect).

@@ -24,6 +24,7 @@ import ResourceHub from "@/components/sections/ResourceHub";
 import GiveOptions from "@/components/page/GiveOptions";
 import StorySidebar from "@/components/page/StorySidebar";
 import FormBlock from "@/components/page/FormBlock";
+import TrackEvent from "@/components/page/TrackEvent";
 import type { Crumb } from "@/components/page/Breadcrumbs";
 import { media } from "@/lib/media";
 import { JsonLd, person as personSchema, report, service } from "@/lib/schema";
@@ -134,6 +135,7 @@ function ContentPage({ page }: { page: PageEntry }) {
         accent={page.titleAccent}
       />
 
+      {page.event && <TrackEvent name={page.event} />}
       {isGive && <GiveOptions />}
 
       {page.sections && <Sections sections={page.sections} pageUrl={page.url} />}

@@ -257,7 +257,8 @@ export function Checklist(p: T.ChecklistSection) {
 }
 
 /** S12 Questions: an accordion of FAQs, marked up so Google can show them in results. */
-export function Faq(p: T.FaqSection) {
+/** `schema` holds every question on the page; blocks without it output no FAQPage record. */
+export function Faq(p: T.FaqSection & { schema?: T.FaqSection["items"] }) {
   return (
     <Band id={p.id} tone={p.tone}>
       <div className={s.faq}>
@@ -277,20 +278,20 @@ export function Faq(p: T.FaqSection) {
           ))}
         </div>
       </div>
-      <script
+      {p.schema && <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            mainEntity: p.items.map((it) => ({
+            mainEntity: p.schema.map((it) => ({
               "@type": "Question",
               name: it.question.replace(/[*_[\]]/g, ""),
               acceptedAnswer: { "@type": "Answer", text: it.answer.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/[*_]/g, "") },
             })),
           }),
         }}
-      />
+      />}
     </Band>
   );
 }

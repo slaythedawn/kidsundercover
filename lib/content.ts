@@ -46,6 +46,8 @@ export type PageEntry = {
   actions?: Button[];
   /** Keep a page out of search results, for paid campaign pages. */
   noindex?: boolean;
+  /** dataLayer event pushed when the page loads, for thank you pages (for example car_donation_complete). */
+  event?: string;
   body: string;
   file: string;
 };
@@ -158,6 +160,7 @@ function load() {
       heroStyle: str(data.heroStyle) as PageEntry["heroStyle"],
       actions: Array.isArray(data.actions) ? (data.actions as Button[]) : undefined,
       noindex: data.noindex === true,
+      event: str(data.event),
       body,
       file,
     });
