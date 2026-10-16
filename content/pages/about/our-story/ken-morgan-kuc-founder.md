@@ -12,55 +12,91 @@ cta: donate
 form: none
 related: [/about/our-story/, /our-programs/scholarships/ken-lenka-morgan-scholarship/, /get-involved/donate-your-car/]
 status: live
+sections:
+  - type: jump
+
+  - type: lead
+    eyebrow: From hardship, to a life dedicated to providing solutions
+    text: Founded by businessperson and philanthropist Ken Morgan OAM, our charity work is driven by the core belief that **no young person in our community should be homeless**.
+    body: |
+      When Ken founded Kids Under Cover, he was continuing his tenure as Australia’s longest serving president of the Variety Club and witnessing the release of Australia’s Senate National Inquiry into youth homelessness led by Professor Brian Burdekin AO. After reading the findings of the ‘Burdekin Report’, Ken was compelled to do something to end the youth homelessness crisis, starting by raising funds to build a home for young mothers to ensure they had safe accommodation, and of course, evolving into the incredible studio and scholarship programs that we continue to deliver today.
+
+  - type: split
+    id: early-life
+    nav: Early life
+    title: Ken Morgan’s story
+    body: |
+      For decades, Ken Morgan enjoyed great admiration for his extraordinary career in the automotive industry and as a celebrity and philanthropist. A much loved and popular personality, Ken’s public persona masks a very difficult past.
+
+      Ken Morgan’s tough start was the origin story to his philanthropic career. He left school in Preston at 13 after being expelled and ended up leaving home and becoming a homeless teenager after his 52-year-old mother, Gladys, passed away unexpectedly. Ken used to tell of his wild days as a young person in gangs; and his experience of alcoholism after his Mum’s passing.
+
+      After hitting the road with little direction and no funds, Ken found himself sleeping on a park bench in Sydney’s Kings Cross. Woken by a local policeman on the early morning beat, Ken appeared dazed and confused. The officer took pity and sat down beside him. Three hours later Ken’s life had been changed forever. A stranger had taken time to show Ken there were people out there who really did care. Ken never forgot the message of hope delivered on that significant day.
+    image: https://www.kuc.org.au/wp-content/uploads/2024/01/Ken-Morgan-V3-1024x576.jpeg
+    imageAlt: Ken Morgan celebrating a donation via the Who Wants To Be A Millionaire TV program
+    caption: Ken Morgan celebrating a two hundred and fifty thousand dollar donation via the ‘Who Wants To Be A Millionaire’ TV program
+    flip: true
+
+  - type: split
+    id: career
+    nav: Career
+    tone: card
+    title: From car cleaner to Melbourne’s best known car dealer
+    body: |
+      He worked to become one of Melbourne’s highest-profile car dealers. Ken Morgan started as a car cleaner and worked his way up to become well known as a celebrity and business person. He would regularly give away cars on the Australian TV show, Hey Hey It’s Saturday during its famous ‘Pluck-a-Duck’ segment, and ended up with his business being recognised as the largest Toyota dealership in Australia.
+
+      Ken became well-known as a TV personality, not only for his regular appearances on Channel 9’s ‘Hey Hey It’s Saturday’, but for his creative television ads too.
+    image: https://www.kuc.org.au/wp-content/uploads/2024/01/26e52db09c2d4d33b31cef4cfb038582-1024x576.jpg
+    imageAlt: Ken Morgan
+    caption: Ken built an impressive career as a businessperson in the automotive sales industry, enabling him to earn the resources he needed to make lasting impacts for young people through his charitable work
+
+  - type: quote
+    id: first-home
+    nav: The first home
+    tone: sun
+    eyebrow: The first Kids Under Cover home
+    intro: Ken was president of the Variety Club when the first Kids Under Cover home was built.
+    quote: The club had $130,000 to spend but we didn’t need most of it. There were so many tradesmen who volunteered. The house was built in two halves in the car park of Kmart in Burwood and shipped to Ballarat.
+    name: Ken Morgan
+    role: Speaking to a journalist from The Age
+    image: https://www.kuc.org.au/wp-content/uploads/2023/08/Ken-Morgan-Pic-2.jpeg
+    imageAlt: Ken Morgan speaking at a Kids Under Cover event
+
+  - type: split
+    id: legacy
+    nav: Order of Australia
+    title: Recognised for his work to end youth homelessness
+    body: |
+      In 2011 Ken Morgan was awarded an Order of Australia for his work to end youth homelessness and create a better future for young people. He even came up with one of Kids Under Cover’s longest running fundraising activities, putting his knowledge of the car sales industry to more philanthropic use to set up the Kids Under Cover [Donate Your Car](/get-involved/donate-your-car/) scheme, where people can donate their car and receive a tax deduction, while the proceeds from that car’s sales go towards the organisation’s programs.
+    image: https://www.kuc.org.au/wp-content/uploads/2024/01/bea8eb0ed3ef4c37d8bf2ee5d6dc3240-1024x576.jpg
+    imageAlt: Ken Morgan
+    caption: Ken was well-known for his authentic personality and witty sense of humour, as well as his commitment to making positive change within the community
+    actions:
+      - { label: Donate your car, href: /get-involved/donate-your-car/, variant: ghost }
+    flip: true
+
+  - type: split
+    id: ken-and-lenka
+    nav: Ken and Lenka
+    tone: card
+    title: Ken and Lenka Morgan
+    body: |
+      Ken and his wife and partner in charitable pursuits, Lenka Morgan, who has been a dedicated contributor and advocate for Kids Under Cover’s mission, continued to honour the commitment he made all those years ago to helping build better future prospects for young people doing it tough, long after he officially stepped back from actively working at Kids Under Cover as he retired.
+
+      Thanks to Ken’s vision, leadership and passion, we’re now housing around 1000 young people each night across nearly 650 studios, and we’re dedicated to keep working in honour of Ken’s legacy to help even more young people find the space they need to thrive. With a combination of education, support, and sustainable housing solutions, they are building a brighter future for vulnerable youth, one studio at a time.
+    image: https://www.kuc.org.au/wp-content/uploads/2024/02/ELZ1hXrVUAAjsDa-1024x498.jpg
+    imageAlt: Jesse Simpson with Ken and Lenka Morgan
+    caption: Ken and Lenka Morgan are sponsors of the Ken and Lenka Morgan Scholarship, which is still awarded to exceptional young people each year through Kids Under Cover’s Scholarships Program. Pictured, Jesse Simpson, Ken and Lenka Morgan Scholarship winner for 2020.
+    actions:
+      - { label: The Ken and Lenka Morgan Scholarship, href: /our-programs/scholarships/ken-lenka-morgan-scholarship/, variant: ghost }
+
+  - type: text
+    id: continuing
+    nav: Ken's legacy
+    title: Continuing Ken’s work
+    body: |
+      We help young people aged 12 to 25 to stay at home, connected to their family and community while supporting them to achieve their education and training goals.
+
+      Our impact is strengthened by our partnerships with organisations that provide wrap-around services, to collectively help more young people exit the cycle of homelessness and achieve bright futures.
+
+      Ken Morgan’s deep concern for the growing number of young people facing the harrowing prospect of homelessness drove the evolution of Kids Under Cover to the organisation it is now in the present, with a steady flow of passionate and dedicated people joining the organisation during the thirty four years, and counting, since 1989 signing up to continue to work together with a shared core belief that every young person deserves a safe and stable place to call home.
 ---
-## From hardship, to a life dedicated to providing solutions
-
-Founded by businessperson and philanthropist Ken Morgan OAM, our charity work is driven by the core belief that no young person in our community should be homeless.
-
-![Lenka and Ken Morgan](https://www.kuc.org.au/wp-content/uploads/2024/01/Ken-and-Lenka-compressed-1.jpg)
-
-*Lenka and Ken Morgan*
-
-When Ken founded Kids Under Cover, he was continuing his tenure as Australia’s longest serving president of the Variety Club and witnessing the release of Australia’s Senate National Inquiry into youth homelessness led by Professor Brian Burdekin AO. After reading the findings of the ‘Burdekin Report’, Ken was compelled to do something to end the youth homelessness crisis, starting by raising funds to build a home for young mothers to ensure they had safe accommodation, and of course, evolving into the incredible studio and scholarship programs that we continue to deliver today.
-
-### Ken Morgan’s story
-
-For decades, Ken Morgan enjoyed great admiration for his extraordinary career in the automotive industry and as a celebrity and philanthropist. A much loved and popular personality, Ken’s public persona masks a very difficult past.
-
-![Ken Morgan celebrating a donation via the Who Wants To Be A Millionaire TV program](https://www.kuc.org.au/wp-content/uploads/2024/01/Ken-Morgan-V3-1024x576.jpeg)
-
-*Ken Morgan celebrating a two hundred and fifty thousand dollar donation via the ‘Who Wants To Be A Millionaire’ TV program*
-
-Ken Morgan’s tough start was the origin story to his philanthropic career. He left school in Preston at 13 after being expelled and ended up leaving home and becoming a homeless teenager after his 52-year-old mother, Gladys, passed away unexpectedly. Ken used to tell of his wild days as a young person in gangs; and his experience of alcoholism after his Mum’s passing.
-
-After hitting the road with little direction and no funds, Ken found himself sleeping on a park bench in Sydney’s Kings Cross. Woken by a local policeman on the early morning beat, Ken appeared dazed and confused. The officer took pity and sat down beside him. Three hours later Ken’s life had been changed forever. A stranger had taken time to show Ken there were people out there who really did care. Ken never forgot the message of hope delivered on that significant day.
-
-![Ken Morgan](https://www.kuc.org.au/wp-content/uploads/2024/01/26e52db09c2d4d33b31cef4cfb038582-1024x576.jpg)
-
-*Ken built an impressive career as a businessperson in the automotive sales industry, enabling him to earn the resources he needed to make lasting impacts for young people through his charitable work*
-
-He worked to become one of Melbourne’s highest-profile car dealers. Ken Morgan started as a car cleaner and worked his way up to become well known as a celebrity and business person. He would regularly give away cars on the Australian TV show, Hey Hey It’s Saturday during its famous ‘Pluck-a-Duck’ segment, and ended up with his business being recognised as the largest Toyota dealership in Australia.
-
-Ken became well-known as a TV personality, not only for his regular appearances on Channel 9’s ‘Hey Hey It’s Saturday’, but for his creative television ads too.
-
-Ken was president of the Variety Club when the first Kids Under Cover home was built. “The club had $130,000 to spend but we didn’t need most of it,” Ken once told a journalist from The Age. “There were so many tradesmen who volunteered. The house was built in two halves in the car park of Kmart in Burwood and shipped to Ballarat.”
-
-In 2011 Ken Morgan was awarded an Order of Australia for his work to end youth homelessness and create a better future for young people. He even came up with one of Kids Under Cover’s longest running fundraising activities, putting his knowledge of the car sales industry to more philanthropic use to set up the Kids Under Cover [Donate Your Car](https://www.kuc.org.au/get-involved/donate-your-car/) scheme, where people can donate their car and receive a tax deduction, while the proceeds from that car’s sales go towards the organisation’s programs.
-
-![Ken Morgan](https://www.kuc.org.au/wp-content/uploads/2024/01/bea8eb0ed3ef4c37d8bf2ee5d6dc3240-1024x576.jpg)
-
-*Ken was well-known for his authentic personality and witty sense of humour, as well as his commitment to making positive change within the community*
-
-Ken and his wife and partner in charitable pursuits, Lenka Morgan, who has been a dedicated contributor and advocate for Kids Under Cover’s mission, continued to honour the commitment he made all those years ago to helping build better future prospects for young people doing it tough, long after he officially stepped back from actively working at Kids Under Cover as he retired.
-
-Thanks to Ken’s vision, leadership and passion, we’re now housing around 1000 young people each night across nearly 650 studios, and we’re dedicated to keep working in honour of Ken’s legacy to help even more young people find the space they need to thrive. With a combination of education, support, and sustainable housing solutions, they are building a brighter future for vulnerable youth, one studio at a time.
-
-![Jesse Simpson with Ken and Lenka Morgan](https://www.kuc.org.au/wp-content/uploads/2024/02/ELZ1hXrVUAAjsDa-1024x498.jpg)
-
-*Ken and Lenka Morgan are sponsors of the Ken and Lenka Morgan Scholarship, which is still awarded to exceptional young people each year through Kids Under Cover’s Scholarships Program. Pictured: Jesse Simpson, Ken and Lenka Morgan Scholarship winner for 2020.*
-
-We help young people aged 12 to 25 to stay at home, connected to their family and community while supporting them to achieve their education and training goals.
-
-Our impact is strengthened by our partnerships with organisations that provide wrap-around services, to collectively help more young people exit the cycle of homelessness and achieve bright futures.
-
-Ken Morgan’s deep concern for the growing number of young people facing the harrowing prospect of homelessness drove the evolution of Kids Under Cover to the organisation it is now in the present, with a steady flow of passionate and dedicated people joining the organisation during the thirty four years, and counting, since 1989 signing up to continue to work together with a shared core belief that every young person deserves a safe and stable place to call home.
