@@ -49,7 +49,10 @@ export type FactsSection = Base & {
 };
 export type QuoteSection = Base & { type: "quote"; quote: string; name?: string; role?: string; image?: string; imageAlt?: string; href?: string; linkLabel?: string };
 export type GallerySection = Base & { type: "gallery"; images: Image[] };
-export type VideoSection = Base & { type: "video"; youtube: string; label?: string; poster?: string; body?: string };
+/** One of `youtube` (video id) or `vimeo` (id, with its `?h=` hash for unlisted videos). Vimeo needs a `poster`. */
+/** S23 Salesforce donation form: KUC's NPSP Plus form (Stripe payments) in a frame, beside the page's own words. */
+export type NpspSection = Base & { type: "npsp"; form: string; body?: string; image?: string; imageAlt?: string; note?: string };
+export type VideoSection = Base & { type: "video"; youtube?: string; vimeo?: string; label?: string; poster?: string; body?: string };
 export type ChecklistSection = Base & {
   type: "checklist";
   yes: { title: string; items: string[] };
@@ -98,6 +101,7 @@ export type PageSection =
   | QuoteSection
   | GallerySection
   | VideoSection
+  | NpspSection
   | ChecklistSection
   | FaqSection
   | CalloutSection
@@ -135,4 +139,5 @@ export const sectionTypes: SectionType[] = [
   "resources",
   "pages",
   "donate",
+  "npsp",
 ];

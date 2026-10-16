@@ -41,6 +41,13 @@ sections:
     eyebrow: Virtual tour
     title: "Virtual Tour: Moorumbina Mongurnallin"
     body: Take a walk through Moorumbina Mongurnallin via a 3D walk through and time-lapse, thanks to our partners at Macutex.
+    actions:
+      - { label: Explore the site, href: "https://virtual.macuport.com/KUCV/VillageFrankston/20240826/index.htm" }
+
+  - type: video
+    youtube: TvzWHPO2ySY
+    label: Moorumbina Mongurnallin
+    title: See Moorumbina Mongurnallin
 
   - type: facts
     id: why

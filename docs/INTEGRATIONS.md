@@ -1,17 +1,17 @@
 # Donations, forms and integrations
 
-Where every giving journey and form lives today, how the new site connects to it, and the plan to bring it in house. Links the site uses are set in `content/site.ts` (`external`).
+Where every giving journey and form lives today (full audit of the live site in `docs/MIGRATION-AUDIT.md`), how the new site connects to it, and the plan to bring it in house. Links the site uses are set in `content/site.ts` (`external`).
 
 ## Today
 
 | Journey | Lives on | How it works now | In the new site |
 |---|---|---|---|
 | One-off donation | Giveasy, `donatenow.kuc.org.au/general/donate` | Giveasy hosted page. $25, $75, $100 or custom, optional fee cover, card, Apple Pay, Google Pay, PayPal. Emails the tax receipt. | Donation form (S22) on `/get-involved/donate/` lets people choose an amount and see what it does, then hands over to Giveasy. |
-| Monthly donation | Salesforce NPSP widget embedded on `kuc.org.au/regular-donation/`, or by phone | Widget in an iframe on the WordPress page. The page also says to call 1800 801 633 to set up a regular gift. | Donation form starts on monthly on `/regular-donation/` and hands over to the live regular giving page. |
+| Monthly donation | Salesforce NPSP Plus form `a3kMo000001bAMPIA2`, embedded with KUC's drop-in script from connect.kuc.org.au | Form in an iframe on the WordPress page, paid through Stripe. | Embedded on `/regular-donation/` (S23). Every "Give monthly" button lands there with campaign tags. |
 | Car donation | Salesforce site, `kuc.my.salesforce-sites.com/Donateyourcar` | Multi-step form on AngularJS 1.6 (unsupported since 2022). No event tracking. Cross-domain tracking broken, so campaign source is lost and gifts show as direct. | All four Donate Your Car pages link to it. |
-| Studio Program expression of interest | Microsoft Forms, `forms.office.com/r/Q7v75x5kyT` | Completed by a support worker. | Linked from Studio Program and the applications page. |
+| Studio Program application and expression of interest | Microsoft Forms: the application form for social workers, and `forms.office.com/r/Q7v75x5kyT` | Completed by a support worker. | Both linked from the applications page; the expression of interest form also from Studio Program. |
 | Newsletter, contact, scholarship applications, fundraising registration | WordPress forms on the current site | Plugin forms on each page. | Placeholder cards (`components/page/FormBlock.tsx`) that link to the live forms. |
-| Partner donations, Return to Give, silent auction | WordPress pages with donation forms | Campaign specific. | Pages link to the live forms. |
+| Partner donations, Return to Give, silent auction, car towing contributions | Salesforce NPSP Plus forms, one per page (IDs in `docs/MIGRATION-AUDIT.md`) | Campaign specific forms in iframes. | Each page embeds its own form (S23). |
 | Peaks of Hope | Inspired Adventures | External event page. | Linked. |
 
 ## Already done in the new site

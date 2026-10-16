@@ -43,6 +43,14 @@ sections:
         - Removed your number plates
         - Left the owner's manual and service history (if available)
 
+  # The live page embeds this Google My Maps map of every drop off site.
+  - type: callout
+    icon: map
+    title: See every drop off site on a map
+    body: Find the Manheim auction site closest to you.
+    actions:
+      - { label: Open the map, href: "https://www.google.com/maps/d/viewer?mid=1maeSNPI2tntrvxR_zCiSSjJH9x_Qa0c", variant: ink }
+
   - type: features
     id: locations
     eyebrow: Locations

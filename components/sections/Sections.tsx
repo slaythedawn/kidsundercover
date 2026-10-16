@@ -1,13 +1,15 @@
 import { renderInline, renderMarkdown, resources } from "@/lib/content";
 import type { PageSection } from "@/lib/sections";
 import * as B from "./blocks";
-import { Band } from "./Section";
+import { Band, Md } from "./Section";
 import Video from "./Video";
 import ResourceHub from "./ResourceHub";
 import DonateForm from "./DonateForm";
+import NpspDonate from "./NpspDonate";
 import Photo from "@/components/Photo";
 import Doodle from "@/components/Doodle";
 import { external } from "@/content/site";
+import { media } from "@/lib/media";
 import s from "./sections.module.css";
 
 /** Renders a page's `sections` front matter, top to bottom. */
@@ -48,8 +50,9 @@ export default function Sections({ sections, pageUrl }: { sections: PageSection[
               <Band key={key} id={sec.id} tone={sec.tone}>
                 <Video
                   youtube={sec.youtube}
+                  vimeo={sec.vimeo}
                   label={sec.label}
-                  poster={sec.poster}
+                  poster={sec.poster ? media(sec.poster)?.src ?? sec.poster : undefined}
                   eyebrow={sec.eyebrow}
                   titleHtml={sec.title ? renderInline(sec.title) + (sec.accent ? ` <span class="serif">${sec.accent}</span>` : "") : undefined}
                   introHtml={sec.intro ? renderInline(sec.intro) : undefined}
@@ -93,6 +96,24 @@ export default function Sections({ sections, pageUrl }: { sections: PageSection[
                     titleHtml={sec.title ? renderInline(sec.title) + (sec.accent ? ` <span class="serif">${sec.accent}</span>` : "") : undefined}
                     introHtml={sec.intro ? renderInline(sec.intro) : undefined}
                   />
+                </div>
+              </Band>
+            );
+          case "npsp":
+            return (
+              <Band key={key} id={sec.id} tone={sec.tone}>
+                <div className={s.npsp}>
+                  <div>
+                    <B.HeadOnly {...sec} />
+                    {sec.body && <Md className={s.md} text={sec.body} />}
+                    {sec.image && (
+                      <div className={`print ${s.donatePhoto}`}>
+                        <Photo url={sec.image} alt={sec.imageAlt} />
+                      </div>
+                    )}
+                    {sec.note && <p className={s.note} dangerouslySetInnerHTML={{ __html: renderInline(sec.note) }} />}
+                  </div>
+                  <NpspDonate form={sec.form} />
                 </div>
               </Band>
             );

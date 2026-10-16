@@ -18,11 +18,15 @@ export type Link = { label: string; href: string };
  */
 export const external = {
   donate: "https://donatenow.kuc.org.au/general/donate",
-  // CONFIRM: where monthly gifts should go once the new site launches (Giveasy recurring, or the Salesforce widget).
-  monthlyForm: "https://www.kuc.org.au/regular-donation/",
+  // Monthly gifts are taken by the Salesforce NPSP Plus form embedded on the regular giving page (see npspForms).
+  monthlyForm: "/regular-donation/#give",
   // CONFIRM with Giveasy: the query parameter that pre-fills the amount, if any. Empty sends people to choose again.
   donateAmountParam: "",
   carForm: "https://kuc.my.salesforce-sites.com/Donateyourcar",
+  // Salesforce NPSP Plus donation forms, embedded with KUC's drop-in script (S23). Each form is set up in Salesforce
+  // with its own campaign, so gifts land against the right appeal. IDs from the live WordPress pages (October 2026).
+  npspDropIn: "https://connect.kuc.org.au/resource/npsp_plus__DonateDropIn/dropin.js",
+  npspForm: "https://connect.kuc.org.au/npsp_plus__DonateDropIn?form=",
   peaksOfHope: "https://inspiredadventures.com.au/event/kidsundercover-peaksofhope-2027/",
   facebook: "https://www.facebook.com/KidsUnderCover",
   instagram: "https://www.instagram.com/kidsundercover",

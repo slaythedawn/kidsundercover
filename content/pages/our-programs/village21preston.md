@@ -66,6 +66,22 @@ sections:
         title: What is the role of the mentors?
         text: Live-in Mentors are volunteers who live at the property. At least one mentor is expected to be present at the village each night. They are available to assist with building the independent living skills of young people, and model independent living behaviours such as attending work or study, cleaning, cooking, washing, etc.
 
+  - type: callout
+    id: virtual-tour
+    nav: Virtual tour
+    icon: map
+    eyebrow: Virtual tour
+    title: "Virtual Tour: Village 21 Preston"
+    body: Take a 3D walk through Village 21 Preston, including a time-lapse of the pilot's construction, thanks to our partners at Macutex.
+    actions:
+      - { label: Explore the site, href: "https://virtual.macuport.com/village_21/201221/index.htm" }
+
+  - type: video
+    vimeo: "768405772?h=3d69e55ffe"
+    poster: https://www.kuc.org.au/wp-content/uploads/2024/07/220817-125212q10-1024x682.jpg
+    label: Village 21 Preston
+    title: See Village 21 Preston
+
   - type: split
     id: supporters
     nav: Supporters

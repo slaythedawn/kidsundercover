@@ -13,7 +13,9 @@ form: none
 related: [/our-programs/studio-program/, /our-programs/resources-for-young-people/, /our-programs/resources-for-carers/]
 status: live
 actions:
-  - { label: Studio Expression of Interest Form, href: "https://forms.office.com/r/Q7v75x5kyT" }
+  # The live site's most clicked outbound link (about 1,100 clicks a year in GA4): the application form social workers use.
+  - { label: Apply for a Kids Under Cover Studio, href: "https://forms.office.com/pages/responsepage.aspx?id=SgqKylYouEK27LbyAUy3MDzWNVSUY9BNjJZL_XXhg_NURFA0RkE0TzJBV1NXNjhCS01XU0g2R0YxSy4u&route=shorturl" }
+  - { label: Studio Expression of Interest Form, href: "https://forms.office.com/r/Q7v75x5kyT", variant: ghost }
 sections:
   - type: jump
 
@@ -63,6 +65,20 @@ sections:
         - The property on which the studio is to be placed must have a backyard large enough for a studio
         - The studio must be intended for use by a young person/s aged between 12 and 25 years
     note: A simple yet rigorous application process ensures that studios are allocated to young people in greatest need.
+
+  - type: steps
+    style: numbered
+    tone: card
+    title: How an application works
+    items:
+      - icon: people
+        title: Referral
+        text: "Our Community Service Organisation (CSO) partners work directly with the young person to support their social needs. Through this work, the social worker decides if a Kids Under Cover studio, combined with the existing support, is the best way to address the young person's risk of homelessness. The social worker then applies to Kids Under Cover on behalf of the young person and their family."
+      - icon: studio
+        title: Assessment and allocation
+        text: "The Kids Under Cover team assesses the application and lets the social worker know the outcome. If the application is approved and funding has been allocated, we work with builders, local councils, the social worker and the family to plan the studio installation. After completion, Kids Under Cover looks after ongoing maintenance. When the family no longer needs the studio, it is dismantled and moved to another family in need."
+    actions:
+      - { label: Apply for a Kids Under Cover Studio, href: "https://forms.office.com/pages/responsepage.aspx?id=SgqKylYouEK27LbyAUy3MDzWNVSUY9BNjJZL_XXhg_NURFA0RkE0TzJBV1NXNjhCS01XU0g2R0YxSy4u&route=shorturl" }
 
   - type: formstart
     id: apply

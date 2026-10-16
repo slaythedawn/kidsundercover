@@ -13,17 +13,14 @@ related: [/get-involved/corporate-business-partnerships/, /about/our-supporters/
 status: live
 noindex: true
 sections:
-  - type: donate
+  # The live page's Salesforce NPSP Plus form, set up for partner gifts.
+  - type: npsp
+    id: give
+    form: a3kMo0000062flBIAQ
     title: Make your partner donation
-    intro: Choose a suggested amount, or enter your own amount (minimum $5).
+    intro: Thank you for your donation to Kids Under Cover.
     image: https://www.kuc.org.au/wp-content/uploads/2024/02/corporate-montage-4.jpg
     imageAlt: Partners standing outside a newly built Kids Under Cover studio
-    note: "Suggested amounts: $1000, $2500 or $5000, or enter your own amount (minimum $5)."
-    once:
-      - { amount: 1000, text: "suggested partner donation." }
-      - { amount: 2500, text: "suggested partner donation." }
-      - { amount: 5000, text: "suggested partner donation." }
-    monthly: []
 
   - type: callout
     tone: card

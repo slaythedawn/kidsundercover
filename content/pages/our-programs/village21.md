@@ -101,6 +101,8 @@ sections:
     body: Take a walk through Village 21 Bairnsdale, Moorumbina Mongurnallin and Village 21 Preston via a 3D walk through and time-lapse, thanks to our partners at Macutex. The Village 21 Preston tour also shows the construction of the Village 21 pilot.
     actions:
       - { label: Explore Village 21 Bairnsdale, href: "https://virtual.macuport.com/KUCV/VillageBairnsdale/3DVistaTour/index.htm" }
+      - { label: Explore Moorumbina Mongurnallin, href: "https://virtual.macuport.com/KUCV/VillageFrankston/20240826/index.htm", variant: ghost }
+      - { label: Explore Village 21 Preston, href: "https://virtual.macuport.com/village_21/201221/index.htm", variant: ghost }
 
   - type: gallery
     id: gallery

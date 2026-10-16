@@ -37,7 +37,9 @@ export default function DonateForm({ start = "once", once, monthly, note, donate
   const tier = tiers.find((t) => t.amount === pick);
   const base = freq === "once" ? donateUrl : monthlyUrl;
   const params = [amountParam && amount ? `${amountParam}=${amount}` : "", utm].filter(Boolean).join("&");
-  const href = params ? `${base}${base.includes("?") ? "&" : "?"}${params}` : base;
+  // Campaign tags go before any #anchor, or the next page never sees them.
+  const [path, hash] = base.split("#");
+  const href = (params ? `${path}${path.includes("?") ? "&" : "?"}${params}` : path) + (hash ? `#${hash}` : "");
 
   // Tells Google Tag Manager someone is heading to payment, with the gift they chose.
   const track = () => {

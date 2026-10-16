@@ -12,20 +12,18 @@ form: none
 related: [/get-involved/donate/, /get-involved/donate-your-car/, /get-involved/bequests/]
 status: live
 sections:
-  - type: donate
-    start: monthly
+  # Monthly gifts go through KUC's Salesforce NPSP Plus form, as on the live page. Every "Give monthly"
+  # button on the site lands here (external.monthlyForm).
+  - type: npsp
+    id: give
+    form: a3kMo000001bAMPIA2
     title: Give every month
-    intro: By setting up a recurring gift, you're helping us provide stable, ongoing support to young people at risk of homelessness.
-    image: https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-montage-6.jpg
-    imageAlt: A young person smiling in front of a bookshelf
-    once:
-      - { amount: 50, text: "helps set up a studio, so a young person has a place to rest, study and belong." }
-      - { amount: 125, text: "helps maintain the studio program, ensuring young people continue to feel supported and connected." }
-      - { amount: 250, text: "helps expand the studio program, giving young people a safe and stable space to thrive." }
-    monthly:
-      - { amount: 19, text: "could help a young person settle into their new Kids Under Cover studio." }
-      - { amount: 39, text: "could help a young person stay connected to their education, peers and community via our scholarship program." }
-      - { amount: 59, text: "could help provide a young person with a stable and secure place to call home and reduce their risk of homelessness." }
+    intro: By setting up a recurring gift, you're helping us provide stable, ongoing support to young people at risk of homelessness. With your help, we can continue working toward a community where no young person faces homelessness.
+    body: |
+      - **$19 a month** could help a young person settle into their new Kids Under Cover studio.
+      - **$39 a month** could help a young person stay connected to their education, peers and community through our scholarship program.
+      - **$59 a month** could help provide a young person with a stable and secure place to call home.
+    note: Every donation over $2 is tax deductible. Read about our [charitable status](/about/contact/kids-under-cover-charitable-status-and-tax-information/).
 
   - type: trust
     items:

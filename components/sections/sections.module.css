@@ -346,3 +346,10 @@
 /* Long button labels (report downloads) wrap instead of pushing the page wider. */
 .buttons :global(.btn) { white-space: normal; text-align: center; line-height: 1.2; }
 .callout > *, .split > *, .facts > *, .formStart > *, .faq > *, .video > *, .quote > * { min-width: 0; }
+
+/* S23 Salesforce donation form */
+.npsp { display: grid; gap: 32px; align-items: start; }
+@media (min-width: 900px) { .npsp { grid-template-columns: 0.85fr 1.15fr; gap: 64px; } }
+.npspFrame { min-height: 520px; background: var(--white, #fff); border-radius: 18px; padding: 8px; box-shadow: 0 2px 0 rgba(31, 29, 25, 0.08); min-width: 0; }
+.npspFrame iframe { display: block; width: 100%; min-height: 520px; border: 0; }
+.npspFallback { padding: 24px; margin: 0; }

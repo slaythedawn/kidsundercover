@@ -13,18 +13,16 @@ related: [/regular-donation/, /get-involved/donate/, /about/contact/kids-under-c
 status: live
 noindex: true
 sections:
-  - type: donate
-    start: monthly
+  # The live page's Salesforce NPSP Plus form for updating payment details and resuming a regular gift.
+  - type: npsp
+    id: give
+    form: a3kMo000001bAJBIA2
     title: Resume your regular donation
     intro: By reactivating your monthly support, you'll continue providing young people at risk of homelessness with the stability and hope they need. Your commitment helps us work toward a future where no young person is homeless.
+    body: To resume your regular donation, simply update your payment details in the form.
     image: https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-montage-8.jpg
     imageAlt: Two young women outside their Kids Under Cover studio
-    note: Every donation over $2 remains tax-deductible, and we're here to assist if you have any questions.
-    monthly:
-      - { amount: 19, text: "could help a young person settle into their new KUC studio." }
-      - { amount: 39, text: "could help a young person stay connected to their education, peers and community via our scholarship program." }
-      - { amount: 59, text: "could help provide a young person with a stable and secure place to call home and reduce their risk of homelessness." }
-    once: []
+    note: Every donation over $2 remains tax deductible, and we're here to assist if you have any questions.
 
   - type: trust
     items:
@@ -35,7 +33,7 @@ sections:
   - type: lead
     eyebrow: Thank you
     text: Thank you for standing with us. **Together, we can make a lasting difference.**
-    body: To resume your regular donation, simply update your payment details above. You can read more about our charitable status [here](/about/contact/kids-under-cover-charitable-status-and-tax-information/).
+    body: To resume your regular donation, simply update your payment details in the form above. You can read more about our charitable status [here](/about/contact/kids-under-cover-charitable-status-and-tax-information/).
 
   - type: split
     tone: card

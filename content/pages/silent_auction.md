@@ -14,16 +14,14 @@ related: [/get-involved/donate/, /get-involved/community-fundraising/]
 status: live
 noindex: true
 sections:
-  - type: callout
-    icon: gavel
+  # Payment goes through the live page's Salesforce NPSP Plus form for the silent auction, not the general donation form.
+  - type: npsp
+    id: pay
+    form: a3kMo000004RU69IAG
     eyebrow: Pay for your item
     title: Congratulations on your winning bid
-    body: |
-      Use the form on this page to pay for your silent auction item.
-
-      Please note, this is not a tax deductible donation.
-    actions:
-      - { label: Pay for your item, href: "https://donatenow.kuc.org.au/general/donate", variant: ink }
+    body: Use the form on this page to pay for your silent auction item.
+    note: Please note, this is not a tax deductible donation.
 
   - type: callout
     tone: card

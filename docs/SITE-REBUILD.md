@@ -63,7 +63,7 @@ These four stories loop on redirects on the live site, so the crawler only got a
 
 ### Before launch
 - Photos load from KUC's WordPress media library. Copy them into the new CMS so the old site can be switched off.
-- Forms (newsletter, contact, scholarship, studio referral, fundraising) are placeholders that link to the live forms. In the build they become native forms posting to Salesforce.
+- Forms (newsletter, contact, Target450) are placeholders that link to the live Gravity Forms. They become native forms before launch. Everything else is mapped in `docs/MIGRATION-AUDIT.md`.
 - Confirm the Giveasy and Salesforce donation links in `content/site.ts`.
 - Light copy edits were made: obvious typos, dashes, broken links (NILS, a wrong Victorian Aboriginal Child Care Agency link, an old Village 21 link).
 
@@ -95,8 +95,8 @@ These four stories loop on redirects on the live site, so the crawler only got a
 - Bequests: "Gifts in Wills guide" button links back to the same page, and "refer to this card for suggested wording" points to a card that isn't there (the Promise For Kids booklet PDF may be it).
 - Charitable status page: five documents with no links. Media centre mentions press kits but has none, and no media contact.
 - Moorumbina virtual tour has no link. Preston uses a Moorumbina partners photo, and some Moorumbina gallery photos are named "Bairnsdale launch".
-- Silent auction payment goes to the general donation form, which says gifts are tax deductible; the page says the payment isn't. Its SEO title reads "Give an Lifelong Gift".
-- Return to Give asks people to "update payment details" but has no form for it. CONFIRM where it should go.
+- Silent auction: resolved. Payment uses its own Salesforce form, as on the live page. Its live SEO title reads "Give an Lifelong Gift".
+- Return to Give: resolved. The live page embeds a Salesforce form for updating payment details; the new page now does too.
 - Jade's letter only exists as small 215x300 thumbnails.
 
 ### Found while turning PDFs into pages (October 2026)

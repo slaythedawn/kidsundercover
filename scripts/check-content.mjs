@@ -37,7 +37,7 @@ process.exitCode = bad ? 1 : 0;
 // Sections: known types, required fields, and images that exist in the processed set.
 const TYPES = {
   lead: ["text"], split: ["body"], features: ["items"], steps: ["items"], stats: ["items"], facts: ["items"],
-  quote: ["quote"], gallery: ["images"], video: ["youtube"], checklist: ["yes"], faq: ["items"], callout: [],
+  quote: ["quote"], gallery: ["images"], video: [], npsp: ["form"], checklist: ["yes"], faq: ["items"], callout: [],
   stories: [], jump: [], trust: ["items"], text: ["body"], ask: ["cta"], formstart: ["action"], resources: [],
   pages: [], donate: ["once", "monthly"],
 };
