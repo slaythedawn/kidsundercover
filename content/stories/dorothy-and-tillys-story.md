@@ -6,7 +6,7 @@ date: 2021-04-14
 categories: [News]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2021/04/dorothy-tilly.jpg
-imageAlt: ""
+imageAlt: Tilly and her grandmother Dorothy cheek to cheek
 excerpt: "You may remember reading Dorothy and Tilly’s story with our urgent plea for support in December. We’re so pleased to share that thanks to your support the family have finally felt the relief of a Kids Under Cover studio and scholarships."
 cta: donate
 ---

@@ -4,6 +4,7 @@ name: Joe Corera, CPA
 role: Chief Financial Officer
 group: Executive leadership team
 image: https://www.kuc.org.au/wp-content/uploads/2024/02/Joe-Corera-sq-300x300.jpg
+imageAlt: Headshot of Joe Corera
 order: 5
 ---
 Joe came on board the Kids Under Cover team in March 2023 as the Chief Financial Officer.

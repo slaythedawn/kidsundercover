@@ -6,7 +6,7 @@ date: 2024-05-07
 categories: [Case studies, Studio Program]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2024/05/Fence-girl3-2.jpg
-imageAlt:
+imageAlt: Painted portrait of a woman's face on a wooden fence
 excerpt: "Paige used to have a ‘go bag’ packed and ready for the days she couldn’t cope in the house anymore. “Sometimes I just didn’t want to sleep at home…” she says. “So I would try to find other avenues.”"
 cta: donate
 ---

@@ -6,7 +6,7 @@ date: 2020-10-27
 categories: [News]
 program: car
 image: https://www.kuc.org.au/wp-content/uploads/2020/10/DYC-hand-with-cloud-car-BANNER_KB.jpg
-imageAlt:
+imageAlt: An open hand beneath a cloud shaped like a car in a blue sky
 excerpt: "Fiona has a special connection to the car she donated and wanted to make sure she honoured her Nana when she parted with it."
 cta: car
 ---

@@ -6,7 +6,7 @@ date: 2024-08-05
 categories: [Media releases]
 program: advocacy
 image: https://www.kuc.org.au/wp-content/uploads/2024/08/Street.webp
-imageAlt: ""
+imageAlt: A person sitting hunched on a city footpath with a backpack
 excerpt: "An urgent plea has been issued to stop tens of thousands of Australian children and young adults falling into a life of homelessness, as new data reveals the extent of the housing crisis."
 cta: monthly
 ---

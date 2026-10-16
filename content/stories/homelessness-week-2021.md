@@ -6,7 +6,7 @@ date: 2021-07-28
 categories: [News]
 program: advocacy
 image: https://www.kuc.org.au/wp-content/uploads/2021/07/feet-in-laverton-2.jpg
-imageAlt:
+imageAlt: The legs and feet of an adult and young child sitting together
 excerpt: "August 1-7 marks Homelessness Week 2021. The week raises awareness of the homelessness crisis in Australia and the actions needed to end homelessness."
 cta: donate
 ---

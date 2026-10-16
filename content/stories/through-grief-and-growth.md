@@ -6,7 +6,7 @@ date: 2025-03-19
 categories: [Stories]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2025/03/iStock-1250032511-scaled-e1742363336113.jpg
-imageAlt:
+imageAlt: A young man in a beanie and denim jacket against a rusty wall
 excerpt: "Joe was just 16 when his loving father died suddenly due to illness, uprooting his life and his safety net."
 cta: target450
 ---

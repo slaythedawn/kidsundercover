@@ -6,7 +6,7 @@ date: 2024-06-11
 categories: [News, Stories]
 program: advocacy
 image: https://www.kuc.org.au/wp-content/uploads/2024/06/Pink-girl-scaled.jpg
-imageAlt:
+imageAlt: A young person resting their chin in their hands against a pink wall
 excerpt: "Not everybody is good with numbers. Many of us are no good at all."
 cta: donate
 ---

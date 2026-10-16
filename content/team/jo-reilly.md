@@ -4,6 +4,7 @@ name: Jo Reilly
 role: Director
 group: Board of directors
 image: https://www.kuc.org.au/wp-content/uploads/2026/02/JR-headshot-300x300.jpg
+imageAlt: Headshot of Jo Reilly
 order: 4
 ---
 Jo joined the Kids Under Cover Board in 2026, bringing extensive experience in brand-led growth, strategy and governance across large, regulated and purpose-led organisations.

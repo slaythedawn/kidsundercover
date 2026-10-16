@@ -18,7 +18,7 @@ Thanks to Ken’s vision, leadership and passion, we’re now housing around 100
 
 Thank you, Ken. We’re grateful for the lasting contribution you’ve made to the community. Ken’s wife, Lenka Morgan, has also played an incredibly important role in ensuring the success of Kids Under Cover’s programs. Our thoughts are with Lenka and her family as we reflect on this anniversary.
 
-![](https://www.kuc.org.au/wp-content/uploads/2023/08/Ben-Ken-and-Lenka.jpeg)
+![Ken and Lenka Morgan with a young man holding their scholarship award plaque](https://www.kuc.org.au/wp-content/uploads/2023/08/Ben-Ken-and-Lenka.jpeg)
 
 ## Ken’s Story
 

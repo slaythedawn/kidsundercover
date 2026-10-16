@@ -6,7 +6,7 @@ date: 2021-09-23
 categories: [News]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2021/09/IMG_2822-1.jpg
-imageAlt: ""
+imageAlt: A family receiving the keys to their new studio from the build team
 excerpt: "Lidia and her family have received our first Kids Under Cover studio in South Australia, as part of our interstate expansion pilot."
 cta: donate
 ---

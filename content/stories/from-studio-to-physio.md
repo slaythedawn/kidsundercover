@@ -6,7 +6,7 @@ date: 2020-12-03
 categories: [News]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2020/12/Studio-banner-image-small.jpg
-imageAlt: ""
+imageAlt: A Kids Under Cover studio with a curved roof in a backyard
 excerpt: "Teenage years can often be turbulent, but this was especially true for Taylar who spent her early teens between different homes and without much stability or support."
 cta: donate
 ---

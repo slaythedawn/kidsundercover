@@ -4,6 +4,7 @@ name: Clare Gleghorn
 role: Chair
 group: Board of directors
 image: https://www.kuc.org.au/wp-content/uploads/2024/05/Untitled-design-5-300x300.png
+imageAlt: Headshot of Clare Gleghorn
 order: 1
 ---
 Clare is a leading corporate affairs specialist with two decades of experience working in government, public affairs and corporate communications roles both client and agency-side in Australia and overseas.

@@ -4,6 +4,7 @@ name: Melissa Singer
 role: Director
 group: Board of directors
 image: https://www.kuc.org.au/wp-content/uploads/2026/02/Untitled-design-4-300x300.png
+imageAlt: Headshot of Melissa Singer
 order: 3
 ---
 Melissa is a highly skilled communicator with 25 years’ experience in a variety of roles in media management and journalism.

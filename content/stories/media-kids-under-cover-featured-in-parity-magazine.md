@@ -6,7 +6,7 @@ date: 2026-03-04
 categories: [Media releases]
 program: advocacy
 image: https://www.kuc.org.au/wp-content/uploads/2026/03/Untitled-design-19-1024x536.png
-imageAlt: ""
+imageAlt: Illustration titled Before the fall about preventing youth homelessness
 excerpt: "Kids Under Cover is proud to be featured in the latest edition of Parity magazine with an article and original illustration titled “Before the Fall: Preventing Youth Homelessness.”"
 cta: target450
 ---

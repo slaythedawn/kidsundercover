@@ -4,6 +4,7 @@ name: Jasmin Lesniak
 role: Head of Fundraising and Communications
 group: Executive leadership team
 image: https://www.kuc.org.au/wp-content/uploads/2024/09/Jas-300x300-1-300x300.jpg
+imageAlt: Headshot of Jasmin Lesniak
 order: 3
 ---
 Jasmin has recently joined Kids Under Cover as Head of Fundraising and Communications.

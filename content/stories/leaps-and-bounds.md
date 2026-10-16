@@ -6,7 +6,7 @@ date: 2022-07-05
 categories: [News]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2022/07/WithDog.jpg
-imageAlt:
+imageAlt: Two women hugging on a country path, one holding a small dog
 excerpt: "Even before she spent months moving around between caravan parks and campsites with her family, waiting to find a home, Alannah was facing ongoing challenges with her mental health."
 cta: donate
 ---

@@ -6,7 +6,7 @@ date: 2020-08-24
 categories: [News]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2020/08/Woman-Holding-Baby-Near-Window.jpg
-imageAlt: ""
+imageAlt: A grandmother and toddler looking out a window together
 excerpt: "Mandy’s love for her children and grandchildren knows no bounds."
 cta: donate
 ---

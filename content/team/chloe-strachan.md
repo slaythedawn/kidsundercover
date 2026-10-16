@@ -4,6 +4,7 @@ name: Chloe Strachan
 role: Head of Assets and Development
 group: Executive leadership team
 image: https://www.kuc.org.au/wp-content/uploads/2026/09/Chloe-3-300x300.png
+imageAlt: Headshot of Chloe Strachan
 order: 2
 ---
 Chloe holds a Bachelor of Urban Design and Town Planning, a foundation that shaped a career-long conviction that the built form has a profound impact on the people who inhabit it.

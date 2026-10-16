@@ -6,7 +6,7 @@ date: 2021-09-23
 categories: [News]
 program: research
 image: https://www.kuc.org.au/wp-content/uploads/2021/09/Impact-report-image.jpg
-imageAlt: ""
+imageAlt: A young woman standing on a deck outside her home with a cat
 excerpt: "New research undertaken by Dr Paul Stolz of Swinburne University of Technology has investigated the long-term impact of Kids Under Cover’s Studio Program on young people and their families."
 cta: donate
 ---

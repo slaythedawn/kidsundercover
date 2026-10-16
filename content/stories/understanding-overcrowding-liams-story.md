@@ -6,7 +6,7 @@ date: 2025-03-05
 categories: [Case studies, Stories]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2024/08/elizeu-dias-2EGNqazbAMk-unsplash-scaled.jpg
-imageAlt:
+imageAlt: A smiling young man outdoors
 excerpt: "Imagine living in a home so crowded that your 70 year old grandmother had to give up her room so your two sisters have somewhere to sleep. For Liam, a young Aboriginal boy in Kinship care, this was the daily reality."
 cta: target450
 ---

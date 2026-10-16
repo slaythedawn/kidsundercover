@@ -6,7 +6,7 @@ date: 2022-03-21
 categories: [Media releases]
 program: research
 image: https://www.kuc.org.au/wp-content/uploads/2022/03/survey-graphic.png
-imageAlt: ""
+imageAlt: Black tick symbol on a green background
 excerpt: "Every year, the impact of Kids Under Cover’s work for families is measured by independent researchers, DBM Consultants."
 cta: monthly
 ---

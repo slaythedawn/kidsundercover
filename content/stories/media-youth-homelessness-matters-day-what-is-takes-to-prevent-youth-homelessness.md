@@ -48,7 +48,7 @@ This ensured that the voices of practitioners and the community sector were not 
 
 The message was clear: youth homelessness was not the responsibility of one portfolio. It was a whole-of-government issue requiring coordinated action.
 
-![](https://www.kuc.org.au/wp-content/uploads/2026/04/Untitled-design-212x300.jpg)
+![Magazine article titled A plan is not enough by Keith Waters](https://www.kuc.org.au/wp-content/uploads/2026/04/Untitled-design-212x300.jpg)
 
 ### The risk of a plan without structure
 

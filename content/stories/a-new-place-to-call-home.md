@@ -6,7 +6,7 @@ date: 2021-07-05
 categories: [News]
 program: research
 image: https://www.kuc.org.au/wp-content/uploads/2021/09/Impact-report-image.jpg
-imageAlt: ""
+imageAlt: A young woman standing on a deck outside her home with a cat
 excerpt: "A Melbourne academic believes more innovative forms of accommodation could fix Australia’s escalating youth homelessness crisis."
 cta: donate
 ---

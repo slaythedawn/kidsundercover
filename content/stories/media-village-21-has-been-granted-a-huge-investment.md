@@ -6,7 +6,7 @@ date: 2023-02-14
 categories: [Media releases]
 program: village21
 image: https://www.kuc.org.au/wp-content/uploads/2023/02/village-21-video-screenshot-1024x711.jpg
-imageAlt: ""
+imageAlt: Green studios along a timber deck at Village 21
 excerpt: "This is an exciting day for Kids Under Cover and our Village 21 model of support."
 cta: donate
 ---

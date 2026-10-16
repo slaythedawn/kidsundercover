@@ -4,7 +4,7 @@ title: Inside a Kids Under Cover studio
 description:
 intro: "Please consider donating to Kids Under Cover before June 30 to help us to deliver studios to the families in need."
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/05/Untitled-design-3-1024x576.jpg
-heroAlt:
+heroAlt: A bedroom inside a studio with a bed, desk, computer and chair
 section: campaign
 cta: donate
 form: none
@@ -28,7 +28,7 @@ Studios are prefabricated by our construction partners at Ortech in Bendigo, wit
 
 Once the kit arrives at the property where it will be installed, our builders at Harris HMC assemble the kit in-situ in the family’s backyard, erected and fully fitted within 10 days.
 
-![](https://www.kuc.org.au/wp-content/uploads/2024/02/corporate-montage-2.jpg)
+![Builders assembling the steel frame of a studio in a backyard](https://www.kuc.org.au/wp-content/uploads/2024/02/corporate-montage-2.jpg)
 
 ## Maintenance
 
@@ -42,7 +42,7 @@ Once the studio is no longer required, it can be relocated to accommodate anothe
 
 Every studio is demountable and able to be flat-packed for relocation up to four times, before being craned onto a truck and transported to its next location to provide relief to more young people and their families.
 
-![](https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-montage-8.jpg)
+![Two young women on the front steps of their studio](https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-montage-8.jpg)
 
 ## Build time
 
@@ -50,11 +50,11 @@ Once the application is approved and funding has been allocated, Kids Under Cove
 
 The time it takes from approval of application varies depending on many different factors, such as council approvals and build programs. Once everything is in place building the studio onsite usually takes between 10-15 days.
 
-![](https://www.kuc.org.au/wp-content/uploads/2023/10/GRACE-AND-RUFFLES.jpg)
+![A young woman holding her small white dog outside her studio](https://www.kuc.org.au/wp-content/uploads/2023/10/GRACE-AND-RUFFLES.jpg)
 
-![](https://www.kuc.org.au/wp-content/uploads/2023/11/photojo-SM-0051-1024x683.jpg)
+![Two young women on the front steps of their studio](https://www.kuc.org.au/wp-content/uploads/2023/11/photojo-SM-0051-1024x683.jpg)
 
-![](https://www.kuc.org.au/wp-content/uploads/2020/08/Shaylee-sitting-on-bed.jpg)
+![A young woman sitting on her bed inside her studio](https://www.kuc.org.au/wp-content/uploads/2020/08/Shaylee-sitting-on-bed.jpg)
 
 ## Help ease the pressure for families in crisis
 

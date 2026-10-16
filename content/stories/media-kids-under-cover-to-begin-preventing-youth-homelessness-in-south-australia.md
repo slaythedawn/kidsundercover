@@ -6,7 +6,7 @@ date: 2021-02-26
 categories: [Media releases]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2021/08/S0A6484-e1624593786331.jpg
-imageAlt: ""
+imageAlt: A person sitting in a garden behind flowering lavender
 excerpt: "It was today announced that Kids Under Cover will receive $2.3 million as part of the Marshall Liberal Government’s new $20 million Homelessness Prevention Fund."
 cta: donate
 ---

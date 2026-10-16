@@ -6,7 +6,7 @@ date: 2019-08-05
 categories: [News]
 program: scholarships
 image: https://www.kuc.org.au/wp-content/uploads/2023/10/Sarah-banner.jpg
-imageAlt: ""
+imageAlt: Graduation caps thrown into a blue sky
 excerpt: "The last three years have been an incredible journey for the recipient of the 2016 Ken and Lenka Morgan Scholarship."
 cta: scholarship
 ---

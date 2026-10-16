@@ -5,7 +5,7 @@ description: "When the doors close during lockdown on a house with too few rooms
 date: ""            # CONFIRM: no publish date in the crawl (written by Stephen Nash as CEO)
 categories: [News]  # CONFIRM: no category shown in the crawl
 program: advocacy
-imageAlt: ""
+imageAlt: A build crew and family members standing outside a new studio
 excerpt: "I am so pleased to be back working directly on homelessness solutions after almost a decade immersed in the community housing sector. I’m amazed at the persistence and dedication of people working in the sector, in academia, philanthropy and government striving to find ways to end homelessness."
 image: https://www.kuc.org.au/wp-content/uploads/2022/05/Build-crew-studio-Balwyn-e1705984020469.jpg
 cta: donate

@@ -6,7 +6,7 @@ date: 2023-04-26
 categories: [Stories]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2023/04/Cute-studio-edit-1.jpg
-imageAlt: ""
+imageAlt: A finished studio with hanging plants and a garden bed out front
 excerpt: "The best way to reduce the likelihood of a young person coming into contact with the justice system is to help them build strong connections to family, community and education."
 cta: donate
 ---
@@ -22,7 +22,7 @@ Jay’s ‘mistake’ cost him 14 months in jail. It could easily have been long
 
 Research shows that the best way to help divert young people from a cycle of contact with the justice system is to enable them to be close to family and involved in community, education and recreation. In Jay’s case, his own stable space could allow him to begin to forge his own path.
 
-![](https://www.kuc.org.au/wp-content/uploads/2023/04/Pic1.jpg)
+![A bedroom inside the studio with a bed, desk and gaming chair](https://www.kuc.org.au/wp-content/uploads/2023/04/Pic1.jpg)
 
 Jay was a good kid growing up. Always highly motivated, active and ‘a little bit OCD’ when it came to how he wanted to set things up. So when a Kids Under Cover studio was approved for the backyard of the family home, he could start to think more clearly about his future.
 

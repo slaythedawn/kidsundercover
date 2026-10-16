@@ -4,7 +4,7 @@ title: Providing Homes For Vulnerable Young Victorians
 description: Additional funding from the Victorian Government to support the rehabilitation of young people transitioning out of youth justice.
 intro: Additional funding from the Victorian Government will support the rehabilitation of young people transitioning out of youth justice.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2021/08/S0A6484-e1624593786331.jpg
-heroAlt: ""
+heroAlt: A person sitting in a garden behind flowering lavender
 section: other
 cta: donate
 form: none

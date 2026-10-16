@@ -4,6 +4,7 @@ name: Christopher Cramond
 role: Vice-Chair
 group: Board of directors
 image: https://www.kuc.org.au/wp-content/uploads/2024/02/Christopher-Crammond-sq-300x300.jpg
+imageAlt: Headshot of Christopher Cramond
 order: 2
 ---
 Christopher joined the Board in December 2021, after becoming involved with Kids Under Cover a decade earlier through pro-bono consulting.

@@ -4,6 +4,7 @@ name: Nathaniel Popelianski
 role: Director
 group: Board of directors
 image: https://www.kuc.org.au/wp-content/uploads/2024/02/Nathaniel-Popelianski-sq-300x300.jpg
+imageAlt: Headshot of Nathaniel Popelianski
 order: 8
 ---
 Nathaniel is a senior partner at Corrs Chambers Westgarth in the Real Estate Practice. He acts for global and national occupiers and investors, government and housing associations on large scale real estate transactions and has a strong focus on mixed-use, commercial office and social and affordable housing developments.

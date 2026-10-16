@@ -4,6 +4,7 @@ name: Stephen Nash
 role: Chief Executive Officer
 group: Executive leadership team
 image: https://www.kuc.org.au/wp-content/uploads/2024/02/Stephen-Nash-sq-300x300.jpg
+imageAlt: Headshot of Stephen Nash
 order: 1
 ---
 Stephen became the CEO of Kids Under Cover in December 2021 after being a founder and CEO of homelessness and community housing organisations for the past 25 years in Victoria.

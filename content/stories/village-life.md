@@ -6,7 +6,7 @@ date: 2022-12-12
 categories: [News]
 program: village21
 image: https://www.kuc.org.au/wp-content/uploads/2022/12/village-life-video-screenshot-1024x667.jpg
-imageAlt: ""
+imageAlt: Two young men cooking together in a kitchen
 excerpt: "Eighteen months since the launch of Village 21 in Preston, an independent review from Swinburne University has found the project has the capacity to be transformational for the Victorian Government in reducing the financial and social burden of homelessness for young people."
 cta: donate
 ---

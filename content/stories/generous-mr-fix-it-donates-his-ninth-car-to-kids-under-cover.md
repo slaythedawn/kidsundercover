@@ -6,7 +6,7 @@ date: 2024-03-26
 categories: [DYC]
 program: car
 image: https://www.kuc.org.au/wp-content/uploads/2024/03/Mr-Fix-it1.jpg
-imageAlt:
+imageAlt: A white Toyota hatchback parked in a grassy paddock
 excerpt: "Some of Greg’s earliest memories are tinged with the fear of homelessness. With his parents always on the brink of bankruptcy, and with debt collectors regularly pounding on the front door, he never knew if the roof over his head would be there tomorrow."
 cta: car
 ---

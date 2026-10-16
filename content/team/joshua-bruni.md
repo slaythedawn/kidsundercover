@@ -4,6 +4,7 @@ name: Joshua Bruni
 role: Director
 group: Board of directors
 image: https://www.kuc.org.au/wp-content/uploads/2025/11/Joshua_Bruni_0874-300x300.jpg
+imageAlt: Headshot of Joshua Bruni
 order: 5
 ---
 Josh brings experience across government, industrial relations, advocacy, and youth support to Kids Under Cover. His career reflects a strong commitment to supporting vulnerable people to navigate complex systems of power that are too often difficult to understand and access.

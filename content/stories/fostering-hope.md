@@ -5,7 +5,7 @@ description: "For the most part, foster carers have a spirit of generosity that 
 date: ""            # CONFIRM: no publish date in the crawl
 categories: [News]  # CONFIRM: no category shown in the crawl
 program: studio
-imageAlt: ""
+imageAlt: Three children holding hands as they walk along a dirt path
 excerpt: "For the most part, foster carers have a spirit of generosity that seems to come from somewhere beyond the realms of standard human character. It’s as if the act of opening their home and their hearts to young people adrift is not so much a choice but just the obvious right thing to do."
 image: https://www.kuc.org.au/wp-content/uploads/2022/09/Karens-kids-2.jpg
 cta: donate

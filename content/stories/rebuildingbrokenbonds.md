@@ -6,7 +6,7 @@ date: 2023-04-26
 categories: [News]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2023/04/Rebuilding-boy-grey.jpg
-imageAlt: ""
+imageAlt: Black and white side profile of a young man with curly hair
 excerpt: "Three of Danielle’s four children are living with autism. The other, Jacob*, has been going through more complex mental health issues and until recently was on the verge of leaving home."
 cta: donate
 ---

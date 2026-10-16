@@ -6,7 +6,7 @@ date: 2023-07-31
 categories: [News]
 program: advocacy
 image: https://www.kuc.org.au/wp-content/uploads/2023/07/IMG_4429-scaled.jpg
-imageAlt:
+imageAlt: A panel of speakers seated behind name cards at a conference
 excerpt: "The 2023 National Child & Youth Homelessness Conference saw industry experts and thought leaders share valuable insights and engage in collaborative discussions with the common goal of ending youth homelessness."
 cta: donate
 ---

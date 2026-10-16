@@ -6,7 +6,7 @@ date: 2024-03-04
 categories: [Stories]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2024/03/Austock000157508_Medium-1.jpg
-imageAlt:
+imageAlt: A teenage boy and a woman standing beside a dirt bike
 excerpt: "Joanne couldn’t blame her eldest son James for wanting to leave home. A three-bedroom house for a family of six doesn’t offer a young person much time or space to be a teenager."
 cta: donate
 ---
@@ -24,7 +24,7 @@ The Kids Under Cover [Studio Program](https://www.kuc.org.au/our-programs/studio
 
 ### A welcome addition to a family on edge
 
-![](https://www.kuc.org.au/wp-content/uploads/2024/03/Friendships-web-300x300.jpg)
+![A studio in a backyard garden under a shade sail](https://www.kuc.org.au/wp-content/uploads/2024/03/Friendships-web-300x300.jpg)
 
 When a Kids Under Cover studio was installed in Joanne’s backyard, there was an immediate shift in the dynamics of the family unit. Tension between the siblings eased along with Joanne’s anxiety, which had permeated the household. The stress of James’ restlessness was replaced by the opportunity to rekindle family bonds and prepare a pathway forward. It was the first time any of Joanne’s children could enjoy a bedroom of their own, a bathroom of their own and “their own place they can call home”.
 

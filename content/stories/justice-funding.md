@@ -6,7 +6,7 @@ date: 2021-08-06
 categories: [News]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2021/08/S0A6484-e1624593786331.jpg
-imageAlt: ""
+imageAlt: A person sitting in a garden behind flowering lavender
 excerpt: Additional funding from the Victorian Government will support the rehabilitation of young people transitioning out of youth justice.
 cta: donate
 ---

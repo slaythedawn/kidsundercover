@@ -4,6 +4,7 @@ name: Keith Waters
 role: Head of Impact
 group: Executive leadership team
 image: https://www.kuc.org.au/wp-content/uploads/2024/02/Keith-Waters-sq-300x300.jpg
+imageAlt: Headshot of Keith Waters
 order: 4
 ---
 Keith Waters has worked across the community services sector for more than 40 years, with a particular focus on improving outcomes for vulnerable children, young people and families.

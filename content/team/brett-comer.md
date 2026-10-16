@@ -4,6 +4,7 @@ name: Brett Comer
 role: Director
 group: Board of directors
 image: https://www.kuc.org.au/wp-content/uploads/2024/02/Brett-Comer-sq-300x300.jpg
+imageAlt: Headshot of Brett Comer
 order: 6
 ---
 Brett has held executive positions in the health and human services, financial services, and early childcare education sectors. His primary focus is collaborating with others to achieve impactful and sustainable outcomes for customers, the community, and related stakeholders.

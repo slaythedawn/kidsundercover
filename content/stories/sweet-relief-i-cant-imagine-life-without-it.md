@@ -6,7 +6,7 @@ date: 2024-06-11
 categories: [Case studies, Stories]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2024/06/photojo-0051-scaled.jpg
-imageAlt:
+imageAlt: Margo standing in front of her studio
 excerpt: "It’s been nearly two years since the South Australian Minister for Human Services, Nat Cook, paid a visit to Margo’s home in the Barossa Valley. She was there to help celebrate the handover of a two-bedroom studio built in Margo’s backyard."
 cta: donate
 ---
@@ -16,7 +16,7 @@ The build was funded by the South Australian Government in partnership with Foun
 
 There are now 18 Kids Under Cover studios on the ground across the state, with a further 24 under development. The aim is to have 42 one and two-bedroom studios delivered in South Australia by the end of the year. That’s on top of over 600 in Victoria housing around 1000 young people every night.
 
-![](https://www.kuc.org.au/wp-content/uploads/2024/06/photojo-0041-1024x683.jpg)
+![Margo laughing with a woman in a purple jacket in front of the studio](https://www.kuc.org.au/wp-content/uploads/2024/06/photojo-0041-1024x683.jpg)
 
 Margo’s studio is home to two of her four great grandsons. The boys moved in with Margo after experiencing a number of complex challenges at home. The limited space inside Margo’s self-described three-bedroom ‘shoebox’ had one boy sleeping in the lounge and the youngest sharing a room with Margo.
 
@@ -36,4 +36,4 @@ The other great advantage for Margo is the fact the boys are still with her. The
 
 “And it’s given me a bit of space to myself. Through the day I’ve got the house to myself and it’s wonderful. It’s helped me a great deal.”
 
-![](https://www.kuc.org.au/wp-content/uploads/2024/06/photojo-0005-1024x683.jpg)
+![A bedroom inside the studio with a bed, desk and computer](https://www.kuc.org.au/wp-content/uploads/2024/06/photojo-0005-1024x683.jpg)

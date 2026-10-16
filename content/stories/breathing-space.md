@@ -6,7 +6,7 @@ date: 2022-07-01
 categories: [News]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2022/07/Women-and-child.jpg
-imageAlt: ""
+imageAlt: A mother holding her child while sitting on the edge of a bed
 excerpt: "Although Tessa already had her five boys with her at home, she still felt compelled to take in one of their teenage friends who was having trouble living at his own home."
 cta: donate
 ---

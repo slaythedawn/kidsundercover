@@ -6,7 +6,7 @@ date: 2021-09-23
 categories: [Media releases]
 program: general
 image: https://www.kuc.org.au/wp-content/uploads/2021/09/Photo_-CEO-Message.jpg
-imageAlt: ""
+imageAlt: Kids Under Cover CEO Jo Swift smiling at a lectern
 excerpt: "After almost 19 wonderful years at Kids Under Cover I am stepping down as CEO in December 2021."
 cta: donate
 ---

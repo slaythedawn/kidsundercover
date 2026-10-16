@@ -6,7 +6,7 @@ date: 2024-08-08
 categories: [Media releases]
 program: advocacy
 image: https://www.kuc.org.au/wp-content/uploads/2024/08/CWM-32.jpg
-imageAlt: ""
+imageAlt: Speakers addressing an audience at a Creswick Woollen Mills forum
 excerpt: "In our endeavour to end homelessness, it’s critical we explore every solution and come together as a community to share ideas and generate productive discussion."
 cta: monthly
 ---

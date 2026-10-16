@@ -6,7 +6,7 @@ date: ""            # CONFIRM: no publish date in the crawl (photo uploaded 2022
 categories: [News]  # CONFIRM: no category shown in the crawl
 program: village21
 image: https://www.kuc.org.au/wp-content/uploads/2022/07/Fistpump.jpg
-imageAlt: ""
+imageAlt: Two people bumping fists outdoors
 excerpt: "Leon Jordan is the Team Leader of Village 21 in Preston. The project, a joint venture between Kids Under Cover and Anglicare Victoria and funded by the Victorian Government, is an alternative model of Out of Home Care combining an accommodation and support environment for young people during the transition from state care to independent living."
 cta: donate
 ---

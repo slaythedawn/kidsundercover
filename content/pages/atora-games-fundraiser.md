@@ -28,7 +28,7 @@ Kids Under Cover has helped over 4,000 young people and awarded over 2,200 schol
 
 [Learn more about our programs](https://www.kuc.org.au/our-programs/)
 
-![](https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-transparent-montage-min.png)
+![A Kids Under Cover studio with a curved roof in a backyard](https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-transparent-montage-min.png)
 
 ## Your donation will foster hope
 

@@ -14,7 +14,7 @@ cta: donate
 
 Lisa has shown remarkable resilience over her lifetime. A mother to three sons, she’s overcome multiple challenges including experiencing the loss of her mobility after a car accident and having survived cancer.
 
-![](https://www.kuc.org.au/wp-content/uploads/2023/07/Kids-Under-Cover-Simon-Fazio-@faz.io-2023-05-26-13.43.55-DSCF2035.jpg)
+![Lynton walking with Lisa in her wheelchair towards his new studio](https://www.kuc.org.au/wp-content/uploads/2023/07/Kids-Under-Cover-Simon-Fazio-@faz.io-2023-05-26-13.43.55-DSCF2035.jpg)
 
 Lisa’s resilience has been more recently tested by tension and conflict unsettling her family home. All three of her boys have had their own challenges. Physical, emotional and mental health concerns have made it difficult for them to manage their own behaviours at times. But Lynton in particular has found it hard to navigate his feelings. Often something small could overwhelm him and trigger an unsociable emotional response.
 
@@ -42,16 +42,16 @@ And for Lisa, there’s a huge sense of relief. And a feeling that Lynton now ha
 
 _“Having the studio feels like we’ve given him somewhere that he can now kick goals from,” she says. “It has to start somewhere and it feels like now, finally after all these years, we’ve got a base. That for me, as a mum, is very much a relief. I hope he just gets the chance to achieve as much as he can. That’s all I can ask. If he’s happy, we’re happy.”_
 
-![](https://www.kuc.org.au/wp-content/uploads/2023/07/Kids-Under-Cover-Simon-Fazio-@faz.io-2023-05-26-13.53.24-DSCF2105.jpg)
+![Lisa laughing in her backyard beside a woman in a blue beanie](https://www.kuc.org.au/wp-content/uploads/2023/07/Kids-Under-Cover-Simon-Fazio-@faz.io-2023-05-26-13.53.24-DSCF2105.jpg)
 
-![](https://www.kuc.org.au/wp-content/uploads/2023/07/Kids-Under-Cover-Simon-Fazio-@faz.io-2023-05-26-14.38.56-FZI00614-768x1024.jpg)
+![Lynton and Lisa smiling outside the door of his studio](https://www.kuc.org.au/wp-content/uploads/2023/07/Kids-Under-Cover-Simon-Fazio-@faz.io-2023-05-26-14.38.56-FZI00614-768x1024.jpg)
 
-![](https://www.kuc.org.au/wp-content/uploads/2023/07/Kids-Under-Cover-Simon-Fazio-@faz.io-2023-05-26-14.42.10-FZI00647.jpg)
+![Lynton and a woman in a blue beanie laughing outside the studio](https://www.kuc.org.au/wp-content/uploads/2023/07/Kids-Under-Cover-Simon-Fazio-@faz.io-2023-05-26-14.42.10-FZI00647.jpg)
 
-![](https://www.kuc.org.au/wp-content/uploads/2023/07/Kids-Under-Cover-Simon-Fazio-@faz.io-2023-05-26-14.49.40-FZI00707.jpg)
+![Lisa, Lynton and a woman in a blue beanie sharing a laugh in the backyard](https://www.kuc.org.au/wp-content/uploads/2023/07/Kids-Under-Cover-Simon-Fazio-@faz.io-2023-05-26-14.49.40-FZI00707.jpg)
 
-![](https://www.kuc.org.au/wp-content/uploads/2023/07/Kids-Under-Cover-Simon-Fazio-@faz.io-2023-05-26-14.50.11-FZI00719.jpg)
+![A smiling woman in a blue beanie standing in the backyard](https://www.kuc.org.au/wp-content/uploads/2023/07/Kids-Under-Cover-Simon-Fazio-@faz.io-2023-05-26-14.50.11-FZI00719.jpg)
 
-![](https://www.kuc.org.au/wp-content/uploads/2023/07/Kids-Under-Cover-Simon-Fazio-@faz.io-2023-05-26-14.51.44-FZI00723-768x1024.jpg)
+![Lisa and Lynton with three supporters in the backyard](https://www.kuc.org.au/wp-content/uploads/2023/07/Kids-Under-Cover-Simon-Fazio-@faz.io-2023-05-26-14.51.44-FZI00723-768x1024.jpg)
 
-![](https://www.kuc.org.au/wp-content/uploads/2023/07/Kids-Under-Cover-Simon-Fazio-@faz.io-2023-05-26-14.52.18-FZI00726.jpg)
+![Lisa and Lynton with three supporters in the backyard](https://www.kuc.org.au/wp-content/uploads/2023/07/Kids-Under-Cover-Simon-Fazio-@faz.io-2023-05-26-14.52.18-FZI00726.jpg)

@@ -6,7 +6,7 @@ date: 2023-09-18
 categories: [Media releases]
 program: advocacy
 image: https://www.kuc.org.au/wp-content/uploads/2023/09/yes-graphic.png
-imageAlt: ""
+imageAlt: The word Yes in black on a Kids Under Cover yellow background
 excerpt: "Of the estimated 28,204 young Australians aged 12-24 experiencing homelessness during the 2021 Census, around 23% were young First Nations Peoples, an astonishing figure considering they make up only about 5% of this age group."
 cta: monthly
 ---

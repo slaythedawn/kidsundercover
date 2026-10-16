@@ -7,7 +7,7 @@ description: "Donate your car, running or not, to Kids Under Cover. 100% tax ded
 eyebrow: Be the turning point
 intro: 100% tax deductible. Help fund vital programs that give young people at risk of homelessness brighter futures.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2026/07/DYC-Website-1-1024x1365.png
-heroAlt: ""
+heroAlt: A young man with a skateboard smiling outside his backyard studio
 section: give
 cta: car
 form: none

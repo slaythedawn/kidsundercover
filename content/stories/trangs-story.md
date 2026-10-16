@@ -6,7 +6,7 @@ date: 2019-08-08
 categories: [News]
 program: general
 image: https://www.kuc.org.au/wp-content/uploads/2023/10/ALL9275-Edit.jpg
-imageAlt: ""
+imageAlt: Trang smiling in a warmly lit hallway
 excerpt: "When I was 11 years old, I was living with my father and step-mother and sharing a bedroom with my two sisters and grandmother."
 cta: donate
 ---

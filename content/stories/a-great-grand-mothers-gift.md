@@ -6,7 +6,7 @@ date: 2022-09-21
 categories: [News]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2022/09/Kids-silhouette.jpg
-imageAlt: ""
+imageAlt: Silhouettes of a group of young people standing in long grass at sunset
 excerpt: "Elsie’s* four great grandsons can’t wait for their studio to be built. “They’ve been out there looking through the windows,” she says."
 cta: donate
 ---

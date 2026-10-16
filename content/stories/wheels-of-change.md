@@ -6,7 +6,7 @@ date: 2023-04-26
 categories: [News]
 program: car
 image: https://www.kuc.org.au/wp-content/uploads/2023/04/Picture2.jpg
-imageAlt: ""
+imageAlt: Child's drawing of a girl driving a red car past mountains
 excerpt: "Behind every car, there’s a story. A car often holds a special place in one’s heart."
 cta: car
 ---

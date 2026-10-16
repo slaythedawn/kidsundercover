@@ -5,7 +5,7 @@ seoTitle: Bequest to Charity - Donate to Kids Under Cover
 description: Your Promise For Kids has the power to transform young lives, leaving a legacy of enduring kindness. Find out more about charitable bequests.
 intro: Your legacy can provide secure accommodation, a haven in a family’s or carer’s backyard, when young lives are at the brink of homelessness.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/bequests-transparent-montage-min-972x1024.png
-heroAlt: ""
+heroAlt: An older woman and a young woman smiling cheek to cheek
 section: give
 cta: bequest
 form: none

@@ -16,11 +16,11 @@ cta: partner
 
 Since 2019, Kids Under Cover and JB Hi-Fi have enjoyed a great friendship and rewarding partnership, with JB’s workplace giving program raising thousands in vital funds for our Studio and Scholarship programs.
 
-![](https://www.kuc.org.au/wp-content/uploads/2023/07/MicrosoftTeams-image-11-1.jpg)
+![Hand drawn store banner asking customers to donate to Kids Under Cover](https://www.kuc.org.au/wp-content/uploads/2023/07/MicrosoftTeams-image-11-1.jpg)
 
 This May, the JB crew stepped up yet again with a month-long ‘Undercover’ campaign rolled out in over 200 stores across Victoria as part of their Helping Hands program. JB staff were kitted out in detective gear to help promote the push which raised over $150 thousand.
 
-![](https://www.kuc.org.au/wp-content/uploads/2023/07/MicrosoftTeams-image-16.jpg)
+![JB Hi-Fi staff in detective costumes beside a Kids Under Cover banner](https://www.kuc.org.au/wp-content/uploads/2023/07/MicrosoftTeams-image-16.jpg)
 
 KUC CEO Stephen Nash was glowing in his praise for the campaign and the ongoing partnership which has also played a huge role in the expansion of our work into South Australia.
 

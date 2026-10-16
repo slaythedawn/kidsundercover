@@ -6,7 +6,7 @@ date: 2023-07-13
 categories: [Stories]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2023/07/The-Meg.jpg
-imageAlt:
+imageAlt: A long standing Kids Under Cover studio in a suburban backyard
 excerpt: "Cheryl has lost count of the number of young people who have called the studio in her backyard their home."
 cta: donate
 ---

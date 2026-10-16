@@ -6,7 +6,7 @@ date: 2020-10-14
 categories: [News]
 program: supporters
 image: https://www.kuc.org.au/wp-content/uploads/2020/12/Studio-banner-image-small.jpg
-imageAlt: ""
+imageAlt: A Kids Under Cover studio with a curved roof in a backyard
 excerpt: "A Few Good Folkers (FGF) is a network of Victorian business owners and entrepreneurs who have hosted many functions to raise funds for community organisations since 2007."
 cta: fundraise
 ---

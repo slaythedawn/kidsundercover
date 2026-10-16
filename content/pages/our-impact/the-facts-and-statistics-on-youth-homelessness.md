@@ -6,7 +6,7 @@ description: "Key facts and statistics on youth homelessness in Australia: how m
 eyebrow: Our impact
 intro: Key facts and statistics on youth homelessness in Australia, and the challenges facing young people.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/04/Itomic-Imagery-for-Alt-Image-Layout-1.png
-heroAlt: ""
+heroAlt: Sunlight through trees on a city footpath under a building awning
 section: impact
 cta: monthly
 form: none
@@ -31,6 +31,7 @@ sections:
     nav: Seeking help
     title: Young people seeking help from specialist homelessness services
     image: https://www.kuc.org.au/wp-content/uploads/2024/02/about-montage-3.jpg
+    imageAlt: A circle of hands stacked together in colourful knitted sleeves
     items:
       - value: "3,317"
         text: children aged 10 to 14 years presented alone to a Specialist Homelessness Service in 2021-22, without a parent or guardian. These numbers only represent those with the capacity to contact a service; there are many more who are not represented by this data.
@@ -47,6 +48,7 @@ sections:
     flip: true
     title: Key drivers of homelessness
     image: https://www.kuc.org.au/wp-content/uploads/2024/04/12.png
+    imageAlt: Silhouette of a young man in a cap and backpack in a stairwell
     items:
       - text: The most common reasons young people sought homelessness assistance in 2020-21 were family and domestic violence, housing crisis and family breakdowns.
       - value: "48%"
@@ -61,6 +63,7 @@ sections:
     nav: First Nations
     title: Homelessness among First Nations peoples
     image: https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-apply-montage.jpg
+    imageAlt: A Kids Under Cover studio surrounded by garden plants
     items:
       - value: "36%"
         text: of all children and young people experiencing homelessness on census night in 2021 identified as Aboriginal and/or Torres Strait Islander (16,538).
@@ -76,6 +79,7 @@ sections:
     flip: true
     title: Young people leaving care
     image: https://www.kuc.org.au/wp-content/uploads/2024/04/majestic-lukas-rtmQ8ESC4PE-unsplash-scaled-e1713931133825-1024x1216.jpg
+    imageAlt: Two young men with backpacks walking down a concrete stairway
     items:
       - value: "35%"
         text: of young people in state care end up homeless after they turn 18.
@@ -91,6 +95,7 @@ sections:
     title: Why starting early matters
     eyebrow: Key facts
     image: https://www.kuc.org.au/wp-content/uploads/2024/02/1-1024x1024.png
+    imageAlt: Artist's impression of young people in a courtyard between green studios
     items:
       - text: The younger a person is when they first experience homelessness, the more likely their homelessness will become entrenched.
       - value: "13"

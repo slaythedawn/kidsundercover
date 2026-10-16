@@ -6,7 +6,7 @@ date: 2020-02-25
 categories: [News]
 program: supporters
 image: https://www.kuc.org.au/wp-content/uploads/2020/02/CTS2020-150.jpg
-imageAlt: ""
+imageAlt: Four people holding basketballs and trophies at the Kids Under Cover booth
 excerpt: "Our partners at Oracle recently invited us along to be part of the Oracle Construction Technology Summit."
 cta: partner
 ---

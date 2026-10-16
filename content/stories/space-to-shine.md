@@ -6,7 +6,7 @@ date: 2021-09-23
 categories: [News]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2021/09/Photo_-Front-Cover.jpg
-imageAlt: ""
+imageAlt: A young man giving a thumbs up from a gaming chair in his studio
 excerpt: "When Sue and her partner Ian took on the care of Sue’s five grandchildren, the overcrowding created a stressful environment that was tearing their family apart. Everything changed when they received a 2-bedroom Kids Under Cover studio."
 cta: donate
 ---

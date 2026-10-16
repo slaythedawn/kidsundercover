@@ -6,7 +6,7 @@ date: 2026-09-15
 categories: [Opinion]
 program: advocacy
 image: https://www.kuc.org.au/wp-content/uploads/2026/09/Austock000205344_Medium-2.jpg
-imageAlt: ""
+imageAlt: Two boys hugging and kissing a smiling woman outside a house
 excerpt: "What if we measured child protection success not only by how we respond to crisis, but by how effectively we prevent it?"
 cta: donate
 ---

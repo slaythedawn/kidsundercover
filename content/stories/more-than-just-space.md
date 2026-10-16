@@ -6,7 +6,7 @@ date: 2020-12-03
 categories: [News]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2020/12/IMG_0186-e1705983983401.jpg
-imageAlt: ""
+imageAlt: A girl standing on the front steps of a blue studio
 excerpt: "Life turned upside down for Amanda and her three kids when they welcomed an additional six children to their home."
 cta: donate
 ---

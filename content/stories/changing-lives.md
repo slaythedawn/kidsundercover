@@ -6,7 +6,7 @@ date: 2020-08-24
 categories: [News]
 program: studio
 image: https://www.kuc.org.au/wp-content/uploads/2020/08/IMG-5892.jpg
-imageAlt: ""
+imageAlt: A young woman sitting with her golden retriever outside a studio
 excerpt: "Thanks to your generosity, when a young person receives a Kids Under Cover studio, the entire family benefits."
 cta: donate
 ---
