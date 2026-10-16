@@ -2,9 +2,18 @@
 
 import { useMemo, useState } from "react";
 import Prose from "./Prose";
+import PhotoImg from "../PhotoImg";
+import type { Img } from "@/lib/media";
 import s from "./StoryIndex.module.css";
 
-type Item = { title: string; href: string; image?: string; text?: string; date: string; categories: string[] };
+type Item = { title: string; href: string; img?: Img; text?: string; date: string; categories: string[] };
+
+const Pic = ({ st, className }: { st: Item; className: string }) =>
+  st.img ? (
+    <div className={`print ${className}`}><PhotoImg img={st.img} /></div>
+  ) : (
+    <div className={`${className} ${s.plain}`} aria-hidden="true"><span>{st.categories[0] ?? "Kids Under Cover"}</span></div>
+  );
 
 /** All stories and news, newest first, with topic filters and a search box. */
 export default function StoryIndex({ stories, intro }: { stories: Item[]; intro?: string }) {
@@ -43,7 +52,7 @@ export default function StoryIndex({ stories, intro }: { stories: Item[]; intro?
 
         {lead && (
           <a href={lead.href} className={s.lead}>
-            <div className={`print ${s.leadPhoto}`}>{lead.image && <img src={lead.image} alt="" />}</div>
+            <Pic st={lead} className={s.leadPhoto} />
             <div>
               <p className={s.tag}>{lead.categories[0]}</p>
               <h2 className={s.leadTitle}>{lead.title}</h2>
@@ -57,7 +66,7 @@ export default function StoryIndex({ stories, intro }: { stories: Item[]; intro?
           {rest.slice(0, shown).map((st) => (
             <li key={st.href}>
               <a href={st.href} className={s.card}>
-                <div className={`print ${s.photo}`}>{st.image && <img src={st.image} alt="" loading="lazy" />}</div>
+                <Pic st={st} className={s.photo} />
                 <p className={s.tag}>{st.categories[0]}</p>
                 <h3 className={s.title}>{st.title}</h3>
                 {st.text && <p className={s.text}>{st.text}</p>}

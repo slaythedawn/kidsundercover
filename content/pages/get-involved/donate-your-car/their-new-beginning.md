@@ -33,7 +33,7 @@ sections:
       **Without intervention, Jesse could easily have joined the 7,628 children and young people who are homeless on any given night in Victoria, through no fault of their own.**
 
       Jesse received a Kids Under Cover studio when he was 18, just before his year 12 exams. With the support of Kids Under Cover education scholarships, he went on to study medicine at the University of Melbourne.
-    image: https://www.kuc.org.au/wp-content/uploads/2025/05/Jesse.png
+    image: https://www.kuc.org.au/wp-content/uploads/2024/02/3-2-1024x1024.png
     imageAlt: Jesse
     actions:
       - { label: Read Jesse's story, href: /studio-program-helps-launch-medical-career-jesses-story/, variant: ghost }

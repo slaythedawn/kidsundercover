@@ -124,18 +124,144 @@ def classify(path, rgba):
     return "photo", None
 
 
+def detect_faces(rgb):
+    """Face boxes (x, y, w, h) in the image's own pixels."""
+    h, w = rgb.shape[:2]
+    scale = 900 / max(h, w) if max(h, w) > 900 else 1
+    g = cv2.cvtColor(cv2.resize(rgb, None, fx=scale, fy=scale) if scale < 1 else rgb, cv2.COLOR_RGB2GRAY)
+    g = cv2.equalizeHist(g)
+    m = int(min(g.shape) * 0.06)
+    boxes = []
+    # Strict settings: a missed face falls back to a safe upper-middle crop,
+    # but a false one (a window, a leaf) would pull the crop somewhere odd.
+    for det, n in ((faces_front, 9), (faces_alt, 7)):
+        for b in det.detectMultiScale(g, scaleFactor=1.1, minNeighbors=n, minSize=(m, m)):
+            boxes.append([v / scale for v in b])
+    # Merge overlapping boxes.
+    out = []
+    for b in sorted(boxes, key=lambda b: -b[2] * b[3]):
+        if not any(abs(b[0] - o[0]) < o[2] * 0.5 and abs(b[1] - o[1]) < o[3] * 0.5 for o in out):
+            out.append(b)
+    return out
+
+
+def focal_point(rgb):
+    """Where to keep in frame when the image is cropped, as fractions (x, y).
+
+    Centres on the faces, nudged up a little so heads keep their headroom.
+    Without faces, the upper middle: subjects usually sit above centre.
+    """
+    h, w = rgb.shape[:2]
+    faces = detect_faces(rgb)
+    if not faces:
+        return 0.5, 0.42, 0
+    x0 = min(f[0] for f in faces); x1 = max(f[0] + f[2] for f in faces)
+    y0 = min(f[1] for f in faces); y1 = max(f[1] + f[3] for f in faces)
+    fx = (x0 + x1) / 2 / w
+    fy = max(0.0, (y0 + (y1 - y0) * 0.35) / h)
+    return round(min(max(fx, 0.05), 0.95), 3), round(min(max(fy, 0.05), 0.95), 3), len(faces)
+
+
+def remove_doodles(rgb, disc):
+    """Paints out the black doodle strokes KUC draws over the edge of its circle graphics."""
+    h, w = rgb.shape[:2]
+    cx, cy, r = disc
+    yy, xx = np.mgrid[0:h, 0:w]
+    d = np.hypot(xx - cx, yy - cy)
+    # Doodles are pure black; photo shadows rarely are.
+    dark = (rgb.max(axis=2) < 38).astype(np.uint8)
+    n, labels = cv2.connectedComponents(dark, connectivity=8)
+    seeds = np.unique(labels[(dark > 0) & (d > r * 1.01)])
+    mask = (np.isin(labels, seeds[seeds > 0]) & (d > r * 0.35)).astype(np.uint8)
+    # Keep strokes only: drop any part of the shape too thick to be a pen line
+    # (dark hair or clothing that happens to touch a doodle).
+    k = max(9, int(r * 0.06)) | 1
+    thick = cv2.morphologyEx(mask, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (k, k)))
+    thick_outside = thick & (d > r * 1.01)
+    keep_thick = cv2.dilate(thick_outside, np.ones((3, 3), np.uint8), iterations=int(r * 0.15))
+    mask = (mask & ~(thick & ~keep_thick)) * 255
+    mask = cv2.dilate(mask.astype(np.uint8), np.ones((5, 5), np.uint8))
+    return cv2.inpaint(rgb, mask, 6, cv2.INPAINT_TELEA), int((mask > 0).sum())
+
+
+def save(img, rel, kind):
+    """Writes a web-ready copy under public/media and returns its public path and size."""
+    stem = os.path.splitext(rel)[0]
+    im = Image.fromarray(img)
+    limit = 1200 if kind == "graphic" else MAX_W
+    if im.width > limit:
+        im = im.resize((limit, round(im.height * limit / im.width)), Image.LANCZOS)
+    if kind == "graphic" and im.mode == "RGBA":
+        out = os.path.join(OUT, stem + ".png"); os.makedirs(os.path.dirname(out), exist_ok=True)
+        im.save(out, optimize=True)
+    else:
+        out = os.path.join(OUT, stem + ".jpg"); os.makedirs(os.path.dirname(out), exist_ok=True)
+        im.convert("RGB").save(out, quality=82, optimize=True, progressive=True)
+    return "/" + os.path.relpath(out, os.path.join(ROOT, "public")).replace(os.sep, "/"), im.width, im.height
+
+
+def flatten(rgba):
+    rgb = rgba[..., :3].astype(np.float32)
+    a = rgba[..., 3:4].astype(np.float32) / 255
+    return (rgb * a + 255 * (1 - a)).astype(np.uint8)
+
+
 if __name__ == "__main__":
+    Image.MAX_IMAGE_PIXELS = None
+    overrides = json.load(open(os.path.join(ROOT, "media", "overrides.json")))
+    originals = json.load(open(os.path.join(ROOT, "media", "originals.json")))
     files = sorted(glob.glob(os.path.join(SRC, "**", "*.*"), recursive=True))
-    out = {}
+    registry, notes = {}, []
     for f in files:
+        rel = os.path.relpath(f, SRC).replace(os.sep, "/")
         try:
             rgba = load_rgba(f)
         except Exception as e:
-            print("skip", f, e)
+            print("skip", rel, e)
             continue
         kind, disc = classify(f, rgba)
-        rel = os.path.relpath(f, SRC)
-        out[rel] = {"kind": kind, "disc": [round(v, 1) for v in disc] if disc else None, "flat": round(flatness(rgba[..., :3]), 3)}
-    json.dump(out, open(os.path.join(ROOT, "media", "classify.json"), "w"), indent=1)
+        kind = overrides.get(rel, {}).get("kind", kind)
+        if kind == "cutout" and not disc:
+            disc = find_disc(rgba) or (rgba.shape[1] / 2, rgba.shape[0] / 2, min(rgba.shape[:2]) * 0.45)
+        entry = {"kind": kind}
+        if kind == "cutout" and rel in originals["cutouts"]:
+            # Use the raw photo the circle graphic was made from.
+            o = originals["cutouts"][rel]
+            img = np.array(Image.open(os.path.join(ROOT, o["file"])).convert("RGB"))
+            entry.update(kind="photo", rebuiltFrom=o["url"])
+        elif kind == "cutout":
+            # No original: paint out the doodles, then take the largest square inside the circle.
+            rgb = flatten(rgba)
+            rgb, painted = remove_doodles(rgb, disc)
+            cx, cy, r = disc
+            half = r * 0.70
+            x0, y0 = int(max(0, cx - half)), int(max(0, cy - half))
+            img = rgb[y0:int(cy + half), x0:int(cx + half)]
+            # Optional trim (left, top, right, bottom as fractions) to cut away a doodle left on an edge.
+            t = overrides.get(rel, {}).get("trim")
+            if t:
+                hh, ww = img.shape[:2]
+                img = img[int(t[1] * hh):int(t[3] * hh), int(t[0] * ww):int(t[2] * ww)]
+            entry.update(kind="photo", cropped="circle", doodlePixels=painted)
+            notes.append(rel)
+        elif kind == "graphic":
+            img = rgba if (rgba[..., 3] < 250).any() else rgba[..., :3]
+        else:
+            img = flatten(rgba)
+        src, w, h = save(img, rel, entry["kind"])
+        entry.update(src=src, w=w, h=h)
+        if entry["kind"] == "photo":
+            fx, fy, n = focal_point(img[..., :3] if img.shape[2] == 4 else img)
+            # A focal point set by hand in media/overrides.json wins.
+            o = overrides.get(rel, {})
+            fx, fy = o.get("fx", fx), o.get("fy", fy)
+            entry.update(fx=fx, fy=fy, faces=n)
+        registry["https://www.kuc.org.au/wp-content/uploads/" + rel] = entry
+    for url, o in originals["featured"].items():
+        img = np.array(Image.open(os.path.join(ROOT, o["file"])).convert("RGB"))
+        src, w, h = save(img, o["url"].split("/uploads/")[1], "photo")
+        fx, fy, n = focal_point(img)
+        registry[o["url"]] = {"kind": "photo", "src": src, "w": w, "h": h, "fx": fx, "fy": fy, "faces": n, "featuredFor": url}
+    json.dump(dict(sorted(registry.items())), open(os.path.join(ROOT, "media", "images.json"), "w"), indent=1)
     from collections import Counter
-    print(Counter(v["kind"] for v in out.values()))
+    print(Counter(v["kind"] for v in registry.values()), "rebuilt from originals:", sum(1 for v in registry.values() if v.get("rebuiltFrom")), "cropped from circles:", len(notes))

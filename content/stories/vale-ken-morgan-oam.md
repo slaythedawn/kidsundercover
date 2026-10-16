@@ -5,9 +5,9 @@ description: "Ken Morgan was a much loved and admired figure within the automoti
 date: ""            # CONFIRM: no publish date in the crawl
 categories: [News]  # CONFIRM: no category shown in the crawl
 program: general
-image: ""           # CONFIRM: no main photo in the crawl
 imageAlt: ""
 excerpt: "It’s incredible to think that one man’s passion and commitment to young people could make such a life-changing difference to the lives of so many."
+image: https://www.kuc.org.au/wp-content/uploads/2022/09/Ken-Morgan-Pic-1-crop.jpg
 cta: donate
 ---
 ## It’s incredible to think that one man’s passion and commitment to young people could make such a life-changing difference to the lives of so many.

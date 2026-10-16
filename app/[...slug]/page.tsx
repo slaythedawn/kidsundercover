@@ -25,6 +25,7 @@ import GiveOptions from "@/components/page/GiveOptions";
 import StorySidebar from "@/components/page/StorySidebar";
 import FormBlock from "@/components/page/FormBlock";
 import type { Crumb } from "@/components/page/Breadcrumbs";
+import { media } from "@/lib/media";
 import s from "./page.module.css";
 
 type Params = { slug: string[] };
@@ -144,7 +145,15 @@ function ContentPage({ page }: { page: PageEntry }) {
 
       {page.form && <FormBlock kind={page.form} />}
 
-      {isStories && <StoryIndex stories={stories().map((st) => ({ ...storyCard(st), date: st.date, categories: st.categories }))} intro={html} />}
+      {isStories && (
+        <StoryIndex
+          stories={stories().map((st) => {
+            const c = storyCard(st);
+            return { title: c.title, href: c.href, text: c.text, img: c.image ? media(c.image) : undefined, date: st.date, categories: st.categories };
+          })}
+          intro={html}
+        />
+      )}
 
       {isMedia && (
         <CardGrid

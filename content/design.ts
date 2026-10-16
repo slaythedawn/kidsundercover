@@ -120,7 +120,7 @@ export const sectionSpecs: SectionSpec[] = [
       quote: "I was relieved that I had a permanent desk without needing to use kitchen tables, that I was free of distractions.",
       name: "Jesse",
       role: "Received a studio at 18, now studying medicine",
-      image: "https://www.kuc.org.au/wp-content/uploads/2025/05/Jesse.png",
+      image: "https://www.kuc.org.au/wp-content/uploads/2024/02/3-2-1024x1024.png",
       href: "/studio-program-helps-launch-medical-career-jesses-story/",
       linkLabel: "Read Jesse's story",
     },

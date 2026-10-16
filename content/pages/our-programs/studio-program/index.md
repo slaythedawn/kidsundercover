@@ -97,7 +97,7 @@ sections:
     quote: I was relieved that I had a permanent desk without needing to use kitchen tables, that I was free of distractions. Because of the studio, I had the option to study into the night without having lights on and keeping others awake in my room.
     name: Jesse
     role: Received a studio at 18, now studying medicine
-    image: https://www.kuc.org.au/wp-content/uploads/2025/05/Jesse.png
+    image: https://www.kuc.org.au/wp-content/uploads/2024/02/3-2-1024x1024.png
     imageAlt: Jesse
     href: /studio-program-helps-launch-medical-career-jesses-story/
     linkLabel: Read Jesse's story

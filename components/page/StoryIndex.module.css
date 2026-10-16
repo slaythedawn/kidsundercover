@@ -20,3 +20,11 @@
 .text { color: var(--ink-soft); font-size: 15.5px; margin: 8px 0 12px; }
 .more { text-align: center; margin-top: 40px; }
 .empty { color: var(--ink-soft); }
+
+/* No photo: a yellow paper card with the category, instead of a blank box. */
+.plain {
+  display: flex; align-items: flex-end; padding: 18px;
+  border-radius: 4px; background: var(--sun) var(--grain);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05), 0 20px 34px -20px rgba(70, 55, 25, 0.45);
+}
+.plain span { font-family: var(--font-display); font-weight: 800; font-size: 22px; line-height: 1.05; }

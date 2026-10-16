@@ -139,6 +139,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 
 /* Printed photo with a white border. */
 .print {
+  position: relative;
   background: #fff;
   padding: 8px 8px 12px;
   border-radius: 4px;
@@ -204,3 +205,21 @@ button { font: inherit; color: inherit; cursor: pointer; }
   margin-bottom: 32px;
 }
 .section-head h2 { font-size: clamp(32px, 4.4vw, 52px); }
+
+/* Graphics (logos, report covers, infographics) are shown whole, never cropped or tilted. */
+img[data-kind="graphic"] { object-fit: contain !important; background: var(--card); padding: 6%; }
+.print:has(> img[data-kind="graphic"]) { rotate: 0deg !important; transform: none !important; }
+
+/* Hand-drawn marks laid over printed photos (components/Doodle.tsx). */
+.doodle {
+  position: absolute;
+  width: clamp(44px, 7vw, 64px);
+  height: auto;
+  color: var(--ink);
+  z-index: 2;
+  pointer-events: none;
+}
+.doodle-tl { top: -22px; left: -18px; rotate: -8deg; }
+.doodle-tr { top: -22px; right: -18px; rotate: 10deg; }
+.doodle-bl { bottom: -20px; left: -16px; rotate: 6deg; }
+.doodle-br { bottom: -20px; right: -16px; rotate: -6deg; }

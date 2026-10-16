@@ -5,7 +5,7 @@ description: "Without intervention, Jesse could easily have joined the 7,628 chi
 date: 2025-05-07
 categories: [Stories]
 program: studio
-image: https://www.kuc.org.au/wp-content/uploads/2025/05/Jesse.png
+image: https://www.kuc.org.au/wp-content/uploads/2024/02/3-2-1024x1024.png
 imageAlt: Jesse
 excerpt: "Jesse had always been driven and dedicated to his studies, with a strong interest in mathematics, biology, chemistry and languages. At fifteen, he decided a career in medicine was the perfect way to combine these passions and contribute to his community."
 cta: target450

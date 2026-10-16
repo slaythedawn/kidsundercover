@@ -11,6 +11,7 @@ import matter from "gray-matter";
 import { Marked } from "marked";
 import type { CtaKey } from "@/content/site";
 import type { Button, PageSection } from "@/lib/sections";
+import { focus, media } from "./media";
 
 const ROOT = path.join(process.cwd(), "content");
 
@@ -255,7 +256,9 @@ md.use({
       return `<a href="${target}"${title ? ` title="${title}"` : ""}${external ? ' target="_blank" rel="noopener"' : ""}${pdf ? ' data-file="pdf"' : ""}>${text}</a>`;
     },
     image({ href, text }) {
-      return `<img src="${href}" alt="${text ?? ""}" loading="lazy" />`;
+      const m = media(href)!;
+      const size = m.w ? ` width="${m.w}" height="${m.h}"` : "";
+      return `<img src="${m.src}" alt="${text ?? ""}" data-kind="${m.kind}"${size} loading="lazy" style="object-position:${focus(m)}" />`;
     },
   },
 });

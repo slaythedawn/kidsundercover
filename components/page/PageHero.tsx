@@ -1,4 +1,7 @@
 import Breadcrumbs, { type Crumb } from "./Breadcrumbs";
+import Photo from "../Photo";
+import Doodle from "../Doodle";
+import { media, ratio } from "@/lib/media";
 import s from "./PageHero.module.css";
 
 type Props = {
@@ -28,7 +31,7 @@ export default function PageHero({ eyebrow, title, intro, image, imageAlt, crumb
           {crumbs && crumbs.length > 0 && <Breadcrumbs items={crumbs} />}
           <div className={s.stage}>
             <div className={s.stagePhoto}>
-              <img src={image} alt={imageAlt ?? ""} />
+              <Photo url={image} alt={imageAlt} eager />
             </div>
             <div className={`sheet sheet-stack ${s.stageSheet}`}>
               {eyebrow && <p className={s.eyebrow}>{eyebrow}</p>}
@@ -72,8 +75,9 @@ export default function PageHero({ eyebrow, title, intro, image, imageAlt, crumb
           )}
         </div>
         {image && (
-          <div className={`print ${s.photo}`}>
-            <img src={image} alt={imageAlt ?? ""} />
+          <div className={`print ${s.photo}`} style={{ aspectRatio: ratio(media(image), 0.8, 1.5) }}>
+            <Photo url={image} alt={imageAlt} eager />
+            <Doodle seed={title} corner="tl" />
           </div>
         )}
       </div>

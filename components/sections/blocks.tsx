@@ -8,6 +8,9 @@ import type * as T from "@/lib/sections";
 import CardGrid, { type Card } from "@/components/page/CardGrid";
 import DonateBand from "@/components/page/DonateBand";
 import Icon from "./Icon";
+import Photo from "@/components/Photo";
+import Doodle from "@/components/Doodle";
+import { media, ratio } from "@/lib/media";
 import { Band, Buttons, Head, Inline, Md } from "./Section";
 import s from "./sections.module.css";
 
@@ -58,8 +61,9 @@ export function Split(p: T.SplitSection) {
         </div>
         {p.image && (
           <figure className={s.splitFigure}>
-            <div className={`print ${s.splitPhoto}`} style={{ rotate: `${p.flip ? -1.6 : 1.6}deg` }}>
-              <img src={p.image} alt={p.imageAlt ?? ""} loading="lazy" />
+            <div className={`print ${s.splitPhoto}`} style={{ rotate: `${p.flip ? -1.6 : 1.6}deg`, aspectRatio: ratio(media(p.image), 0.8, 1.5) }}>
+              <Photo url={p.image} alt={p.imageAlt} />
+              <Doodle seed={p.image} corner={p.flip ? "tr" : "tl"} />
             </div>
             {p.caption && <figcaption className={s.caption}>{p.caption}</figcaption>}
           </figure>
@@ -80,7 +84,7 @@ export function Features(p: T.FeaturesSection) {
             <>
               {it.image ? (
                 <div className={`print ${s.featurePhoto}`} style={{ rotate: `${tilt(i)}deg` }}>
-                  <img src={it.image} alt="" loading="lazy" />
+                  <Photo url={it.image} />
                 </div>
               ) : it.icon ? (
                 <span className={`ring ${s.featureIcon}`}><Icon name={it.icon} /></span>
@@ -152,7 +156,7 @@ export function Facts(p: T.FactsSection) {
           <Head eyebrow={p.eyebrow} title={p.title} accent={p.accent} intro={p.intro} />
           {p.image && (
             <div className={`print ${s.factsPhoto}`} style={{ rotate: p.flip ? "1.4deg" : "-1.4deg" }}>
-              <img src={p.image} alt={p.imageAlt ?? ""} loading="lazy" />
+              <Photo url={p.image} alt={p.imageAlt} />
             </div>
           )}
         </div>
@@ -180,7 +184,8 @@ export function Quote(p: T.QuoteSection) {
       <figure className={s.quote} data-image={!!p.image || undefined}>
         {p.image && (
           <div className={`print ${s.quotePhoto}`}>
-            <img src={p.image} alt={p.imageAlt ?? ""} loading="lazy" />
+            <Photo url={p.image} alt={p.imageAlt} />
+            <Doodle seed={p.quote} corner="br" />
           </div>
         )}
         <div>
@@ -215,7 +220,7 @@ export function Gallery(p: T.GallerySection) {
           <li key={im.src}>
             <figure>
               <div className={`print ${s.galleryPhoto}`} style={{ rotate: `${tilt(i)}deg` }}>
-                <img src={im.src} alt={im.alt ?? ""} loading="lazy" />
+                <Photo url={im.src} alt={im.alt} />
               </div>
               {im.caption && <figcaption className={s.caption}>{im.caption}</figcaption>}
             </figure>
@@ -303,7 +308,7 @@ export function Callout(p: T.CalloutSection) {
         </div>
         {p.image && (
           <div className={`print ${s.calloutPhoto}`}>
-            <img src={p.image} alt={p.imageAlt ?? ""} loading="lazy" />
+            <Photo url={p.image} alt={p.imageAlt} />
           </div>
         )}
       </div>
@@ -415,7 +420,7 @@ export function FormStart(p: T.FormStartSection) {
         <div className={`sheet sheet-stack ${s.formPanel}`}>
           {p.image && (
             <div className={`print ${s.formPhoto}`}>
-              <img src={p.image} alt={p.imageAlt ?? ""} loading="lazy" />
+              <Photo url={p.image} alt={p.imageAlt} />
             </div>
           )}
           {p.time && (

@@ -1,3 +1,5 @@
+import Photo from "../Photo";
+import Doodle from "../Doodle";
 import s from "./CardGrid.module.css";
 
 export type Card = { title: string; href: string; text?: string; image?: string; tag?: string };
@@ -25,9 +27,12 @@ export default function CardGrid({ id, eyebrow, title, intro, cards, more }: Pro
             <li key={c.href + c.title}>
               <a href={c.href} className={s.card}>
                 {c.image ? (
-                  <div className={`print ${s.photo}`}><img src={c.image} alt="" loading="lazy" /></div>
+                  <div className={`print ${s.photo}`}><Photo url={c.image} /></div>
                 ) : (
-                  <div className={s.plain} aria-hidden="true"><span className="ring" /></div>
+                  <div className={s.plain} aria-hidden="true">
+                    <span className={s.plainLabel}>{c.tag ?? "Kids Under Cover"}</span>
+                    <Doodle seed={c.title} corner="br" />
+                  </div>
                 )}
                 {c.tag && <p className={s.tag}>{c.tag}</p>}
                 <h3 className={s.title}>{c.title}</h3>
