@@ -6,7 +6,7 @@ description: "Kids Under Cover builds one and two bedroom backyard studios, with
 eyebrow: Our work
 intro: We build one or two-bedroom studios (with bathroom) in the backyards of homes to assist carers in need of more room to accommodate young people in their care.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-montage-0.jpg
-heroAlt: ""
+heroAlt: Two young people laughing as they look at a phone together
 section: work
 cta: donate
 form: none
@@ -14,7 +14,7 @@ related: [/our-programs/studio-program/kids-under-cover-studio-program-applicati
 order: 1
 status: live
 actions:
-  - { label: Fund a studio, href: "https://donatenow.kuc.org.au/general/donate" }
+  - { label: Fund a studio, href: /get-involved/donate/ }
   - { label: How to apply, href: /our-programs/studio-program/kids-under-cover-studio-program-applications/, variant: ghost }
 sections:
   - type: jump
@@ -40,6 +40,7 @@ sections:
       - Young people aged **12 to 25**
       - Identified by **community service organisations** as experiencing or at risk of homelessness
     image: https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-apply-montage.jpg
+    imageAlt: A Kids Under Cover studio surrounded by garden plants
     flip: true
 
   - type: split
@@ -55,6 +56,7 @@ sections:
       - A **study nook in each bedroom**, so the young person can have a suitable place to study and relax
       - '**No kitchen**, an intentional design choice that encourages young people to stay connected to their families and carers at key moments like meal times'
     image: https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-montage-1.jpg
+    imageAlt: A smiling girl in school uniform and her carer at a studio door
 
   - type: steps
     id: how-its-built
@@ -113,6 +115,7 @@ sections:
     actions:
       - { label: Read the Studio Program Impact Survey, href: /our-impact/research-and-resources/annual-carer-feedback-survey-2/, variant: ghost }
     image: https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-montage-6.jpg
+    imageAlt: A smiling young man in front of a bookshelf
     flip: true
 
   - type: stories

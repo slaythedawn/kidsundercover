@@ -32,13 +32,17 @@ export const external = {
 
 export const links = {
   // Giving
-  donate: external.donate,
+  // Every Donate button goes to our donation page first: people see what their gift does, can
+  // choose monthly, and campaign tags and tracking carry through to Giveasy.
+  donate: "/get-involved/donate/",
   waysToGive: "/get-involved/",
   monthly: "/regular-donation/",
   donateYourCar: "/get-involved/donate-your-car/",
   carForm: external.carForm,
   giftsInWills: "/get-involved/bequests/",
   fundraise: "/get-involved/community-fundraising/",
+  workplaceGiving: "/get-involved/workplace-giving/",
+  christmas: "/christmas-appeal/",
   partnerships: "/get-involved/corporate-business-partnerships/",
   target450: "/target450/",
   workWithUs: "/get-involved/work-with-us/",
@@ -137,6 +141,7 @@ export const nav: NavGroup[] = [
       { label: "Gift in your will", href: links.giftsInWills },
       { label: "Fundraise for us", href: links.fundraise },
       { label: "Partner with us", href: links.partnerships },
+      { label: "Workplace giving", href: links.workplaceGiving },
     ],
     feature: { label: "Donate your car", href: links.donateYourCar, note: "Turn an old car into a room of their own" },
   },

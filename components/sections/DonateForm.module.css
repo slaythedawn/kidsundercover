@@ -27,3 +27,10 @@
 .go { width: 100%; font-size: 18px; padding: 19px 22px; }
 .note { font-size: 14px; color: var(--ink-soft); text-align: center; }
 .secure { display: flex; gap: 6px; align-items: center; justify-content: center; font-size: 13.5px; color: var(--ink-soft); margin-top: -8px; }
+
+.nudge {
+  border: 1.5px dashed var(--sun-deep); background: transparent; border-radius: 14px;
+  padding: 12px 14px; text-align: left; font-size: 15px; line-height: 1.4; color: var(--ink-soft);
+}
+.nudge b { color: var(--ink); margin-right: 4px; }
+.nudge:hover { background: var(--sun-soft); }

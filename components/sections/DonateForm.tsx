@@ -89,6 +89,12 @@ export default function DonateForm({ start = "once", once, monthly, note, donate
         )
       )}
 
+      {both && freq === "once" && (
+        <button type="button" className={s.nudge} onClick={() => choose("monthly")}>
+          <b>Make it monthly?</b> Regular gifts help us make longer term plans for the programs we deliver.
+        </button>
+      )}
+
       <a className={`btn btn-ink ${s.go}`} href={href} onClick={track}>
         {freq === "once" ? "Continue to secure payment" : "Continue to set up monthly giving"}
         <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
