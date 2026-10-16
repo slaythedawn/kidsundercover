@@ -18,9 +18,11 @@ type Props = Pick<DonateSection, "start" | "once" | "monthly" | "note"> & {
  * the regular giving form for monthly). Payment details are never taken here.
  */
 export default function DonateForm({ start = "once", once, monthly, note, donateUrl, monthlyUrl, amountParam, titleHtml, introHtml }: Props) {
-  const [freq, setFreq] = useState<"once" | "monthly">(start);
+  // Only offer a frequency the page has amounts for.
+  const both = once.length > 0 && monthly.length > 0;
+  const [freq, setFreq] = useState<"once" | "monthly">(both ? start : once.length ? "once" : "monthly");
   const tiers = freq === "once" ? once : monthly;
-  const [pick, setPick] = useState<number | "other">(tiers[1]?.amount ?? tiers[0]?.amount);
+  const [pick, setPick] = useState<number | "other">(tiers[1]?.amount ?? tiers[0]?.amount ?? "other");
   const [other, setOther] = useState("");
   // Campaign tags (utm_*) from the page address, carried on to the payment page so gifts keep their source.
   const [utm, setUtm] = useState("");
@@ -46,7 +48,7 @@ export default function DonateForm({ start = "once", once, monthly, note, donate
   const choose = (f: "once" | "monthly") => {
     setFreq(f);
     const t = f === "once" ? once : monthly;
-    setPick(t[1]?.amount ?? t[0]?.amount);
+    setPick(t[1]?.amount ?? t[0]?.amount ?? "other");
   };
 
   return (
@@ -54,10 +56,12 @@ export default function DonateForm({ start = "once", once, monthly, note, donate
       {titleHtml && <h2 className={s.title} dangerouslySetInnerHTML={{ __html: titleHtml }} />}
       {introHtml && <p className={s.intro} dangerouslySetInnerHTML={{ __html: introHtml }} />}
 
+      {both && (
       <div className={s.freq} role="radiogroup" aria-label="How often">
         <button type="button" role="radio" aria-checked={freq === "once"} onClick={() => choose("once")}>Give once</button>
         <button type="button" role="radio" aria-checked={freq === "monthly"} onClick={() => choose("monthly")}>Give monthly</button>
       </div>
+      )}
 
       <div className={s.amounts} role="radiogroup" aria-label="Amount">
         {tiers.map((t) => (
