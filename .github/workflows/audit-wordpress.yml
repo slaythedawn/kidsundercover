@@ -1,0 +1,29 @@
+# Audits the live WordPress site for the migration (see scripts/audit-wordpress.mjs).
+# Runs when the audit script or the GA4 address list changes, or by hand from the Actions tab.
+# Optional secrets WP_USER and WP_APP_PASSWORD (a WordPress Application Password) add drafts and private content.
+name: Audit WordPress
+on:
+  push:
+    paths: [scripts/audit-wordpress.mjs, docs/audit/ga-paths.tsv]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: audit-wordpress
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node scripts/audit-wordpress.mjs
+        env:
+          WP_USER: ${{ secrets.WP_USER }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+      - name: Commit audit
+        run: |
+          git config user.name "kuc-media-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add media/wp-audit
+          git diff --cached --quiet || git commit -m "Audit WordPress [skip ci]"
+          git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"
