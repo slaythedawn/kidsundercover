@@ -30,7 +30,7 @@ async function get(url, tries = 3) {
   return null;
 }
 
-async function images(urls) {
+async function images(urls, dir = "media/source") {
   let ok = 0, skipped = 0;
   const failed = [];
   const queue = [...urls];
@@ -39,7 +39,7 @@ async function images(urls) {
       while (queue.length) {
         const url = queue.shift();
         const rel = url.replace(/^https?:\/\/(www\.)?kuc\.org\.au\/wp-content\/uploads\//, "");
-        const out = path.join(ROOT, "media/source", rel);
+        const out = path.join(ROOT, dir, rel);
         if (fs.existsSync(out)) { skipped++; continue; }
         const r = await get(url);
         if (!r) { failed.push(url); continue; }
@@ -69,6 +69,8 @@ async function catalog(type, fields) {
 }
 
 await images(manifest.images ?? []);
+// PDFs from the resource hub, so they can be read and turned into pages.
+if (manifest.pdfs) await images(manifest.pdfs, "media/pdfs");
 if (process.argv.includes("--catalog") || manifest.catalog) {
   await catalog("media", "id,date,slug,source_url,alt_text,caption,post,media_details.width,media_details.height,media_details.sizes.medium.source_url,mime_type");
   await catalog("posts", "id,date,link,title,featured_media,categories,yoast_head_json.title,yoast_head_json.description");
