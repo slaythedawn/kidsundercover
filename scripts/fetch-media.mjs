@@ -30,6 +30,20 @@ async function get(url, tries = 3) {
   return null;
 }
 
+/** Downloads a file, retrying if the connection drops part way through (big PDFs). */
+async function download(url, tries = 4) {
+  for (let i = 0; i < tries; i++) {
+    try {
+      const r = await get(url);
+      if (!r) return null;
+      return Buffer.from(await r.arrayBuffer());
+    } catch {
+      await new Promise((res) => setTimeout(res, 3000 * (i + 1)));
+    }
+  }
+  return null;
+}
+
 async function images(urls, dir = "media/source") {
   let ok = 0, skipped = 0;
   const failed = [];
@@ -41,10 +55,10 @@ async function images(urls, dir = "media/source") {
         const rel = url.replace(/^https?:\/\/(www\.)?kuc\.org\.au\/wp-content\/uploads\//, "");
         const out = path.join(ROOT, dir, rel);
         if (fs.existsSync(out)) { skipped++; continue; }
-        const r = await get(url);
-        if (!r) { failed.push(url); continue; }
+        const buf = await download(url);
+        if (!buf) { failed.push(url); continue; }
         fs.mkdirSync(path.dirname(out), { recursive: true });
-        fs.writeFileSync(out, Buffer.from(await r.arrayBuffer()));
+        fs.writeFileSync(out, buf);
         ok++;
       }
     }),
