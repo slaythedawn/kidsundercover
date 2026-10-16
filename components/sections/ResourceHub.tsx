@@ -39,14 +39,24 @@ export default function ResourceHub({ items, categories }: { items: Resource[]; 
         <ul className={s.covers} aria-label="Featured reports">
           {featured.map((r, i) => (
             <li key={r.url}>
-              <a href={r.page ?? r.url} {...(r.page ? {} : { target: "_blank", rel: "noopener" })} className={s.cover} data-n={i % 3}>
-                <span className={s.coverCat}>{r.category}</span>
-                <span className={s.coverTitle}>{r.title}</span>
-                <span className={s.coverFoot}>
-                  <span>{r.year}</span>
-                  <span>{r.page ? "Read online" : "PDF"}</span>
-                </span>
-              </a>
+              {r.cover ? (
+                // The report's real cover, shown as a printed page, with its title underneath.
+                <a href={r.page ?? r.url} {...(r.page ? {} : { target: "_blank", rel: "noopener" })} className={s.realCover}>
+                  <img src={r.cover} alt="" loading="lazy" />
+                  <span className={s.realCoverCat}>{r.category}{r.year ? ` · ${r.year}` : ""}</span>
+                  <span className={s.realCoverTitle}>{r.title}</span>
+                  <span className={s.realCoverGo}>{r.page ? "Read online" : "Download PDF"}</span>
+                </a>
+              ) : (
+                <a href={r.page ?? r.url} {...(r.page ? {} : { target: "_blank", rel: "noopener" })} className={s.cover} data-n={i % 3}>
+                  <span className={s.coverCat}>{r.category}</span>
+                  <span className={s.coverTitle}>{r.title}</span>
+                  <span className={s.coverFoot}>
+                    <span>{r.year}</span>
+                    <span>{r.page ? "Read online" : "PDF"}</span>
+                  </span>
+                </a>
+              )}
             </li>
           ))}
         </ul>
@@ -73,7 +83,11 @@ export default function ResourceHub({ items, categories }: { items: Resource[]; 
           <ul className={s.list}>
             {list.map((r) => (
               <li key={r.url} className={s.item}>
-                <span className={s.doc} aria-hidden="true"><Icon name="document" /></span>
+                {r.cover ? (
+                  <img className={s.thumb} src={r.cover} alt="" loading="lazy" />
+                ) : (
+                  <span className={s.doc} aria-hidden="true"><Icon name="document" /></span>
+                )}
                 <span className={s.itemText}>
                   <a href={r.page ?? r.url} {...(r.page ? {} : { target: "_blank", rel: "noopener" })} className={s.itemLink}>
                     {r.title}

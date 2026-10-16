@@ -66,3 +66,20 @@
   .doc { grid-row: auto; }
   .itemMeta { grid-column: auto; }
 }
+
+/* Real report covers (from the PDFs) */
+.realCover { display: grid; gap: 6px; text-decoration: none; }
+.realCover img {
+  width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: top;
+  border-radius: 3px; background: #fff;
+  box-shadow: 0 1px 0 rgba(0,0,0,.05), 0 22px 36px -22px rgba(70,55,25,.55);
+  transition: transform .2s ease; margin-bottom: 10px;
+}
+.covers li:nth-child(odd) .realCover img { rotate: -1deg; }
+.covers li:nth-child(even) .realCover img { rotate: 1deg; }
+.realCover:hover img { transform: translateY(-4px); }
+.realCoverCat { font-weight: 700; font-size: 13px; color: #8a6d00; }
+.realCoverTitle { font-family: var(--font-display); font-weight: 800; font-size: 20px; line-height: 1.1; }
+.realCoverGo { font-weight: 700; font-size: 14px; border-bottom: 1.5px solid currentColor; justify-self: start; }
+.thumb { width: 40px; height: 54px; object-fit: cover; object-position: top; border-radius: 2px; box-shadow: 0 4px 10px -4px rgba(70,55,25,.45); grid-row: span 2; background: #fff; }
+@media (min-width: 720px) { .thumb { grid-row: auto; } }
