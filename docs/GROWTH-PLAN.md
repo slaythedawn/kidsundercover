@@ -17,7 +17,7 @@ A review of where the new site can raise more money and be found by more people,
 4. **Workplace giving page** at `/get-involved/workplace-giving/` ("workplace giving" 350 a month, difficulty 0), in the Ways to give menu and linked from Donate and Regular giving.
 5. **A giving ask partway down the facts page.** It's the site's busiest page from search, and most readers never reach the bottom.
 6. **Car removal pages** (`/car-removal/`, `/car-removal/melbourne/`) bring people searching to get rid of a car into the Donate Your Car journey.
-7. **Bequests (in progress):** the "Gifts in Wills guide" button links back to its own page. It will point to the guide as a page (see Reports and PDFs below).
+7. **Bequests:** the "Gifts in Wills guide" button linked back to its own page. It now goes to `/get-involved/bequests/gifts-in-wills-guide/`, the Promise For Kids booklet as a page (CEO letter, supporters' stories, KUC's promise to people leaving a gift, and the advisor's contact).
 
 ### Next
 
@@ -39,7 +39,7 @@ A review of where the new site can raise more money and be found by more people,
 3. **Alt text for 91 images** that had none, written after looking at each one.
 4. **Two truncated addresses ranking in Google** (`/Our`, `/Get`) now redirect to the right pages.
 5. **Email and event pages hidden from search** (partner donations, silent auction, Return to Give, the mobile pod welcome pack), so search engines focus on the pages that matter.
-6. **PDF reports into pages (in progress, see below).** Text inside PDFs is hard for search engines to rank, and people rarely open them.
+6. **PDF reports turned into pages** (see below). Text inside PDFs is hard for search engines to rank, and people rarely open them. Text inside PDFs is hard for search engines to rank, and people rarely open them.
 
 ### Next
 
@@ -59,8 +59,13 @@ How each of the 38 public PDFs in the resource hub is handled:
 
 | Type | Handling |
 |---|---|
-| Latest annual impact statements, strategic plan, Reconciliation Action Plan, the Promise For Kids bequest guide | Turned into pages, with the PDF as a download. The hub links to the page. |
+| Latest annual impact statements, strategic plan, Reconciliation Action Plan, the Promise For Kids bequest guide | Turned into pages, with the PDF as a download. The hub links to the page. Done: `/our-impact/publications/2025-annual-impact-statement/`, `/our-impact/publications/2024-annual-impact-statement/`, `/about/strategic-plan/`, `/about/reconciliation-action-plan/`, `/get-involved/bequests/gifts-in-wills-guide/`. |
+| Social Return on Investment report (image only, now read with OCR) | Next: its findings can strengthen the existing research page. |
 | Research reports and briefs | Already pages (the research section). |
 | Forms and legal documents (statutory declaration, direct debit agreement, ACCC guide) | Stay as PDFs: people need to print or sign them. |
 | Older annual reports (2017 to 2023) and 11 Undercover News issues | Stay as downloads in the hub. Candidates for later: past newsletters hold stories that could become story pages. |
 | Small how-to sheets (receipt upload, mobile pod tips) | Fold into the page they belong to. |
+
+## How PDFs become pages
+
+The media sync (`.github/workflows/fetch-media.yml`) downloads every PDF in the hub, extracts its text (with OCR for image-only PDFs), page count and a cover image, and commits only those (`media/pdf-text/`, `media/pdf-info.json`, `public/media/pdf-covers/`), never the PDFs. A report page uses the cover as its hero and the report's own words and figures, with the PDF as a download. Set `page` on the resource in `content/resources.json` and the hub links to the page instead of the PDF.

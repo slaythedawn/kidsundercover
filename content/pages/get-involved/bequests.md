@@ -40,7 +40,7 @@ sections:
         text: When consulting your solicitor, refer to this card for suggested wording.
     actions:
       - { label: Start writing your free Will now, href: "https://www.gatheredhere.com.au/c/kids-under-cover" }
-      - { label: Read our Gifts in Wills guide, href: /get-involved/bequests/, variant: ghost }
+      - { label: Read our Gifts in Wills guide, href: /get-involved/bequests/gifts-in-wills-guide/, variant: ghost }
 
   - type: split
     eyebrow: The impact of your Promise

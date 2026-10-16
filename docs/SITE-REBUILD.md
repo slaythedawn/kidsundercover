@@ -98,3 +98,11 @@ These four stories loop on redirects on the live site, so the crawler only got a
 - Silent auction payment goes to the general donation form, which says gifts are tax deductible; the page says the payment isn't. Its SEO title reads "Give an Lifelong Gift".
 - Return to Give asks people to "update payment details" but has no form for it. CONFIRM where it should go.
 - Jade's letter only exists as small 215x300 thumbnails.
+
+### Found while turning PDFs into pages (October 2026)
+- Donate Your Car totals: the 2024 Impact Statement says "$20.3 million" since 2006 and "31,295" vehicles sold; the car pages say "over $23 million". Studios: "675" (2024 statement), "over 650" (About), 1000th studio (2019).
+- 2025 Impact Statement: DFFH scholarships are "305" in the CEO message and "355" in the body. Village 21 Bairnsdale and Shepparton openings are "January and June 2026" in one place and "February and July 2026" in another (left out of the page).
+- South Australia: "40" studios with "only two builds remaining" (2025 statement) against "51 studios in South Australia over three years" elsewhere.
+- Reconciliation Action Plan: "22% of our clients (current at January 2024)" against 24% (January 2025) in the RAP media release. VACCA is "Victorian Aboriginal Child Care Agency" in the RAP and "Victorian Aboriginal Child and Community Agency" elsewhere.
+- Strategic Plan says "Ken Morgan AO"; Our story says OAM.
+- Bequests page: "refer to this card for suggested wording" points to a card that isn't on the page or in the Promise For Kids booklet. Suggested Will wording should be added.
