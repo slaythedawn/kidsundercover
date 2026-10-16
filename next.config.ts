@@ -11,6 +11,15 @@ const nextConfig: NextConfig = {
       // Old addresses still linked from emails and other sites.
       { source: "/kuc_bequests-2025/", destination: "/get-involved/bequests/", permanent: true },
       { source: "/our-programs/village-program/", destination: "/our-programs/village21/", permanent: true },
+      // Old WordPress listing pages, date archives and the /news/ prefix (GA4 shows people still land on these).
+      { source: "/stories/page/:n/", destination: "/stories/", permanent: true },
+      { source: "/page/:n/", destination: "/stories/", permanent: true },
+      { source: "/media-release/page/:n/", destination: "/about/media-centre/", permanent: true },
+      { source: "/about/media-centre/page/:n/", destination: "/about/media-centre/", permanent: true },
+      { source: "/:year(\\d{4})/:month(\\d{2})/", destination: "/stories/", permanent: true },
+      { source: "/news/:year(\\d{4})/:month(\\d{2})/", destination: "/stories/", permanent: true },
+      { source: "/news/:kind(tag|category|page)/:path*", destination: "/stories/", permanent: true },
+      { source: "/type/:path*", destination: "/stories/", permanent: true },
       { source: "/news/:slug/", destination: "/:slug/", permanent: true },
       // Truncated addresses that rank in Google (Ahrefs, October 2026), sent to the pages their keywords belong to.
       { source: "/Our", destination: "/our-impact/the-facts-and-statistics-on-youth-homelessness/", permanent: true },
