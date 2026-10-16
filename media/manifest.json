@@ -248,5 +248,6 @@
     "https://www.kuc.org.au/wp-content/uploads/2026/09/Austock000205344_Medium-2.jpg",
     "https://www.kuc.org.au/wp-content/uploads/2026/09/Chloe-3-300x300.png"
   ],
-  "rev": 2
+  "rev": 3,
+  "library": true
 }

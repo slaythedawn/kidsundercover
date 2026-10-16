@@ -6,6 +6,10 @@
  *
  *   node scripts/fetch-media.mjs            images in media/manifest.json
  *   node scripts/fetch-media.mjs --catalog  also refresh the WordPress catalogues
+ *
+ * With `library: true` in the manifest it also saves a 300px thumbnail of every
+ * image in the WordPress media library to media/library/<id>.<ext>, used to find
+ * the raw photos behind KUC's flattened circle graphics (scripts/process-media.py).
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -66,7 +70,29 @@ async function catalog(type, fields) {
 
 await images(manifest.images ?? []);
 if (process.argv.includes("--catalog") || manifest.catalog) {
-  await catalog("media", "id,date,slug,source_url,alt_text,caption,post,media_details.width,media_details.height,mime_type");
+  await catalog("media", "id,date,slug,source_url,alt_text,caption,post,media_details.width,media_details.height,media_details.sizes.medium.source_url,mime_type");
   await catalog("posts", "id,date,link,title,featured_media,categories,yoast_head_json.title,yoast_head_json.description");
   await catalog("pages", "id,date,link,title,parent,featured_media,yoast_head_json.title,yoast_head_json.description");
+}
+
+if (manifest.library) {
+  const lib = JSON.parse(fs.readFileSync(path.join(ROOT, "media/wp-media.json"), "utf8"));
+  const queue = lib.filter((m) => /^image\//.test(m.mime_type));
+  let n = 0;
+  await Promise.all(
+    Array.from({ length: 8 }, async () => {
+      while (queue.length) {
+        const m = queue.shift();
+        const src = m.media_details?.sizes?.medium?.source_url ?? m.source_url;
+        const out = path.join(ROOT, "media/library", `${m.id}${path.extname(src).toLowerCase()}`);
+        if (fs.existsSync(out)) continue;
+        const r = await get(src);
+        if (!r) continue;
+        fs.mkdirSync(path.dirname(out), { recursive: true });
+        fs.writeFileSync(out, Buffer.from(await r.arrayBuffer()));
+        n++;
+      }
+    }),
+  );
+  console.log(`library thumbnails: ${n}`);
 }
