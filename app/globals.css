@@ -4,6 +4,9 @@
  * flow through every section.
  */
 :root {
+  /* How far the hanging logo tag drops below the header bar (Header.module.css sets its size).
+     Inner page heroes start below it, so the tag never covers a breadcrumb or title. */
+  --logo-hang: 0px;
   --ink: #1f1d19;
   --ink-soft: #5a564d;
   --line: #e6dfd0;
@@ -255,3 +258,8 @@ img[data-kind="document"] { object-fit: contain !important; background: none !im
   padding: 0 !important;
 }
 .print:has(> img[data-kind="document"]) > img { filter: drop-shadow(0 18px 26px rgba(70, 55, 25, 0.35)); }
+
+@media (min-width: 720px) { :root { --logo-hang: 70px; } }
+@media (min-width: 1180px) { :root { --logo-hang: 92px; } }
+/* From here the page column starts to the right of the logo, so nothing needs to clear it. */
+@media (min-width: 1500px) { :root { --logo-hang: 0px; } }

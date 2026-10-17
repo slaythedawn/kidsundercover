@@ -3,8 +3,8 @@ url: /silent_auction/
 title: Silent Auction
 seoTitle: "Silent Auction Payment"
 description: "Pay for your Kids Under Cover silent auction item online."
-eyebrow: Congratulations on winning the silent auction!
-intro: Please note, this is not a tax deductible donation.
+eyebrow: Silent auction
+intro: Congratulations on winning the silent auction! Please note, this is not a tax deductible donation.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2023/07/MicrosoftTeams-image-16.jpg
 heroAlt: Supporters in costume at a Kids Under Cover event
 section: campaign

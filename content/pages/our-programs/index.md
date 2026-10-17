@@ -3,7 +3,7 @@ url: /our-programs/
 title: Our programs
 seoTitle: "Our Programs | Youth Housing and Education"
 description: "Kids Under Cover's programs: backyard studios, Village 21 supported housing, scholarships and support for young people at risk of homelessness."
-eyebrow: Building brighter futures for young people experiencing or at risk of homelessness
+eyebrow: Our work
 intro: Our goal is to prevent and end youth homelessness by giving young people the space and support they need to thrive.
 heroImage: /images/handover.jpg
 heroAlt: Kids Under Cover staff and a family standing outside a newly built backyard studio

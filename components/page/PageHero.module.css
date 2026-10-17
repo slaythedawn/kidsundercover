@@ -1,7 +1,7 @@
-.hero { padding: 36px 0 40px; }
-@media (min-width: 900px) { .hero { padding: 40px 0 64px; } }
+.hero { padding: max(36px, calc(var(--logo-hang) + 16px)) 0 40px; }
+@media (min-width: 900px) { .hero { padding: max(40px, calc(var(--logo-hang) + 16px)) 0 64px; } }
 
-.inner { display: grid; gap: 32px; align-items: center; }
+.inner { display: grid; gap: 32px; align-items: start; }
 @media (min-width: 900px) {
   .hero[data-has-image="true"] .inner { grid-template-columns: 1.1fr 0.9fr; gap: 64px; }
 }
@@ -16,7 +16,7 @@
 @media (min-width: 900px) { .photo { justify-self: end; } }
 
 /* Photo hero for landing pages: a big photo with the title on a paper sheet laid over it. */
-.photoHero { padding-top: 20px; }
+.photoHero { padding-top: max(20px, calc(var(--logo-hang) + 16px)); }
 .stage { position: relative; display: grid; margin-top: 12px; }
 .stagePhoto {
   aspect-ratio: 4 / 3;

@@ -271,5 +271,33 @@ export const renderMarkdown = (body: string) => md.parse(body, { async: false })
 /** Inline Markdown (bold, italics, links) for titles and list items. */
 export const renderInline = (text: string) => md.parseInline(text, { async: false }) as string;
 
+/**
+ * Photos for cards that have none of their own: real KUC photos of studios, villages and hands,
+ * with no identifiable people, so they never sit beside a story about someone else.
+ */
+const CARD_FALLBACKS = [
+  "https://www.kuc.org.au/wp-content/uploads/2024/02/studio-program-apply-montage.jpg",
+  "https://www.kuc.org.au/wp-content/uploads/2024/02/village-program-montage-1.jpg",
+  "/images/studios.jpg",
+  "https://www.kuc.org.au/wp-content/uploads/2024/02/about-montage-3.jpg",
+];
+
+/** First photo used anywhere in a page's sections. */
+function sectionImage(sections?: PageEntry["sections"]) {
+  for (const sec of sections ?? []) {
+    const x = sec as { image?: string; images?: { src?: string }[]; items?: { image?: string }[] };
+    const found = x.image ?? x.images?.[0]?.src ?? x.items?.find((i) => i?.image)?.image;
+    if (found) return found;
+  }
+}
+
+/** The photo a card shows for a page or story: its own photo, else one of the fallbacks, picked by address. */
+export function cardImage(e: PageEntry | StoryEntry): string {
+  const own = e.kind === "story" ? e.image ?? firstImage(e.body) : e.heroImage ?? firstImage(e.body) ?? sectionImage(e.sections);
+  if (own) return own;
+  const n = [...e.url].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7);
+  return CARD_FALLBACKS[n % CARD_FALLBACKS.length];
+}
+
 /** First image in a body, used as a fallback hero or card photo. */
 export const firstImage = (body: string) => body.match(/!\[[^\]]*\]\(([^)\s]+)/)?.[1];

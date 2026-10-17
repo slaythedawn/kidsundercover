@@ -4,6 +4,7 @@ import {
   allEntries,
   childrenOf,
   firstImage,
+  cardImage,
   getEntry,
   renderMarkdown,
   resources,
@@ -78,15 +79,21 @@ const formatDate = (d: string) =>
 const storyCard = (st: StoryEntry): Card => ({
   title: st.title,
   href: st.url,
-  image: st.image ?? firstImage(st.body),
+  image: cardImage(st),
   tag: st.categories[0],
   text: st.excerpt,
 });
 
+/** Label above the title when a page sets none, so every title starts at the same height. */
+const SECTION_LABEL: Record<PageEntry["section"], string> = {
+  work: "Our work", impact: "Our impact", give: "Ways to give", about: "About us",
+  support: "Get support", legal: "Legal", campaign: "Kids Under Cover", other: "Kids Under Cover",
+};
+
 const pageCard = (p: PageEntry): Card => ({
   title: p.title,
   href: p.url,
-  image: p.heroImage ?? firstImage(p.body),
+  image: cardImage(p),
   text: p.intro ?? p.description,
 });
 
@@ -124,7 +131,7 @@ function ContentPage({ page }: { page: PageEntry }) {
   return (
     <>
       <PageHero
-        eyebrow={page.eyebrow ?? navGroup?.label}
+        eyebrow={page.eyebrow ?? navGroup?.label ?? SECTION_LABEL[page.section]}
         title={page.title}
         intro={page.intro}
         image={page.heroImage}

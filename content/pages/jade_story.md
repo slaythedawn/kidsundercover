@@ -1,6 +1,7 @@
 ---
 url: "/jade_story/"
 title: "Jade’s story"
+eyebrow: Stories
 seoTitle: "Jade's Story"
 description: "Read Jade's story, in her own words, shared with Kids Under Cover."
 intro: "You can read Jade’s story here."

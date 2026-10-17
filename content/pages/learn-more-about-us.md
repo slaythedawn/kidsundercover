@@ -3,7 +3,7 @@ url: /learn-more-about-us/
 title: Learn More About Us
 seoTitle: "Learn More About Us"
 description: "Kids Under Cover builds foundations to prevent youth homelessness, with studios, scholarships and supported housing for young people."
-eyebrow: Building foundations to prevent youth homelessness
+eyebrow: About us
 intro: "Kids Under Cover takes a unique and innovative early intervention approach to youth homelessness that begins with the provision of stable and secure accommodation."
 heroImage: /images/pair.jpg
 heroAlt: A young man and a woman smiling as they hold up a set of keys

@@ -3,8 +3,8 @@ url: /mobile-pod-welcome-pack/
 title: Mobile Pod Welcome Pack
 seoTitle: "Mobile Pod Welcome Pack"
 description: "Welcome information for families with a Kids Under Cover mobile pod: care tips, maintenance, repairs and who to contact."
-eyebrow: Welcome to your new mobile pod!
-intro: On behalf of the whole team we hope that the mobile pod provides assistance to your household with additional space and stability. Each mobile pod is assigned a unique reference number.
+eyebrow: Mobile Pod
+intro: Welcome to your new mobile pod! On behalf of the whole team we hope that the mobile pod provides assistance to your household with additional space and stability. Each mobile pod is assigned a unique reference number.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/03/Pod2-1024x1024.png
 heroAlt: Looking through the open door of a mobile pod at a desk inside
 section: support

@@ -314,12 +314,19 @@ if __name__ == "__main__":
             rgb = flatten(rgba)
             rgb, painted = remove_doodles(rgb, disc)
             cx, cy, r = disc
-            half = r * 0.70
-            x0, y0 = int(max(0, cx - half)), int(max(0, cy - half))
-            img = rgb[y0:int(cy + half), x0:int(cx + half)]
+            box = overrides.get(rel, {}).get("box")
+            if box:
+                # A crop set by hand (left, top, right, bottom as fractions of the whole graphic), for
+                # circles where the largest square would cut through someone's head.
+                hh, ww = rgb.shape[:2]
+                img = rgb[int(box[1] * hh):int(box[3] * hh), int(box[0] * ww):int(box[2] * ww)]
+            else:
+                half = r * 0.70
+                x0, y0 = int(max(0, cx - half)), int(max(0, cy - half))
+                img = rgb[y0:int(cy + half), x0:int(cx + half)]
             # Optional trim (left, top, right, bottom as fractions) to cut away a doodle left on an edge.
             t = overrides.get(rel, {}).get("trim")
-            if t:
+            if t and not box:
                 hh, ww = img.shape[:2]
                 img = img[int(t[1] * hh):int(t[3] * hh), int(t[0] * ww):int(t[2] * ww)]
             entry.update(kind="photo", cropped="circle", doodlePixels=painted)

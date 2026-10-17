@@ -56,9 +56,10 @@ export default function PageHero({ eyebrow, title, intro, image, imageAlt, crumb
   if (variant === "plain") image = undefined;
   return (
     <section className={s.hero} data-has-image={!!image}>
+      {/* Breadcrumbs sit above both columns, so they and the title start at the same place on every page. */}
+      {crumbs && crumbs.length > 0 && <div className="wrap"><Breadcrumbs items={crumbs} /></div>}
       <div className={`wrap ${s.inner}`}>
         <div className={s.copy}>
-          {crumbs && crumbs.length > 0 && <Breadcrumbs items={crumbs} />}
           {eyebrow && <p className={s.eyebrow}>{eyebrow}</p>}
           <h1 className={s.title}>
             {title}
@@ -75,7 +76,7 @@ export default function PageHero({ eyebrow, title, intro, image, imageAlt, crumb
           )}
         </div>
         {image && (
-          <div className={`print ${s.photo}`} style={{ aspectRatio: ratio(media(image), 0.8, 1.5) }}>
+          <div className={`print ${s.photo}`} style={media(image)?.kind === "graphic" ? { aspectRatio: ratio(media(image), 0.8, 1.5) } : undefined}>
             <Photo url={image} alt={imageAlt} eager />
             <Doodle seed={title} corner="tl" />
           </div>

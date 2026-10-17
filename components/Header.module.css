@@ -187,8 +187,7 @@
 }
 
 @media (min-width: 1180px) {
-  .logo { width: 104px; margin-top: 12px; }
-  .header:not([data-home="true"]) .logo { width: 88px; }
+  .logo { width: 96px; margin-top: 12px; }
   .nav { display: block; }
   .menuBtn, .drawer { display: none; }
 }
@@ -196,7 +195,8 @@
   .phone { display: inline; }
 }
 
-/* Inner pages: on phones the logo sits inside the bar so it doesn't cover the page title. */
+/* Same logo size on every page, so it doesn't jump when moving between pages. On phones it is
+   sized to hang just short of the breadcrumbs. */
 @media (max-width: 719px) {
-  .header:not([data-home="true"]) .logo { width: 40px; margin-top: 8px; }
+  .logo { width: 52px; margin-top: 8px; }
 }

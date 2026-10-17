@@ -3,8 +3,8 @@ url: /about/
 title: About
 seoTitle: "About Us | Youth Homelessness Charity"
 description: "Kids Under Cover is an Australian not-for-profit preventing youth homelessness since 1989, with backyard studios, scholarships and supported housing."
-eyebrow: No young person in our community chooses to be homeless
-intro: The Australian Bureau of Statistic’s 2021 Census reported that nearly a quarter (23%) of Australia’s homeless population (28,204) are aged 12-24 years.
+eyebrow: About us
+intro: No young person in our community chooses to be homeless. The Australian Bureau of Statistics 2021 Census reported that nearly a quarter (23%) of Australia’s homeless population (28,204) are aged 12 to 24 years.
 heroImage: https://www.kuc.org.au/wp-content/uploads/2024/02/about-young-person-smiling.jpg
 heroAlt: A young person smiling
 section: about

@@ -1174,11 +1174,11 @@
   "cropped": "circle",
   "doodlePixels": 35343,
   "src": "/media/2024/02/3-2-1024x1024.jpg",
-  "w": 518,
-  "h": 627,
-  "fx": 0.45,
-  "fy": 0.2,
-  "faces": 0
+  "w": 389,
+  "h": 809,
+  "fx": 0.359,
+  "fy": 0,
+  "faces": 1
  },
  "https://www.kuc.org.au/wp-content/uploads/2024/02/A-New-Place-to-Call-Home-cover-212x300.jpg": {
   "kind": "graphic",

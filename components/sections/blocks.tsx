@@ -3,7 +3,7 @@
  * `sections` front matter (see lib/sections.ts for every field).
  */
 import { ctas } from "@/content/site";
-import { childrenOf, firstImage, getEntry, stories as allStories, type PageEntry, type StoryEntry } from "@/lib/content";
+import { cardImage, childrenOf, getEntry, stories as allStories, type PageEntry, type StoryEntry } from "@/lib/content";
 import type * as T from "@/lib/sections";
 import CardGrid, { type Card } from "@/components/page/CardGrid";
 import DonateBand from "@/components/page/DonateBand";
@@ -317,8 +317,8 @@ export function Callout(p: T.CalloutSection) {
   );
 }
 
-const storyCard = (st: StoryEntry): Card => ({ title: st.title, href: st.url, image: st.image ?? firstImage(st.body), tag: st.categories[0], text: st.excerpt });
-const pageCard = (pg: PageEntry): Card => ({ title: pg.title, href: pg.url, image: pg.heroImage ?? firstImage(pg.body), text: pg.intro ?? pg.description });
+const storyCard = (st: StoryEntry): Card => ({ title: st.title, href: st.url, image: cardImage(st), tag: st.categories[0], text: st.excerpt });
+const pageCard = (pg: PageEntry): Card => ({ title: pg.title, href: pg.url, image: cardImage(pg), text: pg.intro ?? pg.description });
 
 /** S14 Story cards: chosen stories by address, or the latest from one program. */
 export function Stories(p: T.StoriesSection) {

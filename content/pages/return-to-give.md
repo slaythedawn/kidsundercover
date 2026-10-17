@@ -3,8 +3,8 @@ url: /return-to-give/
 title: Welcome Back to Changing Lives
 seoTitle: "Welcome Back"
 description: "Thank you for supporting Kids Under Cover. Renew your regular gift and keep helping young people at risk of homelessness stay close to home."
-eyebrow: Thank you for being part of our mission to prevent youth homelessness.
-intro: We noticed that your regular donation was recently paused due to an issue with your payment details, but we would love to have you back on board.
+eyebrow: Regular giving
+intro: Thank you for being part of our mission to prevent youth homelessness. We noticed that your regular donation was recently paused due to an issue with your payment details, but we would love to have you back on board.
 heroStyle: plain
 section: campaign
 cta: monthly

@@ -1,6 +1,7 @@
 ---
 url: /sign-up-for-our-newsletter/
 title: Sign up for our newsletter
+eyebrow: Newsletter
 seoTitle: "Sign Up for Our Newsletter"
 description: "Get stories, news and ways to help young people at risk of homelessness from Kids Under Cover, straight to your inbox."
 intro: "Stay informed. Ignite change."
