@@ -15,7 +15,7 @@ If the database isn't connected yet, the form says so and gives the email addres
 
 ## Which database, and why
 
-Chosen: **Neon Postgres in Sydney, added through the Vercel project's Marketplace, on the free plan.**
+Chosen: **Neon Postgres in Sydney, on the free plan.** Created October 2026 as Neon project `kuc-website` (database `kuc`, table `submissions` ready) in Josh's Neon account; transfer it to KUC's account before launch.
 
 | Option | Cost for KUC's volume | Data held in | Downsides | Verdict |
 |---|---|---|---|---|

@@ -57,18 +57,19 @@ Drop the files in the chat and Claude takes it from there.
 
 The contact, newsletter and Target450 forms save every submission to a database. KUC's new CRM will become their home once its details are known; until then the database holds them, and staff download them as a spreadsheet. No email service is needed.
 
-### 1. Add the database
+### 1. Connect the database
 
-1. Go to https://vercel.com and open the project **kuc-homepage-prototype**.
-2. Click the **Storage** tab, then **Create Database**.
-3. Choose **Neon** (Serverless Postgres), then **Continue**.
-4. Accept the terms if asked. Choose:
-   - **Region:** Sydney (`aws-ap-southeast-2`). This keeps people's details in Australia, and it can't be changed later.
-   - **Plan:** Free.
-   - **Database name:** `kuc-website`
-5. Click **Create**, then **Connect Project**. Choose `kuc-homepage-prototype`, tick all environments (Development, Preview and Production) and click **Connect**.
+The database already exists: Neon project **kuc-website**, region Sydney, free plan, with the `submissions` table set up. It's in Josh's Neon account for now; transfer it to KUC's account before launch (Neon > project settings > Transfer).
 
-This adds `DATABASE_URL` and a few related settings to the project automatically. The table the forms use is created by itself on the first submission.
+1. Go to https://console.neon.tech and open the project **kuc-website**.
+2. Click **Connect**. Make sure **Database** is `kuc` and **Connection pooling** is on, then copy the connection string. It starts with `postgresql://kuc_owner:`.
+3. In Vercel open the project **kuc-homepage-prototype** and go to **Settings > Environment Variables**.
+4. Add:
+   - **Key:** `DATABASE_URL`
+   - **Value:** the connection string
+   - **Environments:** Production and Preview
+   - Tick **Sensitive**, so the value can't be read back later.
+5. Click **Save**.
 
 ### 2. Add the download password
 
