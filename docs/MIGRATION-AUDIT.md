@@ -32,7 +32,7 @@ Only the public view was audited. With a WordPress Application Password (see "Fr
 | Yoast SEO | Titles, descriptions, sitemaps, robots.txt, schema | `scripts/seo-titles.mjs`, `app/sitemap.ts`, `app/robots.ts`, `lib/schema.tsx` |
 | Redirection | About 40 redirects | `next.config.ts` |
 | Gravity Forms (paid licence) | Contact, newsletter and Target450 forms | **Built.** The site's own forms, saving to the website database (`docs/FORMS.md`). Licence not needed |
-| WP Mail SMTP | Sends form notification emails | **Built.** Resend, free plan |
+| WP Mail SMTP | Sends form notification emails | Not needed; KUC's CRM will notify staff. Optional Resend support is built in |
 | MonsterInsights | A second GA4 install, the cause of double counting | Dropped; GA4 runs through GTM only |
 | Google Site Kit | Connects Search Console and Analytics inside WordPress | Dropped; Search Console verified by DNS (see Search Console) |
 | LiteSpeed Cache | Page caching | Vercel's CDN |
@@ -73,7 +73,7 @@ Nothing is carried over unless the new site needs it. CONFIRM with KUC which of 
 | Gravity Forms | Paid licence | Replaced by the site's own forms | Cancel at renewal |
 | Yoast SEO | Free or Premium (unknown) | Replaced (`scripts/seo-titles.mjs`, sitemap, schema) | Cancel Premium if paid |
 | MonsterInsights | Lite (free) edition | Removed; it causes the double counting | Nothing to cancel |
-| WP Mail SMTP and its mail provider | Free or Pro (unknown) | Replaced by Resend (free) | Cancel if paid |
+| WP Mail SMTP and its mail provider | Free or Pro (unknown) | Not needed; notifications will come from KUC's CRM | Cancel if paid |
 | Wordfence | Free or Premium (unknown) | Not needed; no login on the new site | Cancel Premium if paid |
 | LiteSpeed Cache, Site Kit, Redirection, Duplicate Post, Easy Fancybox, Responsive Video Embeds | Free | Not needed | None |
 | Raisely | Script still on every page | Not used | CONFIRM, and cancel if KUC still pays |
@@ -86,7 +86,6 @@ New services, all on free plans:
 | Service | What for | Cost |
 |---|---|---|
 | Neon Postgres (through Vercel), Sydney | Form submissions database | Free plan |
-| Resend | Form notification emails | Free plan (100 a day) |
 | Cloudflare Turnstile | Spam protection on forms | Free |
 | Vercel | Hosting | Vercel's free Hobby plan is for personal, non-commercial sites, so a charity's live site should run on Pro (US$20 per member a month). This replaces the WordPress hosting cost |
 | Vercel Blob | Documents at their old `/wp-content/uploads/` addresses | Included allowance covers about 300 MB of documents; check on Pro |
@@ -100,7 +99,7 @@ The audit runs logged out, so it sees only the public site. Logging in adds:
 | Editor (Josh's current level) | Drafts, private and scheduled pages, reusable blocks |
 | Admin | Plugin list with editions (to confirm the subscriptions above), site settings, menus, the Redirection plugin's full rule list, and Gravity Forms settings, including where each form emails today |
 
-How to connect, safest first:
+Step by step: `docs/SETUP-GUIDE.md` (Part 1). How to connect, safest first:
 
 1. **Application Password and the audit Action.** In WordPress go to Users > Profile > Application Passwords and create one named "KUC migration". In GitHub go to Settings > Secrets and variables > Actions and add `WP_USER` and `WP_APP_PASSWORD`. Then re-run "Audit WordPress". The audit picks up everything above that the account allows (`media/wp-audit/logged-in.json`), and the password never appears in chat or code.
 2. **Direct from these sessions.** The cloud environment blocks kuc.org.au. Adding `www.kuc.org.au` under Allowed domains in the environment's network settings, plus the two values above as environment secrets, lets Claude query WordPress directly.
@@ -153,7 +152,8 @@ Request to send to KUC (ready to paste):
 
 - [ ] Documents and images copied to Blob storage, `/wp-content/uploads/*` rewrite live
 - [x] Native contact, newsletter and Target450 forms built, with thank you pages
-- [ ] Database, email and spam protection connected (`docs/FORMS.md`); a test sent through each form
+- [ ] Database connected and a test sent through each form (`docs/SETUP-GUIDE.md`)
+- [ ] Forms connected to KUC's new CRM once chosen
 - [ ] Salesforce framing allows the new domain; each NPSP form tested with a real payment
 - [ ] Giveasy and the Salesforce car form return URLs tested on the new domain
 - [ ] GTM: MonsterInsights gone, conversions on the new events, cross domain measurement for Giveasy and Salesforce

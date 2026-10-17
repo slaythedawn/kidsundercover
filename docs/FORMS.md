@@ -1,15 +1,15 @@
 # Forms and the website database
 
-The contact, newsletter and Target450 forms are now the website's own. They replace the Gravity Forms plugin, WP Mail SMTP and the form plugins' entries table on WordPress. Questions and options are the live forms' own (`content/forms.ts`).
+The contact, newsletter and Target450 forms are now the website's own. They replace the Gravity Forms plugin, WP Mail SMTP and the form plugins' entries table on WordPress. KUC is bringing in its own CRM; once its details are known, submissions also go there. Questions and options are the live forms' own (`content/forms.ts`).
 
 ## How a submission flows
 
 1. **Spam check.** A hidden field that bots fill in, plus Cloudflare Turnstile (free) once its keys are set.
 2. **Saved** to the website database: one row per submission in the `submissions` table (`db/schema.sql`), with the page it came from and its campaign tags.
-3. **Emailed** to the right KUC inbox through Resend, with the person's email as the reply address. The contact form routes by "I want help with..." (studio, scholarships, fundraising, general).
+3. **Optional email.** Only if `RESEND_API_KEY` is set: an email to the right KUC inbox, routed by the contact form's "I want help with..." answer. Not planned for now; staff notifications will come from KUC's CRM.
 4. **Thank you page.** The page fires a conversion event for Google Tag Manager (`contact_complete`, `newsletter_complete`, `target450_complete`).
 
-If the database and email aren't connected yet, the form says so and gives the email address, so nothing is silently lost. It works without JavaScript too.
+If the database isn't connected yet, the form says so and gives the email address, so nothing is silently lost. It works without JavaScript too.
 
 **Staff access:** download any form's submissions as a spreadsheet at `/api/forms/export/?form=contact&token=...` (forms: `contact`, `newsletter`, `target450`, or leave `form` off for all). Claude can also read and summarise them on request.
 
@@ -24,26 +24,18 @@ Chosen: **Neon Postgres in Sydney, added through the Vercel project's Marketplac
 | Airtable | Team plan about US$20 per user a month (50% nonprofit discount). Free plan caps records | US by default; Australian storage only on Enterprise Scale | Personal details held in the US, per-seat cost, API rate limits | Not chosen for personal details. Fine for content planning |
 | Salesforce | KUC already pays for it | Salesforce | We don't have access yet; ownership not confirmed | **The long-term home.** Once KUC gives API access, each submission also goes to Salesforce (the `salesforce_id` column is ready) and the website database stays as a backup log |
 
-## Set-up (about 15 minutes, in KUC's or Josh's Vercel account)
+## Set-up
 
-1. **Database:** Vercel project `kuc-homepage-prototype` > Storage > Create Database > Neon. Choose the free plan and region **Sydney (ap-southeast-2)**, then connect it to the project. This adds `DATABASE_URL` automatically. The table is created on the first submission.
-2. **Email:** create a free Resend account, add and verify the `kuc.org.au` domain (two DNS records KUC adds), and create an API key. In Vercel > Settings > Environment Variables add:
-   - `RESEND_API_KEY`
-   - `FORMS_FROM`, for example `Kids Under Cover website <website@kuc.org.au>`
-   - Until the domain is verified, Resend only sends to the account owner, so for testing also set `FORMS_TO_OVERRIDE` to that address.
-3. **Spam protection:** create a free Cloudflare Turnstile widget for the site's domains. Add `NEXT_PUBLIC_TURNSTILE_SITE_KEY` and `TURNSTILE_SECRET_KEY`.
-4. **Staff downloads:** add `FORMS_ADMIN_TOKEN`, a long random string, and share it with whoever downloads submissions.
-5. Redeploy, send a test through each form, and check the email arrives and the row appears in the export.
-
-`.env.example` lists every variable.
+Step by step: `docs/SETUP-GUIDE.md` (Part 2). In short: add Neon (Sydney, free) from the Vercel project's Storage tab, add `FORMS_ADMIN_TOKEN`, redeploy, test each form. `.env.example` lists every variable.
 
 ## CONFIRM with KUC
 
-- **Inboxes.** Which inbox each contact topic goes to (`content/forms.ts`). The addresses used are ones already published on the site.
+- **CRM.** Name and API access for KUC's new CRM, so submissions flow into it.
+- **Inboxes.** Only needed if the website sends its own emails: which inbox each contact topic goes to (`content/forms.ts`).
 - **Newsletter.** Which platform KUC sends the newsletter from, so signups can flow straight into it. Until then they're in the database and the export.
-- **Privacy policy.** It should say form details are stored in Australia and emailed to staff, and name Resend as the email provider.
+- **Privacy policy.** It should say form details are stored in Australia, and name the CRM once chosen.
 
 ## Free plan limits to watch
 
-- **Resend:** 100 emails a day and 3,000 a month on the free plan. That's one email per submission. If a campaign pushes newsletter signups past 100 a day, emails pause until the next day, but every submission is still saved in the database. Upgrading is US$20 a month.
 - **Neon:** 0.5 GB holds hundreds of thousands of submissions.
+- **Resend** (only if email is switched on): 100 emails a day on the free plan.
