@@ -1,0 +1,28 @@
+.form { display: grid; gap: 22px; padding: 30px 22px; max-width: 720px; }
+@media (min-width: 640px) { .form { padding: 36px 34px; } }
+.title { font-size: clamp(26px, 3vw, 34px); }
+.intro { color: var(--ink-soft); margin-top: 6px; }
+.grid { display: grid; gap: 18px; }
+@media (min-width: 640px) {
+  .grid { grid-template-columns: 1fr 1fr; }
+  .field { grid-column: 1 / -1; }
+  .field[data-half] { grid-column: auto; }
+}
+.field { display: grid; gap: 6px; min-width: 0; border: 0; padding: 0; margin: 0; }
+.label { font-weight: 700; font-size: 15px; padding: 0; }
+.req { color: #8a6d00; }
+.help { font-size: 14px; color: var(--ink-soft); margin: 0; }
+.input {
+  width: 100%; font: inherit; font-size: 16px; padding: 13px 15px; border-radius: 12px;
+  border: 1.5px solid var(--line); background: #fff; color: var(--ink);
+}
+.input:focus { outline: 3px solid var(--sun, #ffd520); outline-offset: 1px; border-color: var(--ink); }
+.input[aria-invalid] { border-color: #b3261e; }
+textarea.input { resize: vertical; min-height: 120px; }
+.check { display: flex; gap: 10px; align-items: flex-start; font-size: 15px; padding: 4px 0; }
+.check input { width: 20px; height: 20px; margin-top: 2px; flex: none; accent-color: var(--ink); }
+.error { color: #b3261e; font-size: 14px; font-weight: 600; margin: 0; }
+.consent { font-size: 13px; color: var(--ink-soft); margin: 0; }
+.message { color: #b3261e; font-weight: 600; margin: 0; }
+.form :global(.btn) { justify-self: start; }
+.trap { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }

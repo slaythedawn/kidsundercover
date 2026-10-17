@@ -91,6 +91,7 @@ A working rebuild of the whole kuc.org.au site for Pathway 2, in the design from
 - `app/api/assistant/route.ts` + `lib/assistant.ts`: the AI front door.
 - WordPress migration: `docs/MIGRATION-AUDIT.md` lists everything the live site holds or does (forms, donation embeds, tracking, plugins, documents) and what replaces it. `scripts/audit-wordpress.mjs` (GitHub Action "Audit WordPress") re-runs the audit into `media/wp-audit/`; `docs/audit/ga-paths.tsv` is every address people visited (GA4), to test redirects against.
 - Salesforce donation forms (regular giving, Return to Give, partner donations, silent auction, towing): section S23 `npsp` with the form ID, loaded with KUC's drop-in script (`components/sections/NpspDonate.tsx`). One-off gifts go to Giveasy (S22 `donate`).
+- Forms: contact, newsletter and Target450 are the site's own (`content/forms.ts` for questions and inboxes, `lib/forms.ts`, `app/api/forms/`). Submissions save to the website database (Neon Postgres, Sydney, `DATABASE_URL`) and email KUC through Resend. Staff download them at `/api/forms/export/`. Set-up, costs and why this database: `docs/FORMS.md`. Pages pick a form with `form:` in front matter.
 - Thank you pages set `event` in front matter; the page pushes that dataLayer event on load (`components/page/TrackEvent.tsx`) for GTM conversions.
 
 ### How the site is organised for giving

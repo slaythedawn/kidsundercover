@@ -3,10 +3,10 @@ import { external, links } from "@/content/site";
 import s from "./FormBlock.module.css";
 
 /**
- * Stand in for the forms on the current site. In the build these become
- * native forms that post straight into Salesforce (see the Pathway 2 plan).
+ * Cards for forms that live elsewhere (scholarships and studio applications on Microsoft Forms,
+ * fundraising, donations). Contact, newsletter and Target450 are the site's own forms (NativeForm).
  */
-const forms: Record<FormKind, { title: string; text: string; fields: string[]; action: { label: string; href: string } }> = {
+const forms: Record<Exclude<FormKind, "target450">, { title: string; text: string; fields: string[]; action: { label: string; href: string } }> = {
   newsletter: {
     title: "Get our newsletter",
     text: "Stories, news and ways to help, a few times a year.",
@@ -45,7 +45,7 @@ const forms: Record<FormKind, { title: string; text: string; fields: string[]; a
   },
 };
 
-export default function FormBlock({ kind }: { kind: FormKind }) {
+export default function FormBlock({ kind }: { kind: Exclude<FormKind, "target450"> }) {
   const f = forms[kind];
   return (
     <section className="section" style={{ paddingTop: 8 }}>

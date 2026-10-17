@@ -10,7 +10,7 @@ Where every giving journey and form lives today (full audit of the live site in 
 | Monthly donation | Salesforce NPSP Plus form `a3kMo000001bAMPIA2`, embedded with KUC's drop-in script from connect.kuc.org.au | Form in an iframe on the WordPress page, paid through Stripe. | Embedded on `/regular-donation/` (S23). Every "Give monthly" button lands there with campaign tags. |
 | Car donation | Salesforce site, `kuc.my.salesforce-sites.com/Donateyourcar` | Multi-step form on AngularJS 1.6 (unsupported since 2022). No event tracking. Cross-domain tracking broken, so campaign source is lost and gifts show as direct. | All four Donate Your Car pages link to it. |
 | Studio Program application and expression of interest | Microsoft Forms: the application form for social workers, and `forms.office.com/r/Q7v75x5kyT` | Completed by a support worker. | Both linked from the applications page; the expression of interest form also from Studio Program. |
-| Newsletter, contact, scholarship applications, fundraising registration | WordPress forms on the current site | Plugin forms on each page. | Placeholder cards (`components/page/FormBlock.tsx`) that link to the live forms. |
+| Newsletter, contact, Target450 | Gravity Forms on the current site | Plugin forms on each page, emailed through WP Mail SMTP. | The site's own forms, saved to the website database and emailed through Resend (`docs/FORMS.md`). |
 | Partner donations, Return to Give, silent auction, car towing contributions | Salesforce NPSP Plus forms, one per page (IDs in `docs/MIGRATION-AUDIT.md`) | Campaign specific forms in iframes. | Each page embeds its own form (S23). |
 | Peaks of Hope | Inspired Adventures | External event page. | Linked. |
 

@@ -74,6 +74,36 @@ if (AUTH) {
   rest.user = me ? { name: me.data.name, roles: me.data.roles, capabilities: Object.keys(me.data.capabilities ?? {}).filter((c) => me.data.capabilities[c]) } : "login failed";
 }
 write("rest.json", rest);
+
+// Logged in: everything the account can see beyond the public site. Editor access returns drafts,
+// private pages, reusable blocks and revisions; Admin access also returns plugins (with versions,
+// which shows paid editions), site settings, menus and the Redirection plugin's full rule list.
+if (AUTH) {
+  const tries = {
+    plugins: "wp/v2/plugins?context=edit",
+    settings: "wp/v2/settings",
+    menus: "wp/v2/menus?per_page=100",
+    menuItems: "wp/v2/menu-items?per_page=100",
+    blocks: "wp/v2/blocks?per_page=100&context=edit",
+    users: "wp/v2/users?per_page=100&context=edit",
+    redirects: "redirection/v1/redirect?per_page=200",
+    redirectGroups: "redirection/v1/group",
+    yoastSettings: "yoast/v1/configuration",
+  };
+  const authed = {};
+  for (const [k, route] of Object.entries(tries)) {
+    const r = await get(`${BASE}/wp-json/${route}`, { auth: true });
+    authed[k] = { status: r?.status ?? 0 };
+    if (r?.ok) {
+      try { authed[k].data = await r.json(); } catch {}
+    }
+  }
+  // Users: keep names and roles only, never emails.
+  if (Array.isArray(authed.users?.data)) authed.users.data = authed.users.data.map((u) => ({ name: u.name, roles: u.roles }));
+  if (authed.settings?.data) delete authed.settings.data.email;
+  write("logged-in.json", authed);
+  console.log("logged in:", Object.entries(authed).map(([k, v]) => `${k} ${v.status}`).join(", "));
+}
 console.log(`rest: ${rest.namespaces.length} namespaces, auth ${AUTH ? "on" : "off"}`);
 
 // 2. Post types and taxonomies.

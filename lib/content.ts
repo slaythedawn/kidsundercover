@@ -52,7 +52,7 @@ export type PageEntry = {
   file: string;
 };
 
-export type FormKind = "newsletter" | "contact" | "scholarship" | "studio" | "fundraising" | "donate";
+export type FormKind = "newsletter" | "contact" | "target450" | "scholarship" | "studio" | "fundraising" | "donate";
 
 export type StoryEntry = {
   kind: "story";

@@ -31,8 +31,8 @@ Only the public view was audited. With a WordPress Application Password (see "Fr
 |---|---|---|
 | Yoast SEO | Titles, descriptions, sitemaps, robots.txt, schema | `scripts/seo-titles.mjs`, `app/sitemap.ts`, `app/robots.ts`, `lib/schema.tsx` |
 | Redirection | About 40 redirects | `next.config.ts` |
-| Gravity Forms | Contact, newsletter and Target450 forms | Native forms (to build, see Forms) |
-| WP Mail SMTP | Sends form notification emails | An email service for the native forms (for example Resend) |
+| Gravity Forms (paid licence) | Contact, newsletter and Target450 forms | **Built.** The site's own forms, saving to the website database (`docs/FORMS.md`). Licence not needed |
+| WP Mail SMTP | Sends form notification emails | **Built.** Resend, free plan |
 | MonsterInsights | A second GA4 install, the cause of double counting | Dropped; GA4 runs through GTM only |
 | Google Site Kit | Connects Search Console and Analytics inside WordPress | Dropped; Search Console verified by DNS (see Search Console) |
 | LiteSpeed Cache | Page caching | Vercel's CDN |
@@ -53,15 +53,58 @@ Only the public view was audited. With a WordPress Application Password (see "Fr
 | Donate Your Car form | Salesforce site, AngularJS 1.6.5. The same app answers at kuc.my.salesforce-sites.com/Donateyourcar and connect.kuc.org.au/donateyourcar | Linked from every car page, with stale `_ga` and `_gl` values in the link | Linked clean. Returns to `/get-involved/donate-your-car/thank-you/`, which on the live site redirected to the general contact thank you page. It now has its own page firing `car_donation_complete` |
 | Studio applications | Microsoft Forms: "Apply for a Kids Under Cover Studio" (for social workers) and the Studio Expression of Interest form | The site's two most clicked outbound links (about 1,100 and 780 clicks a year) | **Fixed.** The main application form was missing from the rebuild; it's now the first button on the applications page, with the referral and assessment steps |
 | DFFH scholarship portal | Salesforce Experience Cloud, kuc.my.site.com/portal | Linked from the DFFH scholarship page (about 260 clicks a year) | Linked |
-| Contact form | Gravity Forms form 2: name, email (twice), "I want help with...", comments | `/about/contact/` | Placeholder linking to the live form. Native form to build. Thank you page added (`contact_complete`) |
-| Newsletter | Gravity Forms form 3: name, email, consent wording | `/sign-up-for-our-newsletter/` | Same as contact. Thank you page added (`newsletter_complete`) |
-| Target450 messages of support | Gravity Forms form 8: name, email, message, four interest boxes | `/target450/` | Native form to build |
+| Contact form | Gravity Forms form 2: name, email (twice), "I want help with...", comments | `/about/contact/` | **Built.** Same questions, routed to an inbox by topic, saved to the database, thank you page fires `contact_complete` |
+| Newsletter | Gravity Forms form 3: name, email, consent wording | `/sign-up-for-our-newsletter/` | **Built.** Consent wording saved with each signup. CONFIRM the newsletter platform so signups flow straight in |
+| Target450 messages of support | Gravity Forms form 8: name, email, message, four interest boxes | `/target450/` | **Built.** New thank you page fires `target450_complete` |
 | Raisely | Script on every page; a Raisely donation embed (campaign `kidsundercoverwebsite`) on one 2023 story and the template page | Not used for current giving | Not carried over. CONFIRM KUC no longer uses Raisely |
 | AutoGrab car offer | An AutoGrab embed with an API key | Only on `/donate-your-car-test-page/` | Not carried over. CONFIRM whether this was a trial worth reviving for "sell or donate" |
 | Virtual tours | virtual.macuport.com | Village 21 Preston, Bairnsdale, Moorumbina Mongurnallin | **Fixed.** All three tours linked from each program page and Village 21 |
 | Videos | YouTube and one Vimeo video (Village 21 Preston) | Program pages | **Fixed.** Video section now plays Vimeo; Preston and Moorumbina videos added |
 | Drop off map | Google My Maps | Embedded on the drop off locations page | Linked from that page |
 | Gifts in Wills | Gathered Here free Will platform | Bequest pages | Linked |
+
+## Subscriptions: what to keep and what to cancel
+
+Nothing is carried over unless the new site needs it. CONFIRM with KUC which of these they pay for today; editions marked "unknown" can be read off the plugin list once there's Admin access.
+
+| Service | Today | On the new site | Action |
+|---|---|---|---|
+| WordPress hosting and support (Itomic) | Paid | Not needed | Cancel after the cutover month |
+| Gravity Forms | Paid licence | Replaced by the site's own forms | Cancel at renewal |
+| Yoast SEO | Free or Premium (unknown) | Replaced (`scripts/seo-titles.mjs`, sitemap, schema) | Cancel Premium if paid |
+| MonsterInsights | Lite (free) edition | Removed; it causes the double counting | Nothing to cancel |
+| WP Mail SMTP and its mail provider | Free or Pro (unknown) | Replaced by Resend (free) | Cancel if paid |
+| Wordfence | Free or Premium (unknown) | Not needed; no login on the new site | Cancel Premium if paid |
+| LiteSpeed Cache, Site Kit, Redirection, Duplicate Post, Easy Fancybox, Responsive Video Embeds | Free | Not needed | None |
+| Raisely | Script still on every page | Not used | CONFIRM, and cancel if KUC still pays |
+| Hotjar | Running on every page | Not added | CONFIRM, and cancel if paid and nobody uses it |
+| AutoGrab | On a test page only | Not used | CONFIRM, and cancel if paid |
+| Giveasy, Salesforce (NPSP Plus forms, car form, portal), Microsoft Forms, Google Workspace or Microsoft 365 email | Paid or included | Still used | Keep |
+
+New services, all on free plans:
+
+| Service | What for | Cost |
+|---|---|---|
+| Neon Postgres (through Vercel), Sydney | Form submissions database | Free plan |
+| Resend | Form notification emails | Free plan (100 a day) |
+| Cloudflare Turnstile | Spam protection on forms | Free |
+| Vercel | Hosting | Vercel's free Hobby plan is for personal, non-commercial sites, so a charity's live site should run on Pro (US$20 per member a month). This replaces the WordPress hosting cost |
+| Vercel Blob | Documents at their old `/wp-content/uploads/` addresses | Included allowance covers about 300 MB of documents; check on Pro |
+
+## Logging in to WordPress
+
+The audit runs logged out, so it sees only the public site. Logging in adds:
+
+| Access | What it adds |
+|---|---|
+| Editor (Josh's current level) | Drafts, private and scheduled pages, reusable blocks |
+| Admin | Plugin list with editions (to confirm the subscriptions above), site settings, menus, the Redirection plugin's full rule list, and Gravity Forms settings, including where each form emails today |
+
+How to connect, safest first:
+
+1. **Application Password and the audit Action.** In WordPress go to Users > Profile > Application Passwords and create one named "KUC migration". In GitHub go to Settings > Secrets and variables > Actions and add `WP_USER` and `WP_APP_PASSWORD`. Then re-run "Audit WordPress". The audit picks up everything above that the account allows (`media/wp-audit/logged-in.json`), and the password never appears in chat or code.
+2. **Direct from these sessions.** The cloud environment blocks kuc.org.au. Adding `www.kuc.org.au` under Allowed domains in the environment's network settings, plus the two values above as environment secrets, lets Claude query WordPress directly.
+3. **Not suitable:** the WordPress.com connector only works for sites hosted on WordPress.com. kuc.org.au is self-hosted.
 
 ## Tracking found
 
@@ -109,7 +152,8 @@ Request to send to KUC (ready to paste):
 ## Cutover checklist
 
 - [ ] Documents and images copied to Blob storage, `/wp-content/uploads/*` rewrite live
-- [ ] Native contact, newsletter and Target450 forms built and tested, with thank you pages
+- [x] Native contact, newsletter and Target450 forms built, with thank you pages
+- [ ] Database, email and spam protection connected (`docs/FORMS.md`); a test sent through each form
 - [ ] Salesforce framing allows the new domain; each NPSP form tested with a real payment
 - [ ] Giveasy and the Salesforce car form return URLs tested on the new domain
 - [ ] GTM: MonsterInsights gone, conversions on the new events, cross domain measurement for Giveasy and Salesforce

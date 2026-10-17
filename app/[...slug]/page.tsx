@@ -25,6 +25,8 @@ import ResourceHub from "@/components/sections/ResourceHub";
 import GiveOptions from "@/components/page/GiveOptions";
 import StorySidebar from "@/components/page/StorySidebar";
 import FormBlock from "@/components/page/FormBlock";
+import NativeForm from "@/components/page/NativeForm";
+import { forms, isFormId } from "@/content/forms";
 import TrackEvent from "@/components/page/TrackEvent";
 import type { Crumb } from "@/components/page/Breadcrumbs";
 import { media } from "@/lib/media";
@@ -155,7 +157,11 @@ function ContentPage({ page }: { page: PageEntry }) {
         </section>
       )}
 
-      {page.form && <FormBlock kind={page.form} />}
+      {page.form && (isFormId(page.form) ? (
+        <section className="section" id="form" style={{ paddingTop: 8 }}>
+          <div className="wrap"><NativeForm def={forms[page.form]} /></div>
+        </section>
+      ) : <FormBlock kind={page.form} />)}
 
       {isStories && (
         <StoryIndex
