@@ -45,15 +45,6 @@
   "parent": 0
  },
  {
-  "id": 69,
-  "count": 0,
-  "description": "",
-  "link": "https://www.kuc.org.au/category/stories/opinion/",
-  "name": "Opinion",
-  "slug": "opinion",
-  "parent": 54
- },
- {
   "id": 70,
   "count": 1,
   "description": "",
@@ -61,6 +52,15 @@
   "name": "Opinion",
   "slug": "opinion-2",
   "parent": 0
+ },
+ {
+  "id": 69,
+  "count": 0,
+  "description": "",
+  "link": "https://www.kuc.org.au/category/stories/opinion/",
+  "name": "Opinion",
+  "slug": "opinion",
+  "parent": 54
  },
  {
   "id": 33,
