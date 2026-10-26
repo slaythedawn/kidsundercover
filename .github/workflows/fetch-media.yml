@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: 20 }
+        with: { node-version: 24 }
       - run: node scripts/fetch-media.mjs
       # PDFs aren't committed (too big). Keep their text, page count and a small cover image,
       # which is what's needed to turn a report into a page.
